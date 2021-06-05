@@ -14,7 +14,7 @@ type More-Rule-Temp\* >> %%~ni.listtemp
 
 del /s /q More-Rule-Temp\*
 
-%vim% %%~ni.listtemp -c "source More-Rule-VimScript\%%~ni.vim | wq"
+%vim% %%~ni.listtemp -e -c "source More-Rule-VimScript\%%~ni.vim | wq"
 
 )
 
