@@ -1,0 +1,87 @@
+# Extra Proxy List
+
+# -------------------------------------------------
+# 按网址排序
+
+#-----0-9
+
+# 18av http://18av.mm-cg.com/
+DOMAIN-SUFFIX,18av.mm-cg.com
+DOMAIN-SUFFIX,18av.tv
+DOMAIN-SUFFIX,18h.mm-cg.com
+DOMAIN-SUFFIX,18h.tv
+DOMAIN-SUFFIX,mm-cgnews.com
+
+#-----AAA
+
+# Anime1 https://anime1.cc/
+DOMAIN-SUFFIX,anime1.cc
+
+#-----BBB
+
+#-----CCC
+
+#-----DDD
+
+#-----EEE
+
+#-----FFF
+
+#-----GGG
+
+#-----HHH
+
+# Hanime1 https://hanime1.me/
+DOMAIN-KEYWORD,youjizz
+DOMAIN-SUFFIX,fluidplayer.com
+DOMAIN-SUFFIX,hanime1.me
+DOMAIN-SUFFIX,yjcontentdelivery.com
+
+# hentai-img https://hentai-anime-xxx.com/
+DOMAIN-SUFFIX,aniimg.com
+DOMAIN-SUFFIX,hentai-anime-xxx.com
+DOMAIN-SUFFIX,hentai-img.com
+DOMAIN-SUFFIX,hentai-anime-xxx.com
+DOMAIN-SUFFIX,hentai-cosplay.com
+DOMAIN-SUFFIX,hentai-cosplays.com
+DOMAIN-SUFFIX,hentai-gif-anime.com
+
+#-----III
+
+#-----JJJ
+
+#-----KKK
+
+#-----LLL
+
+#-----MMM
+
+#-----NNN
+
+#-----OOO
+
+#-----PPP
+
+#-----QQQ
+
+#-----RRR
+
+#-----SSS
+
+#-----TTT
+
+# 吐槽弹幕网 https://www.tucao.one/
+DOMAIN-SUFFIX,tucao.one
+
+#-----UUU
+
+#-----VVV
+
+#-----WWW
+
+#-----XXX
+
+#-----YYY
+
+#-----ZZZ
+

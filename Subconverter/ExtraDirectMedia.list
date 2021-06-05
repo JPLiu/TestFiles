@@ -1,0 +1,112 @@
+# Extra Direct Media List
+
+# -------------------------------------------------
+# 按网址排序
+
+#-----0-9
+
+# 18av http://18av.mm-cg.com/
+DOMAIN-SUFFIX,ccmma18.com
+DOMAIN-SUFFIX,eeryt18.com
+DOMAIN-SUFFIX,kk9984.pw
+DOMAIN-SUFFIX,playercloudsfluid.com
+
+#-----AAA
+
+#-----BBB
+# 哔咪动漫 http://www.bimiacg.com/
+DOMAIN-SUFFIX,bimiacg.com
+DOMAIN-SUFFIX,huluxia.com
+
+#-----CCC
+
+#-----DDD
+
+# 风车动漫 http://www.dm530.net/
+DOMAIN-KEYWORD,dm530
+DOMAIN-SUFFIX,doubao.cc
+DOMAIN-SUFFIX,dplayer.tv
+
+#-----EEE
+
+#-----FFF
+
+#-----GGG
+
+# Gimy https://gimy.app
+DOMAIN-KEYWORD,gimy
+DOMAIN-SUFFIX,1777cdn.com
+DOMAIN-SUFFIX,mh-qiyi.com
+
+#-----HHH
+
+#-----III
+
+#-----JJJ
+
+#-----KKK
+
+#-----LLL
+
+#-----MMM
+
+# 耐卡影音 http://mcar.co/
+DOMAIN-KEYWORD,mcar
+
+# 美剧侠 http://www.meijuxia.net/
+DOMAIN-SUFFIX,meijuxia.net
+DOMAIN-SUFFIX,tianzuida.com
+
+#-----NNN
+
+# 奈飞影视 https://www.nfmovies.com/
+DOMAIN-SUFFIX,nfmovies.com
+
+DOMAIN-SUFFIX,56.com-t-56.com
+DOMAIN-SUFFIX,neetgo.com
+DOMAIN-SUFFIX,suyunbo.tv
+DOMAIN-SUFFIX,veryys.com
+DOMAIN-SUFFIX,zy.512wx.com
+
+#-----OOO
+
+#-----PPP
+
+# 奇米奇米 http://www.qimiqimi.co/
+DOMAIN-SUFFIX,qimiqimi.co
+DOMAIN-SUFFIX,feifeizuida.com
+DOMAIN-SUFFIX,laqddc.com
+
+#-----QQQ
+
+#-----RRR
+
+#-----SSS
+
+# 蜗牛视频 https://www.snailok.com/
+DOMAIN-SUFFIX,snailok.com
+DOMAIN-SUFFIX,kuyun88.com
+DOMAIN-SUFFIX,maccms.com
+
+#-----TTT
+
+#-----UUU
+
+#-----VVV
+
+#-----WWW
+
+#-----XXX
+
+#-----YYY
+
+# 怡萱动漫 http://www.yxdm.me/
+DOMAIN-KEYWORD,yxdm
+DOMAIN-SUFFIX,animewld.club
+DOMAIN-SUFFIX,cizion.com
+DOMAIN-SUFFIX,livere.me
+
+#-----ZZZ
+
+# ZzzFun 动漫视频网 http://www.zzzfun.com/
+DOMAIN-SUFFIX,zzzfun.com

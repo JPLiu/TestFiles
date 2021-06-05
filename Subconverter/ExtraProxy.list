@@ -1,0 +1,514 @@
+# Extra Proxy List
+
+# Area List
+DOMAIN-SUFFIX,au
+DOMAIN-SUFFIX,br
+DOMAIN-SUFFIX,ca
+DOMAIN-SUFFIX,de
+DOMAIN-SUFFIX,fr
+DOMAIN-SUFFIX,in
+DOMAIN-SUFFIX,it
+DOMAIN-SUFFIX,kp
+DOMAIN-SUFFIX,mo
+DOMAIN-SUFFIX,ru
+DOMAIN-SUFFIX,se
+DOMAIN-SUFFIX,st
+DOMAIN-SUFFIX,su
+DOMAIN-SUFFIX,tf
+DOMAIN-SUFFIX,es
+DOMAIN-SUFFIX,mx
+DOMAIN-SUFFIX,id
+
+# Public Resource
+
+# cdn
+DOMAIN-KEYWORD,azioncdn
+DOMAIN-KEYWORD,blazingcdn
+DOMAIN-SUFFIX,doracdn.com
+DOMAIN-SUFFIX,unpkg.com
+
+# font
+DOMAIN-KEYWORD,typekit
+DOMAIN-SUFFIX,fontawesome.com
+DOMAIN-SUFFIX,justfont.com
+
+# jquery
+DOMAIN-SUFFIX,jquery.com
+
+# likebtn
+DOMAIN-SUFFIX,likebtn.com
+
+# mobile
+DOMAIN-SUFFIX,ionicframework.com
+
+# pic
+DOMAIN-KEYWORD,postimages
+DOMAIN-KEYWORD,postimg
+DOMAIN-SUFFIX,filesor.com
+DOMAIN-SUFFIX,funkyimg.com
+DOMAIN-SUFFIX,imgur.com
+DOMAIN-SUFFIX,ooo.0x0.ooo
+DOMAIN-SUFFIX,pixabay.com
+
+# -------------------------------------------------
+# 按首字母排序
+
+# 18Comic
+DOMAIN-SUFFIX,18comic.vip
+
+# Amazon
+DOMAIN-KEYWORD,amazonaws
+
+# Bitly (缩略图服务)
+DOMAIN-SUFFIX,bit.ly
+
+# Cloudflare
+DOMAIN-KEYWORD,cloudflare
+
+## CloudFront
+DOMAIN-KEYWORD,cloudfront
+
+# CordCloud 漏网不处理
+DOMAIN-KEYWORD,ccpay
+DOMAIN-KEYWORD,ccsub
+DOMAIN-KEYWORD,cordcloud
+DOMAIN-KEYWORD,cordcord
+DOMAIN-SUFFIX,c-cloud.xyz
+
+# eBay
+DOMAIN-SUFFIX,ebay.com
+DOMAIN-SUFFIX,ebayimg.com
+
+# Embedly
+DOMAIN-SUFFIX,embed.ly
+DOMAIN-SUFFIX,embedly.com
+
+# Git
+DOMAIN-KEYWORD,gitbook
+DOMAIN-KEYWORD,gitcdn
+DOMAIN-KEYWORD,gitube
+
+DOMAIN-KEYWORD,gitlab-static.net
+
+DOMAIN-SUFFIX,ghbtns.com
+DOMAIN-SUFFIX,rawgit.com
+
+# hcaptcha 访问验证
+DOMAIN-SUFFIX,hcaptcha.com
+
+# JMComic
+DOMAIN-SUFFIX,asjmapihost.cc
+DOMAIN-SUFFIX,cdn-msp.cheaperapp1.work
+DOMAIN-SUFFIX,cdn-msp.msp.comic1.xyz
+
+# PicACG
+DOMAIN-SUFFIX,picacomic.com
+
+# Pushbullet
+DOMAIN-KEYWORD,pushbullet
+
+# Sci-Hub
+DOMAIN-KEYWORD,sci-hub
+
+# SourceForge
+DOMAIN-KEYWORD,sourceforge
+DOMAIN-SUFFIX,fsdn.com
+
+# Subconverter
+DOMAIN-SUFFIX,acl4ssr.netlify.app
+DOMAIN-SUFFIX,acl4ssr.netlify.com
+DOMAIN-SUFFIX,gfwsb.114514.best
+DOMAIN-SUFFIX,wcc.best
+DOMAIN-SUFFIX,ruleset.dev
+
+# WordPress
+DOMAIN-SUFFIX,s.w.org
+DOMAIN-SUFFIX,wordpress.com
+DOMAIN-SUFFIX,wp.com
+
+# WorkFlowy
+DOMAIN-SUFFIX,workflowy.com
+
+# -------------------------------------------------
+# 按网址排序
+
+#-----0-9
+
+# 123apps https://123apps.com/
+DOMAIN-SUFFIX,123apps.com
+
+# 205 藏书馆（旧） http://205library.blogspot.com/
+DOMAIN-SUFFIX,blogblog.com
+DOMAIN-SUFFIX,timeanddate.com
+# 205 藏书馆（新） https://205library.com
+DOMAIN-SUFFIX,205library.com
+
+# 简单动漫 https://www.36dm.com/ 偶发异常
+DOMAIN-SUFFIX,36dm.com
+
+# 7-Zip https://www.7-zip.org/
+DOMAIN-SUFFIX,7-zip.org
+
+# 10 Minute Mail https://10minutemail.com/
+DOMAIN-SUFFIX,10minutemail.com
+
+#-----AAA
+
+# 次元狗 https://www.acgndog.com/ 偶发异常
+DOMAIN-SUFFIX,acgndog.com
+DOMAIN-SUFFIX,moetu.club
+
+# 末日動漫 https://share.acgnx.se/
+DOMAIN-SUFFIX,acgnx.se
+
+# 零度动漫 https://bt.acgzero.com/
+DOMAIN-SUFFIX,acgzero.com
+
+# AIO Search https://www.aiosearch.com/
+DOMAIN-SUFFIX,aiosearch.com
+
+# Alternative To https://alternativeto.net/
+DOMAIN-SUFFIX,alternativeto.net
+
+# AnyTxt Searcher https://anytxt.net/
+DOMAIN-SUFFIX,anytxt.net
+
+# APKPure https://apkpure.com/cn/
+DOMAIN-SUFFIX,cdnpure.com
+
+#-----BBB
+
+# 萌番组 https://bangumi.moe/ 偶发异常
+DOMAIN-SUFFIX,bangumi.moe
+
+# Bleachbit https://www.bleachbit.org/
+DOMAIN-SUFFIX,bleachbit.org
+
+#-----CCC
+
+# CC0 免費圖庫搜尋引擎 https://cc0.wfublog.com/
+DOMAIN-SUFFIX,wfublog.com
+
+# CleverPDF https://www.cleverpdf.com/
+DOMAIN-SUFFIX,cleverpdf.com
+
+# Cometdocs https://www.cometdocs.com/file/manager
+DOMAIN-SUFFIX,cometdocs.com
+
+# 漫猫动漫 http://www.comicat.org/
+DOMAIN-SUFFIX,comicat.org
+
+# Convertio https://convertio.co/zh/
+DOMAIN-KEYWORD,convertio
+
+#-----DDD
+
+# 动漫花园 http://share.dmhy.org/
+DOMAIN-SUFFIX,share.dmhy.org
+
+# 机场推荐 https://www.duyaoss.com/
+DOMAIN-SUFFIX,duyaoss.com
+
+#-----EEE
+
+# Elsevier https://www.elsevier.com/
+DOMAIN-SUFFIX,elsevier.com
+
+# Easy PDF https://easypdf.com/
+DOMAIN-SUFFIX,easypdf.com
+
+# 圖書館的無限迴廊 https://epub.love/
+DOMAIN-SUFFIX,epub.love
+DOMAIN-SUFFIX,linearicons.com
+
+# EPUB 轻小说站 http://epubln.blogspot.com/
+DOMAIN-SUFFIX,cbox.ws
+DOMAIN-SUFFIX,na.cx
+
+# 伊莉讨论区 http://www.eyny.com/
+DOMAIN-SUFFIX,eyny.com
+DOMAIN-SUFFIX,static-file.com
+
+# EZTV https://eztv.io/
+DOMAIN-KEYWORD,ezimg
+DOMAIN-KEYWORD,eztv
+
+#-----FFF
+
+# F-droid https://f-droid.org/
+DOMAIN-SUFFIX,f-droid.org
+
+# FastCopy https://fastcopy.jp/en/
+DOMAIN-SUFFIX,ipmsg.org
+
+# FatSecret https://www.fatsecret.cn
+DOMAIN-SUFFIX,fatsecret.cn
+DOMAIN-SUFFIX,fatsecret.com
+
+# Feed43 https://feed43.com/
+DOMAIN-SUFFIX,feed43.com
+
+# Feedx https://feedx.net/
+DOMAIN-SUFFIX,feedx.net
+
+# FFmpeg https://ffmpeg.org/
+DOMAIN-KEYWORD,ffmpeg
+
+## Firefox
+DOMAIN-KEYWORD,firefox
+DOMAIN-KEYWORD,mozilla
+# Firefox Addon
+# Firefox 暴力猴
+# https://greasyfork.org/zh-CN
+DOMAIN-SUFFIX,greasyfork.org
+# https://sleazyfork.org/zh-CN
+DOMAIN-SUFFIX,sleazyfork.org
+# Firefox ClearURLs
+DOMAIN-SUFFIX,clearurls.xyz
+# Firefox DarkReader
+DOMAIN-SUFFIX,darkreader.org
+# Firefox Userstyles https://userstyles.org/
+DOMAIN-SUFFIX,userstyles.org
+# Firefox uBlock Origin
+DOMAIN-SUFFIX,adblockplus.org
+DOMAIN-SUFFIX,adguard.com
+DOMAIN-SUFFIX,adtidy.org
+DOMAIN-SUFFIX,easylist.to
+DOMAIN-SUFFIX,fanboy.co.nz
+DOMAIN-SUFFIX,pgl.yoyo.org
+# Firefox SpeedyFox https://crystalidea.com/speedyfox
+DOMAIN-SUFFIX,crystalidea.com
+
+# FlowChart https://flowchart.fun
+DOMAIN-SUFFIX,flowchart.fun
+
+# Foobar2000 https://www.foobar2000.org/
+DOMAIN-SUFFIX,foobar2000.org
+
+# FreePhotos.cc https://freephotos.cc/zh
+DOMAIN-SUFFIX,freephotos.cc
+
+# Freesound https://freesound.org/browse/tags/music/
+DOMAIN-SUFFIX,freesound.org
+
+#-----GGG
+
+# ShareX https://getsharex.com/
+DOMAIN-SUFFIX,getsharex.com
+
+# Ghacks https://www.ghacks.net/
+DOMAIN-SUFFIX,ghacks.net
+
+# Grammarly https://www.grammarly.com/
+DOMAIN-SUFFIX,grammarly.com
+DOMAIN-SUFFIX,grammarly.io
+
+#-----HHH
+
+# HatenaBlog https://hatenablog.com/
+DOMAIN-SUFFIX,hatenablog.com
+DOMAIN-SUFFIX,hatena.com
+DOMAIN-SUFFIX,st-hatena.com
+
+# Have I Been Pwned https://haveibeenpwned.com/
+DOMAIN-SUFFIX,haveibeenpwned.com
+
+# Hipdf https://www.hipdf.com/
+DOMAIN-SUFFIX,hipdf.com
+DOMAIN-SUFFIX,wondershare.com
+
+#-----III
+
+# IP.SB https://ip.sb
+DOMAIN,api.ip.sb
+DOMAIN,ip.sb
+
+# IrfanView https://www.irfanview.com/
+DOMAIN-SUFFIX,irfanview.com
+
+#-----JJJ
+
+#-----KKK
+
+# KeePass https://keepass.info/
+DOMAIN-SUFFIX,keepass.info
+
+#-----LLL
+
+# Liberkey https://www.liberkey.com/
+DOMAIN-SUFFIX,liberkey.com
+
+# Librestock Photos https://librestock.com/
+DOMAIN-SUFFIX,librestock.com
+DOMAIN-SUFFIX,shutterstock.com
+
+# lilydjwg.me https://rss.lilydjwg.me/
+DOMAIN-SUFFIX,rss.lilydjwg.me
+
+#-----MMM
+
+# 真白萌 https://masiro.moe 偶发异常
+DOMAIN-SUFFIX,masiro.moe
+
+# Sabrina的万事屋 https://merlinblog.xyz/
+DOMAIN-SUFFIX,merlinblog.xyz
+
+# 蜜柑计划 https://mikanani.me/ 偶发异常
+DOMAIN-SUFFIX,mikanani.me
+
+# MioBT https://www.miobt.com/
+DOMAIN-SUFFIX,miobt.com
+
+# Mixplorer
+DOMAIN-SUFFIX,mixplorer.com
+
+# 神代綺凜の萌化小基地 https://moe.best/
+DOMAIN-SUFFIX,moe.best
+
+# Musopen https://musopen.org/
+DOMAIN-SUFFIX,musopen.org
+
+# Myfreemp3cc https://myfreemp3cc.com/
+DOMAIN-KEYWORD,myfreemp3cc
+
+# MyFreeMp3 https://myfreemp3v.com/
+DOMAIN-KEYWORD,myfreemp3
+DOMAIN-SUFFIX,cpmnetworkcontent.com
+
+#-----NNN
+
+# Nirsoft https://www.nirsoft.net/
+DOMAIN-SUFFIX,nirsoft.net
+
+#-----OOO
+
+# Online converter https://www.online-convert.com/
+DOMAIN-SUFFIX,online-convert.com
+DOMAIN-SUFFIX,ocstatic.com
+
+#-----PPP
+
+# PanSci https://pansci.asia/
+DOMAIN-SUFFIX,pansci.asia
+
+# PDFtk https://www.pdflabs.com/
+DOMAIN-SUFFIX,pdflabs.com
+
+# Pexels https://www.pexels.com/
+DOMAIN-SUFFIX,pexels.com
+
+# Philpapers https://philpapers.org/
+DOMAIN-SUFFIX,philpapers.org
+
+# PhotoDemon https://photodemon.org/
+DOMAIN-SUFFIX,photodemon.org
+
+# 电脑玩物 https://www.playpcesor.com/
+DOMAIN-SUFFIX,playpcesor.com
+
+# Portableapps https://portableapps.com/
+DOMAIN-SUFFIX,portableapps.com
+
+# The Portable Freeware Collection https://www.portablefreeware.com
+DOMAIN-SUFFIX,portablefreeware.com
+
+# Python https://www.python.org
+DOMAIN-SUFFIX,python.org
+DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,pythonhosted.org
+
+#-----QQQ
+
+# Quora https://www.quora.com/
+DOMAIN-KEYWORD,quoracdn
+
+#-----RRR
+
+# WinRAR https://www.rarlab.com/
+DOMAIN-SUFFIX,rarlab.com
+
+# Reabble https://reabble.com/help
+DOMAIN-SUFFIX,kindle4rss.com
+DOMAIN-SUFFIX,reabble.com
+
+# Weibo to https://rssfeed.today
+DOMAIN-SUFFIX,rssfeed.today
+
+# RSSHub https://docs.rsshub.app/
+DOMAIN-SUFFIX,rsshub.app
+DOMAIN-SUFFIX,diygay.me
+DOMAIN-SUFFIX,shields.io
+
+#-----SSS
+
+# All in One Runtimes https://www.sereby.org/
+DOMAIN-SUFFIX,sereby.org
+
+# Smallpdf https://smallpdf.com/
+DOMAIN-SUFFIX,smallpdf.com
+
+# SoBooks https://sobooks.cc/
+DOMAIN-SUFFIX,sobooks.cc
+
+# Sumatra PDF https://www.sumatrapdfreader.org/
+DOMAIN-SUFFIX,sumatrapdfreader.org
+
+# StockSnap.io https://stocksnap.io/
+DOMAIN-SUFFIX,stocksnap.io
+
+# Subscene https://subscene.com/
+DOMAIN-SUFFIX,subscene.com
+DOMAIN-SUFFIX,jeded.com
+
+# Sukidesuost https://sukidesuost.info
+DOMAIN-SUFFIX,sukidesuost.info
+DOMAIN-SUFFIX,exe.io
+
+#-----TTT
+
+# Total Commander
+# 官网 https://www.ghisler.com/
+DOMAIN-SUFFIX,ghisler.com
+# 插件站 https://totalcmd.net/
+DOMAIN-SUFFIX,totalcmd.net
+
+#-----UUU
+
+# uGet Download Manager https://ugetdm.com/
+DOMAIN-SUFFIX,ugetdm.com
+
+#-----VVV
+
+# VideoHelp https://www.videohelp.com/
+DOMAIN-SUFFIX,videohelp.com
+
+# VLC https://www.videolan.org/index.zh.html
+DOMAIN-SUFFIX,videolan.org
+
+# Vim https://www.vim.org/
+DOMAIN-SUFFIX,vim.org
+
+# 方格子 https://vocus.cc/
+DOMAIN-SUFFIX,sosreader.com
+DOMAIN-SUFFIX,vocus.cc
+
+# Everything https://www.voidtools.com/
+DOMAIN-SUFFIX,voidtools.com
+
+#-----WWW
+
+# 轻小说文库 https://www.wenku8.net 偶发异常
+DOMAIN-KEYWORD,wenku8
+
+# WPD https://wpd.app/
+DOMAIN-SUFFIX,wpd.app
+
+#-----XXX
+
+#-----YYY
+
+# YOPmail http://www.yopmail.com/zh/
+DOMAIN-SUFFIX,yopmail.com
+
+#-----ZZZ
+

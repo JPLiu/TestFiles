@@ -1,0 +1,108 @@
+# Extra Reject List
+
+#-----0-9
+
+#-----AAA
+
+#-----BBB
+# 美圆联盟
+DOMAIN-SUFFIX,btcad.net
+
+#-----CCC
+
+# Consensu
+DOMAIN-SUFFIX,consensu.org
+
+#-----DDD
+
+#-----EEE
+
+#-----FFF
+
+# Flash
+DOMAIN-SUFFIX,2144.com
+DOMAIN-SUFFIX,geo2.adobe.com
+DOMAIN-SUFFIX,www.flash.cn
+
+# Flattr
+DOMAIN-SUFFIX,flattr.com
+
+#-----GGG
+
+# 运营商推送
+DOMAIN-SUFFIX,push.gd165.com
+
+#-----HHH
+# Hanime1
+DOMAIN-SUFFIX,impactserving.com
+DOMAIN-SUFFIX,realsrv.com
+
+# 火币网 推广广告
+DOMAIN-KEYWORD,huobiad
+
+# Hubspot
+DOMAIN-SUFFIX,hs-scripts.com
+
+#-----III
+
+# 重橙网络 https://www.izhongcheng.cn
+DOMAIN-SUFFIX,izhongcheng.cn
+
+#-----JJJ
+
+# JMComic
+DOMAIN-KEYWORD,adserver
+DOMAIN-SUFFIX,adserver.juicyads.com
+DOMAIN-SUFFIX,poweredby.jads.co
+
+#-----KKK
+
+#-----LLL
+
+#-----MMM
+
+#-----NNN
+
+# 漫猫动漫 http://www.comicat.org/
+DOMAIN-SUFFIX,nutaku.net
+
+#-----OOO
+
+# OpenCollective
+DOMAIN-SUFFIX,opencollective.com
+
+#-----PPP
+
+# PicACG
+DOMAIN-KEYWORD,ad-channel
+DOMAIN-KEYWORD,ad-display
+
+#-----QQQ
+
+#-----RRR
+
+#-----SSS
+
+# Sentry
+DOMAIN-SUFFIX,sentry.io
+
+#-----TTT
+
+#-----UUU
+
+#-----VVV
+
+#-----WWW
+
+# WinRAR
+DOMAIN-SUFFIX,ad.winrar.com.cn
+
+#-----XXX
+
+# 闲聊
+DOMAIN-SUFFIX,xianliao.me
+
+#-----YYY
+
+#-----ZZZ
+

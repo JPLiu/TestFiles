@@ -1,0 +1,77 @@
+[Adblock Plus 2.0]
+! title: Liu's Personal Block List
+! Version: 1.0
+! Expires: 4 days
+! Homepage: https://github.com/JPLiu/TestFiles/tree/master/uBlock-Origin
+
+! 百家号
+||baijiahao.baidu.com^
+
+! 重橙网络（Flash 流氓）
+||izhongcheng.cn^
+
+! 内容农场
+
+! 无意义推广
+||systemcity.cn^
+||xianliao.me^
+
+! 隐藏资源 / 无资源
+||7sebook.com^
+||91flac.com^
+||chichisvip.com^
+||damoke.cc^
+||epubee.com^
+||hifige.com^
+||jtche.com^
+||mayaxiaoshuo.com^
+||saochan.com^
+||shubao90.com^
+||xiaoqiangwx.org^
+
+! 多重跳转
+||bnmjjwinf292.com^
+||popiruss.pw^
+||qqcvip*.com^
+
+! 搜索引擎污染
+||168yz.net^
+||23cpc.com^
+||3li.cc^
+||aili7w.com^
+||bbsmax.com^
+||buscodepto.com^
+||cctsuzhou.cn^
+||excel-jiqiao.com^
+||fkxz8.com^
+||fl1000y.com^
+||gan-ren.com^
+||guzhifa.com^
+||hbs163.com^
+||ijunxun.com^
+||jcabc.cn^
+||jinlongbd.com^
+||jjzxin.com^
+||jtjpzp.com^
+||junpin118.com^
+||ladymetro.com^
+||lisundesign.com^
+||lw84.com^
+||mh456.com^
+||movervip.com^
+||mozhua.net^
+||nongjia888.com^
+||oneho.cn^
+||ppkao.com^
+||qq7l.com^
+||sdwyqb.com^
+||tibetl.com^
+||uxontour.com^
+||whysw88.com^
+||xaxajtss.com^
+||xilu.com^
+||xin25.cn^
+||xinhexinli.com^
+||xuanpai.com^
+||yitongmoney.com^
+||zy2y.com^
