@@ -193,8 +193,10 @@ www.dmzj.com##.autoHeight.comic_last
 
 ! eyny
 ! D 版面清理
+www.eyny.com###wp > table > tbody
 www.eyny.com##div[class="ptn xg2"]
 www.eyny.com##span[id^="ads_ads"]
+www.eyny.com##table:nth-of-type(2)
 www.eyny.com##table[class="t_p_top"]
 www.eyny.com##td[class="adv_header_text"]
 
@@ -414,16 +416,20 @@ app.xinhuanet.com###footer_bar
 ! D APP-推广
 /download-app/banner_*.png$image,domain=xueqiu.com
 
+! y444
+music.y444.cn##.ad1
+
 ! ygo-sem
 ! D 反广告提示
 www.ygo-sem.cn###idadkillsho
 
-! y444
-music.y444.cn##.ad1
+! yeyulingfeng
+||vip.yeyulingfeng.com/img/eat.png$image
+||vip.yeyulingfeng.com/img/pugongying.png$image
 
 ! yxdm
 ! D 广告推广
-www.yxdm.me##div[class*="adv"]
+www.yxdm.me,www.yxdm.org##div[class*="adv"]
 
 ! zhihu
 ! M 日报 APP-推广

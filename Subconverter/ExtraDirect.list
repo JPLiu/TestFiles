@@ -287,6 +287,9 @@ DOMAIN-SUFFIX,mobinovels.com
 
 #-----NNN
 
+# 小宝音乐分享站 https://numfree.ml/
+DOMAIN,numfree.ml
+
 # Neet 搜索站 https://neets.cc/
 DOMAIN-SUFFIX,neets.cc
 
