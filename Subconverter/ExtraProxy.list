@@ -293,6 +293,9 @@ DOMAIN-SUFFIX,freesound.org
 
 #-----GGG
 
+# Geek Uninstaller https://geekuninstaller.com/
+DOMAIN-SUFFIX,geekuninstaller.com
+
 # ShareX https://getsharex.com/
 DOMAIN-SUFFIX,getsharex.com
 
@@ -496,6 +499,11 @@ DOMAIN-SUFFIX,vocus.cc
 DOMAIN-SUFFIX,voidtools.com
 
 #-----WWW
+
+# Wavosaur https://www.wavosaur.com/
+DOMAIN-SUFFIX,wavosaur.com
+# lame_enc.dll https://www.rarewares.org/mp3-lame-bundle.php
+DOMAIN-SUFFIX,rarewares.org
 
 # 轻小说文库 https://www.wenku8.net 偶发异常
 DOMAIN-KEYWORD,wenku8
