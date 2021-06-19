@@ -1,0 +1,19 @@
+{
+	"request": [
+		{
+			"enable": true,
+			"name": "蓝奏云重定向",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/www\\.lanzous\\.com\\/(.*)$",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://www.lanzoui.com/$1",
+			"group": "lanzou"
+		}
+	],
+	"sendHeader": [],
+	"receiveHeader": [],
+	"receiveBody": []
+}
