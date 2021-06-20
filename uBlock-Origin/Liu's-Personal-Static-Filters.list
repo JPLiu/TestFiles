@@ -85,6 +85,10 @@
 18h.mm-cg.com##.mobile_ut_ad_box
 _cn_ad/*.gif$image,domain=18av.tv|18h.tv|18av.mm-cg.com|18h.mm-cg.com
 
+! 18comic
+! D 顶部滚动图
+18comic.vip##.owl-drag.owl-loaded.partial-view.owl-carousel
+
 ! 36dm
 ! M 底部广告
 *$script,third-party,domain=36dm.*
