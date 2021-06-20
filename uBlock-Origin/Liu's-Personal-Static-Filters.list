@@ -402,6 +402,11 @@ workflowy.com##.contentMatch:style(background-color: #7F7F7F!important; color: w
 ! D 个人主页图片滚动栏 去除
 weibo.com##.PCD_piclist_b
 
+! xchina
+! D 底部广告 图片加载页面广告
+xchina.co##.bottomPush
+xchina.co##.photos > div.item
+
 ! xiaomi
 ! M 论坛 APP-推广
 bbs.xiaomi.cn##.bannerBottom
