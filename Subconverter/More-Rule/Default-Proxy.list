@@ -33,6 +33,7 @@ DOMAIN-KEYWORD,telegram
 DOMAIN-KEYWORD,ttvnw
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,uk-live
+DOMAIN-KEYWORD,vod2dazn
 DOMAIN-KEYWORD,voddazn
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,youtube
@@ -60,6 +61,7 @@ DOMAIN-SUFFIX,amazonaws.co.uk
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,ameba.jp
+DOMAIN-SUFFIX,amplify.outbrain.com
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,android.com
@@ -99,6 +101,7 @@ DOMAIN-SUFFIX,blogspot.hk
 DOMAIN-SUFFIX,blogspot.jp
 DOMAIN-SUFFIX,bloomberg.cn
 DOMAIN-SUFFIX,bloomberg.com
+DOMAIN-SUFFIX,bluekai.com
 DOMAIN-SUFFIX,bongacams.com
 DOMAIN-SUFFIX,bootstrapcdn.com
 DOMAIN-SUFFIX,box.com
@@ -119,6 +122,7 @@ DOMAIN-SUFFIX,cloudcone.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,comodoca.com
+DOMAIN-SUFFIX,control.kochava.com
 DOMAIN-SUFFIX,cosmiccute.com
 DOMAIN-SUFFIX,cws-hulu.conviva.com
 DOMAIN-SUFFIX,cws.conviva.com
@@ -130,6 +134,16 @@ DOMAIN-SUFFIX,daum.net
 DOMAIN-SUFFIX,dazn-api.com
 DOMAIN-SUFFIX,dazn.com
 DOMAIN-SUFFIX,dazndn.com
+DOMAIN-SUFFIX,dc1-voddash-perform.secure.footprint.net
+DOMAIN-SUFFIX,dc1live21715dazn.akamaized.net
+DOMAIN-SUFFIX,dc2-live2dash-perform.secure.footprint.net
+DOMAIN-SUFFIX,dc2-live2hls-perform.secure.footprint.net
+DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net
+DOMAIN-SUFFIX,dca-livedash-perform.secure.footprint.net
+DOMAIN-SUFFIX,dca-voddash-perform.secure.footprint.net
+DOMAIN-SUFFIX,dca-vodhls-perform.secure.footprint.net
+DOMAIN-SUFFIX,dcb-livedash-perform.secure.footprint.net
+DOMAIN-SUFFIX,dcb-voddash-perform.secure.footprint.net
 DOMAIN-SUFFIX,dcblivedazn.akamaized.net
 DOMAIN-SUFFIX,dditscdn.com
 DOMAIN-SUFFIX,ddo.jp
@@ -252,6 +266,7 @@ DOMAIN-SUFFIX,indaznlab.com
 DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,instagr.am
 DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,io.io
 DOMAIN-SUFFIX,ip138.com
 DOMAIN-SUFFIX,ipstatp.com
@@ -345,9 +360,11 @@ DOMAIN-SUFFIX,oneclient.sfx.ms
 DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,openvpn.net
+DOMAIN-SUFFIX,overcast.fm
 DOMAIN-SUFFIX,p-cdn.us
 DOMAIN-SUFFIX,pandora.com
 DOMAIN-SUFFIX,pbs.org
+DOMAIN-SUFFIX,perfops.doracdn.com
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,photos.live.com
@@ -377,8 +394,11 @@ DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redhat.com
 DOMAIN-SUFFIX,redtube.com
 DOMAIN-SUFFIX,resilio.com
+DOMAIN-SUFFIX,s.llnwi.net
+DOMAIN-SUFFIX,s.yimg.jp
 DOMAIN-SUFFIX,sb-cd.com
 DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,secure.footprint.net
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sfx.ms
 DOMAIN-SUFFIX,sg
@@ -457,6 +477,7 @@ DOMAIN-SUFFIX,txmblr.com
 DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,unsplash.com
 DOMAIN-SUFFIX,uplynk.com
+DOMAIN-SUFFIX,urbanairship.com
 DOMAIN-SUFFIX,us
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,vimeo.com
@@ -464,8 +485,10 @@ DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.now.com
 DOMAIN-SUFFIX,viu.tv
+DOMAIN-SUFFIX,vjs.zencdn.net
 DOMAIN-SUFFIX,vox-cdn.com
 DOMAIN-SUFFIX,wheel-soft.com
+DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com
 DOMAIN-SUFFIX,wikibooks.org
 DOMAIN-SUFFIX,wikidata.org
 DOMAIN-SUFFIX,wikileaks.org
@@ -484,6 +507,7 @@ DOMAIN-SUFFIX,xnxx-cdn.com
 DOMAIN-SUFFIX,xnxx.com
 DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,yahoo.co.jp
 DOMAIN-SUFFIX,yb.uncn.jp
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube-nocookie.com
