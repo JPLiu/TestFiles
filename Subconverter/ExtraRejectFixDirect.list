@@ -54,9 +54,9 @@ DOMAIN-KEYWORD,appinn
 #-----XXX
 
 #-----YYY
-# Youku (避免 Cookies 未启用的提示)https://www.youku.com
-DOMAIN-SUFFIX,gm.mmstat.com
-DOMAIN-SUFFIX,log.mmstat.com
+# Youku (避免 Cookies 未启用的提示) https://www.youku.com
+DOMAIN,log.mmstat.com
+DOMAIN,sycm.mmstat.com
 
 #-----ZZZ
 
