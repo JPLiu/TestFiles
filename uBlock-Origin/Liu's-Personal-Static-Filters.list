@@ -405,6 +405,8 @@ workflowy.com##.contentMatch:style(background-color: #7F7F7F!important; color: w
 ! weibo
 ! D 个人主页图片滚动栏 去除
 weibo.com##.PCD_piclist_b
+! M Html5 版本界面，无意义推广
+m.weibo.cn##.wrap
 
 ! xchina
 ! D 底部广告 图片加载页面广告
