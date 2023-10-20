@@ -1,0 +1,242 @@
+# 通用
+^file://
+^https?://(account|accounts|login|passport)\..*.com
+^https?://.*/.*(destUrl|go\?to|ReturnUrl|returnUri|returnUrl|return_to)=
+^https?://.*/.*(utm_).*=
+^https?://.*/.*login\?ref=
+^https?://.*/\?target=
+^https?://.*/auth/(login|signin)
+^https?://.*/go/.*\?url=
+^https?://.*/go\..*\?url=
+^https?://.*/link\.html\?url=
+^https?://.*/link\?(target|url)=
+^https?://.*/login\.php
+^https?://.*/oauth/
+^https?://.*\?redirectURL=
+^https?://\d\d*\.\d\d*\.\d\d*\.\d\d*(:\d\d*)?/
+^https?://download-
+^https?://localhost
+^https?://oauth\.
+^https?://www\..*/www\..*/
+^https?://.*\?(cid)=
+
+# baidu
+^https?://.*\.baidu\.com/.*(fromModule|ie|oq|rqlang|ssid)=
+^https?://.*\.baidu\.com/.*rsv_.*=
+^https?://\w*\.tieba\.baidu\.com/
+^https?://jump.?\.bdimg\.com/
+^https?://m\.baidu\.com/.*(fm_kl|fqid|gb|main_srcid|ms|params_ssrt|rchannel|rfrom|rqid|rtime|sa|ss|sugid|t_kt|tj|ts|usm|vfeed)=
+^https?://.*\.baidupcs\.com
+^https?://(fanyi|wapp|wappass)\.baidu\.com
+^http://(pan|yun)\.baidu\.com/
+^https?://(pan|yun)\.baidu\.com/disk/(home|main)
+^https?://(pan|yun)\.baidu\.com/s/.*(#list|\?dp-logid)
+https://pan.baidu.com/s/1efIgYLAxY77i3Xu9pH0N6g#list
+^https?://(pan|tieba|yun)\.baidu\.com/.*\?errmsg
+^http://tieba\.baidu\.com
+^https?://tieba\.baidu\.com/.*(fr|frwh|red_tag|\?t|\?u)=
+^https?://tieba\.baidu\.com/i/sys/jump
+^https?://tieba\.baidu\.com/safecheck/index\?url
+^https?://tieba\.baidu\.com/tb/error\.html
+^https?://wenku\.baidu\.com/ndbusiness
+^https?://zhidao\.baidu\.com/.*(mzl|ft|refer_title|\?t|\?u)=
+
+# bing microsoft
+^https?://.*\.bing\.com/.*(cvid|form|from|ghacc|ghpl|ghsh|lq|pc|pq|qs|sc|sk|sp)=
+^https?://.*\.bing\.com/(account|ck|new|passport)
+^https?://www\.bing\.com/search\?.*showconv=
+^https?://.*\.sharepoint\.com
+^https?://outlook\.live\.com/
+
+# bilibili
+^https?://(message|search)\.bilibili\.com
+^https?://.*\.bilibili\.com/.*(csource|from|from_spmid|oid|plat_id|search_source|share_medium|share_plat|share_session_id|share_source|share_tag|spm_id_from|target_source|vd_source)=
+^https?://.*\.bilibili\.com/.*/watchlater
+^https?://b23\.tv/
+^https?://live\.bilibili\.com/\d\d*\?
+^https?://www\.bilibili\.com/.*&$
+
+# claude
+^https?://.*anthropic\.com/
+^https?://claude\.ai/
+
+# google
+^https?://.*\.google\.com(.hk)?/.*(aqs|biw|bih|client|dpr|ei|google_abuse|ie|oe|sa|sca_esv|sclient|source|ved)=
+^https?://.*\.google\.com(.hk)?/interstitial\?url=
+^https?://.*\.google\.com(.hk)?/sorry/
+^https?://.*\.google\.com(.hk)?/(setprefs|url)\?
+^https?://.*\.google\.com/accounts/
+^https?://.*\.google\.com/search\?tlsa
+^https?://.*\.googleusercontent\.com
+^https?://cse\.google\.com
+^https?://drive\.google\.com(.hk)?/.*(usp)=
+^https?://mail\.google\.com/mail
+^https?://play\.google\.com/.*(gl|hl)=
+^https?://translate\.google\.com
+^https?://www\.google\.com/search\?q=.*(18av|2dfans|asmr|gal|porn|twitter)
+^https?://.*\.youtube\.com/.*#(searching|dialog)
+^https?://www\.youtube\.com/watch.*&(themeRefresh)=
+
+# github
+^https?://.*\.githubusercontent\.com
+^https?://ci\.appveyor\.com
+^https?://codeload\.github\.com
+^https?://github\.com/.*\?after=
+^https?://github\.com/.*/(blob|commit|compare)/
+^https?://github\.com/.*/releases/(download|tag)/
+^https?://github\.com/login
+^https?://github\.com/search\?q=
+https://github.com/clsid2/mpc-hc/commits/develop?after=10e8fc9011664fa95eb63751039b21b18f2f8db1+34&branch=develop&qualified_name=refs%2Fheads%2Fdevelop
+klkllllllkkkkkk
+
+# jd
+^https?://(cart|search)\.jd\.com
+^https?://.*\.jd\.com/.*(spm)=
+
+# mi、miui
+^https?://.*\.mi\.com/login
+^https?://api\.vip\.miui\.com
+^https?://web\.vip\.miui\.com/.*(app_version|fromBoardId|fromPage|fromPathname|ref|autoLogin)
+
+# mikanani
+^https?://mikanani\.(me|tv)/.
+^https?://mikanime\.(me|tv)/.
+
+# mozilla
+^https?://addons\.mozilla\.org/.*utm_
+^https?://prod\.outgoing\.prod\.webservices\.mozgcp\.net
+^https?://addons\.mozilla\.org/api
+^https?://addons\.mozilla\.org/.*/firefox/search
+^https?://ftp\.mozilla\.org/pub/firefox/releases/\d
+
+# qq、tencent
+^https?://.*\.?mail\.qq\.com
+^https?://.*\.?mail\.ftn\.qq\.com
+^https?://.*-download\.ftn\.qq\.com
+^https?://.*download\.weiyun\.com
+^https?://cloud\.tencent\.com/.*\?from=
+^https?://docs\.qq\.com/.*\?.*u=
+^https?://mp\.weixin\.qq\.com.*(chksm|cur_album_id)=
+^https?://open\.weixin\.qq\.com
+
+# sourceforge
+^https?://downloads\.sourceforge\.net
+^https?://sourceforge\.net/projects/.*/files/
+
+# ali taobao
+^https?://.*\.1688\.com/.*(_t|spm)=
+^https?://s\.1688\.com
+^https?://.*\.taobao\.com/.*(spm)=
+^https?://s\.taobao\.com
+^https?://www\.taobao\.com/list/(item|product)/.*\.htm$
+^https?://account-cn\.alibabacloud\.com/
+^https?://pass\.(taobao|tmall)\.com/
+^https?://mail\.aliyun\.com
+
+# telegram
+^https?://t\.me
+^https?://telegra\.ph
+
+# weibo、sina
+^https?://.*/sinaurl
+^https?://api\.weibo\.com/
+^https?://m\.weibo\.cn/.*(from|jumpfrom)=
+^https?://s\.weibo\.com
+^https?://t\.cn
+^https?://weibo\.com/$
+^https?://weibo\.com/(at|mygroups)
+^https?://weibo\.com/.*/home\?
+
+# yandex
+^https?://translate\.yandex\.com
+^https?://yandex\.com/clck/
+^https?://yandex\.com/showcaptcha
+^https?://yandex\.com/search/\?.*(from|redircnt)=
+
+# zhihu
+^http://(www|zhuanlan)\.zhihu\.com
+^https?://.*\.zhihu\.com/.*\?(source|utm)_.*=
+^https?://www\.zhihu\.com/account/unhuman
+^https?://www\.zhihu\.com/oia/
+
+# acgn
+^https?://.*\.?soraacg\.(com|xyz)
+^https?://.*\.hmacg\.cn/.
+^https?://www\.07pan\.com
+^https?://.*t-satoru\.top
+^https?://dl.?\.wenku8\.
+^https?://www\.wenku8\..*/modules/article/reviews
+^https?://www\.wenku8\..*/novel/.*/\d\d*.htm
+^https?://.*\.(9.6dm|agemys|bimiacg.)\.
+^https?://.*\.(36dm|acgbox|acgfuns|acgndog|acgns|acgnzy|asmrgay|colamanhua|gogalgame)\.
+^https?://.*\.(lzacg|touchgal|xunacg|zhacg)\.
+^https?://.*\.(tiangal|tianshi2|tianshie)\.
+^https?://(18-comic|18comic|jm365)\.
+^https?://(1anime|2dfan|acgngames|acgngame|feixueylw|galge)\.
+^https?://(hanime1|heliacg|jmcomic)\.
+^https?://(ritdon)\.
+^https?://share\.dmhy\.org/.
+^https?://www\.chenyuanqingshui\.cn
+^https?://www\.eyny\.com
+^https?://yun\.llzz\.top
+
+# porn
+^https?://.*\.(hembed|javbus|mm-cg|pornhub|t66y)\.
+^https?://(ccavb|javdb|missav|shuiguopai|thisav)\.
+^https?://porn
+
+# download
+^https?://.*\.(7z|exe|gba|img|iso|msi|nds|pdf|rar|torrent|wim|xz|zip)$
+^https?://.*\.(aac|avi|dat|flac|lrc|m4a|mkv|mp3|mp4|wav|wma|wmv)$
+^https?://.*\.(doc|docx|ppt|pptx|xls|xlsm|xlsx|chm|epub|mobi|pdf|ttf)$
+^https?://.*\.(txt)$
+^https?://convertio\.co/.*/download/
+^https?://.*(cloud189|189cloud).*\.ctyunapi\.cn
+^https?://.*\.cloudflarestorage\.com
+^https?://.*bayfiles\.com
+^https?://.*download-cdn.123pan.cn
+^https?://download.*\.139\.com
+^https?://doodrive\.com
+^https?://mega\.nz
+^https?://pan\.quark\.cn/s/.*/list/
+^https?://www\.jianguoyun\.com
+
+# lanzou
+^https?://developer\.lanzou.\.com
+^https?://developer-oss\.lanzou.\.com
+
+# bank
+^https?://.*\.(ccb|drcbank)\.com
+
+# 其他
+^https?://.*\.10010\.com
+^https?://.*\.163\.com/.*(from|spss)=
+^https?://.*\.21tb\.com
+^https?://.*\.amap\.com
+^https?://.*\.dida365\.com
+^https?://.*\.inoreader\.com
+^https?://.*\.looquan\.com
+^https?://.*\.moegirl\.org\.cn
+^https?://.*\.rsshub\.app
+^https?://.*\.slack\.com
+^https?://.*\.tumblr\.com
+^https?://.*\.wikipedia\.org/.*\?search=
+^https?://.*\.zei8\.
+^https?://.*sohu\.com/.*(pvid|scm|spm)=
+^https?://.*twitter\.com
+^https?://blog\.51cto\.com/.*(spm)=
+^https?://disq\.us/url\?
+^https?://meta\.appinn\.net/t/topic/\d\d*/\d
+^https?://sleazyfork\.org
+^https?://store\.steampowered\.com
+^https?://wiki\.52poke\.com/index\.php\?title=
+^https?://wiki\.hydrogenaud\.io
+^https?://workflowy\.com
+^https?://www\.(c-cloud|cordc)\.xyz
+^https?://www\.autohotkey\.com/download/
+^https?://www\.dlsite\.com
+^https?://www\.huorong\.cn/download
+^https?://www\.paypal\.com
+^https?://www\.portablefreeware\.com/\?id=.*&ts=
+^https?://www\.yatu\.tv
+^https?://v\.youku\.com/.*(s|scm)=

@@ -1,0 +1,26 @@
+[
+  {
+    "name":"Animetox",
+    "url":"^http://www\\.animetox\\.com$",
+    "pageElement":".post-list-mag autoheight",
+    "action":1
+  },
+  {
+    "name":"MyGalgame",
+    "url":"^https://www\\.okloli\\.com",
+    "pageElement":"#article-list",
+    "action":1
+  },
+  {
+    "name":"RunningCheese 奔跑中的奶酪",
+    "url":"^https://www\\.runningcheese\\.com",
+    "pageElement":"#scroll",
+    "action":0
+  },
+  {
+    "name":"魔王学院的不适任者小说",
+    "url":"^http://vst\\.blogos\\.cn",
+    "pageElement":".tip_box",
+    "action":1
+  }
+]

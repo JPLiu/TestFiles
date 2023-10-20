@@ -1,0 +1,431 @@
+# Extra Direct List
+
+# Public Resource
+
+# cdn
+DOMAIN-KEYWORD,cdnbye
+DOMAIN-KEYWORD,hdslb
+DOMAIN-KEYWORD,ourdvsss
+DOMAIN-SUFFIX,cdn-tech.io
+DOMAIN-SUFFIX,cdndm5.com
+DOMAIN-SUFFIX,dogecdn.com
+DOMAIN-SUFFIX,ibruce.info
+DOMAIN-SUFFIX,loli.net
+
+# js
+DOMAIN-SUFFIX,js.queqh.com
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,ravenjs.com
+
+# mathjax
+DOMAIN-SUFFIX,mathjax.org
+
+# mobile
+DOMAIN-SUFFIX,avoscloud.com
+
+# chat
+DOMAIN-SUFFIX,crisp.chat
+
+# font
+DOMAIN-SUFFIX,fontlibrary.org
+DOMAIN-SUFFIX,geekzu.org
+DOMAIN-SUFFIX,typesquare.com
+
+# git 代理
+DOMAIN-SUFFIX,ghproxy.com
+
+# icon
+DOMAIN-SUFFIX,materialdesignicons.com
+
+# pic
+DOMAIN-KEYWORD,imagebam
+DOMAIN-KEYWORD,imgix
+DOMAIN-KEYWORD,imgscloud
+DOMAIN-KEYWORD,sinaimg
+DOMAIN-KEYWORD,tinypic
+DOMAIN-KEYWORD,turboimagehost
+DOMAIN-SUFFIX,100024.xyz
+DOMAIN-SUFFIX,23img.com
+DOMAIN-SUFFIX,acgmh.com
+DOMAIN-SUFFIX,ax1x.com
+DOMAIN-SUFFIX,bmp.ovh
+DOMAIN-SUFFIX,boxmoe.com
+DOMAIN-SUFFIX,downk.cc
+DOMAIN-SUFFIX,helloimg.com
+DOMAIN-SUFFIX,ibb.co
+DOMAIN-SUFFIX,imageupload.net
+DOMAIN-SUFFIX,imgbox.com
+DOMAIN-SUFFIX,imgurl.org
+DOMAIN-SUFFIX,mjj.rip
+DOMAIN-SUFFIX,nekomoe.pages.dev
+DOMAIN-SUFFIX,niupic.com
+DOMAIN-SUFFIX,pangci.cc
+DOMAIN-SUFFIX,sda1.dev
+DOMAIN-SUFFIX,upload.cc
+DOMAIN-SUFFIX,z4a.net
+
+# -------------------------------------------------
+
+# 按首字母排序
+
+# Ali 阿里
+DOMAIN-KEYWORD,alibaba
+DOMAIN-KEYWORD,alibabacloud
+DOMAIN-KEYWORD,alicloud
+DOMAIN-KEYWORD,alikunlun
+DOMAIN-KEYWORD,aliyun
+DOMAIN-KEYWORD,taobao
+DOMAIN-SUFFIX,etao.com
+DOMAIN-SUFFIX,yitao.com
+
+# Drcbank
+DOMAIN-KEYWORD,drcbank
+DOMAIN-SUFFIX,21tb.com
+DOMAIN-SUFFIX,china-cbi.net
+DOMAIN-SUFFIX,csslcloud.net
+DOMAIN-SUFFIX,xueyanshe.com
+
+# Other Bank
+DOMAIN-SUFFIX,ccb.com
+
+# Computer Manufacturers
+DOMAIN-KEYWORD,lenovo
+DOMAIN-SUFFIX,hp.com
+
+# Microsoft
+DOMAIN-SUFFIX,appcenter.ms
+
+# Paypal
+DOMAIN-KEYWORD,paypal
+IP-CIDR,192.55.233.1/32,no-resolve
+
+# PicACG
+DOMAIN-KEYWORD,wakamoment
+DOMAIN-KEYWORD,wikawika
+IP-CIDR,104.20.180.50/32,no-resolve
+
+# Sina
+DOMAIN-SUFFIX,sinaedge.com
+
+# Stack Exchange
+DOMAIN-SUFFIX,stackexchange.com
+
+# Trackerslists
+DOMAIN-SUFFIX,trackerslist.com
+
+# Xiaomi / Huami / 金山
+DOMAIN-KEYWORD,ksord
+DOMAIN-KEYWORD,kssdata
+DOMAIN-SUFFIX,huami.com
+DOMAIN-SUFFIX,kuaipandata.com
+DOMAIN-SUFFIX,mi-cache.com
+DOMAIN-SUFFIX,mi-cdn.com
+DOMAIN-SUFFIX,mi-idc.com
+
+# USTC Google 字体映射
+DOMAIN-SUFFIX,ustclug.org
+
+# -------------------------------------------------
+# 按网址排序
+
+#-----0-9
+
+# 和彩云 https://c.139.com/
+DOMAIN-SUFFIX,139.com
+
+# 2dfan https://2dfan.org
+DOMAIN-KEYWORD,2dfan
+DOMAIN-SUFFIX,achost.top
+
+# 简单动漫 https://www.36dm.org/
+DOMAIN-SUFFIX,36dm.org
+
+# 五百丁 https://www.500d.me/
+DOMAIN-SUFFIX,500d.me
+
+# 神奇宝贝百科 https://wiki.52poke.com
+DOMAIN-KEYWORD,52poke
+
+#-----AAA
+
+# ACG漫音社 http://www.acgjc.com/
+DOMAIN-SUFFIX,acgjc.com
+
+# GalWorld https://acgngames.net
+DOMAIN-KEYWORD,acgngames
+DOMAIN-SUFFIX,acgnpic.com
+
+# 青空彼端 https://www.acgns.xyz
+DOMAIN-SUFFIX,acgns.xyz
+
+# ACG 资源网 https://www.acgnzy.com
+DOMAIN-SUFFIX,acgnzy.com
+
+# 爱思想 http://www.aisixiang.com/
+DOMAIN-SUFFIX,aisixiang.com
+
+# Animex动漫社 http://www.animetox.com/
+DOMAIN-SUFFIX,animetox.com
+DOMAIN-SUFFIX,addtoany.com
+
+# 安娜的档案 https://zh.annas-archive.org/
+DOMAIN-KEYWORD,annas-archive
+DOMAIN-KEYWORD,libgen
+
+# AnyFeeder https://plink.anyfeeder.com/
+DOMAIN-SUFFIX,anyfeeder.com
+
+# AsmrGay https://www.asmrgay.com
+DOMAIN-SUFFIX,asmrgay.com
+DOMAIN-SUFFIX,asmr.121231234.xyz
+DOMAIN-SUFFIX,polyfill.io
+
+# AutoHotkey https://www.autohotkey.com/
+DOMAIN-SUFFIX,autohotkey.com
+
+#-----BBB
+
+# Bangumi 番组计划 http://bgm.tv/ (部分网页会引用，如 acgdog)
+DOMAIN-SUFFIX,bgm.tv
+
+# BT之家 多域名
+DOMAIN-KEYWORD,btbtt
+
+#-----CCC
+
+# Canva https://www.canva.cn/
+DOMAIN-SUFFIX,canva.cn
+DOMAIN-SUFFIX,canva.com
+
+# i-Data https://www.cn-ki.net/
+DOMAIN-SUFFIX,cn-ki.net
+DOMAIN-SUFFIX,ynjyzg.com
+
+# 博客园 https://www.cnblogs.com/
+DOMAIN-KEYWORD,cnblogs
+
+#-----DDD
+
+# Dida365 滴答清单 https://www.dida365.com/
+DOMAIN-SUFFIX,dida365.com
+
+# 动漫之家 https://manhua.dmzj.com/
+DOMAIN-KEYWORD,dmzj.com
+
+#-----EEE
+
+#-----FFF
+
+# 飞雪娱乐网 https://feixueylw.com
+DOMAIN-SUFFIX,feixueylw.com
+DOMAIN-SUFFIX,feixue.us
+
+# Firefox
+# Firefox 哔哩哔哩弹幕过滤器 https://s.xmcp.ml/pakkujs/
+DOMAIN-SUFFIX,xmcp.ml
+DOMAIN-SUFFIX,xmcp.ltd
+# ViolentMonkey - RSS-Finder https://rssplus.vercel.app/
+DOMAIN-SUFFIX,vercel.app
+
+# Flowchart.fun https://flowchart.fun
+DOMAIN-SUFFIX,flowchart.fun
+
+#-----GGG
+
+# 稿定设计 https://ps.gaoding.com/
+DOMAIN-SUFFIX,gaoding.com
+
+# 极客公园 https://www.geekpark.net/
+DOMAIN-SUFFIX,geekpark.net
+
+# GitMind https://gitmind.cn/
+DOMAIN-SUFFIX,apowersoft.com
+DOMAIN-SUFFIX,gitmind.cn
+
+# Go2Think https://go2think.com/
+DOMAIN,go2think.com
+
+# 绅仕天堂 https://www.gogalgame.com
+DOMAIN-KEYWORD,gogalgame
+
+# 果壳网 https://www.guokr.com/
+DOMAIN-SUFFIX,guokr.com
+
+#-----HHH
+
+# HiBitUninstaller https://www.hibitsoft.ir/index.html
+DOMAIN-KEYWORD,hibitsoft
+
+# 音乐磁场 https://www.hifini.com/
+DOMAIN-SUFFIX,hifini.com
+
+# Tieba Lite
+DOMAIN-SUFFIX,huanchengfly.tk
+
+#-----III
+
+# 异次元软件世界 https://www.iplaysoft.com/
+DOMAIN-SUFFIX,iplaysoft.com
+
+# 旅法师营地 https://www.iyingdi.com/
+DOMAIN-SUFFIX,iyingdi.com
+
+#-----JJJ
+
+# 鸠摩搜索 https://www.jiumodiary.com/
+DOMAIN-SUFFIX,jiumodiary.com
+
+#-----KKK
+
+# 毕马威洞察 https://home.kpmg/cn/zh/home/insights.html
+DOMAIN-KEYWORD,kpmg
+DOMAIN-SUFFIX,gigya-ext.com
+DOMAIN-SUFFIX,gigya.com
+
+#-----LLL
+
+# 蓝点网 https://www.landiannews.com
+DOMAIN-KEYWORD,landiannews
+DOMAIN-SUFFIX,landian.vip
+
+# 轻之国度 https://www.lightnovel.us（Direct 访问慢）
+DOMAIN-KEYWORD,lightnovel
+
+#-----MMM
+
+# Rom Patch JS https://marcrobledo.com/
+DOMAIN-SUFFIX,marcrobledo.com
+
+# 蜜柑计划 https://mikanime.tv/ 国内站
+DOMAIN-SUFFIX,mikanime.tv
+DOMAIN-SUFFIX,raws.dev
+
+# 魔笔小说 https://www.mobinovels.com/
+DOMAIN-SUFFIX,mobinovels.com
+
+#-----NNN
+
+#-----OOO
+
+# OldmanEmu https://www.oldmantvg.net
+DOMAIN-SUFFIX,oldmantvg.net
+
+#-----PPP
+
+# PhotoKit https://photokit.com/?lang=zh
+DOMAIN-SUFFIX,photokit.com
+
+# Process ON https://www.processon.com/
+DOMAIN-SUFFIX,processon.com
+
+#-----QQQ
+
+#-----RRR
+
+# 深夜读书会 http://ritdon.com/
+DOMAIN-SUFFIX,ritdon.com
+DOMAIN-SUFFIX,jquerycdns.com
+
+# RssEverything https://rsseverything.com/dashboard
+DOMAIN-SUFFIX,rsseverything.com
+
+# 阮一峰的网络日志 http://www.ruanyifeng.com
+DOMAIN-SUFFIX,ruanyifeng.com
+DOMAIN-SUFFIX,wangbase.com
+
+# 奔跑中的奶酪 https://www.runningcheese.com/
+DOMAIN-SUFFIX,runningcheese.com
+
+# 如有乐享 https://51.ruyo.net/
+DOMAIN-SUFFIX,ruyo.net
+
+#-----SSS
+
+# Skywind Inside https://www.skywind.me/
+DOMAIN-SUFFIX,skywind.me
+
+# 什么值得买 https://www.smzdm.com/
+DOMAIN-SUFFIX,zdmimg.com
+
+# 穹之下 https://www.soraacg.com
+DOMAIN-KEYWORD,soraacg
+DOMAIN-SUFFIX,fghrsh.net
+
+#-----TTT
+
+# 小鸟游小の会员制餐厅 https://t-satoru.top
+DOMAIN-KEYWORD,t-satoru
+
+# TouchGal https://www.touchgal.net
+DOMAIN-KEYWORD,touchgal
+
+# 天使动漫 https://www.tsdm39.com/ 正常访问
+DOMAIN-SUFFIX,ts-dm.net
+DOMAIN-SUFFIX,tsdm39.com
+DOMAIN-SUFFIX,mengniang.org
+DOMAIN-KEYWORD,aqours
+
+# 科技推酷 https://www.tuicool.com/
+DOMAIN-SUFFIX,tuicool.com
+
+#-----UUU
+
+#-----VVV
+
+# Vim 帮助 https://yianwillis.github.io/vimcdoc/doc/index.html
+DOMAIN-SUFFIX,yianwillis.github.io
+
+#-----WWW
+
+# WeChat2Rss https://wechat2rss.xlab.app/
+DOMAIN-SUFFIX,wechat2rss.xlab.app
+
+# 扯氮集 http://weiwuhui.com
+DOMAIN-SUFFIX,weiwuhui.com
+
+# WeRss https://werss.app/
+DOMAIN-SUFFIX,cdn.weapp.design
+DOMAIN-SUFFIX,wereader.app
+DOMAIN-SUFFIX,werss.app
+DOMAIN-SUFFIX,vux.li
+
+# WhatIsMyBrowser https://www.whatismybrowser.com/
+DOMAIN-SUFFIX,whatismybrowser.com
+
+#-----XXX
+
+# 星空不寂寞 https://www.xkbjm.com/
+DOMAIN-KEYWORD,xkbjm
+DOMAIN-KEYWORD,xingkbjm
+
+# 善用佳软 https://xbeta.info
+DOMAIN-SUFFIX,xbeta.info
+
+# 限时优惠 https://xianshiyouhui.com/
+DOMAIN-SUFFIX,xianshiyouhui.com
+
+#-----YYY
+
+# YGOPro https://ygo233.com/
+DOMAIN-SUFFIX,ygo233.com
+DOMAIN-KEYWORD,livere
+DOMAIN-KEYWORD,readthedocs
+
+# YuC's AnimeList https://yuc.wiki/
+DOMAIN-SUFFIX,yuc.wiki
+
+#-----ZZZ
+
+# 贼吧网 https://www.zei8.vip/
+DOMAIN-SUFFIX,zei8.vip
+
+# Zimuku http://zimuku.org/
+DOMAIN-KEYWORD,zimuku
+DOMAIN-SUFFIX,zmk.pw
+
+# 最美应用 http://zuimeia.com/
+DOMAIN-SUFFIX,zuimeia.com
+
+# 知轩藏书 http://www.zxcs.me/
+DOMAIN-SUFFIX,zxcs.me
+

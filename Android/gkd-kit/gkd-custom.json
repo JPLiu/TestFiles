@@ -1,0 +1,18 @@
+{
+	"id": 1,
+	"name": "JPLiu 订阅",
+	"version": 2,
+	"author": "JPLiu",
+	"supportUri": "https://github.com/JPLiu/TestFiles",
+	"apps": [{
+		"id": "com.landray.kkplus",
+		"name": "信创办公",
+		"groups": [{
+            "quickFind": true,
+			"key": 0,
+			"name": "开屏广告",
+            "desc": "跳过开屏页面",
+            "rules": "[id=\"com.landray.kkplus:id/ad_skip\"]"
+		}]
+	}]
+}
