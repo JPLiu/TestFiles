@@ -1,8 +1,8 @@
 # 个人自用 uBlock Origin 规则
 
-## Content-Farms-Lite.list
+## More-Rule\Content-Farms-Lite.list
 
-基于终结内容农场的规则转置的拦截规则，如需订阅，请**选择 More-Rule 文件夹下的 Content-Farms-Lite.list**。
+基于终结内容农场的规则转置的拦截规则。
 
 ## Liu's-Block-List.list
 
