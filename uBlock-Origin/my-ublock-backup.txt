@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1696583530757,
+  "timeStamp": 1697968749949,
   "version": "1.52.2",
   "userSettings": {
     "contextMenuEnabled": false,
@@ -33,8 +33,6 @@
     "easylist-annoyances",
     "ublock-annoyances",
     "CHN-0",
-    "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
-    "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/minority-mv.txt",
     "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
     "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt",
     "https://raw.githubusercontent.com/JPLiu/TestFiles/main/uBlock-Origin/More-Rule/Content-Farms-Lite.list",
