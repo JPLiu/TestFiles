@@ -96,7 +96,9 @@ klkllllllkkkkkk
 # mi、miui
 ^https?://.*\.mi\.com/login
 ^https?://api\.vip\.miui\.com
+^https?://i\.mi\.com/sts\?sign=
 ^https?://web\.vip\.miui\.com/.*(app_version|fromBoardId|fromPage|fromPathname|ref|autoLogin)
+^https?://www\.mi\.com/.*&(cfrom)=
 
 # mikanani
 ^https?://mikanani\.(me|tv)/.
@@ -167,7 +169,7 @@ klkllllllkkkkkk
 ^https?://dl.?\.wenku8\.
 ^https?://www\.wenku8\..*/modules/article/reviews
 ^https?://www\.wenku8\..*/novel/.*/\d\d*.htm
-^https?://.*\.(9.6dm|agemys|bimiacg.)\.
+^https?://.*\.(8.6dm|agemys|bimiacg.)\.
 ^https?://.*\.(36dm|acgbox|acgfuns|acgndog|acgns|acgnzy|asmrgay|colamanhua|gogalgame)\.
 ^https?://.*\.(lzacg|touchgal|xunacg|zhacg)\.
 ^https?://.*\.(tiangal|tianshi2|tianshie)\.
@@ -181,9 +183,11 @@ klkllllllkkkkkk
 ^https?://yun\.llzz\.top
 
 # porn
-^https?://.*\.(hembed|javbus|mm-cg|pornhub|t66y)\.
+^https?://.*\.(hembed|javbus|mm-cg|pornhub)\.
 ^https?://(ccavb|javdb|missav|shuiguopai|thisav)\.
 ^https?://porn
+^https?://t66y\.com
+
 
 # download
 ^https?://.*\.(7z|exe|gba|img|iso|msi|nds|pdf|rar|torrent|wim|xz|zip)$
