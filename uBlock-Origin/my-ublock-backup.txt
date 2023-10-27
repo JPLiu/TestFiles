@@ -1,16 +1,13 @@
 {
-  "timeStamp": 1697968749949,
+  "timeStamp": 1697973384703,
   "version": "1.52.2",
   "userSettings": {
     "contextMenuEnabled": false,
-    "externalLists": "https://raw.githubusercontent.com/JPLiu/TestFiles/main/uBlock-Origin/Liu's-Rule-Group.list\nhttps://raw.githubusercontent.com/JPLiu/TestFiles/main/uBlock-Origin/More-Rule/Content-Farms-Lite.list\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt\nhttps://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/minority-mv.txt\nhttps://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+    "externalLists": "https://raw.githubusercontent.com/JPLiu/TestFiles/main/uBlock-Origin/Liu's-Rule-Group.list\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt",
     "importedLists": [
       "https://raw.githubusercontent.com/JPLiu/TestFiles/main/uBlock-Origin/Liu's-Rule-Group.list",
-      "https://raw.githubusercontent.com/JPLiu/TestFiles/main/uBlock-Origin/More-Rule/Content-Farms-Lite.list",
       "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
-      "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt",
-      "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/minority-mv.txt",
-      "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt"
+      "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt"
     ],
     "popupPanelSections": 31,
     "showIconBadge": false,
@@ -35,7 +32,6 @@
     "CHN-0",
     "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
     "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt",
-    "https://raw.githubusercontent.com/JPLiu/TestFiles/main/uBlock-Origin/More-Rule/Content-Farms-Lite.list",
     "https://raw.githubusercontent.com/JPLiu/TestFiles/main/uBlock-Origin/Liu's-Rule-Group.list"
   ],
   "hiddenSettings": {
