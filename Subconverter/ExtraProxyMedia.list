@@ -32,8 +32,13 @@ DOMAIN-SUFFIX,kk9984.pw
 # 第一动漫 https://1anime.me/
 DOMAIN-KEYWORD,1anime
 
-# 樱花动漫 http://www.816dm.com
+# 樱花动漫 https://www.916dm.fans/
+# 发布页
+DOMAIN-SUFFIX,916dm.fans
+DOMAIN-SUFFIX,295k.cc
+# 网站主页
 DOMAIN-SUFFIX,816dm.com
+DOMAIN-SUFFIX,dm569.com
 
 #-----AAA
 
