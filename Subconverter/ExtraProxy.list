@@ -124,6 +124,9 @@ DOMAIN-KEYWORD,gitlab
 DOMAIN-SUFFIX,ghbtns.com
 DOMAIN-SUFFIX,rawgit.com
 
+# Google
+DOMAIN-SUFFIX,vercel.app
+
 # JMComic
 DOMAIN-SUFFIX,asjmapihost.cc
 DOMAIN-SUFFIX,cdn-msp.cheaperapp1.work

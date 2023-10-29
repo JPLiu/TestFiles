@@ -224,8 +224,6 @@ DOMAIN-SUFFIX,feixue.us
 # Firefox 哔哩哔哩弹幕过滤器 https://s.xmcp.ml/pakkujs/
 DOMAIN-SUFFIX,xmcp.ml
 DOMAIN-SUFFIX,xmcp.ltd
-# ViolentMonkey - RSS-Finder https://rssplus.vercel.app/
-DOMAIN-SUFFIX,vercel.app
 
 # Flowchart.fun https://flowchart.fun
 DOMAIN-SUFFIX,flowchart.fun
