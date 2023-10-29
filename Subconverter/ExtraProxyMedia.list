@@ -19,11 +19,12 @@ DOMAIN-SUFFIX,playercloudsfluid.com
 #-----0-9
 
 # 18av http://18av.mm-cg.com/
+# 主站
 DOMAIN-SUFFIX,18av.tv
 DOMAIN-SUFFIX,18h.tv
 DOMAIN-SUFFIX,mm-cg.com
 DOMAIN-SUFFIX,mm-cgnews.com
-
+# CDN
 DOMAIN-SUFFIX,ccmma18.com
 DOMAIN-SUFFIX,ddhft18.com
 DOMAIN-SUFFIX,eeryt18.com
