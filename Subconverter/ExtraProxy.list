@@ -50,6 +50,11 @@ DOMAIN-SUFFIX,likebtn.com
 # mobile
 DOMAIN-SUFFIX,ionicframework.com
 
+# payment
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripecdn.com
+
 # pic
 DOMAIN-KEYWORD,postimages
 DOMAIN-KEYWORD,postimg
