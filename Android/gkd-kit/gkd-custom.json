@@ -1,7 +1,7 @@
 {
 	"id": 1,
 	"name": "JPLiu 订阅",
-	"version": 3,
+	"version": 4,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
@@ -13,7 +13,8 @@
 			"key": 0,
             "quickFind": true,
             "rules": "[id=\"com.landray.kkplus:id/ad_skip\"]"
-		}],
+		}]
+    },{
 		"id": "com.taobao.etao",
 		"name": "一淘",
 		"groups": [{
