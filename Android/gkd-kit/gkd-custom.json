@@ -1,18 +1,31 @@
 {
 	"id": 1,
 	"name": "JPLiu 订阅",
-	"version": 2,
+	"version": 3,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
 		"id": "com.landray.kkplus",
 		"name": "信创办公",
 		"groups": [{
-            "quickFind": true,
-			"key": 0,
 			"name": "开屏广告",
             "desc": "跳过开屏页面",
+			"key": 0,
+            "quickFind": true,
             "rules": "[id=\"com.landray.kkplus:id/ad_skip\"]"
+		}],
+		"id": "com.taobao.etao",
+		"name": "一淘",
+		"groups": [{
+			"name": "开屏广告",
+            "desc": "跳过开屏页面-QuickFind",
+			"key": 0,
+            "quickFind": true,
+            "rules": [{
+                "preKeys": [ ], 
+                "matches": ["[id!=null][text^=\"跳过\"][clickable=true]"], 
+                "excludeMatches": [ ]
+            }]
 		}]
 	}]
 }
