@@ -201,48 +201,34 @@ GetCurrentSSIDSpeed()
     Global SSIDName := RegExReplace(SSIDInfo, "mi)^\s*SSID\s*:\s*([^\r]+)$\r\n.*" , "$1")
     Global SSIDName := StrReplace(SSIDName, "`r`n", "",)
     Global SelectSpeedLimit := ""
-    SpeedLimitSSID1Array := StrSplit(SpeedLimitSSID1, ",")
-    Loop SpeedLimitSSID1Array.Length
-    {
-        param :=  A_Index
-    	If (SpeedLimitSSID1Array[param] = SSIDName)
-        {
-            Global SelectSpeedLimit := 1
-            Break
-        }
-    }
-    If SelectSpeedLimit = ""
-    {
-        SpeedLimitSSID2Array := StrSplit(SpeedLimitSSID2, ",")
-        Loop SpeedLimitSSID2Array.Length
-        {
-            param :=  A_Index
-        	If (SpeedLimitSSID2Array[param] = SSIDName)
-            {
-                Global SelectSpeedLimit := 2
-                Break
-            }
-            Continue
-        }
-    }
-    If SelectSpeedLimit = ""
-    {
-        SpeedLimitSSID3Array := StrSplit(SpeedLimitSSID3, ",")
-        Loop SpeedLimitSSID3Array.Length
-        {
-            param :=  A_Index
-        	If (SpeedLimitSSID3Array[param] = SSIDName)
-            {
-                Global SelectSpeedLimit := 3
-                Break
-            }
-            Continue
-        }
-    }
+    If (SelectSpeedLimit = "" and SSIDName !="")
+        SpeedLimitCheck(SpeedLimitSSID1, 1)
+    If (SelectSpeedLimit = "" and SSIDName !="")
+        SpeedLimitCheck(SpeedLimitSSID2, 2)
+    If (SelectSpeedLimit = "" and SSIDName !="")
+        SpeedLimitCheck(SpeedLimitSSID3, 3)
     If SelectSpeedLimit = ""
         Global SelectSpeedLimit := IniRead("Aria2AHK.ini", "Config", "SelectSpeedLimit")
     Global CurrentSpeedLimitName := IniRead("Aria2AHK.ini", "Config", "SpeedLimitName" . SelectSpeedLimit)
     Global CurrentSpeedLimit := IniRead("Aria2AHK.ini", "Config", "SpeedLimit" . SelectSpeedLimit)
+}
+
+; 限速判断函数 {{{2
+SpeedLimitCheck(FSSID1Array,FSelectSpeed)
+{
+    Global
+    {
+        SpeedLimitSSIDArray := StrSplit(FSSID1Array, ",")
+        Loop SpeedLimitSSIDArray.Length
+        {
+        	If (SpeedLimitSSIDArray[A_Index] = SSIDName)
+            {
+                Global SelectSpeedLimit := FSelectSpeed
+                Break
+            }
+        Continue
+        }
+    }
 }
 
 ; 配置切换函数 {{{2
