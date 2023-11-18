@@ -12,6 +12,7 @@
 ^https?://.*/link\?(target|url)=
 ^https?://.*/login\.php
 ^https?://.*/oauth/
+^https?://.*/oauth2\.0/
 ^https?://.*\?redirectURL=
 ^https?://\d\d*\.\d\d*\.\d\d*\.\d\d*(:\d\d*)?/
 ^https?://download-
@@ -46,6 +47,7 @@ https://pan.baidu.com/s/1efIgYLAxY77i3Xu9pH0N6g#list
 ^https?://.*\.bing\.com/(account|ck|new|passport)
 ^https?://www\.bing\.com/search\?.*showconv=
 ^https?://.*\.sharepoint\.com
+^https?://onedrive\.live\.com/
 ^https?://outlook\.live\.com/
 
 # bilibili
@@ -221,6 +223,7 @@ klkllllllkkkkkk
 ^https?://.*\.inoreader\.com
 ^https?://.*\.looquan\.com
 ^https?://.*\.moegirl\.org\.cn
+^https?://.*\.oracle\.com
 ^https?://.*\.rsshub\.app
 ^https?://.*\.slack\.com
 ^https?://.*\.tumblr\.com
@@ -233,6 +236,7 @@ klkllllllkkkkkk
 ^https?://meta\.appinn\.net/t/topic/\d\d*/\d
 ^https?://sleazyfork\.org
 ^https?://store\.steampowered\.com
+^https?://v\.youku\.com/.*(s|scm)=
 ^https?://wiki\.52poke\.com/index\.php\?title=
 ^https?://wiki\.hydrogenaud\.io
 ^https?://workflowy\.com
@@ -243,4 +247,3 @@ klkllllllkkkkkk
 ^https?://www\.paypal\.com
 ^https?://www\.portablefreeware\.com/\?id=.*&ts=
 ^https?://www\.yatu\.tv
-^https?://v\.youku\.com/.*(s|scm)=
