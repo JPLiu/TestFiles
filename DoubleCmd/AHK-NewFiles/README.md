@@ -2,8 +2,6 @@
 
 用 AutoHotkey 写的类似 [NewFiles](https://totalcmd.net/plugring/newfiles.html) 的小工具，用于在 Double Commander 中新建文件夹和新建文件。
 
-> 编写原因是因为公司电脑不知道为什么无法新建 xlsx 和 xls。
-
 Double Commander 工具栏按钮配置如下：
 
 - Command: AutoHotKeyU32.exe 或者 AutoHotKeyU64.exe
