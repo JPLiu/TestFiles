@@ -6,7 +6,7 @@
 
 Double Commander 工具栏按钮配置如下：
 
-Command: AutoHotKeyU32.exe 或者 AutoHotKeyU64.exe
+- Command: AutoHotKeyU32.exe 或者 AutoHotKeyU64.exe
 
 |            | Parameters             |
 |------------|------------------------|
