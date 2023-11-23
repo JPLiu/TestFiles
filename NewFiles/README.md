@@ -4,7 +4,8 @@
 
 > 编写原因是因为公司电脑不知道为什么无法新建 xlsx 和 xls。
 
-Double Commander 工具栏按钮配置如下
+Double Commander 工具栏按钮配置如下：
+
 Command: AutoHotKeyU32.exe 或者 AutoHotKeyU64.exe
 
 |            | Parameters             |
