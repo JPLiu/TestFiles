@@ -1,13 +1,13 @@
-#SingleInstance force
+﻿#SingleInstance force
 #NoTrayIcon
 FileEncoding "UTF-8"
 
-; 检查 Aria2 是否已运行
+; 检查 Aria2 是否已运行。
 Global Aria2ExeName := IniRead("Aria2AHK.ini", "Setting", "Aria2ExeName")
 If ProcessExist(Aria2ExeName) = 0
     Run A_ScriptDir . "\Aria2AHK.exe"
 
-; 载入配置信息 {{{2
+; 载入配置信息
 Global Aria2Proxy := IniRead("Aria2AHK.ini", "Setting", "Aria2Proxy")
 Global Aria2RpcUrl := IniRead("Aria2AHK.ini", "Setting", "Aria2RpcUrl")
 
@@ -20,41 +20,68 @@ Global ConfigPath3 := IniRead("Aria2AHK.ini", "Config", "ConfigPath3")
 
 Global SelectConfig := IniRead("Aria2AHK.ini", "Config", "SelectConfig")
 
-; 处理添加任务参数 {{{2
+; 处理添加任务参数
 Global AddTaskNumber := SelectConfig
 Global AddTaskProxy := 0
 If A_Args.Has(2) = True
     Global AddTaskNumber := A_Args[2]
 If A_Args.Has(3) = True
     Global AddTaskProxy := A_Args[3]
+Global TaskPath := IniRead("Aria2AHK.ini", "Config", "ConfigPath" . AddTaskNumber)
+
+; 处理添加 Url
+; 命令行调用添加时，支持添加一个 Url；界面添加时，支持多行 Url。
 If (A_Args.Has(1) = True and A_Args[1] != "")
 {
-    Global DownloadUrl := A_Args[1]
+    Global AddTaskUrls := A_Args[1]
+    AddUrlData(AddTaskUrls)
+
 } Else {
-    DownloadUrl := InputBox("新建 HTTP / HTTPS / FTP / SFTP / Magnet 任务:", "添加任务", "w320 h240").Value
-    If DownloadUrl = ""
+;    GUI 界面设置
+    MyGui := Gui(, "Aria2AHK")
+    MyGui.OnEvent("Escape", GuiClose)
+    MyGui.Add("Text",, "新建 HTTP / HTTPS / FTP / SFTP / Magnet 任务:")
+    MyGui.Add("Edit", "r9 vAddTaskUrls w512 -WantReturn")
+    MyGui.Add("Button", "Default w80", "确定").OnEvent("Click", ProcessUserInput)
+    MyGui.Show()
+}
+
+; GUI 界面添加 Urls 处理
+ProcessUserInput(*)
+{
+    AddTaskUrls := MyGui.Submit().AddTaskUrls
+    Loop parse, AddTaskUrls, "`n", "`r"
+    {
+        AddUrlData(A_LoopField)
+    }
+}
+
+; GUI 界面 Esc 退出
+GuiClose(*)
+{
     Exitapp
 }
 
-Global TaskPath := IniRead("Aria2AHK.ini", "Config", "ConfigPath" . AddTaskNumber)
-
-If (AddTaskProxy != 0)
+; 添加任务 json 格式化
+AddUrlData(AData)
 {
-    Aria2AddTaskData := '`{"jsonrpc":"2.0","id":"1","method":"aria2.addUri","params":[["' . DownloadUrl . '"],`{"dir":"' . TaskPath . '","all-proxy":"' . Aria2Proxy . '"}]}'
-} Else {
-    Aria2AddTaskData := "`{`"jsonrpc`":`"2.0`",`"id`":`"1`",`"method`":`"aria2.addUri`",`"params`":[[`"" . DownloadUrl . "`"],`{`"dir`":`"" . TaskPath . "`"`}]`}"
+    Global
+    If (AddTaskProxy != 0)
+    {
+        Aria2AddTaskData := '`{"jsonrpc":"2.0","id":"1","method":"aria2.addUri","params":[["' . AData . '"],`{"dir":"' . TaskPath . '","all-proxy":"' . Aria2Proxy . '"}]}'
+    } Else {
+        Aria2AddTaskData := "`{`"jsonrpc`":`"2.0`",`"id`":`"1`",`"method`":`"aria2.addUri`",`"params`":[[`"" . AData . "`"],`{`"dir`":`"" . TaskPath . "`"`}]`}"
+    }
+    HttpPost(Aria2RpcUrl, Aria2AddTaskData)
 }
 
-HttpPost(Aria2RpcUrl, Aria2AddTaskData)
-Exitapp
-Return
 
-HttpPost(URL, PData) {
+; HttpPost 数据创建任务
+HttpPost(URL, PData)
+{
 	Static WebRequest := ComObject("WinHttp.WinHttpRequest.5.1")
 	WebRequest.Open("POST", URL, True)
 	WebRequest.SetRequestHeader("Content-Type", "application/x-www-form-urlencoded")
 	WebRequest.Send(PData)
 	WebRequest.WaitForResponse(-1)
 }
-
-; Vim-FileSetting vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
