@@ -331,7 +331,7 @@ zhihu.com##.RichText-MCNLinkCardContainer
 ! #if !env_mobile
 ! #endif
 
-! 资源屏蔽规则参考 https://help.eyeo.com/en/adblockplus/how-to-write-filters
+! 资源屏蔽规则参考 https://help.adblockplus.org/hc/en-us/articles/360062733293
 ! *$document,font,image,match-case,media,domain=example.com
 ! *$object,other,ping,popup,script,stylesheet,subdocument,webrtc,websocket,xmlhttprequest,domain=example.com
 ! *$elemhide,generichide,genericblock,domain=example.com

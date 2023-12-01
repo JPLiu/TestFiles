@@ -88,8 +88,6 @@ https://pan.baidu.com/s/1efIgYLAxY77i3Xu9pH0N6g#list
 ^https?://github\.com/.*/releases/(download|tag)/
 ^https?://github\.com/login
 ^https?://github\.com/search\?q=
-https://github.com/clsid2/mpc-hc/commits/develop?after=10e8fc9011664fa95eb63751039b21b18f2f8db1+34&branch=develop&qualified_name=refs%2Fheads%2Fdevelop
-klkllllllkkkkkk
 
 # jd
 ^https?://(cart|search)\.jd\.com
@@ -127,7 +125,7 @@ klkllllllkkkkkk
 ^https?://downloads\.sourceforge\.net
 ^https?://sourceforge\.net/projects/.*/files/
 
-# ali taobao
+# ali quark taobao
 ^https?://.*\.1688\.com/.*(_t|spm)=
 ^https?://s\.1688\.com
 ^https?://.*\.taobao\.com/.*(spm)=
@@ -136,6 +134,7 @@ klkllllllkkkkkk
 ^https?://account-cn\.alibabacloud\.com/
 ^https?://pass\.(taobao|tmall)\.com/
 ^https?://mail\.aliyun\.com
+^https?://download\.quark\..*/download
 
 # telegram
 ^https?://t\.me
