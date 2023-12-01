@@ -1,11 +1,11 @@
 {
-  "timeStamp": 1701012605381,
-  "version": "1.53.0",
+  "timeStamp": 1701447581413,
+  "version": "1.54.0",
   "userSettings": {
     "contextMenuEnabled": false,
-    "externalLists": "https://raw.githubusercontent.com/JPLiu/TestFiles/main/uBlock-Origin/Liu's-Rule-Group.list\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt",
+    "externalLists": "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/Liu's-Rule-Group.list\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt",
     "importedLists": [
-      "https://raw.githubusercontent.com/JPLiu/TestFiles/main/uBlock-Origin/Liu's-Rule-Group.list",
+      "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/Liu's-Rule-Group.list",
       "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
       "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt"
     ],
@@ -32,7 +32,7 @@
     "CHN-0",
     "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
     "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt",
-    "https://raw.githubusercontent.com/JPLiu/TestFiles/main/uBlock-Origin/Liu's-Rule-Group.list"
+    "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/Liu's-Rule-Group.list"
   ],
   "hiddenSettings": {
     "autoUpdatePeriod": 7,
