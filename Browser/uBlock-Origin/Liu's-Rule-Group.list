@@ -2,7 +2,7 @@
 ! title: Liu's Rule Group
 ! Version: 1.0
 ! Expires: 4 days
-! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
 !#include Liu's-Static-List.list
 !#include Liu's-Style-List.list

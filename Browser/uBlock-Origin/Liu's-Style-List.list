@@ -2,7 +2,7 @@
 ! title: Liu's Style List
 ! Version: 1.0
 ! Expires: 4 days
-! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
 ! baidu
 !#if !env_mobile
