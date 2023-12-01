@@ -52,7 +52,7 @@ https://pan.baidu.com/s/1efIgYLAxY77i3Xu9pH0N6g#list
 
 # bilibili
 ^https?://(message|search)\.bilibili\.com
-^https?://.*\.bilibili\.com/.*(csource|from|from_spmid|oid|plat_id|search_source|share_medium|share_plat|share_session_id|share_source|share_tag|spm_id_from|target_source|vd_source)=
+^https?://.*\.bilibili\.com/.*(csource|from|from_spmid|oid|plat_id|search_source|season_id|share_medium|share_plat|share_session_id|share_source|share_tag|spm_id_from|target_source|vd_source)=
 ^https?://.*\.bilibili\.com/.*/watchlater
 ^https?://b23\.tv/
 ^https?://live\.bilibili\.com/\d\d*\?
@@ -160,6 +160,7 @@ https://pan.baidu.com/s/1efIgYLAxY77i3Xu9pH0N6g#list
 ^http://(www|zhuanlan)\.zhihu\.com
 ^https?://.*\.zhihu\.com/.*\?(source|utm)_.*=
 ^https?://www\.zhihu\.com/account/unhuman
+^https?://www\.zhihu\.com/market/
 ^https?://www\.zhihu\.com/oia/
 
 # acgn
@@ -232,6 +233,7 @@ https://pan.baidu.com/s/1efIgYLAxY77i3Xu9pH0N6g#list
 ^https?://.*twitter\.com
 ^https?://blog\.51cto\.com/.*(spm)=
 ^https?://disq\.us/url\?
+^https?://mdl\.dhkm\.vip
 ^https?://meta\.appinn\.net/t/topic/\d\d*/\d
 ^https?://sleazyfork\.org
 ^https?://store\.steampowered\.com
