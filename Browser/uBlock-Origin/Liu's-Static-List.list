@@ -285,13 +285,14 @@ weibo.com##div[class*="ProfileFocusPic_box_"]
 m.weibo.cn##.wrap
 
 ! wps office
-! https://platform.wps.cn/2023/
-platform.wps.cn##.home-transition-enter.home-transition.home.module
-platform.wps.cn##.ai-transition-mini.ai-transition.ai.module
-platform.wps.cn##.document-transition-mini.document-transition.new-document.module
-platform.wps.cn##.vision-transition-mini.vision-transition.new-vision.module
-platform.wps.cn##.platform-transition-mini.platform-transition.new-platform.module
-platform.wps.cn##.wps365-transition-mini.wps365-transition.wps-365.module
+! https://platform.wps.cn/mobile
+platform.wps.cn##.floor1-banner
+platform.wps.cn##.mobile-floor2
+platform.wps.cn##.mobile-floor3
+platform.wps.cn##.mobile-floor4
+platform.wps.cn##.floor5-wrapper
+platform.wps.cn##.floor6-wrapper
+platform.wps.cn##.floor7-wrapper > .module-header
 
 ! xkbjm
 ! https://www.xkbjm.com/
