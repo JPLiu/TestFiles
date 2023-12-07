@@ -19,6 +19,7 @@ ProcessUserInput(*)
         If FileExist(TemplatesPath . "\%." . OutExtension)
         {
             Try FileCopy TemplatesPath . "\%." . OutExtension, DestPath . "\" . OutFileName, True
+            Try FileSetTime "", OutFileName, "M", "F"
         } Else {
             Try FileAppend "" , DestPath . "\" . OutFileName
         }
