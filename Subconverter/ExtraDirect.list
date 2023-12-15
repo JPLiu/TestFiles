@@ -352,6 +352,9 @@ DOMAIN-SUFFIX,zdmimg.com
 DOMAIN-KEYWORD,soraacg
 DOMAIN-SUFFIX,fghrsh.net
 
+# 字幕库 https://srtku.com
+DOMAIN-KEYWORD,srtku
+
 #-----TTT
 
 # 小鸟游小の会员制餐厅 https://t-satoru.top
@@ -421,10 +424,6 @@ DOMAIN-SUFFIX,yuc.wiki
 
 # 贼吧网 https://www.zei8.vip/
 DOMAIN-SUFFIX,zei8.vip
-
-# Zimuku http://zimuku.org/
-DOMAIN-KEYWORD,zimuku
-DOMAIN-SUFFIX,zmk.pw
 
 # 最美应用 http://zuimeia.com/
 DOMAIN-SUFFIX,zuimeia.com
