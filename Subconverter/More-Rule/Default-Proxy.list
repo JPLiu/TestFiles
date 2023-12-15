@@ -78,6 +78,7 @@ DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,aolcdn.com
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,apkmirror.com
@@ -121,6 +122,7 @@ DOMAIN-SUFFIX,bongacams.com
 DOMAIN-SUFFIX,box.com
 DOMAIN-SUFFIX,braze.com
 DOMAIN-SUFFIX,btlibrary.me
+DOMAIN-SUFFIX,buzzsprout.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,c4assets.com
 DOMAIN-SUFFIX,cachefly.net
@@ -132,11 +134,13 @@ DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,channel4.com
 DOMAIN-SUFFIX,channel5.com
 DOMAIN-SUFFIX,chaturbate.com
+DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,cloudcone.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,comodoca.com
+DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,cosmiccute.com
 DOMAIN-SUFFIX,cws-hulu.conviva.com
 DOMAIN-SUFFIX,cws.conviva.com
@@ -206,6 +210,7 @@ DOMAIN-SUFFIX,exhentai.org
 DOMAIN-SUFFIX,ext-twitch.tv
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fanatical.com
+DOMAIN-SUFFIX,fanbox.cc
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,fastmail.com
 DOMAIN-SUFFIX,fb.com
@@ -381,6 +386,8 @@ DOMAIN-SUFFIX,nivodz.com
 DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,nsstatic.net
 DOMAIN-SUFFIX,nytstyle.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,ocnttv.com
 DOMAIN-SUFFIX,olehd.com
 DOMAIN-SUFFIX,olelive.com
@@ -555,6 +562,8 @@ DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,ypncdn.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,zoom.us
+DOMAIN-SUFFIX,zoomgov.com
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,aod-dash-uk-live.akamaized.net
 DOMAIN,aod-hls-uk-live.akamaized.net
