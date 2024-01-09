@@ -82,6 +82,12 @@
 www.123pan.com##.VipBanner
 www.123pan.com##.ant-carousel
 
+! 423Down
+! https://www.423down.com/
+! 推广栏目 参考：https://bbs.kafan.cn/thread-2264706-1-1.html
+423down.com##div.entry~p[style],div.entry>p[align] span[style]
+423down.com##ul.excerpt>li a[rel="category tag"]:has-text(产品推广):upward(li)
+
 ! 18av.mm.cg
 ! https://18av.mm-cg.com/
 ! 版面清理调整
