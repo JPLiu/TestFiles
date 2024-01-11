@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1704288006361,
-  "version": "1.54.0",
+  "timeStamp": 1704803309037,
+  "version": "1.55.0",
   "userSettings": {
     "contextMenuEnabled": false,
     "externalLists": "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/Liu's-Rule-Group.list\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt",
