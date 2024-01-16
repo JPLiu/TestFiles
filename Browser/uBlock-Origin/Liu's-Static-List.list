@@ -87,6 +87,14 @@ www.123pan.com##.ant-carousel
 ! 版面清理调整
 mm-cg.com##div[class^="ut1_img_ex"]
 
+
+! 18comic
+! https://18comic.org
+! 首页板头图
+!#if !env_mobile
+18comic.org##.div-bf-pv
+!#endif
+
 ! 1anime
 ! https://1anime.me
 ! 版面清理
