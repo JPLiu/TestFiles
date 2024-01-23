@@ -1,19 +1,24 @@
 # regular
 ^file://
+^http://\d*\.\d*\.\d*\.\d*
 ^https?://.*=https?:
 
 ^https?://.*\.21tb\.com
 ^https?://.*\.dida365\.com
 ^https?://.*\.inoreader\.com
 ^https?://workflowy\.com
+^https?://www\.jianguoyun\.com
 ^https?://www\.yatu\.tv
 ^https?://www\.yimutodo\.com
+
+# redirect
+^https?://.*/go\.php\?url=
 
 # baidu
 ^https?://.*\.baidu\.com/.*(fromModule|ie|oq|rqlang|ssid)=
 ^https?://.*\.baidu\.com/.*rsv_.*=
 ^https?://m\.baidu\.com/.*(fm_kl|fqid|gb|main_srcid|ms|params_ssrt|rchannel|rfrom|rqid|rtime|sa|ss|sugid|t_kt|tj|ts|usm|vfeed)=
-^https?://(fanyi|wapp|wappass)\.baidu\.com
+^https?://(fanyi|pan|wapp|wappass)\.baidu\.com
 ^https?://tieba\.baidu\.com/.*(fr|frwh|red_tag|\?t|\?u)=
 ^https?://zhidao\.baidu\.com/.*(mzl|ft|refer_title|\?t|\?u)=
 
@@ -32,7 +37,7 @@
 ^https?://.*\.google\.com(.hk)?/.*(aqs|biw|bih|client|dpr|ei|google_abuse|ie|oe|sa|sca_esv|sclient|source|ved)=
 ^https?://.*\.google\.com/search\?tlsa
 ^https?://mail\.google\.com/mail
-^https?://translate\.google\.com
+^https?://(drive|translate)\.google\.com
 ^https?://www\.google\.com/search\?q=.*(18av|2dfans|asmr|gal|porn|twitter)
 
 # github
@@ -93,11 +98,12 @@
 
 # others
 ^https?://.*\.moegirl\.org\.cn
+^https?://.*\.sohu\.com(.*)\?(pvid)=
 ^https?://.*\.tumblr\.com
 ^https?://.*twitter\.com
 ^https?://claude\.ai/
+^https?://ftp\.mozilla\.org
 ^https?://mdl\.dhkm\.vip
 ^https?://meta\.appinn\.net/t/topic/\d\d*/\d
 ^https?://sleazyfork\.org
 ^https?://v\.youku\.com/.*(s|scm)=
-^https?://www\.jianguoyun\.com
