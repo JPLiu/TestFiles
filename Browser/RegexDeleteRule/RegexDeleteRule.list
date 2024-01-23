@@ -7,6 +7,7 @@
 ^https?://.*\.inoreader\.com
 ^https?://workflowy\.com
 ^https?://www\.yatu\.tv
+^https?://www\.yimutodo\.com
 
 # baidu
 ^https?://.*\.baidu\.com/.*(fromModule|ie|oq|rqlang|ssid)=
@@ -99,3 +100,4 @@
 ^https?://meta\.appinn\.net/t/topic/\d\d*/\d
 ^https?://sleazyfork\.org
 ^https?://v\.youku\.com/.*(s|scm)=
+^https?://www\.jianguoyun\.com
