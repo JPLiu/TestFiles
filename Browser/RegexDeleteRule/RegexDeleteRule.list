@@ -1,18 +1,25 @@
 # regular
 ^file://
 ^http://\d*\.\d*\.\d*\.\d*
-^https?://.*=https?:
+
+^https?://www\.c-cloud\.xyz
 
 ^https?://.*\.21tb\.com
-^https?://.*\.dida365\.com
 ^https?://.*\.inoreader\.com
 ^https?://workflowy\.com
-^https?://www\.jianguoyun\.com
 ^https?://www\.yatu\.tv
+
+^https?://yimutodo\.com
 ^https?://www\.yimutodo\.com
 
 # redirect
+^https?://.*=https?:
+^https?://.*/\?target=
 ^https?://.*/go\.php\?url=
+^https?://.*/link\?url=
+
+# login account
+^https?://(login|passport)\..*\.(cn|com)/
 
 # baidu
 ^https?://.*\.baidu\.com/.*(fromModule|ie|oq|rqlang|ssid)=
@@ -52,6 +59,7 @@
 ^https?://.*\.?mail\.qq\.com
 ^https?://.*\.?mail\.ftn\.qq\.com
 ^https?://mp\.weixin\.qq\.com.*(chksm|cur_album_id)=
+^https?://www\.weiyun\.com
 
 # sourceforge
 ^https?://downloads\.sourceforge\.net
@@ -60,6 +68,7 @@
 # ali
 ^https?://.*\.1688\.com/.*(_t|spm)=
 ^https?://.*\.taobao\.com/.*(spm)=
+^https?://www\.aliyundrive\.com
 ^https?://www\.taobao\.com/list/(item|product)/.*\.htm$
 
 # telegram
@@ -97,6 +106,10 @@
 ^https?://t66y\.com
 
 # others
+^https?://.*.\.lanzou.\.com
+^https?://.*\.163\.com/.*\?(spss)=
+^https?://.*\.dida365\.com
+^https?://.*\.instagram\.com
 ^https?://.*\.moegirl\.org\.cn
 ^https?://.*\.sohu\.com(.*)\?(pvid)=
 ^https?://.*\.tumblr\.com
@@ -104,6 +117,8 @@
 ^https?://claude\.ai/
 ^https?://ftp\.mozilla\.org
 ^https?://mdl\.dhkm\.vip
+^https?://mega\.nz
 ^https?://meta\.appinn\.net/t/topic/\d\d*/\d
 ^https?://sleazyfork\.org
 ^https?://v\.youku\.com/.*(s|scm)=
+^https?://www\.jianguoyun\.com
