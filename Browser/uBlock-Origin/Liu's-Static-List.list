@@ -119,17 +119,6 @@ mm-cg.com##div[class^="ut1_img_ex"]
 ! 百度云会员广告
 ||img.acgmh.com/large/006RKGBpgy1gxhy4cau3dj30h40lh7ef.jpg$image
 
-! ACG资源网
-! https://www.acgnzy.com
-! 版头广告位、下载广告位
-www.acgnzy.com##.swiper-container-horizontal.swiper-container-initialized.swiper-container
-www.acgnzy.com##.Tedown1-gg
-
-! 青空彼端
-! https://www.acgns.xyz
-! 版头广告位
-www.acgns.xyz##.widget_media_image.zib-widget
-
 ! baidu
 ! 百度云 充值广告及无用按钮
 ! https://pan.baidu.com/disk/main
@@ -200,12 +189,6 @@ hanime1.me##div[id="close-mobile-ad-btn"]
 !#if !env_mobile
 hanime1.me##div.hidden-sm.hidden-xs:nth-of-type(1)
 !#endif
-
-! heliacg
-! https://heliacg.com
-! 首页版头 资源页面广告位
-heliacg.com##.flickity-viewport
-heliacg.com##.b2-radius.box.mg-b.single-bottom-html
 
 ! huorong
 ! https://www.huorong.cn
