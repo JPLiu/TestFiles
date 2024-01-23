@@ -298,16 +298,6 @@ weibo.com##div[class*="ProfileFocusPic_box_"]
 ! https://m.weibo.cn
 m.weibo.cn##.wrap
 
-! wps office
-! https://platform.wps.cn/mobile
-platform.wps.cn##.floor1-banner
-platform.wps.cn##.mobile-floor2
-platform.wps.cn##.mobile-floor3
-platform.wps.cn##.mobile-floor4
-platform.wps.cn##.floor5-wrapper
-platform.wps.cn##.floor6-wrapper
-platform.wps.cn##.floor7-wrapper > .module-header
-
 ! weixin
 ! https://work.weixin.qq.com
 ! 版面清理 方便更新
