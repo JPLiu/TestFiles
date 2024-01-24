@@ -2,7 +2,6 @@ PROCESS-NAME,com.viu.pad
 PROCESS-NAME,com.viu.phone
 PROCESS-NAME,com.vuclip.viu
 DOMAIN-KEYWORD,-spotify-
-DOMAIN-KEYWORD,.hbogoasia.
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,1e100
 DOMAIN-KEYWORD,abema
@@ -107,6 +106,7 @@ DOMAIN-SUFFIX,bbci.co.uk
 DOMAIN-SUFFIX,bcvcdn.com
 DOMAIN-SUFFIX,bidi.net.uk
 DOMAIN-SUFFIX,biggggg.com
+DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bit.no.com
 DOMAIN-SUFFIX,bkrtx.com
@@ -121,6 +121,7 @@ DOMAIN-SUFFIX,bloomberg.com
 DOMAIN-SUFFIX,bongacams.com
 DOMAIN-SUFFIX,box.com
 DOMAIN-SUFFIX,braze.com
+DOMAIN-SUFFIX,bstarstatic.com
 DOMAIN-SUFFIX,btlibrary.me
 DOMAIN-SUFFIX,buzzsprout.com
 DOMAIN-SUFFIX,byteoversea.com
@@ -614,6 +615,7 @@ DOMAIN,mytvsuperlimited.hb.omtrdc.net
 DOMAIN,mytvsuperlimited.sc.omtrdc.net
 DOMAIN,netflix.com.edgesuite.net
 DOMAIN,np-edge.itunes.apple.com
+DOMAIN,pic-bstarstatic.akamaized.net
 DOMAIN,play-edge.itunes.apple.com
 DOMAIN,players.brightcove.net
 DOMAIN,s3-ap-southeast-1.amazonaws.com
