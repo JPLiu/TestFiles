@@ -30,4 +30,4 @@ cd /d uBlock-Origin
 start "" cmd /k call More-Rule-Upadte.bat
 cd ..
 
-:: Vim-FileSetting vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
+:: vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:

@@ -12,4 +12,4 @@ git branch -m main
 git push -f origin main
 exit
 
-:: Vim-FileSetting vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
+:: vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:

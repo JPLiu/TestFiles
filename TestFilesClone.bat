@@ -4,4 +4,4 @@
 git clone git@github.com:JPLiu/TestFiles.git
 exit
 
-:: Vim-FileSetting vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
+:: vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
