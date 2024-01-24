@@ -1,13 +1,15 @@
-%g/^#/d
-%g/IP-CIDR/d
+vim9script
 
-1,$v/^[DIP]/d
-1,$s///g
-1,$sort u
+silent! g/^#/d
+silent! g/IP-CIDR/d
 
-1,$g/^PROCESS/normal ddGp
-1,$g/^DOMAIN-KEYWORD,/normal ddGp
-1,$g/^DOMAIN-SUFFIX,/normal ddGp
-1,$g/^DOMAIN,/normal ddGp
-1,$g/^IP/normal ddGp
+silent! v/^[DIP]/d
+:1,$s///ge
+sort u
+
+silent! g/^PROCESS/normal ddGp
+silent! g/^DOMAIN-KEYWORD,/normal ddGp
+silent! g/^DOMAIN-SUFFIX,/normal ddGp
+silent! g/^DOMAIN,/normal ddGp
+silent! g/^IP/normal ddGp
 

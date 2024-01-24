@@ -1,15 +1,17 @@
-1,$s/# .*//g
-1,$g/^#/d
+vim9script
 
-1,$s/USER-AGENT,/\rUSER-AGENT,/g
+:%s/# .*//ge
+silent! g/^#/d
 
-1,$v/^[DIP]/d
-1,$s///g
-1,$sort u
+:%s/USER-AGENT,/\rUSER-AGENT,/ge
 
-1,$g/^PROCESS/normal ddGp
-1,$g/^DOMAIN-KEYWORD,/normal ddGp
-1,$g/^DOMAIN-SUFFIX,/normal ddGp
-1,$g/^DOMAIN,/normal ddGp
-1,$g/^IP/normal ddGp
+silent! v/^[DIP]/d
+:%s///ge
+sort u
+
+silent! g/^PROCESS/normal ddGp
+silent! g/^DOMAIN-KEYWORD,/normal ddGp
+silent! g/^DOMAIN-SUFFIX,/normal ddGp
+silent! g/^DOMAIN,/normal ddGp
+silent! g/^IP/normal ddGp
 
