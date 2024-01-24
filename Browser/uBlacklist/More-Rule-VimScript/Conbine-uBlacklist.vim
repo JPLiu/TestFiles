@@ -1,3 +1,5 @@
-1,$s///g
-1,$sort u
-g/^$/d
+vim9script
+
+:%s///ge
+sort u
+silent! g/^$/d
