@@ -1,2 +1,3 @@
-1,$s/127\.0\.0\.1 //ge
-1,$sort u
+vim9script
+:%s/127\.0\.0\.1 //ge
+sort u
