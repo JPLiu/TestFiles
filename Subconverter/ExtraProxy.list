@@ -444,8 +444,8 @@ DOMAIN-KEYWORD,wenku8
 # CC0 免費圖庫搜尋引擎 https://cc0.wfublog.com/
 DOMAIN-SUFFIX,wfublog.com
 
-# Workflowy https://workflowy.com/
-DOMAIN-SUFFIX,workflowy.com
+# Workflowy https://workflowy.com/ 当前可直连
+# DOMAIN-SUFFIX,workflowy.com
 
 #-----XXX
 
