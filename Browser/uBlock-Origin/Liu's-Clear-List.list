@@ -210,11 +210,6 @@ $removeparam=utm_oi
 ||play.google.com^$removeparam=hl
 ||play.google.com^$removeparam=gl
 
-! hao123
-||hao123.com^$removeparam=from
-||hao123.com^$removeparam=src
-||hao123.com^$removeparam=vit
-
 ! iqiyi
 ||iqiyi.com^$removeparam=/^vfrm/
 
@@ -390,7 +385,6 @@ $removeparam=from,domain=d.weibo.com|s.weibo.com
 ||xiaomiyoupin.com^$removeparam=/^scmv/
 ||xiaomiyoupin.com^$removeparam=spmref
 
-
 ! yandex
 ||yandex.com^$removeparam=from
 ||yandex.com^$removeparam=redircnt
@@ -405,9 +399,6 @@ $removeparam=from,domain=d.weibo.com|s.weibo.com
 ||youtube.com^$removeparam=feature
 ||youtube.com^$removeparam=kw
 ||www.youtube.com^$removeparam=app
-
-! zuimeia
-||zuimeia.com^$removeparam=?utm_source
 
 ! zhihu
 ||zhihu.com^$removeparam=/^source_/

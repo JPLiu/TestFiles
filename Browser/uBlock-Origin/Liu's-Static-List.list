@@ -227,12 +227,6 @@ www.lightnovel.us##.fixed-download
 ! 页面广告
 ||mikanime.tv/images/masha/
 
-! pingwest
-! https://www.pingwest.com
-! APP-推广
-www.pingwest.com##.download-bar
-www.pingwest.com##.download-app-tip
-
 ! qq
 ! 企业微信 移除下载页介绍栏目
 ! https://work.weixin.qq.com
@@ -300,18 +294,6 @@ www.xkbjm.com,www.xingkbjm.com##.layui-carousel
 ! 版面清理
 www.yatu.tv##.Play_Movie1
 www.yatu.tv###mlogo
-
-! yeyulingfeng
-! https://vip.yeyulingfeng.com/
-! 版面清理
-||vip.yeyulingfeng.com/img/eat.png$image
-||vip.yeyulingfeng.com/img/pugongying.png$image
-
-! zaobao
-! https://www.zaobao.com.sg
-! 页面广告
-www.zaobao.com.sg##.headroom--not-bottom.headroom--not-top.animated.topnavbar-tertiary.topnavbar
-www.zaobao.com.sg###js-header-desktop > .headroom--top.slideDown.headroom--not-bottom.animated.topnavbar-tertiary.topnavbar
 
 ! zhihu
 ! 日报 APP-推广
