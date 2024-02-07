@@ -88,6 +88,9 @@ DOMAIN-SUFFIX,letsencrypt.org
 DOMAIN-KEYWORD,18comic
 DOMAIN-KEYWORD,18-comic
 DOMAIN-SUFFIX,jm365.work
+DOMAIN-SUFFIX,asjmapihost.cc
+DOMAIN-SUFFIX,cdn-msp.cheaperapp1.work
+DOMAIN-SUFFIX,cdn-msp.msp.comic1.xyz
 
 # Amazon
 DOMAIN-KEYWORD,amazonaws
@@ -106,10 +109,6 @@ DOMAIN-KEYWORD,cordc
 DOMAIN-KEYWORD,cordcloud
 DOMAIN-KEYWORD,cordcord
 
-# eBay
-DOMAIN-SUFFIX,ebay.com
-DOMAIN-SUFFIX,ebayimg.com
-
 # Embedly
 DOMAIN-SUFFIX,embed.ly
 DOMAIN-SUFFIX,embedly.com
@@ -127,16 +126,8 @@ DOMAIN-SUFFIX,rawgit.com
 # Google
 DOMAIN-SUFFIX,vercel.app
 
-# JMComic
-DOMAIN-SUFFIX,asjmapihost.cc
-DOMAIN-SUFFIX,cdn-msp.cheaperapp1.work
-DOMAIN-SUFFIX,cdn-msp.msp.comic1.xyz
-
 # PicACG
 DOMAIN-SUFFIX,picacomic.com
-
-# Pushbullet
-DOMAIN-KEYWORD,pushbullet
 
 # SourceForge
 DOMAIN-KEYWORD,sourceforge
@@ -179,16 +170,10 @@ DOMAIN-SUFFIX,acgnx.se
 # Alternative To https://alternativeto.net/
 DOMAIN-SUFFIX,alternativeto.net
 
-# APKPure https://apkpure.com/cn/
-DOMAIN-SUFFIX,cdnpure.com
-
 #-----BBB
 
 # 萌番组 https://bangumi.moe/ 偶发异常
 DOMAIN-SUFFIX,bangumi.moe
-
-# BBC https://www.bbc.com
-DOMAIN-SUFFIX,bbc.gscontxt.net
 
 #-----CCC
 
@@ -217,9 +202,6 @@ DOMAIN-SUFFIX,na.cx
 
 # F-droid https://f-droid.org/
 DOMAIN-SUFFIX,f-droid.org
-
-# FastCopy https://fastcopy.jp/en/
-DOMAIN-SUFFIX,ipmsg.org
 
 # FatSecret https://www.fatsecret.cn
 DOMAIN-KEYWORD,fatsecret
@@ -269,16 +251,7 @@ DOMAIN-SUFFIX,dbpoweramp.com
 # ShareX https://getsharex.com/
 DOMAIN-SUFFIX,getsharex.com
 
-# Ghacks https://www.ghacks.net/
-DOMAIN-SUFFIX,ghacks.net
-
 #-----HHH
-
-# HatenaBlog https://hatenablog.com/
-DOMAIN-SUFFIX,hatenablog.com
-DOMAIN-SUFFIX,hatena.com
-DOMAIN-SUFFIX,st-hatena.com
-DOMAIN-SUFFIX,line-website.com
 
 # Have I Been Pwned https://haveibeenpwned.com/
 DOMAIN-SUFFIX,haveibeenpwned.com
@@ -300,9 +273,6 @@ DOMAIN-KEYWORD,irfanview
 DOMAIN-SUFFIX,keepass.info
 
 #-----LLL
-
-# Liberkey https://www.liberkey.com/
-DOMAIN-SUFFIX,liberkey.com
 
 # lilydjwg.me https://rss.lilydjwg.me/
 DOMAIN-SUFFIX,rss.lilydjwg.me
@@ -363,9 +333,6 @@ DOMAIN-SUFFIX,statuspage.io
 
 #-----QQQ
 
-# Quora https://www.quora.com/
-DOMAIN-KEYWORD,quoracdn
-
 #-----RRR
 
 # WinRAR https://www.rarlab.com/
@@ -390,12 +357,6 @@ DOMAIN-SUFFIX,thundra.io
 
 # All in One Runtimes https://www.sereby.org/
 DOMAIN-SUFFIX,sereby.org
-
-# Subscene https://subscene.com/
-DOMAIN-SUFFIX,subscene.com
-DOMAIN-SUFFIX,jeded.com
-DOMAIN-SUFFIX,tmdb.org
-DOMAIN-SUFFIX,watchmondo.com
 
 # Sukidesuost https://sukidesuost.info
 DOMAIN-SUFFIX,sukidesuost.info
@@ -454,12 +415,5 @@ DOMAIN-SUFFIX,wfublog.com
 # YOPmail https://www.yopmail.com/zh/
 DOMAIN-SUFFIX,yopmail.com
 
-# 盐选文库 https://www.yanxuanwk.com
-DOMAIN-SUFFIX,yanxuanwk.com
-
 #-----ZZZ
-
-# 联合早报网 https://www.zaobao.com/
-DOMAIN-SUFFIX,zaobao.com
-DOMAIN-SUFFIX,emtana.com
 

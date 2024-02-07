@@ -18,6 +18,13 @@
 
 #-----HHH
 
+# HatenaBlog https://hatenablog.com/
+DOMAIN-SUFFIX,hatenablog.com
+DOMAIN-SUFFIX,hatena.com
+DOMAIN-SUFFIX,st-hatena.com
+DOMAIN-SUFFIX,line-website.com
+
+
 #-----III
 
 #-----JJJ

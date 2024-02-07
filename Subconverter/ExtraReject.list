@@ -20,9 +20,8 @@ DOMAIN-SUFFIX,consensu.org
 # Flash
 DOMAIN-SUFFIX,www.flash.cn
 DOMAIN-SUFFIX,2144.com
-
-# Flattr
-DOMAIN-SUFFIX,flattr.com
+# 重橙网络 https://www.izhongcheng.cn
+DOMAIN-SUFFIX,izhongcheng.cn
 
 #-----GGG
 
@@ -35,16 +34,7 @@ DOMAIN-SUFFIX,push.gd165.com
 DOMAIN-SUFFIX,impactserving.com
 DOMAIN-SUFFIX,realsrv.com
 
-# 火币网 推广广告
-DOMAIN-KEYWORD,huobiad
-
-# Hubspot
-DOMAIN-SUFFIX,hs-scripts.com
-
 #-----III
-
-# 重橙网络 https://www.izhongcheng.cn
-DOMAIN-SUFFIX,izhongcheng.cn
 
 #-----JJJ
 
@@ -100,9 +90,6 @@ DOMAIN-SUFFIX,nutaku.net
 
 #-----OOO
 
-# OpenCollective
-DOMAIN-SUFFIX,opencollective.com
-
 #-----PPP
 
 # PicACG
@@ -114,9 +101,6 @@ DOMAIN-KEYWORD,ad-display
 #-----RRR
 
 #-----SSS
-
-# Sentry
-DOMAIN-SUFFIX,sentry.io
 
 #-----TTT
 
@@ -130,9 +114,6 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,ad.winrar.com.cn
 
 #-----XXX
-
-# 闲聊
-DOMAIN-SUFFIX,xianliao.me
 
 #-----YYY
 

@@ -140,9 +140,6 @@ DOMAIN-SUFFIX,achost.top
 # 简单动漫 https://www.36dm.org/
 DOMAIN-SUFFIX,36dm.org
 
-# 五百丁 https://www.500d.me/
-DOMAIN-SUFFIX,500d.me
-
 # 神奇宝贝百科 https://wiki.52poke.com
 DOMAIN-KEYWORD,52poke
 
@@ -151,26 +148,12 @@ DOMAIN-KEYWORD,52poke
 # ACG漫音社 http://www.acgjc.com/
 DOMAIN-SUFFIX,acgjc.com
 
-# GalWorld https://acgngames.net
-DOMAIN-KEYWORD,acgngames
-DOMAIN-SUFFIX,acgnpic.com
-
-# 青空彼端 https://www.acgns.xyz
-DOMAIN-SUFFIX,acgns.xyz
-
-# ACG 资源网 https://www.acgnzy.com
-DOMAIN-SUFFIX,acgnzy.com
-
 # 爱思想 http://www.aisixiang.com/
 DOMAIN-SUFFIX,aisixiang.com
 
 # Animex动漫社 http://www.animetox.com/
 DOMAIN-SUFFIX,animetox.com
 DOMAIN-SUFFIX,addtoany.com
-
-# 安娜的档案 https://zh.annas-archive.org/
-DOMAIN-KEYWORD,annas-archive
-DOMAIN-KEYWORD,libgen
 
 # AnyFeeder https://plink.anyfeeder.com/
 DOMAIN-SUFFIX,anyfeeder.com
@@ -197,10 +180,6 @@ DOMAIN-KEYWORD,btbtt
 DOMAIN-SUFFIX,canva.cn
 DOMAIN-SUFFIX,canva.com
 
-# i-Data https://www.cn-ki.net/
-DOMAIN-SUFFIX,cn-ki.net
-DOMAIN-SUFFIX,ynjyzg.com
-
 # 博客园 https://www.cnblogs.com/
 DOMAIN-KEYWORD,cnblogs
 
@@ -216,15 +195,7 @@ DOMAIN-KEYWORD,dmzj.com
 
 #-----FFF
 
-# 飞雪娱乐网 https://feixueylw.com
-DOMAIN-SUFFIX,feixueylw.com
-DOMAIN-SUFFIX,feixue.us
-
 # Firefox
-# Firefox 哔哩哔哩弹幕过滤器 https://s.xmcp.ml/pakkujs/
-DOMAIN-SUFFIX,xmcp.ml
-DOMAIN-SUFFIX,xmcp.ltd
-
 # Flowchart.fun https://flowchart.fun
 DOMAIN-SUFFIX,flowchart.fun
 
@@ -242,9 +213,6 @@ DOMAIN-SUFFIX,gitmind.cn
 
 # Go2Think https://go2think.com/
 DOMAIN,go2think.com
-
-# 绅仕天堂 https://www.gogalgame.com
-DOMAIN-KEYWORD,gogalgame
 
 # 果壳网 https://www.guokr.com/
 DOMAIN-SUFFIX,guokr.com
@@ -327,15 +295,8 @@ DOMAIN-SUFFIX,jquerycdns.com
 # RssEverything https://rsseverything.com/dashboard
 DOMAIN-SUFFIX,rsseverything.com
 
-# 阮一峰的网络日志 http://www.ruanyifeng.com
-DOMAIN-SUFFIX,ruanyifeng.com
-DOMAIN-SUFFIX,wangbase.com
-
 # 奔跑中的奶酪 https://www.runningcheese.com/
 DOMAIN-SUFFIX,runningcheese.com
-
-# 如有乐享 https://51.ruyo.net/
-DOMAIN-SUFFIX,ruyo.net
 
 #-----SSS
 
@@ -348,20 +309,10 @@ DOMAIN-SUFFIX,skywind.me
 # 什么值得买 https://www.smzdm.com/
 DOMAIN-SUFFIX,zdmimg.com
 
-# 穹之下 https://www.soraacg.com
-DOMAIN-KEYWORD,soraacg
-DOMAIN-SUFFIX,fghrsh.net
-
 # 字幕库 https://srtku.com
 DOMAIN-KEYWORD,srtku
 
 #-----TTT
-
-# 小鸟游小の会员制餐厅 https://t-satoru.top
-DOMAIN-KEYWORD,t-satoru
-
-# TouchGal https://www.touchgal.net
-DOMAIN-KEYWORD,touchgal
 
 # 天使动漫 https://www.tsdm39.com/ 正常访问
 DOMAIN-SUFFIX,ts-dm.net
@@ -407,9 +358,6 @@ DOMAIN-KEYWORD,xingkbjm
 # 善用佳软 https://xbeta.info
 DOMAIN-SUFFIX,xbeta.info
 
-# 限时优惠 https://xianshiyouhui.com/
-DOMAIN-SUFFIX,xianshiyouhui.com
-
 #-----YYY
 
 # YGOPro https://ygo233.com/
@@ -424,9 +372,6 @@ DOMAIN-SUFFIX,yuc.wiki
 
 # 贼吧网 https://www.zei8.vip/
 DOMAIN-SUFFIX,zei8.vip
-
-# 最美应用 http://zuimeia.com/
-DOMAIN-SUFFIX,zuimeia.com
 
 # 知轩藏书 http://www.zxcs.me/
 DOMAIN-SUFFIX,zxcs.me
