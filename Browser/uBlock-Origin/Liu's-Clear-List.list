@@ -34,9 +34,6 @@ $removeparam=utm_oi
 ||1688.com^$removeparam=tpp_trace
 ||1688.com^$removeparam=udsPoolId
 
-! 51cto
-||blog.51cto.com^$removeparam=spm
-
 ! aliyuncs
 ||arms-retcode.aliyuncs.com^$removeparam=_v
 ||arms-retcode.aliyuncs.com^$removeparam=api
@@ -172,9 +169,6 @@ $removeparam=utm_oi
 ! duckduckgo
 ||duckduckgo.com/?q$removeparam=t
 
-! epicgames
-||epicgames.com^$removeparam=/^epic_/
-
 ! firefox
 ! 直接对 accounts.firefox.com 操作可能会影响登录同步
 @@||accounts.firefox.com^$removeparam
@@ -243,9 +237,6 @@ $removeparam=ref,domain=app.mi.com|vip.miui.com
 ||mozillazine.org^$removeparam=sid
 
 ||support.mozilla.org^$removeparam=as
-
-! oschina
-||oschina.net^$removeparam=_from
 
 ! paypal
 ||paypal.com^$removeparam=returnUri
@@ -333,21 +324,8 @@ $removeparam=utparam,domain=taobao.com|tmall.com
 ! tb
 ||tb.cn^$removeparam=sm
 
-! thunderbird
-||thunderbird.net^$removeparam=src
-
-! tiktok
-||tiktok.com^$removeparam=_d
-||tiktok.com^$removeparam=preview_pb
-||tiktok.com^$removeparam=timestamp
-||tiktok.com^$removeparam=share_iid
-||tiktok.com^$removeparam=source
-||tiktok.com^$removeparam=u_code
-||tiktok.com^$removeparam=user_id
-
 ! twitter
-||twitter.com^$removeparam=s
-||twitter.com^$removeparam=cn
+$removeparam=cn,domain=twitter.com|x.com
 
 ! weibo
 $removeparam=from,domain=d.weibo.com|s.weibo.com
