@@ -34,35 +34,6 @@ $removeparam=utm_oi
 ||1688.com^$removeparam=tpp_trace
 ||1688.com^$removeparam=udsPoolId
 
-! aliyuncs
-||arms-retcode.aliyuncs.com^$removeparam=_v
-||arms-retcode.aliyuncs.com^$removeparam=api
-||arms-retcode.aliyuncs.com^$removeparam=begin
-||arms-retcode.aliyuncs.com^$removeparam=behavior
-||arms-retcode.aliyuncs.com^$removeparam=c2
-||arms-retcode.aliyuncs.com^$removeparam=c3
-||arms-retcode.aliyuncs.com^$removeparam=code
-||arms-retcode.aliyuncs.com^$removeparam=ct
-||arms-retcode.aliyuncs.com^$removeparam=dl
-||arms-retcode.aliyuncs.com^$removeparam=enableLinkTrace
-||arms-retcode.aliyuncs.com^$removeparam=enableSPA
-||arms-retcode.aliyuncs.com^$removeparam=environment
-||arms-retcode.aliyuncs.com^$removeparam=flag
-||arms-retcode.aliyuncs.com^$removeparam=msg
-||arms-retcode.aliyuncs.com^$removeparam=page
-||arms-retcode.aliyuncs.com^$removeparam=pid
-||arms-retcode.aliyuncs.com^$removeparam=post_res
-||arms-retcode.aliyuncs.com^$removeparam=pv_id
-||arms-retcode.aliyuncs.com^$removeparam=release
-||arms-retcode.aliyuncs.com^$removeparam=sample
-||arms-retcode.aliyuncs.com^$removeparam=sampling
-||arms-retcode.aliyuncs.com^$removeparam=sr
-||arms-retcode.aliyuncs.com^$removeparam=success
-||arms-retcode.aliyuncs.com^$removeparam=tag
-||arms-retcode.aliyuncs.com^$removeparam=traceId
-||arms-retcode.aliyuncs.com^$removeparam=uid
-||arms-retcode.aliyuncs.com^$removeparam=vp
-
 ! aliyundrive
 ||aliyundrive.com^$removeparam=spm
 
