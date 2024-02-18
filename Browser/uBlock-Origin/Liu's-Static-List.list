@@ -15,17 +15,7 @@
 ! 拦截规则
 
 ! 禁用脚本规则
-|http*://$script,domain=baywatch.cn|cnrencai.com|diyifanwen.com|gxscse.com
-|http*://$script,domain=haoword.com|kujiang.com
-|http*://$script,domain=qunzou.com|ruiwen.com
-|http*://$script,domain=wenxm.cn|wenmi.com|xiegw.cn|xiexiebang.com|xueshu.com|yuwenmi.com|zhaozongjie.com
-
-! 运营商
-||gd.*/push/$popunder
-||189.cn/$popunder
-||189.gd/$popunder
-||greenet.cn/$popunder
-||push.gd165.com/$popunder
+|http*://$script,domain=baywatch.cn|cnrencai.com|diyifanwen.com|gxscse.com|haoword.com|kujiang.com|qunzou.com|ruiwen.com|wenxm.cn|wenmi.com|xiegw.cn|xiexiebang.com|xueshu.com|yuwenmi.com|zhaozongjie.com
 
 ! ADDTOANY SHARE
 ||addtoany.com^$important,third-party
