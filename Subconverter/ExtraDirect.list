@@ -349,6 +349,9 @@ DOMAIN-SUFFIX,vux.li
 # WhatIsMyBrowser https://www.whatismybrowser.com/
 DOMAIN-SUFFIX,whatismybrowser.com
 
+# Workflowy https://workflowy.com/ 当前可直连
+DOMAIN-SUFFIX,workflowy.com
+
 #-----XXX
 
 # 星空不寂寞 https://www.xkbjm.com/
