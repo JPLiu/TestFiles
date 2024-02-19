@@ -1,11 +1,15 @@
 @echo off
 
 cd /d Aria2
+
+cd /d Aria2Conf
 start "" cmd /k call More-Rule-Upadte.bat
 cd ..
+
 cd /d MiWifi
 start "" cmd /k call More-Rule-Upadte.bat
 cd ..
+
 cd /d Subconverter
 start "" cmd /k call More-Rule-Upadte.bat
 cd ..
