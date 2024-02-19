@@ -100,7 +100,7 @@ mm-cg.com##div[class^="ut1_img_ex"]
 423down.com##div.entry~p[style],div.entry>p[align] span[style]
 423down.com##ul.excerpt>li a[rel="category tag"]:has-text(产品推广):upward(li)
 !#endif
-!#if !env_mobile
+!#if env_mobile
 423down.com##ul.post-list>li span.sticky-post:has-text(置顶):upward(li)
 !#endif
 
