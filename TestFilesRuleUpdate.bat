@@ -6,6 +6,8 @@ cd /d Aria2Conf
 start "" cmd /k call More-Rule-Upadte.bat
 cd ..
 
+cd ..
+
 cd /d MiWifi
 start "" cmd /k call More-Rule-Upadte.bat
 cd ..
