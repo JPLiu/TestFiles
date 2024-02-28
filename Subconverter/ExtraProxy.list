@@ -51,6 +51,7 @@ DOMAIN-SUFFIX,likebtn.com
 DOMAIN-SUFFIX,ionicframework.com
 
 # payment
+DOMAIN-SUFFIX,opencollective.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,stripecdn.com
@@ -318,6 +319,9 @@ DOMAIN-SUFFIX,photodemon.org
 
 # 电脑玩物 https://www.playpcesor.com
 DOMAIN-SUFFIX,playpcesor.com
+
+PolitePol https://politepol.com/en/
+DOMAIN-SUFFIX,politepol.com
 
 # Portableapps https://portableapps.com/
 DOMAIN-SUFFIX,portableapps.com
