@@ -96,6 +96,10 @@ DOMAIN-SUFFIX,cdn-msp.msp.comic1.xyz
 # Amazon
 DOMAIN-KEYWORD,amazonaws
 
+# ByteDance Intl
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,coze.com
+
 # Blogspot
 DOMAIN-KEYWORD,blogblog
 

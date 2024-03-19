@@ -31,6 +31,9 @@ DOMAIN-SUFFIX,fontlibrary.org
 DOMAIN-SUFFIX,geekzu.org
 DOMAIN-SUFFIX,typesquare.com
 
+# icon
+DOMAIN-SUFFIX,szfw.org
+
 # git 代理
 DOMAIN-SUFFIX,ghproxy.com
 
