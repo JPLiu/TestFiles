@@ -292,6 +292,9 @@ DOMAIN-SUFFIX,miobt.com
 # Mixplorer
 DOMAIN-SUFFIX,mixplorer.com
 
+# Monica https://monica.im/zh_CN/home
+DOMAIN-SUFFIX,monica.im
+
 # MyFreeMp3 https://myfreemp3juices.cc/
 DOMAIN-KEYWORD,myfreemp3
 DOMAIN-SUFFIX,cpmnetworkcontent.com
