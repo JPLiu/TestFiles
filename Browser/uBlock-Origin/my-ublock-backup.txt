@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1704803309037,
-  "version": "1.55.0",
+  "timeStamp": 1710863482980,
+  "version": "1.56.0",
   "userSettings": {
     "contextMenuEnabled": false,
     "externalLists": "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/Liu's-Rule-Group.list\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt",
@@ -20,6 +20,7 @@
     "ublock-privacy",
     "ublock-quick-fixes",
     "ublock-unbreak",
+    "adguard-mobile",
     "easylist",
     "adguard-spyware-url",
     "easyprivacy",
