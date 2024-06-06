@@ -1,0 +1,289 @@
+[Adblock Plus 2.0]
+! title: Liu's Static List
+! Version: 1.0
+! Expires: 4 days
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
+
+! 通用规则
+
+! 元素隐藏规则
+##[class^=adleft]
+##[class^=adright]
+##[id^=adleft]
+##[id^=adright]
+
+! 拦截规则
+
+! 禁用脚本规则
+|http*://$script,domain=baywatch.cn|cnrencai.com|diyifanwen.com|gxscse.com|haoword.com|kujiang.com|qunzou.com|ruiwen.com|wenxm.cn|wenmi.com|xiegw.cn|xiexiebang.com|xueshu.com|yuwenmi.com|zhaozongjie.com
+
+! ADDTOANY SHARE
+||addtoany.com^$important,third-party
+
+! BAIDU
+||baidu*static/images/cms
+||cpro.baidu.com/cpro/ui/uijs.php
+||share.baidu.com^
+||wan.baidu.com^
+||wanba.baidu.com^
+||youxi.baidu.com^
+
+! BSHARE 分享按钮
+||bshare.cn^$important,third-party
+
+! COUNTED-SHARE
+/com/img/counted-share$image
+##div.counted-share-vertical
+
+! CNZZ
+||cnzz.com^$important,third-party
+||cnzz.net^$important,third-party
+
+! FACKBOOK
+||facebook.com^$important,third-party
+||linkedin.com^$important,third-party
+
+! GOOGLE
+||google-analytics.com^$important
+
+! GRAVATAR（可能导致头像加载不正常）
+||gravatar.com^$third-party
+
+! MOZILLA 禁止数据挖掘
+||tiles.services.mozilla.com^$domain=behind-the-scene
+
+! TWITTER
+||platform.twitter.com/widgets.js$third-party
+
+! WEIBO
+||widget.weibo.com^$important,third-party
+
+! Other
+||jsjb.cc^$third-party
+||huluxia.com^$third-party,~image
+
+! 修正规则（暂无）
+
+! 专用规则（排序按主域名顺序，通用规则分类以全大写，专用规则全小写）
+
+! 123云盘
+! https://www.123pan.com
+! 管理页和分享页会员广告
+www.123pan.com##.VipBanner
+www.123pan.com##.ant-carousel
+
+! 18av.mm.cg
+! https://18av.mm-cg.com/
+! 版面清理调整
+mm-cg.com##div[class^="ut1_img_ex"]
+
+
+! 18comic
+! https://18comic.org
+! 首页板头图
+!#if !env_mobile
+18comic.org##.div-bf-pv
+!#endif
+
+! 1anime
+! https://1anime.me
+! 版面清理
+1anime.me##[href*=".tb.cn/"]
+!#if !env_mobile
+1anime.me##.clearfix.ads_all.pannel
+!#endif
+
+! 423down
+! https://www.423down.com/
+! 推广栏目 参考：https://bbs.kafan.cn/thread-2264706-1-1.html
+423down.com##div.entry p[style],div.entry~p[style],div.entry>p[align] span[style]
+423down.com##ul>li a:has-text(产品推广):upward(li)
+423down.com##ul>li a>span:has-text(置顶):upward(li)
+423down.com##div.entry p:first-child,li.item>div[style]
+
+! acgbox
+! ACG盒子 移除淘宝广告
+! https://www.acgbox.link
+www.acgbox.link##[href*="taobao.com/"]
+
+! baidu
+! 百度云 充值广告及无用按钮
+! https://pan.baidu.com/disk/main
+pan.baidu.com##.nd-operate-guidance
+pan.baidu.com##.wp-s-header__right-item.wp-s-header__nav-tooltip
+pan.baidu.com##.u-popover__reference.wp-s-header__game-entry
+pan.baidu.com##.wp-header-user__tooltip-display.wp-s-header-user__tooltip
+! 百度贴吧 帖子版面优化
+! https://tieba.baidu.com/
+tieba.baidu.com###celebrity
+tieba.baidu.com###j_navtab_wanle
+tieba.baidu.com###j_navtab_game
+tieba.baidu.com##.j_tbnav_tab.more-config-navtab
+tieba.baidu.com##.achievement_medal_section
+tieba.baidu.com##.af_head_gamelink
+tieba.baidu.com##.app_download_box
+tieba.baidu.com##.card_banner
+tieba.baidu.com##.card_banner_link.card_banner
+tieba.baidu.com##.celebrity
+tieba.baidu.com##.clearfix.top-sec
+tieba.baidu.com##.novel-ranking-frs-body
+tieba.baidu.com##.search_back_box
+tieba.baidu.com##.tbui_fbar_props
+tieba.baidu.com##.tbui_fbar_tsukkomi
+tieba.baidu.com##.tbui_slideshow_container
+tieba.baidu.com##.u_member
+tieba.baidu.com##.u_official
+||bdstatic.com/tb/cms/frs/bg/default_head*.jpg$image
+||bdstatic.com/tb/cms/post/bubble/$image
+||bdstatic.com/tb/static-spage/widget/,domain=tieba.baidu.com
+||bdstatic.com/tb/static-pb/img/save_face/$image
+||gss0.baidu.com^$script,domain=tieba.baidu.com
+! 百度文库 各种付费提示
+! https://wenku.baidu.com
+wenku.baidu.com##.pc-cashier-card
+wenku.baidu.com##.vip-activity-content
+wenku.baidu.com##.vip-layer-inner
+wenku.baidu.com##.vip-privilege
+! 百度搜索 右侧内容
+! https://www.baidu.com
+www.baidu.com###content_right
+
+! csdn
+! https://blog.csdn.net/
+! CSDN去登录提示
+! 参考 https://bbs.kafan.cn/thread-2247032-1-1.html
+||g.csdnimg.cn/asdf/*/trackad.js|$script,important
+||csdnimg.cn/release/passport_fe/$script
+! CSDN去登录提示 补充规则
+blog.csdn.net##.passport-login-container
+
+! eyny
+! https://www.eyny.com/forum.php
+! 版面清理
+www.eyny.com###wp > table > tbody
+www.eyny.com##div[class="ptn xg2"]
+www.eyny.com##span[id^="ads_ads"]
+www.eyny.com##table:nth-of-type(2)
+www.eyny.com##table[class="t_p_top"]
+www.eyny.com##td[class="adv_header_text"]
+
+! hanime1
+! https://hanime1.me/
+! 遗留空白-广告位
+hanime1.me##div[id="myHeader"]
+hanime1.me##div[id="more-related-ad"]
+hanime1.me##div[id="close-mobile-ad-btn"]
+!#if !env_mobile
+hanime1.me##div.hidden-sm.hidden-xs:nth-of-type(1)
+!#endif
+
+! kafan
+! https://bbs.kafan.cn/
+! 版面优化 去除签名 界面清理
+bbs.kafan.cn##.pbn.cl.bm_c
+bbs.kafan.cn##.plm.plc
+
+! landian
+! https://www.landiannews.com/
+! 版面优化
+landiannews.com##.content-gg
+landiannews.com##section[id^=block-]
+||img.lancdn.com/*.gif$image,domain=landiannews.com
+
+! lightnovel
+! https://www.lightnovel.us/
+! APP-推广
+www.lightnovel.us##.fixed-download
+
+! mikan project
+! https://mikanime.tv/
+! 页面广告
+||mikanime.tv/images/masha/
+
+! qq
+! 企业微信 移除下载页介绍栏目
+! https://work.weixin.qq.com
+work.weixin.qq.com##[class^="index_section_"]
+
+! 真白萌
+! https://masiro.me/admin
+! 版头图片
+masiro.me##div#carousel-box
+
+! 天使动漫
+! https://www.tsdm39.com
+! 列表版面清理
+www.aqours.today/img*/MP3/$image,domain=tsdm39.*
+www.tsdm39.com###ts_sidebar_base, .xg2.ptn
+! 帖子底部按钮清理
+www.tsdm39.com##div.sign, td.tsdm_replybar.plc
+! 帖子左侧用户信息清理
+www.tsdm39.com##div.md_ctrl, div.qdsmile, div.tsdm_norm_title, .tsdm_lv_title
+www.tsdm39.com##.tsdm_statbar
+
+! totalcmd
+! https://totalcmd.net/
+! 图片广告
+||totalcmd.net/images/*-700.jpg$image
+
+! vim
+! https://yianwillis.github.io/vimcdoc/doc/index.html
+! 中文帮助 移除远程字体
+||fontlibrary.org^$domain=yianwillis.github.io
+
+! wenku8
+! https://www.wenku8.net/
+! 图片广告
+www.wenku8.net##[id^="adv"]
+
+! weibo
+!#if !env_mobile
+! https://weibo.com/
+! 专栏页面底部推广
+weibo.com##div[node-type="recommend"]
+! 用户主页轮播图
+weibo.com##div[class*="ProfileFocusPic_box_"]
+!#endif
+! Html5 版本界面，无意义推广
+! https://m.weibo.cn
+m.weibo.cn##.wrap
+
+! weixin
+! https://work.weixin.qq.com
+! 版面清理 方便更新
+!#if !env_mobile
+work.weixin.qq.com##.index_section_Case.index_section
+work.weixin.qq.com##.index_head
+work.weixin.qq.com##.index_top
+!#endif
+
+! xkbjm
+! https://www.xkbjm.com/
+! 版面清理 首页抬头图
+www.xkbjm.com,www.xingkbjm.com##.layui-carousel
+
+! yatu
+! http://www.yatu.tv:2082
+! 版面清理
+www.yatu.tv##.Play_Movie1
+www.yatu.tv###mlogo
+
+! zhihu
+! 日报 APP-推广
+! https://daily.zhihu.com/
+daily.zhihu.com##div.ZhihuDailyOIABanner
+! 主页 推荐关注
+! https://www.zhihu.com/
+www.zhihu.com##.css-173vipd.Card
+! 回答 移除商品广告
+zhihu.com##.MCNLinkCard
+zhihu.com##.RichText-MCNLinkCardContainer
+
+! 设备规则
+!#if !env_mobile
+!#endif
+
+! 资源屏蔽规则参考 https://help.adblockplus.org/hc/en-us/articles/360062733293
+! *$document,font,image,match-case,media,domain=example.com
+! *$object,other,ping,popup,script,stylesheet,subdocument,webrtc,websocket,xmlhttprequest,domain=example.com
+! *$elemhide,generichide,genericblock,domain=example.com

@@ -1,0 +1,124 @@
+# regular
+^file://
+^http://\d*\.\d*\.\d*\.\d*
+
+^https?://www\.c-cloud\.xyz
+
+^https?://.*\.21tb\.com
+^https?://.*\.inoreader\.com
+^https?://workflowy\.com
+^https?://www\.yatu\.tv
+
+^https?://yimutodo\.com
+^https?://www\.yimutodo\.com
+
+# redirect
+^https?://.*=https?:
+^https?://.*/\?target=
+^https?://.*/go\.php\?url=
+^https?://.*/link\?url=
+
+# login account
+^https?://(login|passport)\..*\.(cn|com)/
+
+# baidu
+^https?://.*\.baidu\.com/.*(fromModule|ie|oq|rqlang|ssid)=
+^https?://.*\.baidu\.com/.*rsv_.*=
+^https?://m\.baidu\.com/.*(fm_kl|fqid|gb|main_srcid|ms|params_ssrt|rchannel|rfrom|rqid|rtime|sa|ss|sugid|t_kt|tj|ts|usm|vfeed)=
+^https?://(fanyi|pan|wapp|wappass)\.baidu\.com
+^https?://tieba\.baidu\.com/.*(fr|frwh|red_tag|\?t|\?u)=
+^https?://zhidao\.baidu\.com/.*(mzl|ft|refer_title|\?t|\?u)=
+
+# bing microsoft
+^https?://.*\.bing\.com/.*(cvid|form|from|ghacc|ghpl|ghsh|lq|pc|pq|qs|sc|sk|sp)=
+^https?://outlook\.live\.com/
+
+# bilibili
+^https?://(message|search)\.bilibili\.com
+^https?://.*\.bilibili\.com/.*(csource|from|from_spmid|oid|plat_id|search_source|season_id|share_medium|share_plat|share_session_id|share_source|share_tag|spm_id_from|target_source|vd_source)=
+^https?://.*\.bilibili\.com/.*/watchlater
+^https?://b23\.tv/
+^https?://www\.bilibili\.com/.*&$
+
+# google
+^https?://.*\.google\.com(.hk)?/.*(aqs|biw|bih|client|dpr|ei|google_abuse|ie|oe|sa|sca_esv|sclient|source|ved)=
+^https?://.*\.google\.com/search\?tlsa
+^https?://mail\.google\.com/mail
+^https?://(drive|translate)\.google\.com
+^https?://www\.google\.com/search\?q=.*(18av|2dfans|asmr|gal|porn|twitter)
+
+# github
+^https?://.*\.githubusercontent\.com
+^https?://github\.com/.*/(blob|commit|compare)/
+^https?://github\.com/.*/releases/(download|tag)/
+
+# jd
+^https?://.*\.jd\.com/.*(spm)=
+
+# qq、tencent
+^https?://.*\.?mail\.qq\.com
+^https?://.*\.?mail\.ftn\.qq\.com
+^https?://mp\.weixin\.qq\.com.*(chksm|cur_album_id)=
+^https?://www\.weiyun\.com
+
+# sourceforge
+^https?://downloads\.sourceforge\.net
+^https?://sourceforge\.net/projects/.*/files/
+
+# ali
+^https?://.*\.1688\.com/.*(_t|spm)=
+^https?://.*\.taobao\.com/.*(spm)=
+^https?://www\.aliyundrive\.com
+^https?://www\.taobao\.com/list/(item|product)/.*\.htm$
+
+# telegram
+^https?://t\.me
+^https?://telegra\.ph
+
+# weibo、sina
+^https?://.*/sinaurl
+^https?://t\.cn
+^https?://weibo\.com/$
+^https?://weibo\.com/.*/home\?
+
+# zhihu
+^https?://.*\.zhihu\.com/.*\?(source|utm)_.*=
+^https?://www\.zhihu\.com/market/
+
+# acgn
+^https?://.*\.(8.6dm|agemys|bimiacg.)\.
+^https?://(18-comic|18comic|jm365)\.
+^https?://(2dfan|hanime1|jmcomic)\.
+
+^https?://www\.chenyuanqingshui\.cn
+^https?://www\.eyny\.com
+^https?://www\.wenku8\..*/novel/.*/\d\d*.htm
+
+^https?://.*\.(torrent)$
+^https?://mikanani\.(me|tv)/.
+^https?://mikanime\.(me|tv)/.
+^https?://share\.dmhy\.org/.
+
+# porn
+^https?://.*\.(mm-cg|pornhub)\.
+^https?://(missav|thisav)\.
+^https?://porn
+^https?://t66y\.com
+
+# others
+^https?://.*.\.lanzou.\.com
+^https?://.*\.163\.com/.*\?(spss)=
+^https?://.*\.dida365\.com
+^https?://.*\.instagram\.com
+^https?://.*\.moegirl\.org\.cn
+^https?://.*\.sohu\.com(.*)\?(pvid)=
+^https?://.*\.tumblr\.com
+^https?://.*twitter\.com
+^https?://claude\.ai/
+^https?://ftp\.mozilla\.org
+^https?://mdl\.dhkm\.vip
+^https?://mega\.nz
+^https?://meta\.appinn\.net/t/topic/\d\d*/\d
+^https?://sleazyfork\.org
+^https?://v\.youku\.com/.*(s|scm)=
+^https?://www\.jianguoyun\.com

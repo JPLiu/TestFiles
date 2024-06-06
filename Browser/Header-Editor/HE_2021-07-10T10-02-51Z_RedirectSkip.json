@@ -1,0 +1,79 @@
+{
+	"request": [
+		{
+			"enable": true,
+			"name": "知乎 - 外链重定向",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/link\\.zhihu\\.com\\/\\?target=(.*)",
+			"exclude": "",
+			"group": "Mine-Redirect",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1"
+		},
+		{
+			"enable": true,
+			"name": "RunningCheese - 外链重定向",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/www\\.runningcheese\\.com\\/go\\?url=(.*)",
+			"exclude": "",
+			"group": "Mine-Redirect",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1"
+		},
+		{
+			"enable": true,
+			"name": "简书 - 外链重定向",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/www\\.jianshu\\.com\\/go-wild\\?ac=2&url=(.*)",
+			"exclude": "",
+			"group": "Mine-Redirect",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1"
+		},
+		{
+			"enable": true,
+			"name": "CSDN - 外链重定向",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/link\\.csdn\\.net\\/\\?target=(.*)",
+			"exclude": "",
+			"group": "Mine-Redirect",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1"
+		},
+		{
+			"enable": true,
+			"name": "OSChina - 外链重定向",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/www\\.oschina\\.net\\/action\\/GoToLink\\?url=(.*)",
+			"exclude": "",
+			"group": "Mine-Redirect",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1"
+		},
+		{
+			"enable": true,
+			"name": "豆瓣 - 外链重定向",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/www\\.douban\\.com\\/link2\\/\\?url=(.*)",
+			"exclude": "",
+			"group": "Mine-Redirect",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1"
+		}
+	],
+	"sendHeader": [],
+	"receiveHeader": [],
+	"receiveBody": []
+}
