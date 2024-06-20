@@ -208,8 +208,8 @@ If FileExist( EAConfName )
 
 ; Vimium-C
 EAName := "Vimium-C"
-EAFormatName := "vimium_c-*.json"
-EAConfName := "vimium-c-options.json"
+EAFormatName := "vimium-c-options.json"
+EAConfName := "vimium_c-*.json"
 EAConfPathName := "Vimium"
 SetWorkingDir DownloadPath
 If FileExist( EAConfName )
