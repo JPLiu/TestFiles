@@ -13,7 +13,7 @@ ZipFileName := "PhotoDemon-*.zip"
 SoftPath := DefaultPath . "\PhotoDemon"
 SoftNameZip := SoftName . ".zip"
 ExtPath := DownloadPath . SoftName
-LnkName := "Syncthing"
+LnkName := "PhotoDemon"
 LnkPath := DefaultPath . "\PhotoDemon"
 
 SetWorkingDir DownloadPath
