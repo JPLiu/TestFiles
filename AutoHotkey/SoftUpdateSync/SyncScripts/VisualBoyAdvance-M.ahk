@@ -14,7 +14,7 @@ ZipFileName := "visualboyadvance-m-Win-x86_32.zip"
 SoftPath := SettingBakPath . "\Android\Setting\GBA\Emulator\VisualBoyAdvance-M"
 SoftNameZip := SoftName . ".zip"
 ExtPath := DownloadPath . SoftName
-LnkName := "FFmpeg"
+LnkName := "VisualBoyAdvance-M"
 LnkPath := SettingBakPath . "\Android\Setting\GBA\Emulator\VisualBoyAdvance-M"
 
 SetWorkingDir DownloadPath
