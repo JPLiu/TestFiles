@@ -177,6 +177,12 @@ hanime1.me##div[id="close-mobile-ad-btn"]
 hanime1.me##div.hidden-sm.hidden-xs:nth-of-type(1)
 !#endif
 
+
+! jianguoyun
+! https://www.jianguoyun.com
+! 版面优化
+www.jianguoyun.com##.teaser-container
+
 ! kafan
 ! https://bbs.kafan.cn/
 ! 版面优化 去除签名 界面清理

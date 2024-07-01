@@ -52,7 +52,6 @@ DOMAIN-SUFFIX,4sqi.net
 DOMAIN-SUFFIX,5itv.tv
 DOMAIN-SUFFIX,8teenxxx.com
 DOMAIN-SUFFIX,a248.e.akamai.net
-DOMAIN-SUFFIX,abema-tv.com
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,aboutamazon.com
@@ -184,6 +183,7 @@ DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,dmm.hk
 DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxstatic.com
@@ -254,7 +254,6 @@ DOMAIN-SUFFIX,haiwaikan.com
 DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,hath.network
 DOMAIN-SUFFIX,hayabusa.io
-DOMAIN-SUFFIX,hayabusa.media
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hboasia.com
 DOMAIN-SUFFIX,hbogo.com
@@ -567,7 +566,6 @@ DOMAIN-SUFFIX,zoomgov.com
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,aod-dash-uk-live.akamaized.net
 DOMAIN,aod-hls-uk-live.akamaized.net
-DOMAIN,api-abematv.bucketeer.jp
 DOMAIN,api.viu.now.com
 DOMAIN,atv-ps.amazon.com
 DOMAIN,avodmp4s3ww-a.akamaihd.net
