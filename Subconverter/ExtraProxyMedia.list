@@ -59,6 +59,10 @@ DOMAIN-SUFFIX,anime1.cc
 
 #-----BBB
 
+# 番组计划 https://bangumi.tv/ 或 https://bgm.tv/
+DOMAIN-SUFFIX,bangumi.tv
+DOMAIN-SUFFIX,bgm.tv
+
 #-----CCC
 
 #-----DDD
