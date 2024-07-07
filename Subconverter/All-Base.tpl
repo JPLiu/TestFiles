@@ -16,6 +16,8 @@ log-level: {{ default(global.clash.log_level, "info") }}
 
 external-controller: 127.0.0.1:9090
 external-ui: Dashboard
+# Clash.Meta 可用规则
+geodata-mode: true
 
 {% if default(request.clash.dns, "") == "1" %}
 dns:
