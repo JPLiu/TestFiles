@@ -16,6 +16,8 @@ log-level: {{ default(global.clash.log_level, "info") }}
 
 external-controller: 127.0.0.1:9090
 external-ui: Dashboard
+# Clash.Meta 可用规则
+geodata-mode: true
 
 {% if default(request.clash.dns, "") == "1" %}
 dns:
@@ -30,6 +32,19 @@ rules: ~
 Proxy: ~
 Proxy Group: ~
 Rule: ~
+
+  - GEOSITE,category-ads-all,REJECT
+  - GEOSITE,icloud@cn,DIRECT
+  - GEOSITE,apple@cn,DIRECT
+  - GEOSITE,apple-cn,DIRECT
+  - GEOSITE,microsoft@cn,DIRECT
+  - GEOSITE,facebook,PROXY
+  - GEOSITE,youtube,PROXY
+  - GEOSITE,geolocation-cn,DIRECT
+  - GEOSITE,geolocation-!cn,PROXY
+  - GEOIP,telegram,PROXY,no-resolve
+  - GEOIP,private,DIRECT,no-resolve
+  - GEOIP,cn,DIRECT
 {% endif %}
 
 {% endif %}
