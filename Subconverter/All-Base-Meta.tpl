@@ -28,11 +28,6 @@ dns:
 proxies: ~
 proxy-groups: ~
 rules: ~
-{% else %}
-Proxy: ~
-Proxy Group: ~
-Rule: ~
-
   - GEOSITE,category-ads-all,REJECT
   - GEOSITE,icloud@cn,DIRECT
   - GEOSITE,apple@cn,DIRECT
@@ -45,6 +40,10 @@ Rule: ~
   - GEOIP,telegram,PROXY,no-resolve
   - GEOIP,private,DIRECT,no-resolve
   - GEOIP,cn,DIRECT
+{% else %}
+Proxy: ~
+Proxy Group: ~
+Rule: ~
 {% endif %}
 
 {% endif %}
