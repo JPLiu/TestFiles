@@ -1634,10 +1634,13 @@ DOMAIN-SUFFIX,zzy1.quyaoya.com
 DOMAIN,adsmind.apdcdn.tc.qq.com
 DOMAIN,adsmind.gdtimg.com
 DOMAIN,adsmind.tc.qq.com
+DOMAIN,appcloud2.in.zhihu.com
+DOMAIN,mqtt.zhihu.com
 DOMAIN,pgdt.gtimg.cn
 DOMAIN,pgdt.gtimg.com
 DOMAIN,pgdt.ugdtimg.com
 DOMAIN,splashqqlive.gtimg.com
+DOMAIN,sugar.zhihu.com
 DOMAIN,wa.gtimg.com
 DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,wxsnsdythumb.wxs.qq.com
@@ -1647,6 +1650,7 @@ IP-CIDR,101.227.200.28/32
 IP-CIDR,101.227.97.240/32
 IP-CIDR,117.177.248.17/32
 IP-CIDR,117.177.248.41/32
+IP-CIDR,118.89.204.198/32
 IP-CIDR,124.192.153.42/32
 IP-CIDR,223.87.176.139/32
 IP-CIDR,223.87.176.176/32
@@ -1660,3 +1664,4 @@ IP-CIDR,223.87.182.101/32
 IP-CIDR,223.87.182.102/32
 IP-CIDR,223.87.182.11/32
 IP-CIDR,223.87.182.52/32
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
