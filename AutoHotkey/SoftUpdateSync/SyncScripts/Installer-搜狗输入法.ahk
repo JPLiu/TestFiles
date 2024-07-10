@@ -21,4 +21,31 @@ If FileExist( ExeFileName )
     FileMove SoftNameExe, ExePath . "*.*", 1
 }
 
+
+SoftName := "搜狗拼音词库"
+SoftNameBin := SoftName . ".bin"
+BinFileName := "搜狗词库备份_*.bin"
+ExePath := InstallerBakPath . "\输入法\"
+
+SetWorkingDir DownloadPath
+
+If FileExist( BinFileName )
+{
+    FileMove BinFileName, SoftNameBin, 0
+    FileMove SoftNameBin, ExePath . "*.*", 1
+}
+
+SoftName := "Sogou-PhraseEdit"
+SoftNameTxt := SoftName . ".txt"
+TxtFileName := "PhraseEdit.txt"
+ExePath := InstallerBakPath . "\输入法\"
+
+SetWorkingDir DownloadPath
+
+If FileExist( TxtFileName )
+{
+    FileMove TxtFileName, SoftNameTxt, 0
+    FileMove SoftNameTxt, ExePath . "*.*", 1
+}
+
 ; vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
