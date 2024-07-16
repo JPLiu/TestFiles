@@ -54,6 +54,11 @@ DOMAIN-SUFFIX,oaiusercontent.com
 #-----SSS
 
 #-----TTT
+# Tiktok
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-KEYWORD,tiktokv
+DOMAIN-KEYWORD,tiktokcdn
+DOMAIN-KEYWORD,ttwstatic
 
 #-----UUU
 
