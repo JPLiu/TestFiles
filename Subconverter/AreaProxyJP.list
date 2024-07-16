@@ -55,8 +55,9 @@ DOMAIN-SUFFIX,oaiusercontent.com
 
 #-----TTT
 # Tiktok https://www.tiktok.com/
-DOMAIN-SUFFIX,tiktok.com
+DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,tiktokv
+DOMAIN-KEYWORD,tiktokw
 DOMAIN-KEYWORD,tiktokcdn
 DOMAIN-KEYWORD,ttwstatic
 
