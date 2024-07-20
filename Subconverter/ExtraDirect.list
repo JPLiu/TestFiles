@@ -189,27 +189,16 @@ DOMAIN-KEYWORD,dmzj
 
 #-----FFF
 
-# Firefox
 # Flowchart.fun https://flowchart.fun
 DOMAIN-SUFFIX,flowchart.fun
 
 #-----GGG
 
-# 稿定设计 https://ps.gaoding.com/
-DOMAIN-SUFFIX,gaoding.com
-
 # 极客公园 https://www.geekpark.net/
 DOMAIN-SUFFIX,geekpark.net
 
-# GitMind https://gitmind.cn/
-DOMAIN-SUFFIX,apowersoft.com
-DOMAIN-SUFFIX,gitmind.cn
-
 # Go2Think https://go2think.com/
 DOMAIN,go2think.com
-
-# 果壳网 https://www.guokr.com/
-DOMAIN-SUFFIX,guokr.com
 
 #-----HHH
 
@@ -223,9 +212,6 @@ DOMAIN-SUFFIX,hifini.com
 
 # 异次元软件世界 https://www.iplaysoft.com/
 DOMAIN-SUFFIX,iplaysoft.com
-
-# 旅法师营地 https://www.iyingdi.com/
-DOMAIN-SUFFIX,iyingdi.com
 
 #-----JJJ
 
@@ -264,12 +250,6 @@ DOMAIN-SUFFIX,oldmantvg.net
 
 #-----PPP
 
-# PhotoKit https://photokit.com/?lang=zh
-DOMAIN-SUFFIX,photokit.com
-
-# Process ON https://www.processon.com/
-DOMAIN-SUFFIX,processon.com
-
 #-----QQQ
 
 #-----RRR
@@ -288,9 +268,6 @@ DOMAIN-SUFFIX,runningcheese.com
 
 # 六音软件 https://www.sixyin.com/
 DOMAIN-SUFFIX,sixyin.com
-
-# Skywind Inside https://www.skywind.me/
-DOMAIN-SUFFIX,skywind.me
 
 # 什么值得买 https://www.smzdm.com/
 DOMAIN-SUFFIX,zdmimg.com
@@ -319,9 +296,6 @@ DOMAIN-SUFFIX,yianwillis.github.io
 
 # WeChat2Rss https://wechat2rss.xlab.app/
 DOMAIN-SUFFIX,wechat2rss.xlab.app
-
-# 扯氮集 http://weiwuhui.com
-DOMAIN-SUFFIX,weiwuhui.com
 
 # WeRss https://werss.app/
 DOMAIN-SUFFIX,cdn.weapp.design
