@@ -77,16 +77,6 @@ DOMAIN-KEYWORD,alicloud
 DOMAIN-KEYWORD,alikunlun
 DOMAIN-KEYWORD,aliyun
 DOMAIN-KEYWORD,taobao
-DOMAIN-SUFFIX,etao.com
-DOMAIN-SUFFIX,yitao.com
-
-# Bank
-DOMAIN-KEYWORD,drcbank
-DOMAIN-SUFFIX,ccb.com
-DOMAIN-SUFFIX,21tb.com
-DOMAIN-SUFFIX,china-cbi.net
-DOMAIN-SUFFIX,csslcloud.net
-DOMAIN-SUFFIX,xueyanshe.com
 
 # Computer Manufacturers
 DOMAIN-KEYWORD,lenovo
@@ -113,25 +103,10 @@ DOMAIN-SUFFIX,stackexchange.com
 # Trackerslists
 DOMAIN-SUFFIX,trackerslist.com
 
-# Xiaomi / Huami / 金山
-DOMAIN-KEYWORD,ksord
-DOMAIN-KEYWORD,kssdata
-DOMAIN-SUFFIX,huami.com
-DOMAIN-SUFFIX,kuaipandata.com
-DOMAIN-SUFFIX,mi-cache.com
-DOMAIN-SUFFIX,mi-cdn.com
-DOMAIN-SUFFIX,mi-idc.com
-
-# USTC Google 字体映射
-DOMAIN-SUFFIX,ustclug.org
-
 # -------------------------------------------------
 # 按网址排序
 
 #-----0-9
-
-# 和彩云 https://c.139.com/
-DOMAIN-SUFFIX,139.com
 
 # 简单动漫 https://www.36dm.org/
 DOMAIN-SUFFIX,36dm.org
@@ -140,9 +115,6 @@ DOMAIN-SUFFIX,36dm.org
 DOMAIN-KEYWORD,52poke
 
 #-----AAA
-
-# ACG漫音社 http://www.acgjc.com/
-DOMAIN-SUFFIX,acgjc.com
 
 # Animex动漫社 http://www.animetox.com/
 DOMAIN-SUFFIX,animetox.com
@@ -169,20 +141,10 @@ DOMAIN-KEYWORD,btbtt
 
 #-----CCC
 
-# Canva https://www.canva.cn/
-DOMAIN-SUFFIX,canva.cn
+# Canva https://www.canva.com/
 DOMAIN-SUFFIX,canva.com
 
-# 博客园 https://www.cnblogs.com/
-DOMAIN-KEYWORD,cnblogs
-
 #-----DDD
-
-# Dida365 滴答清单 https://www.dida365.com/
-DOMAIN-KEYWORD,dida365
-
-# 动漫之家 https://manhua.dmzj.com/
-DOMAIN-KEYWORD,dmzj
 
 #-----EEE
 
@@ -192,9 +154,6 @@ DOMAIN-KEYWORD,dmzj
 DOMAIN-SUFFIX,flowchart.fun
 
 #-----GGG
-
-# 极客公园 https://www.geekpark.net/
-DOMAIN-SUFFIX,geekpark.net
 
 # Go2Think https://go2think.com/
 DOMAIN,go2think.com
