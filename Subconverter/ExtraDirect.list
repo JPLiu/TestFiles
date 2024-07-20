@@ -4,7 +4,6 @@
 
 # cdn
 DOMAIN-KEYWORD,cdnbye
-DOMAIN-KEYWORD,hdslb
 DOMAIN-KEYWORD,ourdvsss
 DOMAIN-SUFFIX,cdn-tech.io
 DOMAIN-SUFFIX,cdndm5.com
@@ -210,9 +209,6 @@ DOMAIN-SUFFIX,hifini.com
 
 #-----III
 
-# 异次元软件世界 https://www.iplaysoft.com/
-DOMAIN-SUFFIX,iplaysoft.com
-
 #-----JJJ
 
 # 鸠摩搜索 https://www.jiumodiary.com/
@@ -220,14 +216,7 @@ DOMAIN-SUFFIX,jiumodiary.com
 
 #-----KKK
 
-# Kimi.ai https://kimi.moonshot.cn/
-DOMAIN-SUFFIX,volces.com
-
 #-----LLL
-
-# 蓝点网 https://www.landiannews.com
-DOMAIN-KEYWORD,landiannews
-DOMAIN-SUFFIX,landian.vip
 
 # 轻之国度 https://www.lightnovel.us（Direct 访问慢）
 DOMAIN-KEYWORD,lightnovel
@@ -261,16 +250,10 @@ DOMAIN-SUFFIX,jquerycdns.com
 # RssEverything https://rsseverything.com/dashboard
 DOMAIN-SUFFIX,rsseverything.com
 
-# 奔跑中的奶酪 https://www.runningcheese.com/
-DOMAIN-SUFFIX,runningcheese.com
-
 #-----SSS
 
 # 六音软件 https://www.sixyin.com/
 DOMAIN-SUFFIX,sixyin.com
-
-# 什么值得买 https://www.smzdm.com/
-DOMAIN-SUFFIX,zdmimg.com
 
 # 字幕库 https://srtku.com
 DOMAIN-KEYWORD,srtku
@@ -288,9 +271,6 @@ DOMAIN-KEYWORD,aqours
 #-----UUU
 
 #-----VVV
-
-# Vim 帮助 https://yianwillis.github.io/vimcdoc/doc/index.html
-DOMAIN-SUFFIX,yianwillis.github.io
 
 #-----WWW
 
@@ -316,9 +296,6 @@ DOMAIN-KEYWORD,xingkbjm
 DOMAIN-SUFFIX,xbeta.info
 
 #-----YYY
-
-# 永硕E盘 http://www.ys168.com/
-DOMAIN-SUFFIX,ysepan.com
 
 # YuC's AnimeList https://yuc.wiki/
 DOMAIN-SUFFIX,yuc.wiki
