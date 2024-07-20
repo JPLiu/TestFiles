@@ -180,10 +180,10 @@ DOMAIN-KEYWORD,cnblogs
 #-----DDD
 
 # Dida365 滴答清单 https://www.dida365.com/
-DOMAIN-SUFFIX,dida365.com
+DOMAIN-KEYWORD,dida365
 
 # 动漫之家 https://manhua.dmzj.com/
-DOMAIN-KEYWORD,dmzj.com
+DOMAIN-KEYWORD,dmzj
 
 #-----EEE
 
@@ -219,9 +219,6 @@ DOMAIN-KEYWORD,hibitsoft
 # 音乐磁场 https://www.hifini.com/
 DOMAIN-SUFFIX,hifini.com
 
-# Tieba Lite
-DOMAIN-SUFFIX,huanchengfly.tk
-
 #-----III
 
 # 异次元软件世界 https://www.iplaysoft.com/
@@ -237,11 +234,6 @@ DOMAIN-SUFFIX,jiumodiary.com
 
 #-----KKK
 
-# 毕马威洞察 https://home.kpmg/cn/zh/home/insights.html
-DOMAIN-KEYWORD,kpmg
-DOMAIN-SUFFIX,gigya-ext.com
-DOMAIN-SUFFIX,gigya.com
-
 # Kimi.ai https://kimi.moonshot.cn/
 DOMAIN-SUFFIX,volces.com
 
@@ -255,9 +247,6 @@ DOMAIN-SUFFIX,landian.vip
 DOMAIN-KEYWORD,lightnovel
 
 #-----MMM
-
-# Rom Patch JS https://marcrobledo.com/
-DOMAIN-SUFFIX,marcrobledo.com
 
 # 蜜柑计划 https://mikanime.tv/ 国内站
 DOMAIN-SUFFIX,mikanime.tv
@@ -319,9 +308,6 @@ DOMAIN-SUFFIX,mengniang.org
 DOMAIN-SUFFIX,mikudm.net
 DOMAIN-KEYWORD,aqours
 
-# 科技推酷 https://www.tuicool.com/
-DOMAIN-SUFFIX,tuicool.com
-
 #-----UUU
 
 #-----VVV
@@ -357,11 +343,6 @@ DOMAIN-SUFFIX,xbeta.info
 
 #-----YYY
 
-# YGOPro https://ygo233.com/
-DOMAIN-SUFFIX,ygo233.com
-DOMAIN-KEYWORD,livere
-DOMAIN-KEYWORD,readthedocs
-
 # 永硕E盘 http://www.ys168.com/
 DOMAIN-SUFFIX,ysepan.com
 
@@ -372,7 +353,4 @@ DOMAIN-SUFFIX,yuc.wiki
 
 # 贼吧网 https://www.zei8.vip/
 DOMAIN-SUFFIX,zei8.vip
-
-# 知轩藏书 http://www.zxcs.me/
-DOMAIN-SUFFIX,zxcs.me
 
