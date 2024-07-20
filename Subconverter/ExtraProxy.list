@@ -292,9 +292,6 @@ DOMAIN-SUFFIX,rss.lilydjwg.me
 # 真白萌 https://masiro.moe 偶发异常
 DOMAIN-KEYWORD,masiro
 
-# Sabrina的万事屋 https://merlinblog.xyz/
-DOMAIN-SUFFIX,merlinblog.xyz
-
 # MioBT https://www.miobt.com/
 DOMAIN-SUFFIX,miobt.com
 
@@ -324,16 +321,13 @@ DOMAIN-SUFFIX,onehu.xyz
 # PanSci https://pansci.asia/
 DOMAIN-SUFFIX,pansci.asia
 
-# PDFtk https://www.pdflabs.com/
-DOMAIN-SUFFIX,pdflabs.com
-
 # PhotoDemon https://photodemon.org/
 DOMAIN-SUFFIX,photodemon.org
 
 # 电脑玩物 https://www.playpcesor.com
 DOMAIN-SUFFIX,playpcesor.com
 
-PolitePol https://politepol.com/en/
+# PolitePol https://politepol.com/en/
 DOMAIN-SUFFIX,politepol.com
 
 # Portableapps https://portableapps.com/
