@@ -211,9 +211,6 @@ DOMAIN-SUFFIX,na.cx
 
 #-----FFF
 
-# F-droid https://f-droid.org/
-DOMAIN-SUFFIX,f-droid.org
-
 # FatSecret https://www.fatsecret.cn
 DOMAIN-KEYWORD,fatsecret
 
@@ -223,18 +220,14 @@ DOMAIN-SUFFIX,feedx.net
 # FetchRSS https://fetchrss.com/
 DOMAIN-SUFFIX,fetchrss.com
 
-# FFmpeg https://ffmpeg.org/
-DOMAIN-KEYWORD,ffmpeg
-
 # Firefox
 DOMAIN-KEYWORD,firefox
 DOMAIN-KEYWORD,mozilla
 # Firefox Addon
 # Firefox 暴力猴
 # https://greasyfork.org/zh-CN
-DOMAIN-SUFFIX,greasyfork.org
 # https://sleazyfork.org/zh-CN
-DOMAIN-SUFFIX,sleazyfork.org
+DOMAIN-KEYWORD,yfork.org
 # Firefox ClearURLs
 DOMAIN-SUFFIX,clearurls.xyz
 # Firefox DarkReader
@@ -280,7 +273,7 @@ DOMAIN-KEYWORD,irfanview
 #-----KKK
 
 # KeePass https://keepass.info/
-DOMAIN-SUFFIX,keepass.info
+DOMAIN-KEYWORD,keepass
 
 #-----LLL
 
@@ -296,7 +289,7 @@ DOMAIN-KEYWORD,masiro
 DOMAIN-SUFFIX,miobt.com
 
 # Mixplorer
-DOMAIN-SUFFIX,mixplorer.com
+DOMAIN-KEYWORD,mixplorer
 
 # Monica https://monica.im/zh_CN/home
 DOMAIN-SUFFIX,monica.im
