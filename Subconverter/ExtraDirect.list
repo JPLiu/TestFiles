@@ -81,15 +81,13 @@ DOMAIN-KEYWORD,taobao
 DOMAIN-SUFFIX,etao.com
 DOMAIN-SUFFIX,yitao.com
 
-# Drcbank
+# Bank
 DOMAIN-KEYWORD,drcbank
+DOMAIN-SUFFIX,ccb.com
 DOMAIN-SUFFIX,21tb.com
 DOMAIN-SUFFIX,china-cbi.net
 DOMAIN-SUFFIX,csslcloud.net
 DOMAIN-SUFFIX,xueyanshe.com
-
-# Other Bank
-DOMAIN-SUFFIX,ccb.com
 
 # Computer Manufacturers
 DOMAIN-KEYWORD,lenovo
@@ -135,10 +133,6 @@ DOMAIN-SUFFIX,ustclug.org
 
 # 和彩云 https://c.139.com/
 DOMAIN-SUFFIX,139.com
-
-# 2dfan https://2dfan.org
-DOMAIN-KEYWORD,2dfan
-DOMAIN-SUFFIX,achost.top
 
 # 简单动漫 https://www.36dm.org/
 DOMAIN-SUFFIX,36dm.org

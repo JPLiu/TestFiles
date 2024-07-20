@@ -93,6 +93,10 @@ DOMAIN-SUFFIX,asjmapihost.cc
 DOMAIN-SUFFIX,cdn-msp.cheaperapp1.work
 DOMAIN-SUFFIX,cdn-msp.msp.comic1.xyz
 
+# 2dfan https://2dfan.org
+DOMAIN-KEYWORD,2dfan
+DOMAIN-SUFFIX,achost.top
+
 # Amazon
 DOMAIN-KEYWORD,amazonaws
 
