@@ -74,8 +74,11 @@ $removeparam=utm_oi
 ||m.baidu.com^$removeparam=usm
 ||m.baidu.com^$removeparam=vfeed
 
+!#if !env_mobile
+! 以下两条会导致移动端跳转失败，需设置生效范围。。
 ||tieba.baidu.com^$removeparam=fr
 ||tieba.baidu.com^$removeparam=frwh
+!#endif
 ||tieba.baidu.com^$removeparam=red_tag
 ||tieba.baidu.com^$removeparam=t
 ||tieba.baidu.com^$removeparam=u
