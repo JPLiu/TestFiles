@@ -48,7 +48,8 @@ $removeparam=utm_oi
 ||baidu.com^$removeparam=issp
 ||baidu.com^$removeparam=prefixsug
 ||baidu.com^$removeparam=rsp
-||baidu.com^$removeparam=tn
+! 以下规则将导致搜索结果页，无法点击切换至图片搜索。
+! ||baidu.com^$removeparam=tn
 
 ||baike.baidu.com^$removeparam=/^fromModule/
 ||baike.baidu.com^$removeparam=bk_fr

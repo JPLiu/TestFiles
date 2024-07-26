@@ -48,7 +48,8 @@ $removeparam=utm_oi
 ||baidu.com^$removeparam=issp
 ||baidu.com^$removeparam=prefixsug
 ||baidu.com^$removeparam=rsp
-||baidu.com^$removeparam=tn
+! 以下规则将导致搜索结果页，无法点击切换至图片搜索。
+! ||baidu.com^$removeparam=tn
 
 ||baike.baidu.com^$removeparam=/^fromModule/
 ||baike.baidu.com^$removeparam=bk_fr
@@ -74,8 +75,11 @@ $removeparam=utm_oi
 ||m.baidu.com^$removeparam=usm
 ||m.baidu.com^$removeparam=vfeed
 
+!#if !env_mobile
+! 以下两条会导致移动端跳转失败，需设置生效范围。。
 ||tieba.baidu.com^$removeparam=fr
 ||tieba.baidu.com^$removeparam=frwh
+!#endif
 ||tieba.baidu.com^$removeparam=red_tag
 ||tieba.baidu.com^$removeparam=t
 ||tieba.baidu.com^$removeparam=u
