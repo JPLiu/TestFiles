@@ -43,13 +43,17 @@ $removeparam=utm_oi
 ! baidu
 ||baidu.com^$removeparam=/^rsv_/
 ||baidu.com^$removeparam=f
-||baidu.com^$removeparam=ie
 ||baidu.com^$removeparam=inputT
 ||baidu.com^$removeparam=issp
 ||baidu.com^$removeparam=prefixsug
 ||baidu.com^$removeparam=rsp
+
 ! 以下规则将导致搜索结果页，无法点击切换至图片搜索。
 ! ||baidu.com^$removeparam=tn
+
+! 以下规则将导致贴吧吧内搜索页搜索中文异常，添加排除。
+||baidu.com^$removeparam=ie
+@@||tieba.baidu.com/f/search$removeparam
 
 ||baike.baidu.com^$removeparam=/^fromModule/
 ||baike.baidu.com^$removeparam=bk_fr
