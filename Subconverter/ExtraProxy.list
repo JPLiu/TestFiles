@@ -1,5 +1,10 @@
 # Extra Proxy List
 
+# 通用调用列表
+
+# https://hanime1.me/
+DOMAIN-KEYWORD,fontawesome
+
 # Area List
 DOMAIN-SUFFIX,au
 DOMAIN-SUFFIX,br
@@ -19,8 +24,6 @@ DOMAIN-SUFFIX,sg
 DOMAIN-SUFFIX,st
 DOMAIN-SUFFIX,su
 DOMAIN-SUFFIX,tf
-
-# Public Resource
 
 # -------------------------------------------------
 # 按首字母排序
@@ -267,6 +270,7 @@ DOMAIN-SUFFIX,rarlab.com
 
 # RSSEverything https://rss.stephenslab.top/login
 DOMAIN,rss.stephenslab.top
+DOMAIN-SUFFIX,fonts.bunny.net
 
 # RSSHub https://docs.rsshub.app/
 DOMAIN-KEYWORD,diygay
@@ -288,6 +292,7 @@ DOMAIN-SUFFIX,exe.io
 
 # Sumatra PDF https://www.sumatrapdfreader.org/
 DOMAIN-SUFFIX,sumatrapdfreader.org
+DOMAIN-SUFFIX,unavatar.io
 
 #-----TTT
 

@@ -2,6 +2,10 @@
 
 # 通用调用列表
 
+# https://hanime1.me/
+DOMAIN-KEYWORD,hembed
+DOMAIN-KEYWORD,imgbox
+
 # -------------------------------------------------
 # 按网址排序
 
@@ -22,9 +26,6 @@ DOMAIN-KEYWORD,66dm
 DOMAIN-KEYWORD,76dm
 DOMAIN-KEYWORD,86dm
 DOMAIN-KEYWORD,96dm
-# 关联资源
-DOMAIN-SUFFIX,dm569.com
-DOMAIN-SUFFIX,mij.rip
 
 #-----AAA
 
@@ -78,9 +79,6 @@ DOMAIN-KEYWORD,missav
 #-----SSS
 
 #-----TTT
-
-# 吐槽弹幕网 https://www.tucao.buzz/
-DOMAIN-KEYWORD,tucao
 
 #-----UUU
 
