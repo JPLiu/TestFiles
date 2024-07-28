@@ -2,6 +2,9 @@
 
 # Public Resource
 
+# http://www.animetox.com/
+DOMAIN-SUFFIX,geekzu.org
+
 # -------------------------------------------------
 
 # 按首字母排序
@@ -46,8 +49,6 @@ DOMAIN-KEYWORD,52poke
 # Animex动漫社 http://www.animetox.com/
 DOMAIN-SUFFIX,animetox.com
 DOMAIN-SUFFIX,addtoany.com
-# Relate
-DOMAIN-SUFFIX,geekzu.org
 
 # AnyFeeder https://plink.anyfeeder.com/
 DOMAIN-SUFFIX,anyfeeder.com
