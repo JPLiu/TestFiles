@@ -3,11 +3,13 @@
 # Public Resource
 
 # cdn
-DOMAIN-KEYWORD,ourdvsss
-DOMAIN-SUFFIX,cdn-tech.io
+# https://cdndm5.com/
 DOMAIN-SUFFIX,cdndm5.com
-DOMAIN-SUFFIX,dogecdn.com
+# http://www.dogecdn.com/
+DOMAIN-KEYWORD,dogecdn
+# https://ibruce.info/
 DOMAIN-SUFFIX,ibruce.info
+# https://loli.net/
 DOMAIN-SUFFIX,loli.net
 
 # js
@@ -19,9 +21,6 @@ DOMAIN-SUFFIX,mathjax.org
 
 # mobile
 DOMAIN-SUFFIX,avoscloud.com
-
-# chat
-DOMAIN-SUFFIX,crisp.chat
 
 # font
 DOMAIN-SUFFIX,fontlibrary.org
