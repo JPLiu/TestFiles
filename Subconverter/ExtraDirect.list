@@ -3,7 +3,6 @@
 # Public Resource
 
 # cdn
-DOMAIN-KEYWORD,cdnbye
 DOMAIN-KEYWORD,ourdvsss
 DOMAIN-SUFFIX,cdn-tech.io
 DOMAIN-SUFFIX,cdndm5.com
@@ -13,7 +12,6 @@ DOMAIN-SUFFIX,loli.net
 
 # js
 DOMAIN-SUFFIX,js.queqh.com
-DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,ravenjs.com
 
 # mathjax
@@ -133,12 +131,6 @@ DOMAIN-SUFFIX,autohotkey.com
 
 #-----BBB
 
-# Bangumi 番组计划 http://bgm.tv/ (部分网页会引用，如 acgdog)
-DOMAIN-SUFFIX,bgm.tv
-
-# BT之家 多域名
-DOMAIN-KEYWORD,btbtt
-
 #-----CCC
 
 # Canva https://www.canva.com/
@@ -211,9 +203,6 @@ DOMAIN-SUFFIX,rsseverything.com
 
 #-----SSS
 
-# 六音软件 https://www.sixyin.com/
-DOMAIN-SUFFIX,sixyin.com
-
 # 字幕库 https://srtku.com
 DOMAIN-KEYWORD,srtku
 
@@ -262,5 +251,5 @@ DOMAIN-SUFFIX,yuc.wiki
 #-----ZZZ
 
 # 贼吧网 https://www.zei8.vip/
-DOMAIN-SUFFIX,zei8.vip
+DOMAIN-KEYWORD,zei8
 

@@ -53,7 +53,7 @@ DOMAIN-SUFFIX,mij.rip
 
 #-----BBB
 
-# 番组计划 https://bangumi.tv/ 或 https://bgm.tv/
+# 番组计划 https://bangumi.tv/ 或 https://bgm.tv/ 部分网站会引用资源
 DOMAIN-SUFFIX,bangumi.tv
 DOMAIN-SUFFIX,bgm.tv
 
