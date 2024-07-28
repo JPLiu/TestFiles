@@ -62,14 +62,14 @@ DOMAIN-KEYWORD,mcar
 
 # 雅图 http://www.yatu.tv
 DOMAIN-SUFFIX,yatu.tv
-
-# 樱花动漫 http://www.iyinghua.io/
-DOMAIN-KEYWORD,iyinghua
-
-# 怡萱动漫 https://www.iyxdm.cc/
-DOMAIN-KEYWORD,yxdm
-
+# Relate
+DOMAIN-KEYWORD,jiashule
+# http://www.yatu.tv:2082/m04568/play0-1.html
+DOMAIN-SUFFIX,77flv.cc
+DOMAIN-SUFFIX,m3u8.pw
+DOMAIN-SUFFIX,ppflv.com
+DOMAIN-SUFFIX,xmflv.com
+DOMAIN-SUFFIX,jn1.cc
+DOMAIN-SUFFIX,2s0.cn
 #-----ZZZ
 
-# ZzzFun 动漫视频网 http://www.zzzfun.one/
-DOMAIN-KEYWORD,zzzfun
