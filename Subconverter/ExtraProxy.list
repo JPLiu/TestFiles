@@ -43,6 +43,9 @@ DOMAIN-SUFFIX,byteintlapi.com
 DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,ttwstatic.com
 
+# Cloudflare
+DOMAIN-KEYWORD,cloudflare
+
 # Blogspot
 DOMAIN-KEYWORD,blogblog
 

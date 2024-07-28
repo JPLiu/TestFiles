@@ -30,12 +30,6 @@ DOMAIN-KEYWORD,wakamoment
 DOMAIN-KEYWORD,wikawika
 IP-CIDR,104.20.180.50/32,no-resolve
 
-# Sina
-DOMAIN-SUFFIX,sinaedge.com
-
-# Stack Exchange
-DOMAIN-SUFFIX,stackexchange.com
-
 # Trackerslists
 DOMAIN-SUFFIX,trackerslist.com
 
@@ -43,9 +37,6 @@ DOMAIN-SUFFIX,trackerslist.com
 # 按网址排序
 
 #-----0-9
-
-# 简单动漫 https://www.36dm.org/
-DOMAIN-SUFFIX,36dm.org
 
 # 神奇宝贝百科 https://wiki.52poke.com
 DOMAIN-KEYWORD,52poke
@@ -55,6 +46,8 @@ DOMAIN-KEYWORD,52poke
 # Animex动漫社 http://www.animetox.com/
 DOMAIN-SUFFIX,animetox.com
 DOMAIN-SUFFIX,addtoany.com
+# Relate
+DOMAIN-SUFFIX,geekzu.org
 
 # AnyFeeder https://plink.anyfeeder.com/
 DOMAIN-SUFFIX,anyfeeder.com
