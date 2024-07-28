@@ -31,9 +31,6 @@ DOMAIN-SUFFIX,jsdelivr.net
 
 #-----MMM
 
-# Mozilla 修正国内限制下载 uBlock Origin 等扩展
-DOMAIN-SUFFIX,addons.mozilla.org
-
 #-----NNN
 
 #-----OOO

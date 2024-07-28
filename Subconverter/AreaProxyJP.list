@@ -19,10 +19,7 @@
 #-----HHH
 
 # HatenaBlog https://hatenablog.com/
-DOMAIN-SUFFIX,hatenablog.com
-DOMAIN-SUFFIX,hatena.com
-DOMAIN-SUFFIX,st-hatena.com
-DOMAIN-SUFFIX,line-website.com
+DOMAIN-KEYWORD,hatena
 
 
 #-----III
@@ -32,6 +29,9 @@ DOMAIN-SUFFIX,line-website.com
 #-----KKK
 
 #-----LLL
+
+# Line
+DOMAIN-KEYWORD,line-website
 
 #-----MMM
 
