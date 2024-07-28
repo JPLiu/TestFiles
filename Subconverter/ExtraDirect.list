@@ -2,67 +2,6 @@
 
 # Public Resource
 
-# cdn
-# https://cdndm5.com/
-DOMAIN-SUFFIX,cdndm5.com
-# http://www.dogecdn.com/
-DOMAIN-KEYWORD,dogecdn
-# https://ibruce.info/
-DOMAIN-SUFFIX,ibruce.info
-# https://loli.net/
-DOMAIN-SUFFIX,loli.net
-
-# js
-DOMAIN-SUFFIX,js.queqh.com
-DOMAIN-SUFFIX,ravenjs.com
-
-# mathjax
-DOMAIN-SUFFIX,mathjax.org
-
-# mobile
-DOMAIN-SUFFIX,avoscloud.com
-
-# font
-DOMAIN-SUFFIX,fontlibrary.org
-DOMAIN-SUFFIX,geekzu.org
-DOMAIN-SUFFIX,typesquare.com
-
-# icon
-DOMAIN-SUFFIX,szfw.org
-
-# git 代理
-DOMAIN-SUFFIX,ghproxy.com
-
-# icon
-DOMAIN-SUFFIX,materialdesignicons.com
-
-# pic
-DOMAIN-KEYWORD,imagebam
-DOMAIN-KEYWORD,imgix
-DOMAIN-KEYWORD,imgscloud
-DOMAIN-KEYWORD,sinaimg
-DOMAIN-KEYWORD,tinypic
-DOMAIN-KEYWORD,turboimagehost
-DOMAIN-SUFFIX,100024.xyz
-DOMAIN-SUFFIX,23img.com
-DOMAIN-SUFFIX,acgmh.com
-DOMAIN-SUFFIX,ax1x.com
-DOMAIN-SUFFIX,bmp.ovh
-DOMAIN-SUFFIX,boxmoe.com
-DOMAIN-SUFFIX,downk.cc
-DOMAIN-SUFFIX,helloimg.com
-DOMAIN-SUFFIX,ibb.co
-DOMAIN-SUFFIX,imageupload.net
-DOMAIN-SUFFIX,imgbox.com
-DOMAIN-SUFFIX,imgurl.org
-DOMAIN-SUFFIX,mjj.rip
-DOMAIN-SUFFIX,nekomoe.pages.dev
-DOMAIN-SUFFIX,niupic.com
-DOMAIN-SUFFIX,pangci.cc
-DOMAIN-SUFFIX,sda1.dev
-DOMAIN-SUFFIX,upload.cc
-DOMAIN-SUFFIX,z4a.net
-
 # -------------------------------------------------
 
 # 按首字母排序

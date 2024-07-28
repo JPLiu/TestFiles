@@ -1,34 +1,11 @@
 # Extra Proxy List
 
 # 通用调用列表
-DOMAIN-KEYWORD,thisiscdn
-DOMAIN-KEYWORD,youjizz
-DOMAIN-SUFFIX,akamai-cdn-content.com
-DOMAIN-SUFFIX,akamai-images-content.com
-DOMAIN-SUFFIX,dood.video
-DOMAIN-SUFFIX,dood.ws
-DOMAIN-SUFFIX,doodcdn.co
-DOMAIN-SUFFIX,fluidplayer.com
-DOMAIN-SUFFIX,jwpcdn.com
-DOMAIN-SUFFIX,playerclouds.com
-DOMAIN-SUFFIX,playercloudsfluid.com
 
 # -------------------------------------------------
 # 按网址排序
 
 #-----0-9
-
-# 18av http://18av.mm-cg.com/
-# 主站
-DOMAIN-SUFFIX,18av.tv
-DOMAIN-SUFFIX,18h.tv
-DOMAIN-SUFFIX,mm-cg.com
-DOMAIN-SUFFIX,mm-cgnews.com
-# CDN
-DOMAIN-SUFFIX,ccmma18.com
-DOMAIN-SUFFIX,ddhft18.com
-DOMAIN-SUFFIX,eeryt18.com
-DOMAIN-SUFFIX,kk9984.pw
 
 # 樱花动漫 https://www.916dm.fans/
 # 发布页

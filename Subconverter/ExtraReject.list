@@ -8,9 +8,6 @@
 
 #-----CCC
 
-# Consensu
-DOMAIN-SUFFIX,consensu.org
-
 #-----DDD
 
 #-----EEE
@@ -30,18 +27,13 @@ DOMAIN-SUFFIX,gd165.com
 
 #-----HHH
 
-# Hanime1
-DOMAIN-SUFFIX,impactserving.com
-DOMAIN-SUFFIX,realsrv.com
-
 #-----III
 
 #-----JJJ
 
 # JMComic
 DOMAIN-KEYWORD,adserver
-DOMAIN-SUFFIX,adserver.juicyads.com
-DOMAIN-SUFFIX,poweredby.jads.co
+DOMAIN-KEYWORD,jads
 
 #-----KKK
 

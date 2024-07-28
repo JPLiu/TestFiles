@@ -22,66 +22,6 @@ DOMAIN-SUFFIX,tf
 
 # Public Resource
 
-# cdn
-DOMAIN-KEYWORD,azioncdn
-DOMAIN-KEYWORD,blazingcdn
-DOMAIN-KEYWORD,cloudflare
-DOMAIN-KEYWORD,yjcontentdelivery
-DOMAIN-SUFFIX,consentmanager.net
-DOMAIN-SUFFIX,doracdn.com
-DOMAIN-SUFFIX,file-static.com
-DOMAIN-SUFFIX,oktacdn.com
-DOMAIN-SUFFIX,static-file.com
-DOMAIN-SUFFIX,unpkg.com
-
-# font
-DOMAIN-KEYWORD,typekit
-DOMAIN-SUFFIX,cdnfonts.com
-DOMAIN-SUFFIX,fontawesome.com
-DOMAIN-SUFFIX,fonts.bunny.net
-DOMAIN-SUFFIX,justfont.com
-
-# jquery
-DOMAIN-SUFFIX,jquery.com
-
-# likebtn
-DOMAIN-SUFFIX,likebtn.com
-
-# mobile
-DOMAIN-SUFFIX,ionicframework.com
-
-# payment
-DOMAIN-SUFFIX,opencollective.com
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,stripe.network
-DOMAIN-SUFFIX,stripecdn.com
-
-# pic
-DOMAIN-KEYWORD,postimages
-DOMAIN-KEYWORD,postimg
-DOMAIN-SUFFIX,catbox.moe
-DOMAIN-SUFFIX,filesor.com
-DOMAIN-SUFFIX,funkyimg.com
-DOMAIN-SUFFIX,imgur.com
-DOMAIN-SUFFIX,ooo.0x0.ooo
-DOMAIN-SUFFIX,pixabay.com
-DOMAIN-SUFFIX,shkong.com
-DOMAIN-SUFFIX,weserv.nl
-
-# other public
-DOMAIN-SUFFIX,codefactor.io
-DOMAIN-SUFFIX,deepscan.io
-DOMAIN-SUFFIX,web.dev
-
-# 访问验证
-DOMAIN-SUFFIX,braintreegateway.com
-DOMAIN-SUFFIX,hcaptcha.com
-DOMAIN-SUFFIX,musmentportal.com
-
-# Let's Encrypt
-DOMAIN-SUFFIX,lencr.org
-DOMAIN-SUFFIX,letsencrypt.org
-
 # -------------------------------------------------
 # 按首字母排序
 
@@ -89,9 +29,6 @@ DOMAIN-SUFFIX,letsencrypt.org
 DOMAIN-KEYWORD,18comic
 DOMAIN-KEYWORD,18-comic
 DOMAIN-SUFFIX,jm365.work
-DOMAIN-SUFFIX,asjmapihost.cc
-DOMAIN-SUFFIX,cdn-msp.cheaperapp1.work
-DOMAIN-SUFFIX,cdn-msp.msp.comic1.xyz
 
 # 2dfan https://2dfan.org
 DOMAIN-KEYWORD,2dfan
@@ -119,10 +56,6 @@ DOMAIN-KEYWORD,ccsub
 DOMAIN-KEYWORD,cordc
 DOMAIN-KEYWORD,cordcloud
 DOMAIN-KEYWORD,cordcord
-
-# Embedly
-DOMAIN-SUFFIX,embed.ly
-DOMAIN-SUFFIX,embedly.com
 
 # Git
 DOMAIN-KEYWORD,gitbook
