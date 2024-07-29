@@ -62,6 +62,8 @@ DOMAIN-KEYWORD,ccsub
 DOMAIN-KEYWORD,cordc
 DOMAIN-KEYWORD,cordcloud
 DOMAIN-KEYWORD,cordcord
+# Relate
+DOMAIN-SUFFIX,crisp.chat
 
 # Git
 DOMAIN-KEYWORD,gitbook

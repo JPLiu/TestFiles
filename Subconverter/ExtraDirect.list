@@ -5,6 +5,9 @@
 # http://www.animetox.com/
 DOMAIN-SUFFIX,geekzu.org
 
+# https://kimi.moonshot.cn/
+DOMAIN-SUFFIX,volccdn.com
+
 # -------------------------------------------------
 
 # 按首字母排序
@@ -134,6 +137,9 @@ DOMAIN-SUFFIX,jquerycdns.com
 DOMAIN-SUFFIX,rsseverything.com
 
 #-----SSS
+
+# 六音 https://www.sixyin.com
+DOMAIN-SUFFIX,sixyin.com
 
 # 字幕库 https://srtku.com
 DOMAIN-KEYWORD,srtku
