@@ -1,13 +1,14 @@
 {
-  "timeStamp": 1718889893420,
+  "timeStamp": 1722346349220,
   "version": "1.58.0",
   "userSettings": {
     "contextMenuEnabled": false,
-    "externalLists": "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/Liu's-Rule-Group.list\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt",
+    "externalLists": "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/Liu's-Rule-Group.list\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt\nhttps://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
     "importedLists": [
       "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/Liu's-Rule-Group.list",
       "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
-      "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt"
+      "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt",
+      "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt"
     ],
     "popupPanelSections": 31,
     "showIconBadge": false,
@@ -27,10 +28,12 @@
     "urlhaus-1",
     "plowe-0",
     "adguard-cookies",
+    "ublock-cookies-adguard",
     "easylist-annoyances",
     "adguard-mobile-app-banners",
     "ublock-annoyances",
     "CHN-0",
+    "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
     "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
     "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt",
     "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/Liu's-Rule-Group.list"
