@@ -2,15 +2,20 @@
 
 # Resource
 
+# Resource Public CDN
+# https://videojs.com/getting-started/
+DOMAIN-KEYWORD,videojs
+DOMAIN-KEYWORD,zencdn
+
+# Resource Public Font
+# https://fontawesome.com/
+DOMAIN-KEYWORD,fontawesome
+
 # Resource Public Picture
 # https://postimages.org
 DOMAIN-KEYWORD,postimages
 DOMAIN-KEYWORD,postimgs
 # https://share.dmhy.org/
-
-# Resource Public Font
-# https://fontawesome.com/
-DOMAIN-KEYWORD,fontawesome
 
 # Resource Public Others
 # http://www.rays-counter.com/
