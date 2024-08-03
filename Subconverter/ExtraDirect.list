@@ -7,9 +7,23 @@ DOMAIN-SUFFIX,geekzu.org
 # https://kimi.moonshot.cn/
 DOMAIN-SUFFIX,volccdn.com
 
+# Resource CDN
+# https://inn-studio.com/
+DOMAIN-KEYWORD,inn-studio
+# https://share.dmhy.org/
+
+# https://loli.net/
+DOMAIN-SUFFIX,loli.net
+
 # Resource Public Picture
+# https://img.2222.moe/
+DOMAIN-SUFFIX,2222.moe
+
 # https://images.weserv.nl/
 DOMAIN-KEYWORD,weserv
+
+# http://sinaimg.cn/
+DOMAIN-KEYWORD,sinaimg
 
 # -------------------------------------------------
 
