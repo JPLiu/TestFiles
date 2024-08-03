@@ -1,6 +1,7 @@
 # Extra Reject Fix Proxy List
 
-# cdn
+# Resource Public CDN
+# https://www.jsdelivr.com/
 DOMAIN-SUFFIX,jsdelivr.net
 
 #-----0-9

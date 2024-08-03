@@ -1,16 +1,9 @@
 # Extra Direct Media List
 
-# 通用调用列表
-
+# Resource
 # http://www.706dm.com/video/9020.html
 DOMAIN-KEYWORD,yhdmjx
 DOMAIN-KEYWORD,yinghuazy
-
-# http://www.706dm.com/play/9020-1-3.html
-DOMAIN-KEYWORD,default.akamaize
-
-# http://www.yatu.tv:2082/m036669/
-DOMAIN-KEYWORD,jiashule
 
 # http://www.yatu.tv:2082/m04568/play0-1.html
 DOMAIN-SUFFIX,2s0.cn
@@ -19,6 +12,15 @@ DOMAIN-SUFFIX,m3u8.pw
 DOMAIN-SUFFIX,ppflv.com
 DOMAIN-SUFFIX,xmflv.com
 DOMAIN-SUFFIX,jn1.cc
+
+# Resource Public CDN
+# https://www.jiasule.com/
+DOMAIN-KEYWORD,jiashule
+# http://www.yatu.tv:2082/m04568/
+
+# https://www.akamai.com/
+DOMAIN-KEYWORD,default.akamaize
+# http://www.706dm.com/play/9020-1-3.html
 
 # -------------------------------------------------
 # 按网址排序

@@ -1,12 +1,15 @@
 # Extra Direct List
 
-# Public Resource
-
+# Resource
 # http://www.animetox.com/
 DOMAIN-SUFFIX,geekzu.org
 
 # https://kimi.moonshot.cn/
 DOMAIN-SUFFIX,volccdn.com
+
+# Resource Public Picture
+# https://images.weserv.nl/
+DOMAIN-KEYWORD,weserv
 
 # -------------------------------------------------
 
@@ -96,6 +99,9 @@ DOMAIN-SUFFIX,hifini.com
 
 #-----III
 
+# 异次元软件世界 https://www.iplaysoft.com/
+DOMAIN-KEYWORD,iplaysoft
+
 #-----JJJ
 
 # 鸠摩搜索 https://www.jiumodiary.com/
@@ -129,6 +135,10 @@ DOMAIN-SUFFIX,oldmantvg.net
 #-----QQQ
 
 #-----RRR
+
+# 阮一峰的网络日志 http://www.ruanyifeng.com
+DOMAIN-SUFFIX,ruanyifeng.com
+DOMAIN-SUFFIX,wangbase.com
 
 # 深夜读书会 http://ritdon.com/
 DOMAIN-SUFFIX,ritdon.com

@@ -1,9 +1,15 @@
 # Extra Proxy List
 
-# 通用调用列表
+# Resource
 
-# https://hanime1.me/
+# Resource Public Font
+# https://fontawesome.com/
 DOMAIN-KEYWORD,fontawesome
+
+# Resource Public Others
+# http://www.rays-counter.com/
+DOMAIN-KEYWORD,rays-counter
+# https://immortalnova.hatenablog.com/entry/2022/03/06/140713
 
 # Area List
 DOMAIN-SUFFIX,au
