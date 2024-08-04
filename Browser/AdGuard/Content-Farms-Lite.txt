@@ -4628,6 +4628,7 @@
 ||fdf62.com^
 ||fearof.org^
 ||febeltigg.live^
+||fec-aliva.com.tr^
 ||fedexclis.co^
 ||fedezu.es^
 ||feelfitinbalance.nl^
@@ -5793,6 +5794,7 @@
 ||healinstsofsac.me^
 ||health-am.com^
 ||health-express.cc^
+||health-wonderful.com^
 ||health1.tw^
 ||health102.com^
 ||health580.net^
@@ -5850,6 +5852,7 @@
 ||helpi-pozyczka.pl^
 ||helplib.cn^
 ||helplib.com^
+||helppywith.ubpages.com^
 ||helunafashion.fi^
 ||helvak.online^
 ||hemplabs.pl^
@@ -11165,6 +11168,7 @@
 ||shopthegoldenantler.com^
 ||shopware-commerce.de^
 ||shorelinecrtons.co^
+||shortli.ru^
 ||shortpumpeye.com^
 ||shoujidaren.com^
 ||shoujiwan.com^
@@ -12169,6 +12173,7 @@
 ||tintoreriahigiensecmadrid.es^
 ||tinyos.co^
 ||tipelse.com^
+||tiposnews.gr^
 ||tirkhabar.com^
 ||tischtennis-korntal.de^
 ||tisher98.co^
