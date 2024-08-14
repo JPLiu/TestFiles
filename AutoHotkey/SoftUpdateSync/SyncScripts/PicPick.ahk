@@ -20,6 +20,7 @@ SetWorkingDir DownloadPath
 
 If FileExist( ZipFileName )
 {
+    Try ProcessClose "picpick.exe"
     FileMove ZipFileName, SoftNameZip, 0
     RunWait Zipper . " x " . SoftNameZip . " -o" . ExtPath
     SetWorkingDir ExtPath
