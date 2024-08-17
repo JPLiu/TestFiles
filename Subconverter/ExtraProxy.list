@@ -243,6 +243,9 @@ DOMAIN-SUFFIX,rss.lilydjwg.me
 
 #-----MMM
 
+# MEGA https://mega.nz/folder/aShGXbrb#spNXGjoloY4r9UiH3xJFKA
+DOMAIN-SUFFIX,mega.co.nz
+
 # 真白萌 https://masiro.moe 偶发异常
 DOMAIN-KEYWORD,masiro
 
