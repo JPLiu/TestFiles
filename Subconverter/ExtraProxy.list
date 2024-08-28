@@ -222,6 +222,10 @@ DOMAIN-SUFFIX,haveibeenpwned.com
 
 #-----III
 
+# Inoreader https://www.inoreader.com/all_articles
+DOMAIN-KEYWORD,inoreader
+DOMAIN-KEYWORD,innoreader
+
 # IP.SB https://ip.sb
 DOMAIN,api.ip.sb
 DOMAIN,ip.sb
