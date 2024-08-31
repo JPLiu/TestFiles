@@ -1,0 +1,52 @@
+{
+	"id": 1,
+	"name": "JPLiu 订阅",
+	"version": 5,
+	"author": "JPLiu",
+	"supportUri": "https://github.com/JPLiu/TestFiles",
+	"apps": [{
+		"id": "com.landray.kkplus",
+		"name": "信创办公",
+		"groups": [{
+			"name": "开屏广告",
+			"desc": "跳过开屏页面",
+			"key": 0,
+			"quickFind": true,
+			"rules": "[id=\"com.landray.kkplus:id/ad_skip\"]"
+		}]
+	},{
+		"id": "com.taobao.etao",
+		"name": "一淘",
+		"groups": [{
+			"name": "开屏广告",
+			"desc": "跳过开屏页面-QuickFind",
+			"key": 0,
+			"quickFind": true,
+			"rules": [{
+				"preKeys": [],
+				"matches": ["[id!=null][text^=\"跳过\"][clickable=true]"],
+				"excludeMatches": []
+			}]
+		}]
+	},{
+		"id": "com.hundsun.mobile.hsbrowsertest",
+		"name": "东莞农商银行",
+		"groups": [{
+			"name": "产品推广",
+			"desc": "产品推广-QuickFind",
+			"key": 0,
+			"quickFind": true,
+			"rules": "[id=\"com.hundsun.mobile.hsbrowsertest:id/ll_questionnaire_close\"]"
+		}]
+	},{
+		"id": "com.cs_credit_bank",
+		"name": "发现精彩",
+		"groups": [{
+			"name": "开屏广告",
+			"desc": "开屏广告-QuickFind",
+			"key": 0,
+			"quickFind": true,
+			"rules": "[id=\"com.cs_credit_bank:id/start_skip\"]"
+		}]
+	}]
+}
