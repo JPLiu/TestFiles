@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1722346349220,
-  "version": "1.58.0",
+  "timeStamp": 1725547740509,
+  "version": "1.59.0",
   "userSettings": {
     "contextMenuEnabled": false,
     "externalLists": "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/Liu's-Rule-Group.list\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt\nhttps://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
@@ -16,26 +16,12 @@
   },
   "selectedFilterLists": [
     "user-filters",
-    "ublock-filters",
-    "ublock-badware",
-    "ublock-privacy",
-    "ublock-quick-fixes",
-    "ublock-unbreak",
     "easylist",
-    "adguard-mobile",
     "easyprivacy",
     "adguard-spyware-url",
-    "urlhaus-1",
-    "plowe-0",
-    "adguard-cookies",
-    "ublock-cookies-adguard",
-    "easylist-annoyances",
-    "adguard-mobile-app-banners",
-    "ublock-annoyances",
     "CHN-0",
     "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
     "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
-    "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt",
     "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/Liu's-Rule-Group.list"
   ],
   "hiddenSettings": {
