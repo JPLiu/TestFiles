@@ -13,6 +13,21 @@ Global SettingBakPath := IniRead("SyncScripts.ini", "Setting", "SettingBakPath")
 BrowserEABakPath := SettingBakPath . "\Browser\000ExtensionsAddons"
 BrowserEASyncPath := SettingBakPath . "\Android\Setting\Firefox"
 
+; Tempermonkey 篡改猴
+EAName := "Tempermonkey"
+EAFormatName := EAName . ".zip"
+EAConfName := "tampermonkey-backup-*.zip"
+EAConfPathName := "Tempermonkey"
+SetWorkingDir DownloadPath
+If FileExist( EAConfName )
+{
+    Try FileMove EAConfName, EAFormatName, 0
+    FileMove EAFormatName, BrowserEABakPath . "\" . EAConfPathName, 1
+}
+
+; 文件同步至 Android Setting
+Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
+
 ; ViolentMoneky 暴力猴
 EAName := "Violentmonkey"
 EAFormatName := EAName . ".zip"
@@ -48,8 +63,7 @@ If FileExist( EAConfName )
 }
 
 ; 文件同步至 Android Setting
-Try FileDelete BrowserEASyncPath . "\" . EAConfPathName . "\*.*"
-Try FileCopy BrowserEABakPath . "\" . EAConfPathName . "\*.*", BrowserEASyncPath . "\" . EAConfPathName . "\", 1
+Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
 
 ; SalaDict 沙拉查词
 EAName := "SalaDict"
@@ -179,8 +193,7 @@ If FileExist( EAConfName )
 }
 
 ; 文件同步至 Android Setting
-Try FileDelete BrowserEASyncPath . "\" . EAConfPathName . "\*.*"
-Try FileCopy BrowserEABakPath . "\" . EAConfPathName . "\*.*", BrowserEASyncPath . "\" . EAConfPathName . "\", 1
+Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
 
 ; Text Link
 EAName := "Text Link"
@@ -267,8 +280,7 @@ If FileExist( EAConfName )
 }
 
 ; 文件同步至 Android Setting
-Try FileDelete BrowserEASyncPath . "\" . EAConfPathName . "\*.*"
-Try FileCopy BrowserEABakPath . "\" . EAConfPathName . "\*.*", BrowserEASyncPath . "\" . EAConfPathName . "\", 1
+Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
 
 ; vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
 
