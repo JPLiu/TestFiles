@@ -1,10 +1,36 @@
 {
 	"id": 1,
 	"name": "JPLiu 订阅",
-	"version": 7,
+	"version": 8,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
+		"id": "com.hundsun.mobile.hsbrowsertest",
+		"name": "东莞农商银行",
+		"groups": [{
+			"name": "产品推广",
+			"desc": "产品推广-QuickFind",
+			"key": 0,
+			"quickFind": true,
+			"rules": "[id=\"com.hundsun.mobile.hsbrowsertest:id/ll_questionnaire_close\"]"
+		}]
+	},{
+		"id": "com.cs_credit_bank",
+		"name": "发现精彩",
+		"groups": [{
+			"name": "开屏广告",
+			"desc": "开屏广告-QuickFind",
+			"key": 0,
+			"quickFind": true,
+			"rules": "[id=\"com.cs_credit_bank:id/start_skip\"]"
+		},{
+			"name": "产品推广",
+			"desc": "产品推广-QuickFind",
+			"key": 1,
+			"quickFind": true,
+			"rules": "[id=\"com.cs_credit_bank:id/iv_close\"]"
+        }]
+	},{
 		"id": "com.landray.kkplus",
 		"name": "信创办公",
 		"groups": [{
@@ -38,31 +64,5 @@
 			"quickFind": true,
 			"rules": "[id=\"com.unionpay:id/jump\"]"
 		}]
-	},{
-		"id": "com.hundsun.mobile.hsbrowsertest",
-		"name": "东莞农商银行",
-		"groups": [{
-			"name": "产品推广",
-			"desc": "产品推广-QuickFind",
-			"key": 0,
-			"quickFind": true,
-			"rules": "[id=\"com.hundsun.mobile.hsbrowsertest:id/ll_questionnaire_close\"]"
-		}]
-	},{
-		"id": "com.cs_credit_bank",
-		"name": "发现精彩",
-		"groups": [{
-			"name": "开屏广告",
-			"desc": "开屏广告-QuickFind",
-			"key": 0,
-			"quickFind": true,
-			"rules": "[id=\"com.cs_credit_bank:id/start_skip\"]"
-		},{
-			"name": "产品推广",
-			"desc": "产品推广-QuickFind",
-			"key": 1,
-			"quickFind": true,
-			"rules": "[id=\"com.cs_credit_bank:id/iv_close\"]"
-        }]
 	}]
 }
