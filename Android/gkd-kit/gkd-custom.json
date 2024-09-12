@@ -1,7 +1,7 @@
 {
 	"id": 1,
 	"name": "JPLiu 订阅",
-	"version": 6,
+	"version": 7,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
@@ -57,6 +57,12 @@
 			"key": 0,
 			"quickFind": true,
 			"rules": "[id=\"com.cs_credit_bank:id/start_skip\"]"
-		}]
+		},{
+			"name": "产品推广",
+			"desc": "产品推广-QuickFind",
+			"key": 1,
+			"quickFind": true,
+			"rules": "[id=\"com.cs_credit_bank:id/iv_close\"]"
+        }]
 	}]
 }
