@@ -1,7 +1,7 @@
 {
 	"id": 1,
 	"name": "JPLiu 订阅",
-	"version": 5,
+	"version": 6,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
@@ -27,6 +27,16 @@
 				"matches": ["[id!=null][text^=\"跳过\"][clickable=true]"],
 				"excludeMatches": []
 			}]
+		}]
+	},{
+		"id": "com.unionpay",
+		"name": "云闪付",
+		"groups": [{
+			"name": "开屏广告",
+			"desc": "开屏广告-QuickFind",
+			"key": 0,
+			"quickFind": true,
+			"rules": "[id=\"com.unionpay:id/jump\"]"
 		}]
 	},{
 		"id": "com.hundsun.mobile.hsbrowsertest",
