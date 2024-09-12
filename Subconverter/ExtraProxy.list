@@ -7,6 +7,9 @@
 DOMAIN-KEYWORD,videojs
 DOMAIN-KEYWORD,zencdn
 
+# https://unpkg.com/
+DOMAIN-KEYWORD,unpkg
+
 # Resource Public Font
 # https://fontawesome.com/
 DOMAIN-KEYWORD,fontawesome
