@@ -80,7 +80,7 @@ If FileExist( EAConfName )
 ; Downwitharia2 通过 Aria2 下载
 EAName := "Downwitharia2"
 EAFormatName := "downwitharia2_options.json"
-EAConfName := "downwitharia2_options-*.json"
+EAConfName := "downwitharia2-*.json"
 EAConfPathName := "Downwitharia2 通过 Aria2 下载"
 SetWorkingDir DownloadPath
 If FileExist( EAConfName )
