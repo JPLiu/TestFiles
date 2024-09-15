@@ -10,7 +10,7 @@ Global InstallerBakPath := IniRead("SyncScripts.ini", "Setting", "InstallerBakPa
 
 SoftName := "WinPython"
 SoftNameExe32 := "WinPython32-Dot.exe"
-SoftNameExe64 := "WinPython64.exe"
+SoftNameExe64 := "WinPython64-Slim.exe"
 ExeFileName32 := "Winpython32-*.exe"
 ExeFileName64 := "Winpython64-*.exe"
 ExePath := InstallerBakPath . "\WinPython\"
