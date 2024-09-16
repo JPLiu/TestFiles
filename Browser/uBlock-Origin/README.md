@@ -4,6 +4,10 @@
 
 基于终结内容农场的规则转置的拦截规则。
 
+## More-Rule\AdGuard-Cookies-Lite.list
+
+基于 AdGuard Cookies 规则转置的精简规则，仅包含通用规则和通用排除规则，不含 if 类规则和站点特定规则。
+
 ## Liu's-Block-List.list
 
 不推荐订阅的个人自用拦截规则，规则来源为个人收集，涉及个人偏好，部分购物站点和资源隐藏的站点会被列入。
