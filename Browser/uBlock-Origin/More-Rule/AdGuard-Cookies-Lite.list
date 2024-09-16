@@ -168,7 +168,6 @@ raiplay.it#@#.as-oil
 channel4.com#@##cookie-consent-banner
 channel4.com#@#.cookie-banner:not(body):not(html)
 @@||consent.cookiebot.com/uc.js$domain=abinbevefes.ru
-||abinbevefes.ru^$referrerpolicy=origin
 @@||static.fastcmp.com/fast-cmp-stub.js$domain=lephoceen.fr
 @@||static.fastcmp.com/fast-cmp-stub.modern.*.js$domain=lephoceen.fr
 @@||static.fastcmp.com/fast-cmp-en-tcfeuv2.*.js$domain=lephoceen.fr
@@ -253,7 +252,6 @@ nationalgeographic.de#@##onetrust-consent-sdk
 hofer.at#@##onetrust-consent-sdk
 @@||cdn.cookielaw.org^$domain=hofer.at
 @@||usercentrics.eu^$domain=dr-beckmann.com
-||laposte.net^$referrerpolicy=origin
 @@||cdn.trustcommander.net/privacy/*/privacy_v*.js$domain=laposte.net
 @@||cdn.tagcommander.com/*/tc_LaPostenetPrivacy_*.js$domain=laposte.net
 @@||maps.vdl.lu/neo/v1/js/cookiebanner.min.js
@@ -265,7 +263,6 @@ mypalmshop.de#@##cookiePopup
 @@||shop.blu-blumen.de/Scripts/CookieBanner.js
 biomedcentral.com#@#.cc-banner
 @@||consent.cookiebot.com/uc.js$domain=tme.eu
-||olympiapark.de^$referrerpolicy=origin
 @@||consent.cookiebot.com/uc.js$domain=olympiapark.de
 @@||app.usercentrics.eu^$domain=pflanzen-koelle.de
 @@||api.usercentrics.eu/settings/$domain=pflanzen-koelle.de
