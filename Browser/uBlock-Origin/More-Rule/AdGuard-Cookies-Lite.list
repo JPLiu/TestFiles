@@ -100,7 +100,6 @@ myloview.*#@#.cookiesInfo
 @@||delivery.consentmanager.net/delivery$domain=sir-apfelot.de
 zsedrive.sk#@#.cookie-banner:not(body):not(html)
 @@||usercentrics.eu^$domain=br.de
-@@||sdk.privacy-center.org^$app=com.pelmorex.WeatherEyeAndroid
 strefakierowcy.pl#@#.cookies-popup
 strefakierowcy.pl#@#.cookies-info:not(html):not(body)
 elektrodigit.hu#@#.cookie-alert
@@ -109,7 +108,6 @@ communityfibre.co.uk#@##onetrust-consent-sdk
 brimex.hu#@#.cookie-alert
 kkh.de#@#.cookiebanner:not(body)
 kkh.de#@##cookieModal
-@@||consent.cookiebot.com^$app=ee.telia.selfservice
 top4mobile.hr#@##cookieModal
 @@||cmp.datasign.co^$script,domain=info.yomiuri.co.jp
 sparda-m.de#@##cookieLayer
@@ -751,7 +749,6 @@ documentation.insp.gouv.fr#@#.panel-cookies
 wifishop.nl#@#.cookie-container
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=hs.fi
 @@||cdn.privacy-mgmt.com^$domain=thestreet.com
-@@||consensu.org^$app=Solitaire.exe
 @@||cmp.quantcast.com^$domain=mirror.co.uk
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=si.com
 @@||euromaster.de/v/*/jquery/
@@ -1528,7 +1525,6 @@ wdc.wholesale.telecomitalia.it#@##cookieModal
 textmaster.com#@##cookie-law-info-bar
 fpv24.com#@##cookieModal
 @@||cookielaw.org^$domain=cookielaw.org
-@@||cdn.privacy-mgmt.com^$app=de.lineas.lit.ntv.android
 okazii.ro#@##cookie-bar
 okazii.ro#@#.cookie-bar:not(body)
 okazii.ro#@#.cookie-content
