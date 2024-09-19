@@ -64,5 +64,15 @@
 			"quickFind": true,
 			"rules": "[id=\"com.unionpay:id/jump\"]"
 		}]
+	},{
+		"id": "com.zhihu.android",
+		"name": "知乎",
+		"groups": [{
+			"name": "开屏广告",
+			"desc": "开屏广告-QuickFind",
+			"key": 0,
+			"quickFind": true,
+			"rules": "[id=\"com.zhihu.android:id/btn_skip\"]"
+		}]
 	}]
 }
