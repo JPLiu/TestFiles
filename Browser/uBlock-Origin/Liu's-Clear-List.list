@@ -103,8 +103,6 @@ $removeparam=utm_oi
 ||bilibili.com^$removeparam=callback
 ||bilibili.com^$removeparam=csource
 ||bilibili.com^$removeparam=msource
-||bilibili.com^$removeparam=plat_id
-||bilibili.com^$removeparam=search_source
 ||bilibili.com^$removeparam=ts
 ||bilibili.com^$removeparam=vd_source
 
@@ -131,10 +129,6 @@ $removeparam=utm_oi
 
 ! cctv
 ||cctv.com^$removeparam=spm
-
-! coolapk
-||coolapk.com^$removeparam=shareFrom
-||coolapk.com^$removeparam=shareUid
 
 ! csdn
 ||csdn.net^$removeparam=/^depth_/
@@ -168,23 +162,15 @@ $removeparam=utm_oi
 ||google.com*/search?$removeparam=/^gs/
 ||google.com*/search?$removeparam=client
 ||google.com*/search?$removeparam=dpr
-||google.com*/search?$removeparam=ei
 ||google.com*/search?$removeparam=gbv
 ||google.com*/search?$removeparam=ie
 ||google.com*/search?$removeparam=newwindow
-||google.com*/search?$removeparam=oe
-||google.com*/search?$removeparam=oq
-||google.com*/search?$removeparam=sca_esv
-||google.com*/search?$removeparam=sclient
 ||google.com*/search?$removeparam=sei
 ||google.com*/search?$removeparam=ved
 ||google.com*/search?$removeparam=uact
 
 ||play.google.com^$removeparam=hl
 ||play.google.com^$removeparam=gl
-
-! iqiyi
-||iqiyi.com^$removeparam=/^vfrm/
 
 ! itellyou
 ||itellyou.cn^$removeparam=ReturnUrl
@@ -199,7 +185,7 @@ $removeparam=utm_oi
 
 ! mi / miui
 @@||account.xiaomi.com^$removeparam
-$removeparam=ref,domain=app.mi.com|vip.miui.com
+$removeparam=ref,domain=vip.miui.com
 
 ||mi.com/*?product_id$removeparam=cfrom
 
@@ -241,10 +227,6 @@ $removeparam=ref,domain=app.mi.com|vip.miui.com
 ||mp.weixin.qq.com^$removeparam=subscene
 ||mp.weixin.qq.com^$removeparam=version
 ||mp.weixin.qq.com^$removeparam=wx_header
-
-! reddit
-||reddit.com^$removeparam=/ref_/
-||reddit.com^$removeparam=_branch_match_id
 
 ! sina
 ||sina.cn^$removeparam=cid
@@ -294,7 +276,6 @@ $removeparam=suid,domain=taobao.com|tmall.com
 $removeparam=trackInfo,domain=taobao.com|tmall.com
 $removeparam=turing_bucket,domain=taobao.com|tmall.com
 $removeparam=un,domain=taobao.com|tmall.com
-$removeparam=union_lens,domain=taobao.com|tmall.com
 $removeparam=user_number_id,domain=taobao.com|tmall.com
 $removeparam=ut_sk,domain=taobao.com|tmall.com
 $removeparam=utkn,domain=taobao.com|tmall.com
