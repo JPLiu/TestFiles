@@ -282,5 +282,20 @@ If FileExist( EAConfName )
 ; 文件同步至 Android Setting
 Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
 
+; AdGuard
+EAName := "AdGuard"
+EAFormatName := "adguard-ext-settings.json"
+EAConfName := "adg_ext_settings_*.json"
+EAConfPathName := "AdGuard"
+SetWorkingDir DownloadPath
+If FileExist( EAConfName )
+{
+    Try FileMove EAConfName, EAFormatName, 0
+    FileMove EAFormatName, BrowserEABakPath . "\" . EAConfPathName, 1
+}
+
+; 文件同步至 Android Setting
+Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
+
 ; vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
 
