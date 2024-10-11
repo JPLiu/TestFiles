@@ -100,6 +100,7 @@ mm-cg.com##div[class^="ut1_img_ex"]
 423down.com##ul>li a:has-text(产品推广):upward(li)
 423down.com##ul>li a>span:has-text(置顶):upward(li)
 423down.com##div.entry p:first-child,li.item>div[style]
+423down.com##ul.excerpt>li:nth-child(3)
 
 ! acgbox
 ! ACG盒子 移除淘宝广告
