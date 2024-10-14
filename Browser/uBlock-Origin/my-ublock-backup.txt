@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1728565041988,
+  "timeStamp": 1728911404308,
   "version": "1.60.0",
   "userSettings": {
     "contextMenuEnabled": false,
@@ -22,6 +22,7 @@
     "ublock-quick-fixes",
     "ublock-unbreak",
     "easylist",
+    "adguard-mobile",
     "easyprivacy",
     "urlhaus-1",
     "plowe-0",
