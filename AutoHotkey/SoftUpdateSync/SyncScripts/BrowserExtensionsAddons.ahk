@@ -297,5 +297,26 @@ If FileExist( EAConfName )
 ; 文件同步至 Android Setting
 Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
 
+; B站空降助手
+EAName := "B站空降助手"
+EAFormatName := "BilibiliSponsorBlockConfig.json"
+EAConfName := "BilibiliSponsorBlockConfig_*.json"
+EAConfPathName := "B站空降助手"
+SetWorkingDir DownloadPath
+If FileExist( EAConfName )
+{
+    Try FileMove EAConfName, EAFormatName, 0
+    FileMove EAFormatName, BrowserEABakPath . "\" . EAConfPathName, 1
+}
+
+EAFormatName := "BilibiliSponsorBlockOtherData.json"
+EAConfName := "BilibiliSponsorBlockOtherData_*.json"
+SetWorkingDir DownloadPath
+If FileExist( EAConfName )
+{
+    Try FileMove EAConfName, EAFormatName, 0
+    FileMove EAFormatName, BrowserEABakPath . "\" . EAConfPathName, 1
+}
+
 ; vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
 
