@@ -1,19 +1,25 @@
 {
 	"id": 1,
 	"name": "JPLiu 订阅",
-	"version": 12,
+	"version": 13,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
 		"id": "com.boohee.one",
 		"name": "薄荷健康",
 		"groups": [{
-			"name": "产品推广",
-			"desc": "悬浮推广-QuickFind",
+			"name": "悬浮推广",
+			"desc": "首页-悬浮推广-QuickFind",
 			"key": 0,
 			"quickFind": true,
 			"rules": "[id=\"com.boohee.one:id/iv_close_pop\"]"
-		}]
+		},{
+			"name": "插入推广",
+			"desc": "首页-插入推广-QuickFind",
+			"key": 1,
+			"quickFind": true,
+			"rules": "[id=\"com.boohee.one:id/iv_close\"]"
+        }]
 	},{
 		"id": "com.hundsun.mobile.hsbrowsertest",
 		"name": "东莞农商银行",
