@@ -1,7 +1,7 @@
 {
 	"id": 1,
 	"name": "JPLiu 订阅",
-	"version": 14,
+	"version": 15,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
@@ -19,6 +19,12 @@
 			"key": 1,
 			"quickFind": true,
 			"rules": "[id=\"com.boohee.one:id/ivClose\"]"
+        },{
+			"name": "上周总结推广",
+			"desc": "首页-上周总结推广-QuickFind",
+			"key": 2,
+			"quickFind": true,
+			"rules": "[id=\"com.boohee.one:id/closeSummary\"]"
         }]
 	},{
 		"id": "com.hundsun.mobile.hsbrowsertest",
