@@ -168,6 +168,11 @@ www.eyny.com##table:nth-of-type(2)
 www.eyny.com##table[class="t_p_top"]
 www.eyny.com##td[class="adv_header_text"]
 
+! feishu
+! https://docs.feishu.cn/
+! Firefox 不兼容提示
+feishu.cn##.disabled-contextmenu.not-compatible__announce
+
 ! hanime1
 ! https://hanime1.me/
 ! 遗留空白-广告位
