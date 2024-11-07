@@ -1,0 +1,76 @@
+# Area Proxy JP List
+
+#-----0-9
+
+#-----AAA
+
+#-----BBB
+
+#-----CCC
+
+# Claude AI https://claude.ai
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+
+#-----DDD
+
+#-----EEE
+
+#-----FFF
+
+#-----GGG
+
+#-----HHH
+
+# HatenaBlog https://hatenablog.com/
+DOMAIN-KEYWORD,hatena
+
+
+#-----III
+
+#-----JJJ
+
+#-----KKK
+
+#-----LLL
+
+# Line
+DOMAIN-KEYWORD,line-website
+
+#-----MMM
+
+#-----NNN
+
+#-----OOO
+# ChatGPT https://chat.openai.com/
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+
+#-----PPP
+
+#-----QQQ
+
+#-----RRR
+
+#-----SSS
+
+#-----TTT
+# Tiktok https://www.tiktok.com/
+DOMAIN-KEYWORD,tiktok
+DOMAIN-KEYWORD,ttwstatic
+
+#-----UUU
+
+#-----VVV
+
+#-----WWW
+
+#-----XXX
+
+#-----YYY
+
+#-----ZZZ
+
