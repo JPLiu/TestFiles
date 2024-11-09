@@ -1,19 +1,18 @@
 {
-  "timeStamp": 1729171166913,
+  "timeStamp": 1728296179489,
   "version": "1.60.0",
   "userSettings": {
     "contextMenuEnabled": false,
-    "externalLists": "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/Liu's-Rule-Group.list\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/refs/heads/master/cjx-ublock.txt\nhttps://raw.githubusercontent.com/stroobants-dev/ublock-origin-shitty-copies-filter/main/combined-list.txt\nhttps://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+    "externalLists": "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/Liu's-Rule-Group.list\nhttps://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/More-Rule/AdGuard-Cookies-Lite.list\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt\nhttps://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
     "importedLists": [
       "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/Liu's-Rule-Group.list",
+      "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/More-Rule/AdGuard-Cookies-Lite.list",
       "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
-      "https://raw.githubusercontent.com/cjx82630/cjxlist/refs/heads/master/cjx-ublock.txt",
-      "https://raw.githubusercontent.com/stroobants-dev/ublock-origin-shitty-copies-filter/main/combined-list.txt",
+      "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt",
       "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt"
     ],
     "popupPanelSections": 31,
     "showIconBadge": false,
-    "userFiltersTrusted": true,
     "webrtcIPAddressHidden": true
   },
   "selectedFilterLists": [
@@ -24,18 +23,12 @@
     "ublock-quick-fixes",
     "ublock-unbreak",
     "easylist",
-    "adguard-mobile",
     "easyprivacy",
-    "urlhaus-1",
-    "plowe-0",
-    "adguard-cookies",
-    "ublock-cookies-adguard",
-    "easylist-annoyances",
-    "ublock-annoyances",
+    "adguard-spyware-url",
     "CHN-0",
     "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+    "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/More-Rule/AdGuard-Cookies-Lite.list",
     "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
-    "https://raw.githubusercontent.com/cjx82630/cjxlist/refs/heads/master/cjx-ublock.txt",
     "https://raw.githubusercontent.com/JPLiu/TestFiles/main/Browser/uBlock-Origin/Liu's-Rule-Group.list"
   ],
   "hiddenSettings": {
