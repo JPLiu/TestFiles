@@ -6,9 +6,17 @@
 
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=hollywoodreporter.com|resmed.com|southpark.de|movistar.es|redbull.com|all.accor.com|karriere.mcdonalds.de|blaklader.*|wallapop.com|rts.ch|npr.org|upc.pl|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|player.pl|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|eurogamer.de|bet.com|ikonpass.com|mcdelivery.de|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|olx.pl|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|ted.com|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com|popeyes.com|channel5.com|bigbearmountainresort.com|quora.com|vod.pl|blick.ch|elle.com|teenvogue.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.de|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|tvnturbo.pl|superporn.com|thebump.com|bk.com|safeway.com|motor1.com|southparkstudios.com.br|southpark.lat|southparkstudios.com|realsimple.com|538.nl|skyradio.nl|radio10.nl|radioveronica.nl|homedepot.ca|wired.com|europapark.de|jdpower.com|bonava.lv|nick.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|themessenger.com|nickjr.com|lnw.com|otodom.pl|irishtimes.com|tntsports.com.br|sonos.com|rossmann.pl|rentcafe.com|seriouseats.com|bhg.com|gamescom.global|championsleague.basketball
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
+@@||delivery.consentmanager.net/delivery/cmp.php$domain=sii.org.pl
+@@||app.usercentrics.eu/browser-ui/*.js$domain=sennheiser.com
+@@||api.usercentrics.eu/settings/*/latest/*.json$domain=sennheiser.com
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=sony.de|pokemontcgpocket.com
+sony.de,pokemontcgpocket.com#@##onetrust-consent-sdk
+@@||cdn.opencmp.net/tcf-v2/cmp-stub-latest.js$domain=hallo-eltern.de
+@@||cmp.osano.com^$domain=buffalonews.com
+@@||consent.api.osano.com/record$domain=buffalonews.com
 koreanair.com#@#.cookie-banner:not(body):not(html)
 koreanair.com#@##cookieBanner
-@@||generali-cosweb-tech-prod.s3.eu-central-1.amazonaws.com/website/js/tagcommander/tc_CosmosDirekt_*.js
+@@||generali-cosweb-tech-prod.s3.eu-central-1.amazonaws.com/website/js/tagcommander
 pomadziarz.pl#@##shoper-foot ~ div.consents
 pomadziarz.pl#@#.shop_index > div.consents
 @@||sdk.privacy-center.org^$domain=profil.at
@@ -703,8 +711,6 @@ giantbomb.com#@##onetrust-consent-sdk
 @@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=giantbomb.com
 crocs.de,crocs.eu#@#.js-cookie-consent
 developer.samsung.com#@#.cookie-modal
-||sdk.privacy-center.org/*/loader.js$script,redirect=didomi-loader,domain=6play.fr,important
-@@||sdk.privacy-center.org^$domain=6play.fr
 shop.tropicfeel.com#@##cookies-modal
 @@||douglas.*/public/CookieConsent.*.async.js$domain=douglas.de|douglas.at
 @@||douglas.*/public/CookieBar.*.async.js$domain=douglas.de|douglas.at
@@ -2350,6 +2356,7 @@ auchan.hu#@#.cookie-modal
 lg.com#@#.cookie-check
 mycard2go.com#@#.cookiebar
 foodnetwork.co.uk#@#.cookie-message:not(html):not(body)
+##dialog[data-controller="common--cookies--alert"]
 ##.cookie-message-overlay
 ###cookieAgree
 ##.CookiePolicyBar
@@ -3975,6 +3982,7 @@ foodnetwork.co.uk#@#.cookie-message:not(html):not(body)
 ##.cookie-notice:not(body):not(html)
 ##.cookie-banner:not(body):not(html)
 ###cookie-law-info-bar
+||gdpr-legal-cookie.com^
 ||cookies.giant.cz^
 ||complydog.com^$third-party
 ||modeto.com^$third-party
