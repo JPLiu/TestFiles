@@ -1,10 +1,20 @@
 {
 	"id": 1,
 	"name": "JPLiu 订阅",
-	"version": 16,
+	"version": 18,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
+		"id": "cn.wps.moffice_eng",
+		"name": "WPS Office",
+		"groups": [{
+			"name": "底部插入广告",
+			"desc": "底部插入广告-QuickFind",
+			"key": 0,
+			"quickFind": true,
+			"rules": "[id=\"cn.wps.moffice_eng:id/remind_close_button\"]"
+		}]
+	},{
 		"id": "com.boohee.one",
 		"name": "薄荷健康",
 		"groups": [{
