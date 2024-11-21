@@ -89,6 +89,9 @@ DOMAIN-SUFFIX,autohotkey.com
 # Canva https://www.canva.com/
 DOMAIN-SUFFIX,canva.com
 
+# ColaManga https://www.colamanga.com/
+DOMAIN-SUFFIX,colamanga.com
+
 #-----DDD
 
 #-----EEE
@@ -165,6 +168,7 @@ DOMAIN-SUFFIX,rsseverything.com
 
 # 六音 https://www.sixyin.com
 DOMAIN-SUFFIX,sixyin.com
+DOMAIN-SUFFIX,6yit.com
 
 # 字幕库 https://srtku.com
 DOMAIN-KEYWORD,srtku
