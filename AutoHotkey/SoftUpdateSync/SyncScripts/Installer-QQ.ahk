@@ -21,4 +21,17 @@ If FileExist( ExeFileName )
     FileMove SoftNameExe, ExePath . "*.*", 1
 }
 
+SoftName := "TIM"
+SoftNameExe := SoftName . ".exe"
+ExeFileName := "TIM*.exe"
+ExePath := InstallerBakPath . "\"
+
+SetWorkingDir DownloadPath
+
+If FileExist( ExeFileName )
+{
+    FileMove ExeFileName, SoftNameExe, 0
+    FileMove SoftNameExe, ExePath . "*.*", 1
+}
+
 ; vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
