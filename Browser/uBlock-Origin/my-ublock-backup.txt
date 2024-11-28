@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1732196666597,
+  "timeStamp": 1732541973192,
   "version": "1.61.0",
   "userSettings": {
     "contextMenuEnabled": false,
@@ -52,7 +52,7 @@
     "vivaldi-scheme",
     "wyciwyg-scheme"
   ],
-  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop\n* vo.aicdn.com * noop\n* ajax.googleapis.com * noop\n* js.appboycdn.com * noop\n* ajax.aspnetcdn.com * noop\n* materialdesignicons.b-cdn.net * noop\n* libs.baidu.com * noop\n* lib.baomitu.com * noop\n* apps.bdimg.com * noop\n* cdn.bootcdn.net * noop\n* cdn.bootcss.com * noop\n* maxcdn.bootstrapcdn.com * noop\n* netdna.bootstrapcdn.com * noop\n* stackpath.bootstrapcdn.com * noop\n* ajax.cloudflare.com * noop\n* cdnjs.cloudflare.com * noop\n* use.fontawesome.com.cdn.cloudflare.net * noop\n* code.createjs.com * noop\n* cdn.datatables.net * noop\n* cdn.embed.ly * noop\n* use.fontawesome.com * noop\n* fonts.googleapis.com * noop\n* sdn.inbond.gslb.geekzu.org * noop\n* sdn.geekzu.org * noop\n* gitcdn.github.io * noop\n* gstaticadssl.l.google.com * noop\n* fonts.gstatic.com * noop\n* mat1.gtimg.com * noop\n* cds.s5x3j6q5.hwcdn.net * noop\n* apps.bdimg.jomodns.com * noop\n* code.jquery.com * noop\n* cdn.jsdelivr.net * noop\n* akamai-webcdn.kgstatic.net * noop\n* lib.sinaapp.com * noop\n* ajax.loli.net * noop\n* cdnjs.loli.net * noop\n* fonts.loli.net * noop\n* cdn.embed.ly.cdn.cloudflare.net * noop\n* cdn.bootcss.com.maoyundns.com * noop\n* cdn.bootcdn.net.maoyundns.com * noop\n* cdn.materialdesignicons.com * noop\n* cdn.mathjax.org * noop\n* ajax.microsoft.com * noop\n* mscomajax.vo.msecnd.net * noop\n* cdn.jsdelivr.net.cdn.cloudflare.net * noop\n* ajax.loli.net.cdn.cloudflare.net * noop\n* cdnjs.loli.net.cdn.cloudflare.net * noop\n* fonts.loli.net.cdn.cloudflare.net * noop\n* akamai-webcdn.kgstatic.net.edgesuite.net * noop\n* dualstack.osff.map.fastly.net * noop\n* pagecdn.io * noop\n* cdn.plyr.io * noop\n* lib.baomitu.com.qh-cdn.com * noop\n* iduwdjf.qiniudns.com * noop\n* mat1.gtimg.com.tegsea.tc.qq.com * noop\n* cdn.ravenjs.com * noop\n* mathjax.rstudio.com * noop\n* developer.n.shifen.com * noop\n* lb.sae.sina.com.cn * noop\n* cdn.staticfile.org * noop\n* unpkg.com * noop\n* upcdn.b0.upaiyun.com * noop\n* gateway.cname.ustclug.org * noop\n* ajax.proxy.ustclug.org * noop\n* yandex.st * noop\n* yastatic.net * noop\n* vjs.zencdn.net * noop",
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
   "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true",
   "userFilters": "! 禁用脚本规则\n|http*://$script,domain=example.com\n\n! 禁用媒体规则\n|http*://$media,domain=example.com\n\n! 禁用图片规则\n|http*://$image,domain=example.com"
