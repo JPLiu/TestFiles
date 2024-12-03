@@ -17,7 +17,7 @@ BrowserEASyncPath := SettingBakPath . "\Android\Setting\Firefox"
 EAName := "Tempermonkey"
 EAFormatName := EAName . ".zip"
 EAConfName := "tampermonkey-backup-*.zip"
-EAConfPathName := "Tempermonkey"
+EAConfPathName := "000UserScript"
 SetWorkingDir DownloadPath
 If FileExist( EAConfName )
 {
@@ -32,7 +32,7 @@ Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . E
 EAName := "Violentmonkey"
 EAFormatName := EAName . ".zip"
 EAConfName := "violentmonkey_*.zip"
-EAConfPathName := "Violentmonkey 暴力猴"
+EAConfPathName := "000UserScript"
 SetWorkingDir DownloadPath
 If FileExist( EAConfName )
 {
@@ -43,7 +43,7 @@ If FileExist( EAConfName )
 EAName := "Bilibili"
 EAFormatName := "Bilibili-Setting.json"
 EAConfName := "settings.json"
-EAConfPathName := "Violentmonkey 暴力猴"
+EAConfPathName := "000UserScript"
 SetWorkingDir DownloadPath
 If FileExist( EAConfName )
 {
@@ -54,7 +54,7 @@ If FileExist( EAConfName )
 EAName := "YAWF"
 EAFormatName := "YAWF-JP.json"
 EAConfName := "JP*.json"
-EAConfPathName := "Violentmonkey 暴力猴"
+EAConfPathName := "000UserScript"
 SetWorkingDir DownloadPath
 If FileExist( EAConfName )
 {
