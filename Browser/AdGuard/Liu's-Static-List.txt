@@ -149,6 +149,11 @@ wenku.baidu.com##.vip-privilege
 ! https://www.baidu.com
 www.baidu.com###content_right
 
+! bilibili
+! 拦截 bilibili pcdn
+||mcdn.bilivideo.cn^
+||szbdyd.com^
+
 ! csdn
 ! https://blog.csdn.net/
 ! CSDN去登录提示

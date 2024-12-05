@@ -6,6 +6,10 @@
 
 #-----BBB
 
+# Bilibili PCDN
+DOMAIN-SUFFIX,mcdn.bilivideo.cn
+DOMAIN-SUFFIX,szbdyd.com
+
 #-----CCC
 
 #-----DDD
