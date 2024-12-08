@@ -10,7 +10,7 @@ Global InstallerBakPath := IniRead("SyncScripts.ini", "Setting", "InstallerBakPa
 
 SoftName := "Ahk2Exe"
 ZipFileName := "Ahk2Exe*.zip"
-SoftPath := DefaultPath . "\AutoHotkey"
+SoftPath := DefaultPath . "\AutoHotkey\Ahk2Exe"
 SoftNameZip := SoftName . ".zip"
 ExtPath := DownloadPath . SoftName
 LnkName := "AutoHotkey"
@@ -34,11 +34,40 @@ If FileExist( ZipFileName )
     Run Zipper . " u " . UpdateLnkPath . "\" . LnkName . ".7z -uq0r2x2y2z1 -ms=off -myv=1900 -mx=1 " . LnkPath . "\"
 }
 
-SoftName := "AutoHotkey"
-ZipFileName := "AutoHotkey*.zip"
-SoftPath := DefaultPath . "\AutoHotkey"
+SoftName := "AutoHotkeyV1"
+ZipFileName := "AutoHotkey_1*.zip"
+SoftPath := DefaultPath . "\AutoHotkey\AutoHotkeyV1"
 SoftNameZip := SoftName . ".zip"
-ExtPath := DownloadPath . SoftName
+ExtPath := DownloadPath . "AutoHotkey"
+LnkName := "AutoHotkey"
+LnkPath := DefaultPath . "\AutoHotkey"
+
+SetWorkingDir DownloadPath
+
+If FileExist( ZipFileName )
+{
+    Try ProcessClose "AutoHotkeyA32.exe"
+    Try ProcessClose "AutoHotkeyU32.exe"
+    Try ProcessClose "AutoHotkeyU64.exe"
+    FileMove ZipFileName, SoftNameZip, 0
+    RunWait Zipper . " x " . SoftNameZip . " -o" . ExtPath
+    SetWorkingDir ExtPath
+    Try FileCopy  ExtPath . "\*.*", SoftPath, 1
+    Loop Files ExtPath . "\*.*", "D"
+    {
+        Try DirMove A_LoopFilePath , SoftPath "\" A_LoopFileName, 1
+    }
+    SetWorkingDir DownloadPath
+    DirDelete ExtPath, True
+    FileCreateShortcut LnkPath, UpdateLnkPath . "\" . LnkName . ".lnk"
+    Run Zipper . " u " . UpdateLnkPath . "\" . LnkName . ".7z -uq0r2x2y2z1 -ms=off -myv=1900 -mx=1 " . LnkPath . "\"
+}
+
+SoftName := "AutoHotkeyV2"
+ZipFileName := "AutoHotkey_2*.zip"
+SoftPath := DefaultPath . "\AutoHotkey\AutoHotkeyV2"
+SoftNameZip := SoftName . ".zip"
+ExtPath := DownloadPath . "AutoHotkey"
 LnkName := "AutoHotkey"
 LnkPath := DefaultPath . "\AutoHotkey"
 
@@ -60,7 +89,8 @@ If FileExist( ZipFileName )
     DirDelete ExtPath, True
     FileCreateShortcut LnkPath, UpdateLnkPath . "\" . LnkName . ".lnk"
     Run Zipper . " u " . UpdateLnkPath . "\" . LnkName . ".7z -uq0r2x2y2z1 -ms=off -myv=1900 -mx=1 " . LnkPath . "\"
-    Run AhkExe . " " . SoftPath . "\00-Scripts\Private-Scripts\Essentials\Essentials.ahk"
-    Run AhkExe . " " . SoftPath . "\00-Scripts\Private-Scripts\Dark-Light-Switch\Dark-Light-Switch.ahk"
+    Run AhkExe . " " . LnkPath . "\00-Scripts\Private-Scripts\Essentials\Essentials.ahk"
+    Run AhkExe . " " . LnkPath . "\00-Scripts\Private-Scripts\Dark-Light-Switch\Dark-Light-Switch.ahk"
 }
+
 ; vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
