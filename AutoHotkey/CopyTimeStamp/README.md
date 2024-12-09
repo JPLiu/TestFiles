@@ -7,3 +7,10 @@
 用法：
 
     CopyTimeStamp.exe "a.file" "b.file"
+
+## 版本历史
+
+### 2024.12.09
+
+- 改为同名的 AutoHotkey.exe 加 脚本 的模式，不再将 ahk 转换为 exe。
+
