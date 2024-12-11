@@ -1,7 +1,7 @@
 {
 	"id": 1,
 	"name": "JPLiu 订阅",
-	"version": 18,
+	"version": 19,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
@@ -56,6 +56,16 @@
 			"quickFind": true,
 			"rules": "[id=\"com.cs_credit_bank:id/iv_close\"]"
         }]
+	},{
+		"id": "com.chinarailway.globalticketing",
+		"name": "铁路12306 Play 版",
+		"groups": [{
+			"name": "开屏广告",
+			"desc": "开屏广告-QuickFind",
+			"key": 0,
+			"quickFind": true,
+			"rules": "[id=\"com.chinarailway.globalticketing:id/tv_skip\"]"
+		}]
 	},{
 		"id": "com.landray.kkplus",
 		"name": "信创办公",
