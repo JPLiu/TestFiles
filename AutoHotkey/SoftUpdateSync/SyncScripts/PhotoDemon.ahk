@@ -22,9 +22,12 @@ If FileExist( ZipFileName )
 {
     FileMove ZipFileName, SoftNameZip, 0
     RunWait Zipper . " x " . SoftNameZip . " -o" . ExtPath
-    SetWorkingDir ExtPath
-    Try FileCopy  ExtPath . "\*.*", SoftPath, 1
-    Loop Files ExtPath . "\*.*", "D"
+    MovePath := ExtPath
+    If DirExist(ExtPath . "\PhotoDemon")
+        MovePath := ExtPath . "\PhotoDemon"
+    SetWorkingDir MovePath
+    Try FileCopy  MovePath . "\*.*", SoftPath, 1
+    Loop Files MovePath . "\*.*", "D"
     {
         Try DirMove A_LoopFilePath , SoftPath "\" A_LoopFileName, 1
     }
@@ -33,4 +36,5 @@ If FileExist( ZipFileName )
     FileCreateShortcut LnkPath, UpdateLnkPath . "\" . LnkName . ".lnk"
     Run Zipper . " u " . UpdateLnkPath . "\" . LnkName . ".7z -uq0r2x2y2z1 -ms=off -myv=1900 -mx=1 " . LnkPath . "\"
 }
+
 ; vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:

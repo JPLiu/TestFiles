@@ -30,9 +30,8 @@ ProcessUserInput(*)
         CTime := A_YYYY . "-" . A_MM . "-" . A_DD . "_" . A_Hour . "-" . A_Min . "-" . A_Sec
         Global BookName := IniRead("Wenku8Downloadr.ini", "BookList", A_LoopField, CTime)
         Global BookUrl := "https://dl2.wenku8.com/down.php?type=utf8&id=" . A_LoopField
-;        Download BookUrl, TempPath . "\" . BookName . ".txt"
-        RunWait Aria2 . " --all-proxy " . Aria2Proxy . " --out " TempPath . "\" . BookName . ".txt" . " " . BookUrl
-        Sleep 1000
+        RunWait Aria2 . " --all-proxy " . Aria2Proxy . " --out `"" TempPath . "\" . BookName . "`".txt" . " " . BookUrl
+        Sleep 4000
     }
     Exitapp
 }
