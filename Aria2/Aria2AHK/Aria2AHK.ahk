@@ -42,7 +42,7 @@ GetCurrentSSIDSpeed()
 ; 托盘菜单配置 {{{1
 A_IconTip := "Aria2AHK"
 If A_IsCompiled = 0
-    TraySetIcon("Aria2AHK.ico", 1, 1)
+    TraySetIcon("Aria2AHK.png", 1, 1)
 Aria2AHKTray := A_TrayMenu
 Global SubMenuAddTask := Menu()
 Global SubMenuProflie := Menu()
