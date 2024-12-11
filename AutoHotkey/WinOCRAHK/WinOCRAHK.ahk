@@ -18,6 +18,7 @@ If A_IsCompiled = 0
 WinOCRAHKTray := A_TrayMenu
 WinOCRAHKTray.Delete
 WinOCRAHKTray.Add("截图 OCR", StartCaptureOCR)
+WinOCRAHKTray.Add("批量 OCR", StartBatchOCR)
 WinOCRAHKTray.Add("打开保存路径", OpenTempFolder)
 WinOCRAHKTray.Add
 WinOCRAHKTray.Add("退出", ExitWinOCRAHK)
@@ -26,6 +27,12 @@ WinOCRAHKTray.Add("退出", ExitWinOCRAHK)
 StartCaptureOCR(ItemName, ItemPos, MyMenu)
 {
     CaptureOCR()
+}
+
+; 托盘菜单 批量 OCR
+StartBatchOCR(ItemName, ItemPos, MyMenu)
+{
+    Run A_ScriptDir . "\BatchOCRAHK.exe"
 }
 
 ; 托盘菜单 打开保存路径
