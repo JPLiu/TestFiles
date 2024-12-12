@@ -103,6 +103,9 @@ DOMAIN-SUFFIX,flowchart.fun
 
 #-----GGG
 
+# GKD https://i.gkd.li/device
+DOMAIN,i.gkd.li
+
 # Go2Think https://go2think.com/
 DOMAIN,go2think.com
 
