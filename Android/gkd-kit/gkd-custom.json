@@ -1,7 +1,7 @@
 {
 	"id": 1,
 	"name": "JPLiu 订阅",
-	"version": 19,
+	"version": 20,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
@@ -85,6 +85,16 @@
 			"key": 0,
 			"quickFind": true,
 			"rules": "[id=\"com.unionpay:id/jump\"]"
+		}]
+	},{
+		"id": "com.eg.android.AlipayGphone",
+		"name": "支付宝",
+		"groups": [{
+			"name": "生日开屏",
+			"desc": "生日开屏-QuickFind",
+			"key": 0,
+			"quickFind": true,
+			"rules": "[id=\"com.eg.android.AlipayGphone:id/splash_skip_tip_container\"]"
 		}]
 	},{
 		"id": "com.zhihu.android",
