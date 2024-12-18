@@ -1,6 +1,6 @@
 {
-	"id": 1,
-	"name": "JPLiu 订阅",
+	"id": 2,
+	"name": "JPLiu 订阅 NoFast",
 	"version": 21,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
@@ -9,7 +9,7 @@
 		"name": "WPS Office",
 		"groups": [{
 			"name": "底部插入广告",
-			"desc": "底部插入广告-FastQuery",
+			"desc": "底部插入广告",
 			"key": 0,
 			"rules": "[id=\"cn.wps.moffice_eng:id/remind_close_button\"]"
 		}]
@@ -18,12 +18,12 @@
 		"name": "薄荷健康",
 		"groups": [{
 			"name": "悬浮推广",
-			"desc": "首页-悬浮推广-FastQuery",
+			"desc": "首页-悬浮推广",
 			"key": 0,
 			"rules": "[id=\"com.boohee.one:id/iv_close_pop\"]"
 		},{
 			"name": "上周总结推广",
-			"desc": "首页-上周总结推广-FastQuery",
+			"desc": "首页-上周总结推广",
 			"key": 1,
 			"rules": "[id=\"com.boohee.one:id/closeSummary\"]"
         }]
@@ -40,12 +40,12 @@
 		"name": "发现精彩",
 		"groups": [{
 			"name": "开屏广告",
-			"desc": "开屏广告-FastQuery",
+			"desc": "开屏广告",
 			"key": 0,
 			"rules": "[id=\"com.cs_credit_bank:id/start_skip\"]"
 		},{
 			"name": "产品推广",
-			"desc": "产品推广-FastQuery",
+			"desc": "产品推广",
 			"key": 1,
 			"rules": "[id=\"com.cs_credit_bank:id/iv_close\"]"
         }]
@@ -54,7 +54,7 @@
 		"name": "铁路12306 Play 版",
 		"groups": [{
 			"name": "开屏广告",
-			"desc": "开屏广告-FastQuery",
+			"desc": "开屏广告",
 			"key": 0,
 			"rules": "[id=\"com.chinarailway.globalticketing:id/tv_skip\"]"
 		}]
@@ -72,7 +72,7 @@
 		"name": "云闪付",
 		"groups": [{
 			"name": "开屏广告",
-			"desc": "开屏广告-FastQuery",
+			"desc": "开屏广告",
 			"key": 0,
 			"rules": "[id=\"com.unionpay:id/jump\"]"
 		}]
@@ -81,7 +81,7 @@
 		"name": "支付宝",
 		"groups": [{
 			"name": "生日开屏",
-			"desc": "生日开屏-FastQuery",
+			"desc": "生日开屏",
 			"key": 0,
 			"rules": "[id=\"com.eg.android.AlipayGphone:id/splash_skip_tip_container\"]"
 		}]
@@ -90,7 +90,7 @@
 		"name": "知乎",
 		"groups": [{
 			"name": "开屏广告",
-			"desc": "开屏广告-FastQuery",
+			"desc": "开屏广告",
 			"key": 0,
 			"rules": "[id=\"com.zhihu.android:id/btn_skip\"]"
 		}]
