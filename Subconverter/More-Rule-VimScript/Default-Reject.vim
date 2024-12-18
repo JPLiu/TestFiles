@@ -1,5 +1,7 @@
 vim9script
 
+:%s/,reject//ge
+
 :%s/^127.0.0.1 /DOMAIN-SUFFIX,/ge
 :%s/^0.0.0.0 /DOMAIN,/ge
 :%s/#/\r#/ge
