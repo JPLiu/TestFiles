@@ -1,11 +1,11 @@
 @echo off
 
 set aria2=aria2c.exe
-set ubopath=D:\2-Extension\0-SettingBAK\Browser\000ExtensionsAddons\uBlock Origin
-set adgpath=D:\2-Extension\0-SettingBAK\Browser\000ExtensionsAddons\AdGuard
+:: set ubopath=D:\2-Extension\0-SettingBAK\Browser\000ExtensionsAddons\uBlock Origin
+:: set adgpath=D:\2-Extension\0-SettingBAK\Browser\000ExtensionsAddons\AdGuard
 set vim=vim.exe
 
-copy /y "%ubopath%"\my-ublock-backup.txt my-ublock-backup.txt
+:: copy /y "%ubopath%"\my-ublock-backup.txt my-ublock-backup.txt
 
 del /s /q More-Rule-Temp\*
 
@@ -26,8 +26,8 @@ copy /y *.list ..\..\AdGuard\*.txt
 cd ..
 copy /y *.list ..\AdGuard\*.txt
 
-cd ..
-cd AdGuard\
-copy /y "%adgpath%"\adguard-ext-settings.json adguard-ext-settings.json
+:: cd ..
+:: cd AdGuard\
+:: copy /y "%adgpath%"\adguard-ext-settings.json adguard-ext-settings.json
 
 exit
