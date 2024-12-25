@@ -8,8 +8,9 @@
 
 # Bilibili PCDN
 # 参考 https://thhbdd.github.io/Block-pcdn-domains/ban.txt
-DOMAIN-SUFFIX,mcdn.bilivideo.cn
-DOMAIN-SUFFIX,szbdyd.com
+# 影响客户端缓存，暂时停用
+# DOMAIN-SUFFIX,mcdn.bilivideo.cn
+# DOMAIN-SUFFIX,szbdyd.com
 
 #-----CCC
 
