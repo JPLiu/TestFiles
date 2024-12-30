@@ -39,6 +39,7 @@ DOMAIN-KEYWORD,taobao
 
 # Computer Manufacturers
 DOMAIN-KEYWORD,lenovo
+DOMAIN-SUFFIX,amd.com
 DOMAIN-SUFFIX,hp.com
 
 # Microsoft
