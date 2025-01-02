@@ -1,0 +1,4 @@
+! 以下规则需要信任，目前需要手动添加到自定义规则中
+
+! CSDN
+||link.csdn.net/$urlskip=?target
