@@ -1,7 +1,7 @@
 {
 	"id": 1,
 	"name": "JPLiu 订阅",
-	"version": 23,
+	"version": 24,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
@@ -65,16 +65,6 @@
 			"key": 0,
 			"fastQuery": true,
 			"rules": "[id=\"com.chinarailway.globalticketing:id/tv_skip\"]"
-		}]
-	},{
-		"id": "com.landray.kkplus",
-		"name": "信创办公",
-		"groups": [{
-			"name": "开屏广告",
-			"desc": "跳过开屏页面",
-			"key": 0,
-			"fastQuery": true,
-			"rules": "[id=\"com.landray.kkplus:id/ad_skip\"]"
 		}]
 	},{
 		"id": "com.unionpay",
