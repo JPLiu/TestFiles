@@ -142,6 +142,10 @@ DOMAIN-SUFFIX,acgnx.se
 # Alternative To https://alternativeto.net/
 DOMAIN-SUFFIX,alternativeto.net
 
+# APKPure https://apkpure.com/google-play-store/com.android.vending
+DOMAIN-KEYWORD,apkpure
+DOMAIN-KEYWORD,cdnpure
+
 #-----BBB
 
 # 萌番组 https://bangumi.moe/ 偶发异常
