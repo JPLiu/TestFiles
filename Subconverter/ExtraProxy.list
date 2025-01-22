@@ -114,6 +114,9 @@ DOMAIN-SUFFIX,gfwsb.114514.best
 DOMAIN-SUFFIX,wcc.best
 DOMAIN-SUFFIX,ruleset.dev
 
+# Vavildi
+DOMAIN-SUFFIX,vivaldi.com
+
 # WordPress
 DOMAIN-SUFFIX,wordpress.com
 DOMAIN-SUFFIX,s.w.org
