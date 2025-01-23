@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! title: Liu's Block List
+! Title: Liu's Block List
 ! Version: 1.0
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
