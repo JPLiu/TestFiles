@@ -1,0 +1,8 @@
+[Adblock Plus 2.0]
+! Title: Liu's-Vivaldi-List
+! Version: 1.0
+! Expires: 4 days
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/Vivaldi
+
+! missav 视频点击弹窗
+missav.ws/pop?url$popup
