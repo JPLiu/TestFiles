@@ -77,14 +77,6 @@ www.123pan.com##.ant-carousel
 ! 版面清理调整
 mm-cg.com##div[class^="ut1_img_ex"]
 
-
-! 18comic
-! https://18comic.org
-! 首页板头图
-!#if !env_mobile
-18comic.org##.div-bf-pv
-!#endif
-
 ! 423down
 ! https://www.423down.com/
 ! 推广栏目 参考：https://bbs.kafan.cn/thread-2264706-1-1.html
@@ -177,9 +169,6 @@ feishu.cn##.disabled-contextmenu.not-compatible__announce
 hanime1.me##div[id="myHeader"]
 hanime1.me##div[id="more-related-ad"]
 hanime1.me##div[id="close-mobile-ad-btn"]
-!#if !env_mobile
-hanime1.me##div.hidden-sm.hidden-xs:nth-of-type(1)
-!#endif
 
 
 ! jianguoyun
@@ -237,25 +226,9 @@ www.tsdm39.com##.tsdm_statbar
 www.wenku8.net##[id^="adv"]
 
 ! weibo
-!#if !env_mobile
-! https://weibo.com/
-! 专栏页面底部推广
-weibo.com##div[node-type="recommend"]
-! 用户主页轮播图
-weibo.com##div[class*="ProfileFocusPic_box_"]
-!#endif
 ! Html5 版本界面，无意义推广
 ! https://m.weibo.cn
 m.weibo.cn##.wrap
-
-! weixin
-! https://work.weixin.qq.com
-! 版面清理 方便更新
-!#if !env_mobile
-work.weixin.qq.com##.index_section_Case.index_section
-work.weixin.qq.com##.index_head
-work.weixin.qq.com##.index_top
-!#endif
 
 ! xkbjm
 ! https://www.xkbjm.com/
