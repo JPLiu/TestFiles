@@ -16,14 +16,14 @@ for %%i in (More-Rule/*.list) do (
 
 move *.listtemp More-Rule\
 
-cd More-Rule\
-del *.list
-ren *.listtemp *.list
-copy /y *.list ..\..\AdGuard\*.txt
+:: cd More-Rule\
+:: del *.list
+:: ren *.listtemp *.list
+:: copy /y *.list ..\..\AdGuard\*.txt
 
-cd ..
-copy /y *.list ..\AdGuard\*.txt
-del /s /q ..\AdGuard\Liu's-Rule-Group.txt
-del /s /q ..\AdGuard\Liu's-Trust-List.txt
+:: cd ..
+:: copy /y *.list ..\AdGuard\*.txt
+:: del /s /q ..\AdGuard\Liu's-Rule-Group.txt
+:: del /s /q ..\AdGuard\Liu's-Trust-List.txt
 
 exit
