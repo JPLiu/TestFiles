@@ -1,8 +1,6 @@
 @echo off
 
 set aria2=aria2c.exe
-:: set ubopath=D:\2-Extension\0-SettingBAK\Browser\000ExtensionsAddons\uBlock Origin
-:: set adgpath=D:\2-Extension\0-SettingBAK\Browser\000ExtensionsAddons\AdGuard
 set vim=vim.exe
 
 :: copy /y "%ubopath%"\my-ublock-backup.txt my-ublock-backup.txt
@@ -25,5 +23,7 @@ copy /y *.list ..\..\AdGuard\*.txt
 
 cd ..
 copy /y *.list ..\AdGuard\*.txt
+del /s /q ..\AdGuard\Liu's-Rule-Group.txt
+del /s /q ..\AdGuard\Liu's-Trust-List.txt
 
 exit

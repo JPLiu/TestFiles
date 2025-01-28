@@ -1,5 +1,0 @@
-! 以下规则需要信任，目前需要手动添加到自定义规则中
-
-! CSDN
-! https://link.csdn.net/?from_id=132088321&target=https%3A%2F%2Fgithub.com%2FMathewSachin%2FCaptura
-||link.csdn.net/$urlskip=?target
