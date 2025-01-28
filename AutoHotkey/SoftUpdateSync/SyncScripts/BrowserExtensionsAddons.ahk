@@ -26,7 +26,7 @@ If FileExist( EAConfName )
 }
 
 ; 文件同步至 Android Setting
-Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
+; Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
 
 ; ViolentMoneky 暴力猴
 EAName := "Violentmonkey"
@@ -63,7 +63,7 @@ If FileExist( EAConfName )
 }
 
 ; 文件同步至 Android Setting
-Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
+; Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
 
 ; SalaDict 沙拉查词
 EAName := "SalaDict"
@@ -193,7 +193,7 @@ If FileExist( EAConfName )
 }
 
 ; 文件同步至 Android Setting
-Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
+; Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
 
 ; Text Link
 EAName := "Text Link"
@@ -280,7 +280,7 @@ If FileExist( EAConfName )
 }
 
 ; 文件同步至 Android Setting
-Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
+; Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
 
 ; AdGuard
 EAName := "AdGuard"
@@ -295,7 +295,7 @@ If FileExist( EAConfName )
 }
 
 ; 文件同步至 Android Setting
-Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
+; Try DirCopy BrowserEABakPath . "\" . EAConfPathName, BrowserEASyncPath . "\" . EAConfPathName , 1
 
 ; B站空降助手
 EAName := "B站空降助手"

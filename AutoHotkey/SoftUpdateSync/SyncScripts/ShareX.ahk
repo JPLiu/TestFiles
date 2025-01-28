@@ -10,7 +10,7 @@ Global InstallerBakPath := IniRead("SyncScripts.ini", "Setting", "InstallerBakPa
 
 SoftName := "ShareX"
 ZipFileName := "ShareX-*-portable.zip"
-SoftPath := DefaultPath . "\ShareX"
+SoftPath := DefaultPath . "\ShareX\ShareX"
 SoftNameZip := SoftName . ".zip"
 ExtPath := DownloadPath . SoftName
 LnkName := "ShareX"

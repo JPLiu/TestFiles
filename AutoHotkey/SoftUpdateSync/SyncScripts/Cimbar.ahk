@@ -8,17 +8,16 @@ Global UpdateLnkPath := IniRead("SyncScripts.ini", "Setting", "UpdateLnkPath")
 Global DefaultPath := IniRead("SyncScripts.ini", "Setting", "DefaultPath")
 Global InstallerBakPath := IniRead("SyncScripts.ini", "Setting", "InstallerBakPath")
 
-SoftName := "Setup.Screen.Capturer.Recorder"
-SoftNameExe := SoftName . ".exe"
-ExeFileName := "Setup.Screen.Capturer.Recorder.v*.exe"
-ExePath := DefaultPath . "\ShareX\"
+SoftName := "Cimbar"
+SoftNameExe := "cimbar_js.html"
+ExeFileName := "cimbar_js.html"
+SoftPath := DefaultPath . "\2-Html\" . SoftName . "\"
 
 SetWorkingDir DownloadPath
 
 If FileExist( ExeFileName )
 {
-    FileMove ExeFileName, SoftNameExe, 0
-    FileMove SoftNameExe, ExePath . "*.*", 1
+    FileMove SoftNameExe, SoftPath, 1
 }
 
 ; vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
