@@ -1,0 +1,11 @@
+[Adblock Plus 2.0]
+! Title: Liu's Vivaldi List
+! Version: 1.0
+! Expires: 4 days
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/Vivaldi
+! 本规则为在 Vivaldi 桌面版使用 AdGuard 扩展的情况下的补充规则。
+
+! missav
+! 视频播放点击弹窗
+missav.*/pop?url$popup
+
