@@ -1,0 +1,145 @@
+[Adblock Plus 2.0]
+! Title: Liu's Vivaldi AdGuard List
+! Version: 1.0
+! Expires: 4 days
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/Vivaldi
+! 本规则为在 Vivaldi 桌面版使用 AdGuard 扩展的情况下的补充规则。
+
+! missav
+! 视频播放点击弹窗
+missav.*/pop?url$popup
+
+!------------------------------------Liu's-Static-List-----------------------------------------
+
+! 禁用脚本规则
+|http*://$script,domain=baywatch.cn|cnrencai.com|diyifanwen.com|gxscse.com|haoword.com|huabuqi.com|kujiang.com|qunzou.com|ruiwen.com|wenxm.cn|wenmi.com|xiegw.cn|xiexiebang.com|xueshu.com|yuwenmi.com|zhaozongjie.com
+
+! ADDTOANY SHARE
+||addtoany.com^$important,third-party
+
+! BAIDU
+||baidu*static/images/cms
+||cpro.baidu.com/cpro/ui/uijs.php
+||share.baidu.com^
+||wan.baidu.com^
+||wanba.baidu.com^
+||youxi.baidu.com^
+
+! BSHARE 分享按钮
+||bshare.cn^$important,third-party
+
+! COUNTED-SHARE
+/com/img/counted-share$image
+##div.counted-share-vertical
+
+! CNZZ
+||cnzz.com^$important,third-party
+||cnzz.net^$important,third-party
+
+! FACKBOOK
+||facebook.com^$important,third-party
+||linkedin.com^$important,third-party
+
+! GOOGLE
+||google-analytics.com^$important
+
+! GRAVATAR（可能导致头像加载不正常）
+||gravatar.com^$third-party
+
+! MOZILLA 禁止数据挖掘
+||tiles.services.mozilla.com^$domain=behind-the-scene
+
+! TWITTER
+||platform.twitter.com/widgets.js$third-party
+
+! WEIBO
+||widget.weibo.com^$important,third-party
+
+! Other
+||jsjb.cc^$third-party
+||huluxia.com^$third-party,~image
+
+!#if !env_mobile
+! https://weibo.com/
+! 专栏页面底部推广
+weibo.com##div[node-type="recommend"]
+! 用户主页轮播图
+weibo.com##div[class*="ProfileFocusPic_box_"]
+!#endif
+
+!------------------------------------Liu's-Style-List------------------------------------------
+
+! baidu
+!#if !env_mobile
+! 百度贴吧 版头图片尺寸调整
+! https://tieba.baidu.com/
+tieba.baidu.com##.card_head:style(width: 48px !important; height: 48px !important)
+tieba.baidu.com##.card_head_img:style(width: 48px !important; height: 48px !important)
+! 百度贴吧 个人贴吧清单字体调整
+tieba.baidu.com##td:style(font-family: Calibri !important; font-size: 13px !important)
+!#endif
+
+! bilibili
+!#if !env_mobile
+! 主页 Bilibili Evolved 自定义顶栏 配合
+*://message.bilibili.com/pages/nav/index_new_pc_sync
+*://message.bilibili.com/pages/nav/index_new_sync
+! 主页 移除首页轮播图（Bilibili Evolved 已有此功能）
+!www.bilibili.com##.grid-anchor.recommended-swipe
+! 动态页面 精简左侧直播栏目 右侧栏目 调整中间栏目大小
+! https://t.bilibili.com
+t.bilibili.com##.bili-dyn-live-users
+t.bilibili.com##.right
+t.bilibili.com##.bili-dyn-home--member > main:nth-child(2):style(width: 65% !important)
+! 直播页面 播放器界面优化
+! https://live.bilibili.com
+live.bilibili.com###rank-list-vm:style(height: 14px !important; border-radius: 12px 12px 0 0 !important; background-color: #f8f8f8 !important)
+!#endif
+
+! weibo
+! https://weibo.com/
+!#if !env_mobile
+! 微博 V7 界面优化
+! 移除 微博主页面 和 搜索页 的右侧栏
+! 如果不添加第一条，主页面栏目会被压缩；如果添加，用户主页的按时间搜索等右侧按钮也会被移除
+weibo.com##div[class^="Main_side"]
+s.weibo.com##div[class="main-side"]
+! 移除 视频→推荐 栏目版头
+weibo.com##div[class*="Banner_card_"]
+! 修改左侧栏宽度，可根据自身显示屏修改。
+weibo.com##div[class^="Frame_side_"]:style(width: 182px !important)
+weibo.com##div[class^="Nav_main"]:style(width: 182px !important)
+! 修改左侧栏位置。
+weibo.com##div[class*="Frame_content"]:style(margin-left: 2% !important)
+! 修改内容区宽度，包括主页和用户主页，可根据自身显示屏修改。
+weibo.com##div[class^="Frame_main_"]:style(width: 975px !important)
+weibo.com##div[class^="Home_home"]:style(width: 975px !important)
+weibo.com##div[class^="Main_wrap"]:style(width: 975px !important)
+weibo.com##div[class^="Main_full"]:style(width: 975px !important)
+! 修改用户主页版头图的高度，可根据自身显示屏修改。
+weibo.com##div[class^="woo-picture-main ProfileHeader_pic"]:style(height: 100px !important)
+! 修改信息流中视频和图片的显示大小。
+weibo.com##div[class^="card-video_videoBox"]:style(width: 75% !important; height: 75% !important)
+weibo.com##div[class*="card-article_pic"]:style(width: 60% !important; height: 60% !important)
+! 修改信息流中图片的比例。
+weibo.com##div[class^="woo-picture-main woo-picture-square"]:style(width: 70% !important; height: 70% !important)
+weibo.com##div[class="woo-picture-main woo-picture-square woo-picture-hover"]:style(width: 90px !important; height: 90px !important)
+! 修改信息流卡片、信息流、转发评论列表、图片大图右侧栏目评论、特殊栏目处理的文字大小。
+weibo.com##div[class^="card-link_text_"]:style(font-size: 13.5px !important; line-height: 25px !important)
+weibo.com##div[class^="detail_wbtext_"]:style(line-height: 26px !important; font-size: 15.5px !important)
+weibo.com##div[class="wbpro-list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
+weibo.com##div[class="info woo-box-flex woo-box-alignCenter woo-box-justifyBetween"]:style(font-size: 13px !important)
+! 修改搜索页的宽度，调整位置和宽度，搜索结果的评论转发文字大小，评论框长度。
+s.weibo.com##div[class="m-main"]:style(margin-left: 2% !important)
+s.weibo.com##div[class="main-full"]:style(width: 975px !important)
+s.weibo.com##div[class="list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
+s.weibo.com##textarea:style(width: 875px !important)
+!#endif
+
+! wenku8
+! https://www.wenku8.net/
+! 界面字体优化
+wenku8.net##div[id="content"]:style(font-family: Calibri !important; font-size: 15px !important;)
+!#if !env_mobile
+wenku8.net##div[id="contentmain"]:style(max-width: 1100px !important;)
+!#endif

@@ -26,8 +26,4 @@ copy /y *.list ..\..\AdGuard\*.txt
 cd ..
 copy /y *.list ..\AdGuard\*.txt
 
-:: cd ..
-:: cd AdGuard\
-:: copy /y "%adgpath%"\adguard-ext-settings.json adguard-ext-settings.json
-
 exit

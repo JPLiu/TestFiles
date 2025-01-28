@@ -85,14 +85,6 @@ mm-cg.com##div[class^="ut1_img_ex"]
 18comic.org##.div-bf-pv
 !#endif
 
-! 1anime
-! https://1anime.me
-! 版面清理
-1anime.me##[href*=".tb.cn/"]
-!#if !env_mobile
-1anime.me##.clearfix.ads_all.pannel
-!#endif
-
 ! 423down
 ! https://www.423down.com/
 ! 推广栏目 参考：https://bbs.kafan.cn/thread-2264706-1-1.html
@@ -223,11 +215,6 @@ www.lightnovel.us##.fixed-download
 ! https://work.weixin.qq.com
 work.weixin.qq.com##[class^="index_section_"]
 
-! 真白萌
-! https://masiro.me/admin
-! 版头图片
-masiro.me##div#carousel-box
-
 ! 天使动漫
 ! https://www.tsdm39.com
 ! 列表版面清理
@@ -243,11 +230,6 @@ www.tsdm39.com##.tsdm_statbar
 ! https://totalcmd.net/
 ! 图片广告
 ||totalcmd.net/images/*-700.jpg$image
-
-! vim
-! https://yianwillis.github.io/vimcdoc/doc/index.html
-! 中文帮助 移除远程字体
-||fontlibrary.org^$domain=yianwillis.github.io
 
 ! wenku8
 ! https://www.wenku8.net/
