@@ -172,6 +172,9 @@ DOMAIN-SUFFIX,duyaoss.com
 
 #-----EEE
 
+# Ecosia https://www.ecosia.org
+DOMAIN-KEYWORD,ecosia
+
 # 圖書館的無限迴廊 https://epub.love/
 DOMAIN-SUFFIX,epub.love
 DOMAIN-SUFFIX,linearicons.com
