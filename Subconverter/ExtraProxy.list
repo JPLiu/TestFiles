@@ -115,7 +115,7 @@ DOMAIN-SUFFIX,wcc.best
 DOMAIN-SUFFIX,ruleset.dev
 
 # Vavildi
-DOMAIN-SUFFIX,vivaldi.com
+DOMAIN-KEYWORD,vivaldi
 
 # WordPress
 DOMAIN-SUFFIX,wordpress.com
@@ -138,9 +138,6 @@ DOMAIN-SUFFIX,acgbox.link
 # 次元狗 https://www.acgndog.com/ 偶发异常
 DOMAIN-SUFFIX,acgndog.com
 DOMAIN-SUFFIX,moetu.club
-
-# 末日動漫 https://share.acgnx.se/
-DOMAIN-SUFFIX,acgnx.se
 
 # Alternative To https://alternativeto.net/
 DOMAIN-SUFFIX,alternativeto.net
@@ -175,14 +172,6 @@ DOMAIN-SUFFIX,duyaoss.com
 # Ecosia https://www.ecosia.org
 DOMAIN-KEYWORD,ecosia
 
-# 圖書館的無限迴廊 https://epub.love/
-DOMAIN-SUFFIX,epub.love
-DOMAIN-SUFFIX,linearicons.com
-
-# EPUB 轻小说站 http://epubln.blogspot.com/
-DOMAIN-SUFFIX,cbox.ws
-DOMAIN-SUFFIX,na.cx
-
 #-----FFF
 
 # FatSecret https://www.fatsecret.cn
@@ -201,9 +190,8 @@ DOMAIN-KEYWORD,mozilla
 # Firefox 暴力猴
 # https://greasyfork.org/zh-CN
 # https://sleazyfork.org/zh-CN
-DOMAIN-KEYWORD,yfork.org
-# Firefox ClearURLs
-DOMAIN-SUFFIX,clearurls.xyz
+DOMAIN-KEYWORD,greasyfork
+DOMAIN-KEYWORD,sleazyfork
 # Firefox DarkReader
 DOMAIN-SUFFIX,darkreader.org
 # Firefox Userstyles https://userstyles.org/
@@ -216,7 +204,7 @@ DOMAIN-SUFFIX,fanboy.co.nz
 # Firefox SpeedyFox https://crystalidea.com/speedyfox
 DOMAIN-SUFFIX,crystalidea.com
 
-# ViolentMonkey - RSS+
+# UserScripts - RSS+
 DOMAIN-SUFFIX,ravi.cool
 
 # Foobar2000 https://www.foobar2000.org/
@@ -271,10 +259,6 @@ DOMAIN-SUFFIX,miobt.com
 
 # Mixplorer
 DOMAIN-KEYWORD,mixplorer
-
-# Monica https://monica.im/zh_CN/home
-DOMAIN-SUFFIX,monica.im
-DOMAIN-SUFFIX,onfastspring.com
 
 #-----NNN
 
@@ -369,7 +353,7 @@ DOMAIN-SUFFIX,voidtools.com
 DOMAIN-KEYWORD,wenku8
 
 # Workflowy https://workflowy.com/ 不定期无法访问
-DOMAIN-SUFFIX,workflowy.com
+DOMAIN-KEYWORD,workflowy
 # Relate
 DOMAIN-SUFFIX,cdnfonts.com
 DOMAIN-SUFFIX,stripe.network
@@ -380,5 +364,3 @@ DOMAIN-SUFFIX,stripe.network
 
 #-----ZZZ
 
-# Z-Library https://zh.article.sk/
-DOMAIN-SUFFIX,article.sk

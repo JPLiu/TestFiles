@@ -75,11 +75,6 @@ DOMAIN-SUFFIX,addtoany.com
 # AnyFeeder https://plink.anyfeeder.com/
 DOMAIN-SUFFIX,anyfeeder.com
 
-# AsmrGay https://www.asmrgay.com
-DOMAIN-SUFFIX,asmrgay.com
-DOMAIN-SUFFIX,asmr.121231234.xyz
-DOMAIN-SUFFIX,polyfill.io
-
 # AutoHotkey https://www.autohotkey.com/
 DOMAIN-SUFFIX,autohotkey.com
 
@@ -142,7 +137,7 @@ DOMAIN-KEYWORD,lightnovel
 #-----MMM
 
 # 蜜柑计划 https://mikanime.tv/ 国内站
-DOMAIN-SUFFIX,mikanime.tv
+DOMAIN-KEYWORD,mikanime
 DOMAIN-SUFFIX,raws.dev
 
 # 魔笔小说 https://www.mobinovels.com/
@@ -196,9 +191,6 @@ DOMAIN-KEYWORD,aqours
 #-----VVV
 
 #-----WWW
-
-# WeChat2Rss https://wechat2rss.xlab.app/
-DOMAIN-SUFFIX,wechat2rss.xlab.app
 
 # WeRss https://werss.app/
 DOMAIN-SUFFIX,cdn.weapp.design
