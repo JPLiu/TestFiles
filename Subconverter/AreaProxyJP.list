@@ -8,10 +8,6 @@
 
 #-----CCC
 
-# Claude AI https://claude.ai
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,anthropic.com
-
 #-----DDD
 
 #-----EEE
@@ -34,19 +30,11 @@ DOMAIN-KEYWORD,hatena
 
 #-----LLL
 
-# Line
-DOMAIN-KEYWORD,line-website
-
 #-----MMM
 
 #-----NNN
 
 #-----OOO
-# ChatGPT https://chat.openai.com/
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
 
 
 #-----PPP
