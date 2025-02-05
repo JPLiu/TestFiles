@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Static List
-! Version: 20250129220200
+! Version: 20250205202523
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -155,6 +155,8 @@ www.ecosia.org##.main-footer-visual
 www.ecosia.org##.card--border.card--as-a.card.chat-card.footer-card
 ! 搜索结果页顶部扩展广告
 www.ecosia.org##.main-header__install-cta
+! 搜索结果页关闭广告扩展的提示
+www.ecosia.org##[data-test-id="ad-block-notice"]
 
 ! eyny
 ! https://www.eyny.com/forum.php
