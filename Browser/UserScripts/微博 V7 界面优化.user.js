@@ -26,13 +26,13 @@
         setStyle('div[class^="Nav_main"]', 'width: 182px !important');
 
         // 修改左侧栏位置
-        setStyle('div[class*="Frame_content"]', 'margin-left: 2% !important');
+        //setStyle('div[class*="Frame_content"]', 'margin-left: 2% !important');
 
         // 修改内容区宽度
-        setStyle('div[class^="Frame_main_"]', 'width: 975px !important');
-        setStyle('div[class^="Home_home"]', 'width: 975px !important');
-        setStyle('div[class^="Main_wrap"]', 'width: 975px !important');
-        setStyle('div[class^="Main_full"]', 'width: 975px !important');
+        setStyle('div[class^="Frame_main_"]', 'width: 925px !important');
+        setStyle('div[class^="Home_home"]', 'width: 925px !important');
+        setStyle('div[class^="Main_wrap"]', 'width: 925px !important');
+        setStyle('div[class^="Main_full"]', 'width: 925px !important');
 
         // 修改用户主页版头图高度
         setStyle('div[class^="woo-picture-main ProfileHeader_pic"]', 'height: 100px !important');
@@ -70,3 +70,4 @@
         elements.forEach(element => element.style.cssText += style);
     }
 })();
+
