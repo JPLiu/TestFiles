@@ -15,7 +15,6 @@ missav.*/pop?url$popup
 ! 主页 Bilibili Evolved 自定义顶栏 配合
 *://message.bilibili.com/pages/nav/index_new_pc_sync
 *://message.bilibili.com/pages/nav/index_new_sync
-!www.bilibili.com##.grid-anchor.recommended-swipe
 ! 动态页面 精简左侧直播栏目 右侧栏目 调整中间栏目大小
 ! https://t.bilibili.com
 t.bilibili.com##.bili-dyn-live-users
