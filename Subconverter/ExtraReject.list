@@ -28,7 +28,7 @@ DOMAIN-SUFFIX,izhongcheng.cn
 
 #-----GGG
 
-# 运营商推送
+# 运营商推送（联通）
 DOMAIN-SUFFIX,gd165.com
 
 #-----HHH
@@ -64,8 +64,6 @@ DOMAIN,update.avlyun.sec.miui.com
 # 禁用云扫描病毒
 DOMAIN,cn.app.chat.xiaomi.net
 DOMAIN,etl-xlmc-ssl.sandai.net
-
-# Fhosts
 
 # MIUI 安装检查
 DOMAIN,api.installer.xiaomi.com

@@ -64,9 +64,9 @@ DOMAIN-SUFFIX,hanime1.me
 #-----MMM
 
 # 蜜柑计划 https://mikanani.me
-DOMAIN-SUFFIX,mikanani.me
+DOMAIN-KEYWORD,mikanani
 
-# MissAV https://missav.com
+# MissAV https://missav.ws
 DOMAIN-KEYWORD,missav
 
 #-----NNN
