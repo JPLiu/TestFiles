@@ -9,7 +9,7 @@
 ! missav
 ! https://missav.ws/
 ! 视频播放点击弹窗
-missav.*/pop?url$popup
+missav.*/pop$popup
 
 ! bilibili
 ! 主页 Bilibili Evolved 自定义顶栏 配合
