@@ -10,9 +10,6 @@
 ! 参考 https://thhbdd.github.io/Block-pcdn-domains/ban.txt
 ||mcdn.bilivideo.cn^
 ||szbdyd.com^
-! 主页 Bilibili Evolved 自定义顶栏 配合
-||message.bilibili.com/pages/nav/index_new_pc_sync
-||message.bilibili.com/pages/nav/index_new_sync
 
 ! ecosia
 ! https://www.ecosia.org
