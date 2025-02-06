@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Static List
-! Version: 20250205202523
+! Version: 20250206215001
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -66,17 +66,6 @@
 
 ! 专用规则（排序按主域名顺序，通用规则分类以全大写，专用规则全小写）
 
-! 123云盘
-! https://www.123pan.com
-! 管理页和分享页会员广告
-www.123pan.com##.VipBanner
-www.123pan.com##.ant-carousel
-
-! 18av.mm.cg
-! https://18av.mm-cg.com/
-! 版面清理调整
-mm-cg.com##div[class^="ut1_img_ex"]
-
 ! 423down
 ! https://www.423down.com/
 ! 推广栏目 参考：https://bbs.kafan.cn/thread-2264706-1-1.html
@@ -85,11 +74,6 @@ mm-cg.com##div[class^="ut1_img_ex"]
 423down.com##ul>li a>span:has-text(置顶):upward(li)
 423down.com##div.entry p:first-child,li.item>div[style]
 423down.com##ul.excerpt>li:nth-child(3)
-
-! acgbox
-! ACG盒子 移除淘宝广告
-! https://www.acgbox.link
-www.acgbox.link##[href*="taobao.com/"]
 
 ! baidu
 ! 百度云 充值广告及无用按钮
@@ -158,16 +142,6 @@ www.ecosia.org##.main-header__install-cta
 ! 搜索结果页关闭广告扩展的提示
 www.ecosia.org##[data-test-id="ad-block-notice"]
 
-! eyny
-! https://www.eyny.com/forum.php
-! 版面清理
-eyny.com###wp > table > tbody
-eyny.com##div[class="ptn xg2"]
-eyny.com##span[id^="ads_ads"]
-eyny.com##table:nth-of-type(2)
-eyny.com##table[class="t_p_top"]
-eyny.com##td[class="adv_header_text"]
-
 ! feishu
 ! https://docs.feishu.cn/
 ! Firefox 不兼容提示
@@ -180,11 +154,6 @@ hanime1.me##div[id="myHeader"]
 hanime1.me##div[id="more-related-ad"]
 hanime1.me##div[id="close-mobile-ad-btn"]
 
-
-! jianguoyun
-! https://www.jianguoyun.com
-! 版面优化
-www.jianguoyun.com##.teaser-container
 
 ! kafan
 ! https://bbs.kafan.cn/
@@ -199,31 +168,10 @@ landiannews.com##.content-gg
 landiannews.com##section[id^=block-]
 ||img.lancdn.com/*.gif$image,domain=landiannews.com
 
-! lightnovel
-! https://www.lightnovel.us/
-! APP-推广
-www.lightnovel.us##.fixed-download
-
-! mikan project
-! https://mikanime.tv/
-! 页面广告
-||mikanime.tv/images/masha/
-
 ! qq
 ! 企业微信 移除下载页介绍栏目
 ! https://work.weixin.qq.com
 work.weixin.qq.com##[class^="index_section_"]
-
-! 天使动漫
-! https://www.tsdm39.com
-! 列表版面清理
-www.aqours.today/img*/MP3/$image,domain=tsdm39.*
-www.tsdm39.com###ts_sidebar_base, .xg2.ptn
-! 帖子底部按钮清理
-www.tsdm39.com##div.sign, td.tsdm_replybar.plc
-! 帖子左侧用户信息清理
-www.tsdm39.com##div.md_ctrl, div.qdsmile, div.tsdm_norm_title, .tsdm_lv_title
-www.tsdm39.com##.tsdm_statbar
 
 ! totalcmd
 ! https://totalcmd.net/
@@ -234,33 +182,6 @@ www.tsdm39.com##.tsdm_statbar
 ! https://www.wenku8.net/
 ! 图片广告
 www.wenku8.net##[id^="adv"]
-
-! weibo
-! Html5 版本界面，无意义推广
-! https://m.weibo.cn
-m.weibo.cn##.wrap
-
-! xkbjm
-! https://www.xkbjm.com/
-! 版面清理 首页抬头图
-www.xkbjm.com,www.xingkbjm.com##.layui-carousel
-
-! yatu
-! http://www.yatu.tv:2082
-! 版面清理
-www.yatu.tv##.Play_Movie1
-www.yatu.tv###mlogo
-
-! zhihu
-! 日报 APP-推广
-! https://daily.zhihu.com/
-daily.zhihu.com##div.ZhihuDailyOIABanner
-! 主页 推荐关注
-! https://www.zhihu.com/
-www.zhihu.com##.css-173vipd.Card
-! 回答 移除商品广告
-zhihu.com##.MCNLinkCard
-zhihu.com##.RichText-MCNLinkCardContainer
 
 ! 设备规则
 !#if !env_mobile
