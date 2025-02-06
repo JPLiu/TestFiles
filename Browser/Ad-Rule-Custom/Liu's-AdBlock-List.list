@@ -11,6 +11,16 @@
 ||mcdn.bilivideo.cn^
 ||szbdyd.com^
 
+! csdn
+! https://blog.csdn.net/
+! CSDN去登录提示
+! 参考 https://bbs.kafan.cn/thread-2247032-1-1.html
+||g.csdnimg.cn/asdf/*/trackad.js|$script,important
+||csdnimg.cn/release/passport_fe/$script
+! CSDN去登录提示 补充规则
+blog.csdn.net##.passport-login-container
+
+
 ! ecosia
 ! https://www.ecosia.org
 ! 搜索结果页底部无用栏目
