@@ -4,64 +4,6 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
-! 台湾购物网站（个人用不上）{{{1
-! https://biggo.com.tw/
-||biggo.com.tw^
-
-! https://www.biza.com.tw/
-||biza.com.tw^
-
-! https://www.books.com.tw/
-||books.com.tw^
-
-! https://www.bookwalker.com.tw/
-||bookwalker.com.tw^
-
-! https://www.buybook.tw/
-||buybook.tw^
-
-! https://feebee.com.tw/
-||feebee.com.tw^
-
-! https://findbook.com.tw/
-||findbook.com.tw^
-
-! https://ebook.hyread.com.tw/
-||hyread.com.tw^
-
-! https://www.kadokawa.com.tw/
-||kadokawa.com.tw^
-
-! https://www.kingstone.com.tw/
-||kingstone.com.tw^
-
-! https://sm.momomall.com.tw/
-||momomall.com.tw^
-
-! https://www.momoshop.com.tw/
-||momoshop.com.tw^
-
-! https://m.myacg.com.tw/index.php
-||myacg.com.tw^
-
-! https://www.pchome.com.tw/
-||pchome.com.tw^
-
-! https://www.pcstore.com.tw/
-||pcstore.com.tw^
-
-! https://www.rakuten.com.tw/
-||rakuten.com.tw^
-
-! https://shopee.tw/
-||shopee.tw^
-
-! https://www.taaze.tw/
-||taaze.tw^
-
-! https://www.tcsb.com.tw/
-||tcsb.com.tw^
-
 ! 资源限制列表 {{{1
 
 ! http://hdymly.com/
