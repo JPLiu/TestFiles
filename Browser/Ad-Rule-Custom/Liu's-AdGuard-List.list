@@ -6,6 +6,17 @@
 ! 本文件为自用 AdGuard 规则（仅限桌面端），通过 AdGuard 扩展进行订阅/自定义。
 ! 本规则为 Liu's AdBlock List 的补充，同时考虑到 MV3 的订阅限制，规则数量将克制。
 
+! *$script,domain=examlenoscript.com|examlenoscript2.com
+
+! 423down
+! https://www.423down.com/
+! 推广栏目 参考：https://bbs.kafan.cn/thread-2264706-1-1.html
+423down.com##div.entry p[style],div.entry~p[style],div.entry>p[align] span[style]
+423down.com##ul>li a:has-text(产品推广):upward(li)
+423down.com##ul>li a>span:has-text(置顶):upward(li)
+423down.com##div.entry p:first-child,li.item>div[style]
+423down.com##ul.excerpt>li:nth-child(3)
+
 ! missav
 ! https://missav.ws/
 ! 视频播放点击弹窗
