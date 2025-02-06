@@ -71,10 +71,3 @@ s.weibo.com##div[class="list"]:style(line-height: 23.5px !important; font-size: 
 s.weibo.com##textarea:style(width: 875px !important)
 !#endif
 
-! wenku8
-! https://www.wenku8.net/
-! 界面字体优化
-wenku8.net##div[id="content"]:style(font-family: Calibri !important; font-size: 15px !important;)
-!#if !env_mobile
-wenku8.net##div[id="contentmain"]:style(max-width: 1100px !important;)
-!#endif
