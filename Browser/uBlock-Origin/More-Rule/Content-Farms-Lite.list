@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! title: Content Farms Lite
-! Version: 20250129220200
+! Version: 20250207191855
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
 
@@ -6620,6 +6620,7 @@
 ||itestquiz.com^
 ||ithink.pub^
 ||itici.net^
+||itigeryou.com^
 ||itigic.com^
 ||itisak.com^
 ||itishealthtime.com^
@@ -10129,9 +10130,18 @@
 ||ptt-chat.com^
 ||ptt-cookclub.tw^
 ||ptt-diary.tw^
+||ptt-discussion.tw^
+||ptt-game.tw^
+||ptt-info.tw^
+||ptt-joke.tw^
 ||ptt-life.com^
+||ptt-macshop.tw^
+||ptt-moments.tw^
+||ptt-music.tw^
 ||ptt-news.cc^
+||ptt-opinion.tw^
 ||ptt-politics.com^
+||ptt-talk.tw^
 ||ptt-web.com^
 ||ptt.best^
 ||ptt.jimpop.org^
@@ -10178,6 +10188,7 @@
 ||pttlocal.com^
 ||pttman.com^
 ||pttnews.cc^
+||pttnow.tw^
 ||pttqa.com^
 ||pttread.com^
 ||pttreader.com^
@@ -12722,6 +12733,7 @@
 ||usersale.org^
 ||usinsengmi.co^
 ||usistration.co^
+||uskjid.com^
 ||uslugitomaszewscy.pl^
 ||ussh.cc^
 ||ussucsetlignon.fr^

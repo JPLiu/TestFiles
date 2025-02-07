@@ -1,11 +1,18 @@
 [Adblock Plus 2.0]
 ! title: AdGuard Cookies Lite
-! Version: 20250129220200
+! Version: 20250207191855
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
 
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=hollywoodreporter.com|resmed.com|southpark.de|movistar.es|redbull.com|all.accor.com|karriere.mcdonalds.de|blaklader.*|wallapop.com|rts.ch|npr.org|upc.pl|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|player.pl|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|eurogamer.de|bet.com|ikonpass.com|mcdelivery.de|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|olx.pl|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|ted.com|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com|popeyes.com|channel5.com|bigbearmountainresort.com|quora.com|vod.pl|blick.ch|elle.com|teenvogue.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.de|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|tvnturbo.pl|superporn.com|thebump.com|bk.com|safeway.com|motor1.com|southparkstudios.com.br|southpark.lat|southparkstudios.com|realsimple.com|538.nl|skyradio.nl|radio10.nl|radioveronica.nl|homedepot.ca|wired.com|europapark.de|jdpower.com|bonava.lv|nick.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|themessenger.com|nickjr.com|lnw.com|otodom.pl|irishtimes.com|tntsports.com.br|sonos.com|rossmann.pl|rentcafe.com|seriouseats.com|bhg.com|gamescom.global|championsleague.basketball|fnac.com|twojapogoda.pl|pagesix.com|sony.pl|dhl.de|questdiagnostics.com|payback.de
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
+bundesarchiv.de#@#.cookiebanner:not(body)
+code-guru.pl#@#.cookie-alert
+vrsoft.pl#@#.cookie-alert
+rjwprm.ezdrowie.gov.pl#@##acceptCookie
+liontuning-carparts.de#@##cookie-banner
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=hartvannederland.nl
+hartvannederland.nl#@##onetrust-consent-sdk
 @@||cdn.privacy-mgmt.com^$domain=einfachbacken.de
 topmarkety.pl#@#.gdpr-box:not(body):not(html)
 enerad.pl#@#.cookies-popup
@@ -931,8 +938,8 @@ businessnovinite.bg,btvplus.bg,ladyzone.bg,btvsport.bg,btvnovinite.bg#@#.cc_bann
 autohaus-reitermayer.de#@#.gdpr-banner
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=authentication.nutmeg.com
 authentication.nutmeg.com#@##onetrust-consent-sdk
-whyopencomputing.com,kultura.com.pl#@##idxrcookies
-whyopencomputing.com,kultura.com.pl#@##cookieModal
+kultura.com.pl#@##idxrcookies
+kultura.com.pl#@##cookieModal
 @@||webticketing*.cinestar.de/app/scripts/provider/CookieConsent.js
 @@||cdn.oddschecker.com/cookie-policy-banner/bundle/cookie-policy-banner-$script
 @@||consent.cookiebot.com^$domain=empleo.lidl.es
@@ -2376,6 +2383,7 @@ tvgids.nl#@#.cookie-notice-container
 lg.com#@#.cookie-check
 mycard2go.com#@#.cookiebar
 foodnetwork.co.uk#@#.cookie-message:not(html):not(body)
+##.idxrcookies-block-user-nav::before
 ##.we-use-cookies
 ##.l-footer-cookie
 ##.box_cookie_allow
@@ -3080,7 +3088,7 @@ foodnetwork.co.uk#@#.cookie-message:not(html):not(body)
 ###cookiecontrol_notice
 ###cookiediv
 ###cookieinfo
-###cookieinfo-container
+###cookieinfo-container:not(#style_important)
 ###cookieinfobar
 ###cookieinfobox
 ###cookielaw
@@ -4010,6 +4018,7 @@ foodnetwork.co.uk#@#.cookie-message:not(html):not(body)
 ##.cookie-notice:not(body):not(html)
 ##.cookie-banner:not(body):not(html)
 ###cookie-law-info-bar
+||app.enzuzo.com/scripts/cookiebar/
 /fs-cc.js
 /kseo/ks-cookiebot/ks-cookiebot-
 /echonetcookie.js
