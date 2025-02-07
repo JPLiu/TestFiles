@@ -6,61 +6,10 @@
 
 ! 通用规则
 
-! 元素隐藏规则
-##[class^=adleft]
-##[class^=adright]
-##[id^=adleft]
-##[id^=adright]
-
 ! 拦截规则
 
 ! 禁用脚本规则
 |http*://$script,domain=baywatch.cn|cnrencai.com|diyifanwen.com|gxscse.com|haoword.com|huabuqi.com|kujiang.com|qunzou.com|ruiwen.com|wenxm.cn|wenmi.com|xiegw.cn|xiexiebang.com|xueshu.com|yuwenmi.com|zhaozongjie.com
-
-! ADDTOANY SHARE
-||addtoany.com^$important,third-party
-
-! BAIDU
-||baidu*static/images/cms
-||cpro.baidu.com/cpro/ui/uijs.php
-||share.baidu.com^
-||wan.baidu.com^
-||wanba.baidu.com^
-||youxi.baidu.com^
-
-! BSHARE 分享按钮
-||bshare.cn^$important,third-party
-
-! COUNTED-SHARE
-/com/img/counted-share$image
-##div.counted-share-vertical
-
-! CNZZ
-||cnzz.com^$important,third-party
-||cnzz.net^$important,third-party
-
-! FACKBOOK
-||facebook.com^$important,third-party
-||linkedin.com^$important,third-party
-
-! GOOGLE
-||google-analytics.com^$important
-
-! GRAVATAR（可能导致头像加载不正常）
-||gravatar.com^$third-party
-
-! MOZILLA 禁止数据挖掘
-||tiles.services.mozilla.com^$domain=behind-the-scene
-
-! TWITTER
-||platform.twitter.com/widgets.js$third-party
-
-! WEIBO
-||widget.weibo.com^$important,third-party
-
-! Other
-||jsjb.cc^$third-party
-||huluxia.com^$third-party,~image
 
 ! 修正规则（暂无）
 
@@ -74,48 +23,6 @@
 423down.com##ul>li a>span:has-text(置顶):upward(li)
 423down.com##div.entry p:first-child,li.item>div[style]
 423down.com##ul.excerpt>li:nth-child(3)
-
-! baidu
-! 百度云 充值广告及无用按钮
-! https://pan.baidu.com/disk/main
-pan.baidu.com##.nd-operate-guidance
-pan.baidu.com##.wp-s-header__right-item.wp-s-header__nav-tooltip
-pan.baidu.com##.u-popover__reference.wp-s-header__game-entry
-pan.baidu.com##.wp-header-user__tooltip-display.wp-s-header-user__tooltip
-! 百度贴吧 帖子版面优化
-! https://tieba.baidu.com/
-tieba.baidu.com###celebrity
-tieba.baidu.com###j_navtab_wanle
-tieba.baidu.com###j_navtab_game
-tieba.baidu.com##.j_tbnav_tab.more-config-navtab
-tieba.baidu.com##.achievement_medal_section
-tieba.baidu.com##.af_head_gamelink
-tieba.baidu.com##.app_download_box
-tieba.baidu.com##.card_banner
-tieba.baidu.com##.card_banner_link.card_banner
-tieba.baidu.com##.celebrity
-tieba.baidu.com##.clearfix.top-sec
-tieba.baidu.com##.novel-ranking-frs-body
-tieba.baidu.com##.search_back_box
-tieba.baidu.com##.tbui_fbar_props
-tieba.baidu.com##.tbui_fbar_tsukkomi
-tieba.baidu.com##.tbui_slideshow_container
-tieba.baidu.com##.u_member
-tieba.baidu.com##.u_official
-||bdstatic.com/tb/cms/frs/bg/default_head*.jpg$image
-||bdstatic.com/tb/cms/post/bubble/$image
-||bdstatic.com/tb/static-spage/widget/,domain=tieba.baidu.com
-||bdstatic.com/tb/static-pb/img/save_face/$image
-||gss0.baidu.com^$script,domain=tieba.baidu.com
-! 百度文库 各种付费提示
-! https://wenku.baidu.com
-wenku.baidu.com##.pc-cashier-card
-wenku.baidu.com##.vip-activity-content
-wenku.baidu.com##.vip-layer-inner
-wenku.baidu.com##.vip-privilege
-! 百度搜索 右侧内容
-! https://www.baidu.com
-www.baidu.com###content_right
 
 ! bilibili
 ! 拦截 bilibili pcdn
@@ -141,11 +48,6 @@ www.ecosia.org##.card--border.card--as-a.card.chat-card.footer-card
 www.ecosia.org##.main-header__install-cta
 ! 搜索结果页关闭广告扩展的提示
 www.ecosia.org##[data-test-id="ad-block-notice"]
-
-! feishu
-! https://docs.feishu.cn/
-! Firefox 不兼容提示
-feishu.cn##.disabled-contextmenu.not-compatible__announce
 
 ! hanime1
 ! https://hanime1.me/
