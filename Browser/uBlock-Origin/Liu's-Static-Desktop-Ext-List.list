@@ -19,6 +19,16 @@
 ! 遗留空白-广告位
 hanime1.me##div.hidden-sm.hidden-xs:nth-of-type(1)
 
+! baidu
+! https://tieba.baidu.com
+! 版头图
+tieba.baidu.com##.card_banner_link.card_banner
+! 右栏 签到
+tieba.baidu.com##.celebrity.aside_region
+! 右栏 移动端下载提示
+tieba.baidu.com##.app_download_box.aside_region
+
+
 ! weibo
 ! https://weibo.com/
 ! 专栏页面底部推广
