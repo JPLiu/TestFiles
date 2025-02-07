@@ -3,6 +3,7 @@
 ! Version: 20250207192001
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
+! 过程式规则，需要 uBlock Origin 或者 AdGuard。
 
 ! 423down
 ! https://www.423down.com/

@@ -3,7 +3,7 @@
 ! Version: 20250207192001
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
-! 此规则为 Liu's Static List 的补充规则，内容为不需要在移动端使用的静态规则。
+! Liu's Static List 的桌面端补充规则。
 
 !#if !env_mobile
 
