@@ -14,7 +14,6 @@
 
     // 等待页面加载完成
     window.addEventListener('load', function () {
-        setTimeout(optimizePage, 1000);
         // 移除右侧栏
         removeElement('div[class^="Main_side"]'); // 主页面右侧栏
         removeElement('div[class="main-side"]'); // 搜索页右侧栏
