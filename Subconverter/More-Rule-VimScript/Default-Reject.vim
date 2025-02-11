@@ -5,6 +5,8 @@ vim9script
 :%s/^127.0.0.1 /DOMAIN-SUFFIX,/ge
 :%s/^0.0.0.0 /DOMAIN,/ge
 :%s/#/\r#/ge
+:%s/\/32$/\/32,no-resolve/ge
+:%s/\/128$/\/128,no-resolve/ge
 silent! g/^#/d
 
 silent! v/^[DIP]/d
