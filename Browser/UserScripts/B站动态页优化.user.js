@@ -13,6 +13,7 @@
 
     // 等待页面加载完成
     window.addEventListener('load', function () {
+        setTimeout(optimizePage, 1000);
         // 移除指定元素
         removeElement('.bili-dyn-live-users'); // 移除直播用户栏
         removeElement('.right'); // 移除右侧栏
