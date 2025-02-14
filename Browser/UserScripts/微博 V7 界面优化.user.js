@@ -1,73 +1,127 @@
 // ==UserScript==
-// @name         微博 V7 界面优化
+// @name         微博V7界面深度优化
 // @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  优化微博 V7 界面，移除右侧栏、调整宽度、修改字体大小等
-// @author       DeepSeek
+// @version      1.1
+// @description  全面优化微博V7版界面布局和显示效果
+// @author       YourName
 // @match        https://weibo.com/*
 // @match        https://s.weibo.com/*
-// @grant        none
+// @grant        GM_addStyle
+// @run-at       document-start
 // ==/UserScript==
 
-(function () {
+(function() {
     'use strict';
 
-    // 等待页面加载完成
-    window.addEventListener('load', function () {
-        // 移除右侧栏
-        removeElement('div[class^="Main_side"]'); // 主页面右侧栏
-        removeElement('div[class="main-side"]'); // 搜索页右侧栏
+    // 通用样式优化
+    const commonStyle = `
+        /* 隐藏右侧边栏 */
+        div[class^="Main_side"],
+        div[class="main-side"] {
+            display: none !important;
+        }
 
-        // 移除视频推荐栏目版头
-        removeElement('div[class*="Banner_card_"]');
+        /* 视频推荐版头隐藏 */
+        div[class*="Banner_card_"] {
+            display: none !important;
+        }
 
-        // 修改左侧栏宽度
-        setStyle('div[class^="Frame_side_"]', 'width: 182px !important');
-        setStyle('div[class^="Nav_main"]', 'width: 182px !important');
+        /* 搜索页样式调整 */
+        div.m-main {
+            margin-left: 2% !important;
+        }
+        div.main-full {
+            width: 975px !important;
+        }
+        div.list {
+            line-height: 23.5px !important;
+            font-size: 14.5px !important;
+        }
+        textarea {
+            width: 875px !important;
+        }
+    `;
 
-        // 修改左侧栏位置
-        //setStyle('div[class*="Frame_content"]', 'margin-left: 2% !important');
+    // 主站样式优化
+    const weiboStyle = `
+        /* 左侧导航栏调整 */
+        div[class^="Frame_side_"],
+        div[class^="Nav_main"] {
+            width: 182px !important;
+        }
 
-        // 修改内容区宽度
-        setStyle('div[class^="Frame_main_"]', 'width: 925px !important');
-        setStyle('div[class^="Home_home"]', 'width: 925px !important');
-        setStyle('div[class^="Main_wrap"]', 'width: 925px !important');
-        setStyle('div[class^="Main_full"]', 'width: 925px !important');
+        /* 内容区位置调整 */
+        div[class*="Frame_content"] {
+            margin-left: 2% !important;
+        }
 
-        // 修改用户主页版头图高度
-        setStyle('div[class^="woo-picture-main ProfileHeader_pic"]', 'height: 100px !important');
+        /* 主内容区宽度 */
+        div[class^="Frame_main_"],
+        div[class^="Home_home"],
+        div[class^="Main_wrap"],
+        div[class^="Main_full"] {
+            width: 975px !important;
+        }
 
-        // 修改信息流中视频和图片的显示大小
-        setStyle('div[class^="card-video_videoBox"]', 'width: 75% !important; height: 75% !important');
-        setStyle('div[class*="card-article_pic"]', 'width: 60% !important; height: 60% !important');
+        /* 用户主页版头高度 */
+        div[class^="woo-picture-main ProfileHeader_pic"] {
+            height: 100px !important;
+        }
 
-        // 修改信息流中图片的比例
-        setStyle('div[class^="woo-picture-main woo-picture-square"]', 'width: 70% !important; height: 70% !important');
-        setStyle('div[class="woo-picture-main woo-picture-square woo-picture-hover"]', 'width: 90px !important; height: 90px !important');
+        /* 多媒体内容尺寸 */
+        div[class^="card-video_videoBox"] {
+            width: 75% !important;
+            height: 75% !important;
+        }
+        div[class*="card-article_pic"] {
+            width: 60% !important;
+            height: 60% !important;
+        }
 
-        // 修改信息流卡片、信息流、转发评论列表、图片大图右侧栏目评论、特殊栏目处理的文字大小
-        setStyle('div[class^="card-link_text_"]', 'font-size: 13.5px !important; line-height: 25px !important');
-        setStyle('div[class^="detail_wbtext_"]', 'line-height: 26px !important; font-size: 15.5px !important');
-        setStyle('div[class="wbpro-list"]', 'line-height: 23.5px !important; font-size: 14.5px !important');
-        setStyle('div[class="info woo-box-flex woo-box-alignCenter woo-box-justifyBetween"]', 'font-size: 13px !important');
+        /* 图片比例调整 */
+        div[class^="woo-picture-main woo-picture-square"] {
+            width: 70% !important;
+            height: 70% !important;
+        }
+        div[class="woo-picture-main woo-picture-square woo-picture-hover"] {
+            width: 90px !important;
+            height: 90px !important;
+        }
 
-        // 修改搜索页的宽度、位置和字体大小
-        setStyle('div[class="m-main"]', 'margin-left: 2% !important');
-        setStyle('div[class="main-full"]', 'width: 975px !important');
-        setStyle('div[class="list"]', 'line-height: 23.5px !important; font-size: 14.5px !important');
-        setStyle('textarea', 'width: 875px !important');
+        /* 文字排版优化 */
+        div[class^="card-link_text_"] {
+            font-size: 13.5px !important;
+            line-height: 25px !important;
+        }
+        div[class^="detail_wbtext_"] {
+            line-height: 26px !important;
+            font-size: 15.5px !important;
+        }
+        div[class="wbpro-list"] {
+            line-height: 23.5px !important;
+            font-size: 14.5px !important;
+        }
+        div[class="info woo-box-flex woo-box-alignCenter woo-box-justifyBetween"] {
+            font-size: 13px !important;
+        }
+    `;
+
+    // 动态加载内容处理
+    const observer = new MutationObserver(() => {
+        document.querySelectorAll('[class^="Main_side"]').forEach(el => el.style.display = 'none');
     });
 
-    // 移除指定元素
-    function removeElement(selector) {
-        const elements = document.querySelectorAll(selector);
-        elements.forEach(element => element.remove());
+    // 初始化样式注入
+    GM_addStyle(commonStyle);
+    if (location.host === 'weibo.com') {
+        GM_addStyle(weiboStyle);
+        observer.observe(document.body, { childList: true, subtree: true });
     }
 
-    // 设置指定元素的样式
-    function setStyle(selector, style) {
-        const elements = document.querySelectorAll(selector);
-        elements.forEach(element => element.style.cssText += style);
-    }
+    // 窗口调整处理
+    window.addEventListener('resize', () => {
+        document.querySelectorAll('[class^="Frame_main_"]').forEach(el => {
+            el.style.width = '975px !important';
+        });
+    });
 })();
-
