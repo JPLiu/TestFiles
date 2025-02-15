@@ -45,6 +45,9 @@ DOMAIN-SUFFIX,hp.com
 # Microsoft
 DOMAIN-SUFFIX,appcenter.ms
 
+# NTP Pool
+DOMAIN-SUFFIX,pool.ntp.org
+
 # Paypal
 DOMAIN-KEYWORD,paypal
 # Paypal Related Company
