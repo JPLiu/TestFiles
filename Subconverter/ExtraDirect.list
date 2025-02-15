@@ -61,6 +61,9 @@ IP-CIDR,104.20.180.50/32,no-resolve
 # Trackerslists
 DOMAIN-SUFFIX,trackerslist.com
 
+# Whois
+DOMAIN-SUFFIX,ipwho.is
+
 # -------------------------------------------------
 # 按网址排序
 
