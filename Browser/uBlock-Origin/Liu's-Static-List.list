@@ -4,6 +4,9 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 基础过滤规则，通用。
+||missav*^$popup
+||missav123.com^$popup
+||missav888.com^$popup
 
 ! 通用规则
 
