@@ -4,10 +4,28 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 基础过滤规则，通用。
-||missav*^$popup
-||missav123.com^$popup
-||missav888.com^$popup
-||missav.ws/pop
+trackwilltrk.com
+rmhfrtnd.com
+video.ktkjmp.com
+go.myavlive.com
+gsjln04hd.com
+creative.myavlive.com
+creative.live.missav.com
+cashewsforlife208.com
+ingest.sentry
+phloxsub73ulata.com
+xxxjmp.com
+pitrespite.com
+alexametrics.com
+designslicensedeep.com
+a.bestcontentfood.top
+tsyndicate.com
+cashewsforlife208.com
+e67repidwnfu7gcha.com
+mc7clurd09pla4nrtat7ion.com
+e67repidwnfu7gcha.com
+wuzbhjpvsf.com
+a.realsrv.com
 
 ! 通用规则
 
