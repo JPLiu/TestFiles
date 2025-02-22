@@ -1676,6 +1676,7 @@ DOMAIN,ad.xelements.cn
 DOMAIN,ad.xiaomi.com
 DOMAIN,ad.ximalaya.com
 DOMAIN,ad.zijieapi.com
+DOMAIN,ad2.ettoday.net
 DOMAIN,adapi.izuiyou.com
 DOMAIN,adapi.yynetwk.com
 DOMAIN,adashbc.ut.taobao.com
@@ -1914,6 +1915,7 @@ DOMAIN,data.mistat.india.xiaomi.com
 DOMAIN,data.mistat.rus.xiaomi.com
 DOMAIN,data.mistat.xiaomi.com
 DOMAIN,dc.sigmob.cn
+DOMAIN,de.tynt.com
 DOMAIN,diagnosis.ad.xiaomi.com
 DOMAIN,dig.bdurl.net
 DOMAIN,dl.zuimeitianqi.com
@@ -2012,6 +2014,7 @@ DOMAIN,img-x.jd.com
 DOMAIN,img.adnyg.com
 DOMAIN,img.adnyg.com.w.kunlungr.com
 DOMAIN,imtmp.net
+DOMAIN,in.treasuredata.com
 DOMAIN,iot-eu-logser.realme.com
 DOMAIN,iot-logser.realme.com
 DOMAIN,ipv4.kkmh.com
@@ -2064,6 +2067,7 @@ DOMAIN,log.byteoversea.com
 DOMAIN,log.fc.yahoo.com
 DOMAIN,log.kuwo.cn
 DOMAIN,log.pinterest.com
+DOMAIN,log.popin.cc
 DOMAIN,log.snssdk.com
 DOMAIN,log.stat.kugou.com
 DOMAIN,log.tagtic.cn
@@ -2147,7 +2151,6 @@ DOMAIN,p1-be-pack-sign.pglstatp-toutiao.com
 DOMAIN,p1-lm.adkwai.com
 DOMAIN,p2-be-pack-sign.pglstatp-toutiao.com
 DOMAIN,p2-lm.adkwai.com
-DOMAIN,p2p.huya.com
 DOMAIN,p3-be-pack-sign.pglstatp-toutiao.com
 DOMAIN,p3-lm.adkwai.com
 DOMAIN,p3-tt.byteimg.com
@@ -2185,6 +2188,7 @@ DOMAIN,res3.hubcloud.com.cn
 DOMAIN,resolve.umeng.com
 DOMAIN,rev.aiclk.com
 DOMAIN,review.gdtimg.com
+DOMAIN,rlog.popin.cc
 DOMAIN,rms-drcn.platform.dbankcloud.cn
 DOMAIN,roi.soulapp.cn
 DOMAIN,rpt.gdt.qq.com
@@ -2193,6 +2197,7 @@ DOMAIN,s.amazon-adsystem.com
 DOMAIN,s1.qq.com
 DOMAIN,s2.qq.com
 DOMAIN,s3.qq.com
+DOMAIN,s8t.teads.tv
 DOMAIN,saad.ms.zhangyue.net
 DOMAIN,samsung-com.112.2o7.net
 DOMAIN,samsungads.com
@@ -2255,9 +2260,11 @@ DOMAIN,syh-imp.cdnjtzy.com
 DOMAIN,szbdyd.com
 DOMAIN,t-dsp.pinduoduo.com
 DOMAIN,t.l.qq.com
+DOMAIN,t.teads.tv
 DOMAIN,t.track.ad.xiaomi.com
 DOMAIN,t002.ottcn.com
 DOMAIN,t1.a.market.xiaomi.com
+DOMAIN,t1.teads.tv
 DOMAIN,t2.a.market.xiaomi.com
 DOMAIN,t3.a.market.xiaomi.com
 DOMAIN,tangram.e.qq.com
