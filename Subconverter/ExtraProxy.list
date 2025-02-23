@@ -173,7 +173,6 @@ DOMAIN-SUFFIX,duyaoss.com
 DOMAIN-KEYWORD,ecosia
 
 #-----FFF
-
 # FatSecret https://www.fatsecret.cn
 DOMAIN-KEYWORD,fatsecret
 
@@ -206,6 +205,9 @@ DOMAIN-SUFFIX,crystalidea.com
 
 # UserScripts - RSS+
 DOMAIN-SUFFIX,ravi.cool
+
+# Follow
+DOMAIN-SUFFIX,follow.is
 
 # Foobar2000 https://www.foobar2000.org/
 DOMAIN-SUFFIX,foobar2000.org
