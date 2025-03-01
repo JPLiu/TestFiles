@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! title: Content Farms Lite Hide
-! Version: 20250207191855
+! Version: 20250301094309
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
 
@@ -5513,6 +5513,7 @@ google.*##.g:has(a[href*="greenfueltechnologylimited.com"])
 google.*##.g:has(a[href*="greengo.shop.pl"])
 google.*##.g:has(a[href*="greenheavensrl.it"])
 google.*##.g:has(a[href*="greeniolidays.me"])
+google.*##.g:has(a[href*="greensmartmobility.com"])
 google.*##.g:has(a[href*="greentekme.com"])
 google.*##.g:has(a[href*="greentravelnwanders.co"])
 google.*##.g:has(a[href*="greenvallrepir.co"])
@@ -9714,6 +9715,7 @@ google.*##.g:has(a[href*="pets-feedder.com"])
 google.*##.g:has(a[href*="pets-homee.com"])
 google.*##.g:has(a[href*="pets-master.com"])
 google.*##.g:has(a[href*="pets-surprise.com"])
+google.*##.g:has(a[href*="pets699.com"])
 google.*##.g:has(a[href*="petsccs.com"])
 google.*##.g:has(a[href*="petscommunity.club"])
 google.*##.g:has(a[href*="petsonelove.com"])
@@ -12671,6 +12673,7 @@ google.*##.g:has(a[href*="unavenamama.sk"])
 google.*##.g:has(a[href*="unbouncepages.com"])
 google.*##.g:has(a[href*="unctnebes.com"])
 google.*##.g:has(a[href*="underarmourpolska.pl"])
+google.*##.g:has(a[href*="undergroundship.com"])
 google.*##.g:has(a[href*="undiawstudio.co"])
 google.*##.g:has(a[href*="unfamiliiardates.net"])
 google.*##.g:has(a[href*="unhair.it"])
