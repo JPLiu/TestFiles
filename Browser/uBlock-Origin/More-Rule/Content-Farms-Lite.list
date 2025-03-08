@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! title: Content Farms Lite
-! Version: 20250301094309
+! Version: 20250308094125
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
 
@@ -2106,6 +2106,7 @@
 ||bjqgkm.com^
 ||bjstgc.com^
 ||bjtriz.com^
+||bk.taobao.com^
 ||bkfenxiang.com^
 ||bkffilerecvry.co^
 ||bkrk.cc^
@@ -5908,6 +5909,7 @@
 ||hezkydiplom.cz^
 ||hf-plotter-schmiede.de^
 ||hfdewgov.site^
+||hfhao.com^
 ||hg-ent.co^
 ||hgsz008.xyz^
 ||hhbkg.com^

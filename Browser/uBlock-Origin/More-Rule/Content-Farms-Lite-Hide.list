@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! title: Content Farms Lite Hide
-! Version: 20250301094309
+! Version: 20250308094125
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
 
@@ -2106,6 +2106,7 @@ google.*##.g:has(a[href*="bjoernjagnow.eu"])
 google.*##.g:has(a[href*="bjqgkm.com"])
 google.*##.g:has(a[href*="bjstgc.com"])
 google.*##.g:has(a[href*="bjtriz.com"])
+google.*##.g:has(a[href*="bk.taobao.com"])
 google.*##.g:has(a[href*="bkfenxiang.com"])
 google.*##.g:has(a[href*="bkffilerecvry.co"])
 google.*##.g:has(a[href*="bkrk.cc"])
@@ -5908,6 +5909,7 @@ google.*##.g:has(a[href*="hezhonglz.com"])
 google.*##.g:has(a[href*="hezkydiplom.cz"])
 google.*##.g:has(a[href*="hf-plotter-schmiede.de"])
 google.*##.g:has(a[href*="hfdewgov.site"])
+google.*##.g:has(a[href*="hfhao.com"])
 google.*##.g:has(a[href*="hg-ent.co"])
 google.*##.g:has(a[href*="hgsz008.xyz"])
 google.*##.g:has(a[href*="hhbkg.com"])
