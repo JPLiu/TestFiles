@@ -1723,6 +1723,7 @@ DOMAIN,ads.service.kugou.com
 DOMAIN,ads.tiktok.com
 DOMAIN,ads.v3mh.com
 DOMAIN,ads.youtube.com
+DOMAIN,ads.zhinengxiyifang.cn
 DOMAIN,ads3-normal-hl.zijieapi.com
 DOMAIN,ads3-normal-lf.zijieapi.com
 DOMAIN,ads3-normal-lq.zijieapi.com
@@ -1833,6 +1834,7 @@ DOMAIN,api.jietuhb.com
 DOMAIN,api.kingdata.ksyun.com
 DOMAIN,api.statsig.com
 DOMAIN,api.touch-moblie.com
+DOMAIN,api.yfanads.com
 DOMAIN,api5-normal-quic-lf.ixigua.com
 DOMAIN,apiyd.my91app.com
 DOMAIN,apks.webxiaobai.top
@@ -1896,6 +1898,7 @@ DOMAIN,ck.ads.oppomobile.com
 DOMAIN,click.googleanalytics.com
 DOMAIN,click.oneplus.cn
 DOMAIN,clog.miguvideo.com
+DOMAIN,cn-api.anythinktech.com
 DOMAIN,cnlogs.umeng.com
 DOMAIN,cnlogs.umengcloud.com
 DOMAIN,cnzz.com
@@ -1914,6 +1917,7 @@ DOMAIN,data.chsmarttv.com
 DOMAIN,data.mistat.india.xiaomi.com
 DOMAIN,data.mistat.rus.xiaomi.com
 DOMAIN,data.mistat.xiaomi.com
+DOMAIN,datk.anythinktech.com
 DOMAIN,dc.sigmob.cn
 DOMAIN,de.tynt.com
 DOMAIN,diagnosis.ad.xiaomi.com
@@ -2364,6 +2368,7 @@ DOMAIN,win.gdt.qq.com
 DOMAIN,wn.x.jd.com
 DOMAIN,ws-keyboard.shouji.sogou.com
 DOMAIN,ws.sj.qq.com
+DOMAIN,wwads.cn
 DOMAIN,www42.zskwai.com
 DOMAIN,wxa.wxs.qq.com
 DOMAIN,wxaintpcos.wxqcloud.qq.com.cn
