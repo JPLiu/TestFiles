@@ -1,7 +1,7 @@
 {
 	"id": 1010,
 	"name": "JPLiu 订阅",
-	"version": 26,
+	"version": 27,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
@@ -33,6 +33,12 @@
 			"key": 1,
 			"fastQuery": true,
 			"rules": "[id=\"com.cs_credit_bank:id/iv_close\"]"
+        },{
+			"name": "国寿联盟推广",
+			"desc": "国寿联盟推广-FastQuery",
+			"key": 2,
+			"fastQuery": true,
+			"rules": "[id=\"com.cs_credit_bank:id/closeIvLogo\"]"
         }]
 	},{
 		"id": "com.eg.android.AlipayGphone",

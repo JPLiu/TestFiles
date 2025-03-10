@@ -1,7 +1,7 @@
 {
 	"id": 2010,
 	"name": "JPLiu 订阅-NoFast",
-	"version": 26,
+	"version": 27,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
@@ -30,6 +30,11 @@
 			"desc": "产品推广-NoFast",
 			"key": 1,
 			"rules": "[id=\"com.cs_credit_bank:id/iv_close\"]"
+        },{
+			"name": "国寿联盟推广",
+			"desc": "国寿联盟推广-NoFast",
+			"key": 2,
+			"rules": "[id=\"com.cs_credit_bank:id/closeIvLogo\"]"
         }]
 	},{
 		"id": "com.eg.android.AlipayGphone",
