@@ -1,3 +1,4 @@
+chcp 65001
 @echo off
 
 cd /d Aria2
