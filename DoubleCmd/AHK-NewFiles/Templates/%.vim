@@ -1,2 +1,3 @@
+vim9script
 
-" Vim-FileSetting vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
+# vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
