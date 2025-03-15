@@ -1,4 +1,4 @@
-chcp 65001
+chcp 65001 >nul
 @echo off&setlocal enabledelayedexpansion
 
 set PDFPath=%~1

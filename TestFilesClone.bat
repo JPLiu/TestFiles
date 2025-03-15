@@ -1,4 +1,4 @@
-chcp 65001
+chcp 65001 >nul
 @echo off
 
 :Clone

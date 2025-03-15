@@ -1,4 +1,4 @@
-chcp 65001
+chcp 65001 >nul
 @echo off
 
 set aria2=aria2c.exe
