@@ -1,11 +1,14 @@
 # Extra Direct Media List
 
 # Resource
-# http://www.936dm.com/video/9020.html
+# 706dm Related
+DOMAIN-SUFFIX,vip.dytt-img.com
+# http://www.706dm.com/video/9020.html
 DOMAIN-KEYWORD,yhdmjx
 DOMAIN-KEYWORD,yinghuazy
-# https://www.936dm.com/play/9161-1-8.html
+# https://www.706dm.com/play/9161-1-8.html
 DOMAIN-SUFFIX,server.mch3.com
+
 
 # http://www.yatu.tv:2082/m04568/play0-1.html
 DOMAIN-SUFFIX,2s0.cn
@@ -24,7 +27,7 @@ DOMAIN-KEYWORD,jiashule
 
 # https://www.akamai.com/
 DOMAIN-KEYWORD,default.akamaize
-# http://www.936dm.com/play/9020-1-3.html
+# http://www.706dm.com/play/9020-1-3.html
 
 # -------------------------------------------------
 # 按网址排序
