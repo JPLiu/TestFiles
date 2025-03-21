@@ -145,6 +145,8 @@ DOMAIN-SUFFIX,alternativeto.net
 # APKPure https://apkpure.com/google-play-store/com.android.vending
 DOMAIN-KEYWORD,apkpure
 DOMAIN-KEYWORD,cdnpure
+# Relate
+DOMAIN-SUFFIX,winudf.com
 
 #-----BBB
 
