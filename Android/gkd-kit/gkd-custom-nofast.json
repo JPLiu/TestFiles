@@ -1,7 +1,7 @@
 {
 	"id": 2010,
 	"name": "JPLiu 订阅-NoFast",
-	"version": 27,
+	"version": 28,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
@@ -36,6 +36,15 @@
 			"key": 2,
 			"rules": "[id=\"com.cs_credit_bank:id/closeIvLogo\"]"
         }]
+	},{
+		"id": "com.pa.health",
+		"name": "平安健康保险",
+		"groups": [{
+			"name": "弹窗广告",
+			"desc": "弹窗广告-NoFast",
+			"key": 0,
+			"rules": "[id=\"com.pa.health:id/ivClose\"]"
+		}]
 	},{
 		"id": "com.eg.android.AlipayGphone",
 		"name": "支付宝",
