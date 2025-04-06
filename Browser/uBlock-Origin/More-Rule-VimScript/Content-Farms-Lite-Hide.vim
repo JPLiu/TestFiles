@@ -1,6 +1,6 @@
 vim9script
 
-:1s@^@\[Adblock Plus 2.0\]\r\! title\: Content Farms Lite Hide\r\! Version\: 1.0\r\! Expires\: 4 days\r\! Homepage\: https\:\/\/github.com\/JPLiu\/TestFiles\/tree\/main\/uBlock-Origin\r\r
+:1s@^@\[Adblock Plus 2.0\]\r\! Title\: Content Farms Lite Hide\r\! Version\: 1.0\r\! Expires\: 4 days\r\! Homepage\: https\:\/\/github.com\/JPLiu\/TestFiles\/tree\/main\/uBlock-Origin\r\r
 
 :7,$sort u
 :7,$s/\/$//ge
