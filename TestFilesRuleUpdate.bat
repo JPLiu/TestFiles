@@ -39,6 +39,7 @@ start "" cmd /k call More-Rule-Upadte.bat
 cd ..
 cd /d uBlock-Origin
 start "" cmd /k call More-Rule-Upadte.bat
+start "" cmd /k call List-Time-Update.bat
 cd ..
 
 :: vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
