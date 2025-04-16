@@ -5,8 +5,8 @@ set aria2=aria2c.exe
 set vim=vim.exe
 
 del /s /q Liu's-Vivaldi*.list
-type Liu's-Block-List.list Liu's-Static-List.list Liu's-Static-Desktop-Ext-List.list >> Liu's-Vivaldi-Desktop.list
-type Liu's-Block-List.list Liu's-Static-List.list >> Liu's-Vivaldi-Mobile.list
+type Liu's-Block-List.list Liu's-Static-List.list Liu's-Static-Desktop-Ext-List.list Vivaldi-Add.txt Vivaldi-Add-Ext.txt >> Liu's-Vivaldi-Desktop.list
+type Liu's-Block-List.list Liu's-Static-List.list Vivaldi-Add.txt >> Liu's-Vivaldi-Mobile.list
 
 for %%i in (Liu's-Vivaldi*.list) do (
     %vim% %%~ni.list -e -c "source More-Rule-VimScript\%%~ni.vim | wq"
