@@ -1,3 +1,0 @@
-! 18comic
-18comic.vip##.div-bf-pv
-18comic.vip##div[data-show="ok"]
