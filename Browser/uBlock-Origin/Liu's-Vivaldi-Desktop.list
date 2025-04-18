@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Vivaldi Desktop
-! Version: 20250417214232
+! Version: 20250418202706
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
 
@@ -44,3 +44,4 @@ work.weixin.qq.com##.index_head
 work.weixin.qq.com##.index_top
 18comic.vip##.div-bf-pv
 18comic.vip##div[data-show="ok"]
+18comic.vip##[class="vsc-initialized"]
