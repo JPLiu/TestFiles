@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Static List
-! Version: 20250430220000
+! Version: 20250503135506
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 基础过滤规则，通用。
@@ -83,6 +83,13 @@ www.wenku8.net##[id^="adv"]
 ! https://workflowy.com/
 ! 移动端使用 Chrome 提示
 workflowy.com##.message-container
+
+! yuanbao
+! https://yuanbao.tencent.com
+! PC 版下载推广
+yuanbao.tencent.com##div[class^="index_downloadPCAds"]
+yuanbao.tencent.com##.agent-dialogue__tool
+
 
 ! 设备规则
 !#if !env_mobile
