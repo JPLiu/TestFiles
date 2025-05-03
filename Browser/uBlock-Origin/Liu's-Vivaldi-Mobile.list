@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Vivaldi Mobile
-! Version: 20250503135506
+! Version: 20250503150100
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
 
@@ -11,6 +11,8 @@
 ||play.undcine.com^
 ||yunqishi.net^
 |http*://$script,domain=baywatch.cn|cnrencai.com|diyifanwen.com|gxscse.com|haoword.com|huabuqi.com|kujiang.com|qunzou.com|ruiwen.com|wenxm.cn|wenmi.com|xiegw.cn|xiexiebang.com|xueshu.com|yuwenmi.com|zhaozongjie.com
+18comic.vip##.div-bf-pv
+18comic.vip##div[data-show="ok"]
 ||mcdn.bilivideo.cn^
 ||szbdyd.com^
 ||g.csdnimg.cn/asdf/*/trackad.js|$script,important
@@ -35,6 +37,3 @@ www.wenku8.net##[id^="adv"]
 workflowy.com##.message-container
 yuanbao.tencent.com##div[class^="index_downloadPCAds"]
 yuanbao.tencent.com##.agent-dialogue__tool
-18comic.vip##.div-bf-pv
-18comic.vip##body[class="vsc-initialized"]
-18comic.vip##div[data-show="ok"]

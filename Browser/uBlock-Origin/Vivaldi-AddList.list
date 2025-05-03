@@ -1,11 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Vivaldi AddList
-! Version: 20250503135506
+! Version: 20250503150100
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! Vivaldi 补充规则。
 
-! 18comic
-18comic.vip##.div-bf-pv
-18comic.vip##body[class="vsc-initialized"]
-18comic.vip##div[data-show="ok"]

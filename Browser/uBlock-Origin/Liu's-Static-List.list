@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Static List
-! Version: 20250503135506
+! Version: 20250503150100
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 基础过滤规则，通用。
@@ -15,6 +15,12 @@
 ! 修正规则（暂无）
 
 ! 专用规则（排序按主域名顺序，通用规则分类以全大写，专用规则全小写）
+
+! 18comic
+! https://18comic.vip
+! 首页广告、图片插入广告
+18comic.vip##.div-bf-pv
+18comic.vip##div[data-show="ok"]
 
 ! bilibili
 ! 拦截 bilibili pcdn
