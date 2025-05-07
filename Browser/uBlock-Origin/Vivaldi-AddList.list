@@ -5,4 +5,5 @@
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! Vivaldi 补充规则。
 
+! 18comic
 18comic.vip##iframe[scrolling="no"]
