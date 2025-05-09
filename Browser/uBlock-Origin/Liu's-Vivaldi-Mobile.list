@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Vivaldi Mobile
-! Version: 20250507201020
+! Version: 20250509210258
 ! Expires: 4 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
 
@@ -37,5 +37,6 @@ www.wenku8.net##[id^="adv"]
 workflowy.com##.message-container
 yuanbao.tencent.com##div[class^="index_downloadPCAds"]
 yuanbao.tencent.com##.agent-dialogue__tool
+18comic.vip##div[data-group="sticky2"]
 18comic.vip##div[class="hidden-lg"]
 18comic.vip##iframe[scrolling="no"]
