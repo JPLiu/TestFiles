@@ -60,6 +60,9 @@ DOMAIN-SUFFIX,achost.top
 # Amazon
 DOMAIN-KEYWORD,amazonaws
 
+# Brave
+DOMAIN-KEYWORD,brave
+
 # ByteDance Intl
 DOMAIN-KEYWORD,oceanapi
 DOMAIN-SUFFIX,byteintlapi.com
