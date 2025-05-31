@@ -1,27 +1,59 @@
 [Adblock Plus 2.0]
-! Title: Liu's Clear List
+! Title: Liu uBlock-Origin RuleSet
 ! Version: 20250531101212
 ! Expires: 1 days
-! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
-! 网址清理规则，需要 uBlock Origin 或者 AdGuard。
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/AdBlock
 
-! 网址清理规则
-! 参考：https://rules2.clearurls.xyz/data.minify.json
-
-! 通用清理规则
+|http*://$script,domain=baywatch.cn|cnrencai.com|diyifanwen.com|gxscse.com|haoword.com|huabuqi.com|kujiang.com|qunzou.com|ruiwen.com|wenxm.cn|wenmi.com|xiegw.cn|xiexiebang.com|xueshu.com|yuwenmi.com|zhaozongjie.com
+18comic.vip##.div-bf-pv
+18comic.vip##div[data-show="ok"]
+18comic.vip##div[data-group="sticky2"]
+18comic.vip##div[class="hidden-lg"]
+18comic.vip##iframe[scrolling="no"]
+tieba.baidu.com##.card_banner_link.card_banner
+tieba.baidu.com##.celebrity.aside_region
+tieba.baidu.com##.app_download_box.aside_region
+||mcdn.bilivideo.cn^
+||szbdyd.com^
+||g.csdnimg.cn/asdf/*/trackad.js|$script,important
+||csdnimg.cn/release/passport_fe/$script
+blog.csdn.net##.passport-login-container
+www.ecosia.org##.main-footer-visual
+www.ecosia.org##.card--border.card--as-a.card.chat-card.footer-card
+www.ecosia.org##.main-header__install-cta
+www.ecosia.org##.banner
+www.ecosia.org##[data-test-id="ad-block-notice"]
+hanime1.me##div[id="myHeader"]
+hanime1.me##div[id="more-related-ad"]
+hanime1.me##div[id="close-mobile-ad-btn"]
+bbs.kafan.cn##.pbn.cl.bm_c
+bbs.kafan.cn##.plm.plc
+landiannews.com##.content-gg
+landiannews.com##section[id^=block-]
+||img.lancdn.com/*.gif$image,domain=landiannews.com
+work.weixin.qq.com##[class^="index_section_"]
+work.weixin.qq.com##.index_head
+work.weixin.qq.com##.index_top
+||totalcmd.net/images/*-700.jpg$image
+weibo.com##div[node-type="recommend"]
+weibo.com##div[class*="ProfileFocusPic_box_"]
+www.wenku8.net##[id^="adv"]
+workflowy.com##.message-container
+yuanbao.tencent.com##div[class^="index_downloadPCAds"]
+yuanbao.tencent.com##.agent-dialogue__tool
+||hdymly.com^
+||baijiahao.baidu.com^
+||jmcixiang.com^
+||kmw.com^
+||play.undcine.com^
+||yunqishi.net^
 $removeparam=from_source
 $removeparam=share_app_name
 $removeparam=share_medium
 $removeparam=share_source
 $removeparam=utm_oi
-
-! 特定清理规则
-
-! 163
 ||m.163.com^$removeparam=from
 ||m.163.com^$removeparam=spss
-
-! 1688
 @@||login.1688.com^$removeparam
 ||1688.com^$removeparam=_t
 ||1688.com^$removeparam=extStr
@@ -34,32 +66,19 @@ $removeparam=utm_oi
 ||1688.com^$removeparam=topOfferIds
 ||1688.com^$removeparam=tpp_trace
 ||1688.com^$removeparam=udsPoolId
-
-! aliyundrive
 ||aliyundrive.com^$removeparam=spm
-
-! apple
 ||apple.com^$removeparam=app
-
-! baidu
 ||baidu.com^$removeparam=/^rsv_/
 ||baidu.com^$removeparam=f
 ||baidu.com^$removeparam=inputT
 ||baidu.com^$removeparam=issp
 ||baidu.com^$removeparam=prefixsug
 ||baidu.com^$removeparam=rsp
-
-! 以下规则将导致搜索结果页，无法点击切换至图片搜索。
-! ||baidu.com^$removeparam=tn
-
-! 以下规则将导致贴吧吧内搜索页搜索中文异常，添加排除。
 ||baidu.com^$removeparam=ie
 @@||tieba.baidu.com/f/search$removeparam
-
 ||baike.baidu.com^$removeparam=/^fromModule/
 ||baike.baidu.com^$removeparam=bk_fr
 ||baike.baidu.com^$removeparam=timestamp
-
 ||m.baidu.com^$removeparam=fm_kl
 ||m.baidu.com^$removeparam=fqid
 ||m.baidu.com^$removeparam=from
@@ -79,26 +98,18 @@ $removeparam=utm_oi
 ||m.baidu.com^$removeparam=ts
 ||m.baidu.com^$removeparam=usm
 ||m.baidu.com^$removeparam=vfeed
-
-!#if !env_mobile
-! 以下两条会导致移动端跳转失败，需设置生效范围。。
 ||tieba.baidu.com^$removeparam=fr
 ||tieba.baidu.com^$removeparam=frwh
-!#endif
 ||tieba.baidu.com^$removeparam=red_tag
 ||tieba.baidu.com^$removeparam=t
 ||tieba.baidu.com^$removeparam=u
-
 ||wenku.baidu.com^$removeparam=/^rec_/
 ||wenku.baidu.com^$removeparam=fr
 ||wenku.baidu.com^$removeparam=sxts
-
 ||zhidao.baidu.com^$removeparam=fr
 ||zhidao.baidu.com^$removeparam=mzl
 ||zhidao.baidu.com^$removeparam=refer_title
 ||zhidao.baidu.com^$removeparam=seed
-
-! bilibili
 @@||api.bilibili.com^$removeparam
 ||bilibili.com^$removeparam=bbid
 ||bilibili.com^$removeparam=callback
@@ -106,13 +117,10 @@ $removeparam=utm_oi
 ||bilibili.com^$removeparam=msource
 ||bilibili.com^$removeparam=ts
 ||bilibili.com^$removeparam=vd_source
-
 ||live.bilibili.com^$removeparam=broadcast_type
 ||live.bilibili.com^$removeparam=is_room_feed
 ||live.bilibili.com^$removeparam=session_id
 ||live.bilibili.com^$removeparam=visit_id
-
-! bing
 ||bing.com^$removeparam=FORM
 ||bing.com^$removeparam=cvid
 ||bing.com^$removeparam=form
@@ -127,39 +135,21 @@ $removeparam=utm_oi
 ||bing.com^$removeparam=sc
 ||bing.com^$removeparam=sk
 ||bing.com^$removeparam=sp
-
-! cctv
 ||cctv.com^$removeparam=spm
-
-! csdn
 ||csdn.net^$removeparam=/^depth_/
 ||csdn.net^$removeparam=/^utm_/
 ||csdn.net^$removeparam=spm
-
-
-! disqus
 ||disq.us^$removeparam=cuid
-
-! duckduckgo
 ||duckduckgo.com/?q$removeparam=t
-
-! firefox
-! 直接对 accounts.firefox.com 操作可能会影响登录同步
 @@||accounts.firefox.com^$removeparam
 ||firefox.com^$removeparam=context
 ||firefox.com^$removeparam=entrypoint
 ||firefox.com^$removeparam=form_type
-
-! gitee
 ||gitee.com^$removeparam=_from
 ||gitee.com^$removeparam=hmsr
-
-! github
 ||github.com^$removeparam=/^spm_/
 ||github.com^$removeparam=email_source
 ||github.com^$removeparam=email_token
-
-! google search
 ||google.com*/search?$removeparam=/^gs/
 ||google.com*/search?$removeparam=client
 ||google.com*/search?$removeparam=dpr
@@ -169,51 +159,30 @@ $removeparam=utm_oi
 ||google.com*/search?$removeparam=sei
 ||google.com*/search?$removeparam=ved
 ||google.com*/search?$removeparam=uact
-
 ||play.google.com^$removeparam=hl
 ||play.google.com^$removeparam=gl
-
-! itellyou
 ||itellyou.cn^$removeparam=ReturnUrl
-
-! jd
 ||jd.com^$removeparam=cu
 ||jd.com^$removeparam=linkIds
-
 ||jingfen.jd.com^$removeparam=d
 ||jingfen.jd.com^$removeparam=needRecommendFlag
 ||jingfen.jd.com^$removeparam=uabt
-
-! mi / miui
 @@||account.xiaomi.com^$removeparam
 $removeparam=ref,domain=vip.miui.com
-
 ||mi.com/*?product_id$removeparam=cfrom
-
 ||vip.miui.com^$removeparam=app_version
 ||vip.miui.com^$removeparam=/^from/
-
-! mozilla
 @@||mozilla.org/api/$removeparam
 ||mozilla.org^$removeparam=/^utm_/
 ||mozilla.org^$removeparam=platform
 ||mozilla.org^$removeparam=redirect_source
 ||mozilla.org^$removeparam=src
-
 ||mozillazine.org^$removeparam=sid
-
 ||support.mozilla.org^$removeparam=as
-
-! paypal
 ||paypal.com^$removeparam=returnUri
 ||paypal.com^$removeparam=state
-
-! portablefreeware
 ||portablefreeware.com^$removeparam=ts
-
-! qq
 ||docs.qq.com^$removeparam=u
-
 ||mp.weixin.qq.com^$removeparam=/^abtest_/
 ||mp.weixin.qq.com^$removeparam=/^fasttmpl_/
 ||mp.weixin.qq.com^$removeparam=/^sharer_/
@@ -228,17 +197,11 @@ $removeparam=ref,domain=vip.miui.com
 ||mp.weixin.qq.com^$removeparam=subscene
 ||mp.weixin.qq.com^$removeparam=version
 ||mp.weixin.qq.com^$removeparam=wx_header
-
-! sina
 ||sina.cn^$removeparam=cid
 ||sina.cn^$removeparam=from
 ||sina.cn^$removeparam=node_id
 ||sina.cn^$removeparam=vt
-
-! sohu
 ||sohu.com^$removeparam=pvid
-
-! taobao / tmall
 @@||login.m.taobao.com^$removeparam
 @@||login.taobao.com^$removeparam
 @@||pass.tmall.com^$removeparam
@@ -281,66 +244,76 @@ $removeparam=user_number_id,domain=taobao.com|tmall.com
 $removeparam=ut_sk,domain=taobao.com|tmall.com
 $removeparam=utkn,domain=taobao.com|tmall.com
 $removeparam=utparam,domain=taobao.com|tmall.com
-
-! tb
 ||tb.cn^$removeparam=sm
-
-! twitter
 $removeparam=cn,domain=twitter.com|x.com
-
-! weibo
 $removeparam=from,domain=d.weibo.com|s.weibo.com
-
 ||m.weibo.*^$removeparam=from
 ||m.weibo.*^$removeparam=jumpfrom
-
 ||s.weibo.*^$removeparam=Refer
-
 ||weibo.*/p/$removeparam=from
 ||weibo.*/tv/$removeparam=from
 ||weibo.*/tv/show^$removeparam=mid
 ||weibo.*/u/$removeparam=from
 ||weibo.*^$removeparam=cfs
-! 下面这条会影响评论排序，暂时取消，针对特定页单独处理。
-!||weibo.*^$removeparam=from
 ||weibo.*^$removeparam=leftnav
 ||weibo.*^$removeparam=loc
 ||weibo.*^$removeparam=mod
 ||weibo.*^$removeparam=nick
 ||weibo.*^$removeparam=refer_flag
 ||weibo.*^$removeparam=wvr
-
-! weidian
 ||weidian.com^$removeparam=/^vc_external_/
 ||weidian.com^$removeparam=/^vc_order_/
 ||weidian.com^$removeparam=adsk
 ||weidian.com^$removeparam=spider_token
-
-! wps
 ||wps.com^$removeparam=from
-
-! xiaomiyoupin
 ||xiaomiyoupin.com^$removeparam=/^last_scmv/
 ||xiaomiyoupin.com^$removeparam=/^scmv/
 ||xiaomiyoupin.com^$removeparam=spmref
-
-! yandex
 ||yandex.com^$removeparam=from
 ||yandex.com^$removeparam=redircnt
-
 ||translate.yandex.com^$removeparam=from
-
-! youku
 ||youku.com^$removeparam=s
 ||youku.com^$removeparam=tpa
-
-! youtube
 ||youtube.com^$removeparam=feature
 ||youtube.com^$removeparam=kw
 ||www.youtube.com^$removeparam=app
-
-! zhihu
 ||zhihu.com^$removeparam=/^source_/
 ||zhihu.com^$removeparam=/^utm_/
 ||zhihu.com^$removeparam=origin_label
-
+423down.com##div.entry p[style],div.entry~p[style],div.entry>p[align] span[style]
+423down.com##ul>li a:has-text(产品推广):upward(li)
+423down.com##ul>li a>span:has-text(置顶):upward(li)
+423down.com##div.entry p:first-child,li.item>div[style]
+423down.com##ul.excerpt>li:nth-child(3)
+tieba.baidu.com##.card_head:style(width: 48px !important; height: 48px !important)
+tieba.baidu.com##.card_head_img:style(width: 48px !important; height: 48px !important)
+tieba.baidu.com##td:style(font-family: Calibri !important; font-size: 13px !important)
+*://message.bilibili.com/pages/nav/index_new_pc_sync
+*://message.bilibili.com/pages/nav/index_new_sync
+t.bilibili.com##.bili-dyn-live-users
+t.bilibili.com##.right
+t.bilibili.com##.bili-dyn-home--member > main:nth-child(2):style(width: 65% !important)
+live.bilibili.com###rank-list-vm:style(height: 14px !important; border-radius: 12px 12px 0 0 !important; background-color: #f8f8f8 !important)
+weibo.com##div[class^="Main_side"]
+s.weibo.com##div[class="main-side"]
+weibo.com##div[class*="Banner_card_"]
+weibo.com##div[class^="Frame_side_"]:style(width: 182px !important)
+weibo.com##div[class^="Nav_main"]:style(width: 182px !important)
+weibo.com##div[class*="Frame_content"]:style(margin-left: 2% !important)
+weibo.com##div[class^="Frame_main_"]:style(width: 975px !important)
+weibo.com##div[class^="Home_home"]:style(width: 975px !important)
+weibo.com##div[class^="Main_wrap"]:style(width: 975px !important)
+weibo.com##div[class^="Main_full"]:style(width: 975px !important)
+weibo.com##div[class^="woo-picture-main ProfileHeader_pic"]:style(height: 100px !important)
+weibo.com##div[class^="card-video_videoBox"]:style(width: 75% !important; height: 75% !important)
+weibo.com##div[class*="card-article_pic"]:style(width: 60% !important; height: 60% !important)
+weibo.com##div[class^="woo-picture-main woo-picture-square"]:style(width: 70% !important; height: 70% !important)
+weibo.com##div[class="woo-picture-main woo-picture-square woo-picture-hover"]:style(width: 90px !important; height: 90px !important)
+weibo.com##div[class^="card-link_text_"]:style(font-size: 13.5px !important; line-height: 25px !important)
+weibo.com##div[class^="detail_wbtext_"]:style(line-height: 26px !important; font-size: 15.5px !important)
+weibo.com##div[class="wbpro-list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
+weibo.com##div[class="info woo-box-flex woo-box-alignCenter woo-box-justifyBetween"]:style(font-size: 13px !important)
+s.weibo.com##div[class="m-main"]:style(margin-left: 2% !important)
+s.weibo.com##div[class="main-full"]:style(width: 975px !important)
+s.weibo.com##div[class="list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
+s.weibo.com##textarea:style(width: 875px !important)

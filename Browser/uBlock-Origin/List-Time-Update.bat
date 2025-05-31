@@ -4,11 +4,14 @@ chcp 65001 >nul
 set aria2=aria2c.exe
 set vim=vim.exe
 
-del /s /q Liu's-Vivaldi*.list
-type Liu's-Block-List.list Liu's-Static-List.list Liu's-Static-Desktop-Ext-List.list Vivaldi-AddList.list Vivaldi-AddList-Ext.list >> Liu's-Vivaldi-Desktop.list
-type Liu's-Block-List.list Liu's-Static-List.list Vivaldi-AddList.list >> Liu's-Vivaldi-Mobile.list
+del /s /q RuleSet-*.list
+type BaseBlockList.list BaseClearList.list BaseStaticList.list ExtuBOList.list >> RuleSet-uBO.list
+type BaseBlockList.list BaseClearList.list BaseStaticList.list >> RuleSet-ABP.list
 
-for %%i in (Liu's-Vivaldi*.list) do (
+Type Liu's-Static-List.list Liu's-Block-List.list >> RuleSet-ABP.list
+Type Liu's-Static-List.list Liu's-Block-List.list Liu's-Clear-List.list Liu's-Procedural-List.list >> RuleSet-uBO.list
+
+for %%i in (RuleSet-*.list) do (
     %vim% %%~ni.list -e -c "source More-Rule-VimScript\%%~ni.vim | wq"
 )
 

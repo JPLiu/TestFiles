@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Static List
-! Version: 20250524131913
-! Expires: 4 days
+! Version: 20250531101212
+! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 基础过滤规则，通用。
 
@@ -21,6 +21,20 @@
 ! 首页广告、图片插入广告
 18comic.vip##.div-bf-pv
 18comic.vip##div[data-show="ok"]
+! 移除移动端广告提示
+18comic.vip##div[data-group="sticky2"]
+18comic.vip##div[class="hidden-lg"]
+! 移除移动端浮窗广告
+18comic.vip##iframe[scrolling="no"]
+
+! baidu
+! https://tieba.baidu.com
+! 版头图
+tieba.baidu.com##.card_banner_link.card_banner
+! 右栏 签到
+tieba.baidu.com##.celebrity.aside_region
+! 右栏 移动端下载提示
+tieba.baidu.com##.app_download_box.aside_region
 
 ! bilibili
 ! 拦截 bilibili pcdn
@@ -56,7 +70,6 @@ hanime1.me##div[id="myHeader"]
 hanime1.me##div[id="more-related-ad"]
 hanime1.me##div[id="close-mobile-ad-btn"]
 
-
 ! kafan
 ! https://bbs.kafan.cn/
 ! 版面优化 去除签名 界面清理
@@ -71,14 +84,23 @@ landiannews.com##section[id^=block-]
 ||img.lancdn.com/*.gif$image,domain=landiannews.com
 
 ! qq
-! 企业微信 移除下载页介绍栏目
+! 企业微信 移除下载页介绍栏目 方便下载
 ! https://work.weixin.qq.com
 work.weixin.qq.com##[class^="index_section_"]
+work.weixin.qq.com##.index_head
+work.weixin.qq.com##.index_top
 
 ! totalcmd
 ! https://totalcmd.net/
 ! 图片广告
 ||totalcmd.net/images/*-700.jpg$image
+
+! weibo
+! https://weibo.com/
+! 专栏页面底部推广
+weibo.com##div[node-type="recommend"]
+! 用户主页轮播图
+weibo.com##div[class*="ProfileFocusPic_box_"]
 
 ! wenku8
 ! https://www.wenku8.net/
@@ -95,11 +117,6 @@ workflowy.com##.message-container
 ! PC 版下载推广
 yuanbao.tencent.com##div[class^="index_downloadPCAds"]
 yuanbao.tencent.com##.agent-dialogue__tool
-
-
-! 设备规则
-!#if !env_mobile
-!#endif
 
 ! 资源屏蔽规则参考 https://help.adblockplus.org/hc/en-us/articles/360062733293
 ! *$document,font,image,match-case,media,domain=example.com

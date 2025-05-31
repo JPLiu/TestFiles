@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Title: Liu's Vivaldi Mobile
-! Version: 20250524131913
-! Expires: 4 days
-! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
+! Title: Liu AdBlock-Plus RuleSet
+! Version: 20250531101212
+! Expires: 1 days
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/AdBlock
 
-||hdymly.com^
-||baijiahao.baidu.com^
-||jmcixiang.com^
-||kmw.com^
-||play.undcine.com^
-||yunqishi.net^
 |http*://$script,domain=baywatch.cn|cnrencai.com|diyifanwen.com|gxscse.com|haoword.com|huabuqi.com|kujiang.com|qunzou.com|ruiwen.com|wenxm.cn|wenmi.com|xiegw.cn|xiexiebang.com|xueshu.com|yuwenmi.com|zhaozongjie.com
 18comic.vip##.div-bf-pv
 18comic.vip##div[data-show="ok"]
+18comic.vip##div[data-group="sticky2"]
+18comic.vip##div[class="hidden-lg"]
+18comic.vip##iframe[scrolling="no"]
+tieba.baidu.com##.card_banner_link.card_banner
+tieba.baidu.com##.celebrity.aside_region
+tieba.baidu.com##.app_download_box.aside_region
 ||mcdn.bilivideo.cn^
 ||szbdyd.com^
 ||g.csdnimg.cn/asdf/*/trackad.js|$script,important
@@ -32,11 +32,18 @@ landiannews.com##.content-gg
 landiannews.com##section[id^=block-]
 ||img.lancdn.com/*.gif$image,domain=landiannews.com
 work.weixin.qq.com##[class^="index_section_"]
+work.weixin.qq.com##.index_head
+work.weixin.qq.com##.index_top
 ||totalcmd.net/images/*-700.jpg$image
+weibo.com##div[node-type="recommend"]
+weibo.com##div[class*="ProfileFocusPic_box_"]
 www.wenku8.net##[id^="adv"]
 workflowy.com##.message-container
 yuanbao.tencent.com##div[class^="index_downloadPCAds"]
 yuanbao.tencent.com##.agent-dialogue__tool
-18comic.vip##div[data-group="sticky2"]
-18comic.vip##div[class="hidden-lg"]
-18comic.vip##iframe[scrolling="no"]
+||hdymly.com^
+||baijiahao.baidu.com^
+||jmcixiang.com^
+||kmw.com^
+||play.undcine.com^
+||yunqishi.net^
