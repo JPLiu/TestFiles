@@ -5,9 +5,6 @@ set aria2=aria2c.exe
 set vim=vim.exe
 
 del /s /q RuleSet-*.list
-type BaseBlockList.list BaseClearList.list BaseStaticList.list ExtuBOList.list >> RuleSet-uBO.list
-type BaseBlockList.list BaseClearList.list BaseStaticList.list >> RuleSet-ABP.list
-
 Type Liu's-Static-List.list Liu's-Block-List.list >> RuleSet-ABP.list
 Type Liu's-Static-List.list Liu's-Block-List.list Liu's-Clear-List.list Liu's-Procedural-List.list >> RuleSet-uBO.list
 

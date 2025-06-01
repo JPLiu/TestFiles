@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Title: Liu AdBlock-Plus RuleSet
-! Version: 20250531101212
+! Title: Liu's ABP RuleSet
+! Version: 20250601164425
 ! Expires: 1 days
-! Homepage: https://github.com/JPLiu/TestFiles/tree/main/AdBlock
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
 
 |http*://$script,domain=baywatch.cn|cnrencai.com|diyifanwen.com|gxscse.com|haoword.com|huabuqi.com|kujiang.com|qunzou.com|ruiwen.com|wenxm.cn|wenmi.com|xiegw.cn|xiexiebang.com|xueshu.com|yuwenmi.com|zhaozongjie.com
 18comic.vip##.div-bf-pv
