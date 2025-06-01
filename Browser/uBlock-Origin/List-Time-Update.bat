@@ -6,6 +6,7 @@ set vim=vim.exe
 
 del /s /q RuleSet-*.list
 Type Liu's-Static-List.list Liu's-Block-List.list >> RuleSet-ABP.list
+Type Liu's-Static-List.list Liu's-Block-List.list Liu's-Procedural-List.list >> RuleSet-Brave.list
 Type Liu's-Static-List.list Liu's-Block-List.list Liu's-Clear-List.list Liu's-Procedural-List.list >> RuleSet-uBO.list
 
 for %%i in (RuleSet-*.list) do (
