@@ -104,6 +104,9 @@ DOMAIN-SUFFIX,vercel.app
 # Let's Encrypt https://www.lencr.org/
 DOMAIN-SUFFIX,lencr.org
 
+# NinjaKiwi https://ninjakiwi.com/
+DOMAIN-KEYWORD,ninjakiwi
+
 # PicACG
 DOMAIN-SUFFIX,picacomic.com
 
