@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's uBO RuleSet
-! Version: 20250601180719
+! Version: 20250607180557
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -38,6 +38,7 @@ work.weixin.qq.com##.index_top
 weibo.com##div[node-type="recommend"]
 weibo.com##div[class*="ProfileFocusPic_box_"]
 www.wenku8.net##[id^="adv"]
+wnacg01.cc,wnacg02.cc##div[id="control_block"]
 workflowy.com##.message-container
 yuanbao.tencent.com##div[class^="index_downloadPCAds"]
 yuanbao.tencent.com##.agent-dialogue__tool
