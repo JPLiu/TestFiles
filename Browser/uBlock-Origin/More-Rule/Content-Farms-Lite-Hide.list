@@ -2,7 +2,7 @@
 ! Title: Content Farms Lite Hide
 ! Version: 1.0
 ! Expires: 4 days
-! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
 google.*##.g:has(a[href*="0-1298.com"])
 google.*##.g:has(a[href*="00000258.com"])
@@ -9746,6 +9746,7 @@ google.*##.g:has(a[href*="pets-dote.com"])
 google.*##.g:has(a[href*="pets-feedder.com"])
 google.*##.g:has(a[href*="pets-homee.com"])
 google.*##.g:has(a[href*="pets-master.com"])
+google.*##.g:has(a[href*="pets-naivety.com"])
 google.*##.g:has(a[href*="pets-surprise.com"])
 google.*##.g:has(a[href*="pets699.com"])
 google.*##.g:has(a[href*="petsccs.com"])
@@ -13144,6 +13145,7 @@ google.*##.g:has(a[href*="watermelon.jp.net"])
 google.*##.g:has(a[href*="watertorenloop.nl"])
 google.*##.g:has(a[href*="wattspace.co"])
 google.*##.g:has(a[href*="watusi.net"])
+google.*##.g:has(a[href*="wawa3c.com"])
 google.*##.g:has(a[href*="wawai.es"])
 google.*##.g:has(a[href*="waxblip.com"])
 google.*##.g:has(a[href*="wayengines.com"])
@@ -13166,6 +13168,7 @@ google.*##.g:has(a[href*="web-dev-qa-db-ja.com"])
 google.*##.g:has(a[href*="web-dev-qa-db-pt.com"])
 google.*##.g:has(a[href*="web-dev-qa.com"])
 google.*##.g:has(a[href*="web-jinn.com"])
+google.*##.g:has(a[href*="web-ptt.tw"])
 google.*##.g:has(a[href*="web2e.net"])
 google.*##.g:has(a[href*="web2thou.com"])
 google.*##.g:has(a[href*="webdevask.com"])

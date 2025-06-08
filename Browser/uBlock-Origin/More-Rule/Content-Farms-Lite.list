@@ -2,7 +2,7 @@
 ! Title: Content Farms Lite
 ! Version: 1.0
 ! Expires: 4 days
-! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
 ||0-1298.com^
 ||00000258.com^
@@ -9746,6 +9746,7 @@
 ||pets-feedder.com^
 ||pets-homee.com^
 ||pets-master.com^
+||pets-naivety.com^
 ||pets-surprise.com^
 ||pets699.com^
 ||petsccs.com^
@@ -13144,6 +13145,7 @@
 ||watertorenloop.nl^
 ||wattspace.co^
 ||watusi.net^
+||wawa3c.com^
 ||wawai.es^
 ||waxblip.com^
 ||wayengines.com^
@@ -13166,6 +13168,7 @@
 ||web-dev-qa-db-pt.com^
 ||web-dev-qa.com^
 ||web-jinn.com^
+||web-ptt.tw^
 ||web2e.net^
 ||web2thou.com^
 ||webdevask.com^
