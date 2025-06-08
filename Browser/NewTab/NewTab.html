@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewTab</title>
+    <style>
+        :root {
+            /* 亮色模式变量 */
+            --bg-color: #f5f5f5;
+            --text-color: #333;
+            --card-bg: #fff;
+            --card-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            --search-border: #ddd;
+            --search-focus: #4285f4;
+            --icon-bg: #fff;
+        }
+
+        /* 暗色模式变量 */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1e1e1e;
+                --text-color: #e0e0e0;
+                --card-bg: #2d2d2d;
+                --card-shadow: 0 2px 5px rgba(0,0,0,0.3);
+                --search-border: #444;
+                --search-focus: #6d9eeb;
+                --icon-bg: #333;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 20px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .search-container {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        #search {
+            width: 80%;
+            max-width: 600px;
+            padding: 12px 20px;
+            border: 1px solid var(--search-border);
+            border-radius: 24px;
+            font很长: 1rem;
+            outline: none;
+            background-color: var(--card-bg);
+            color: var(--text-color);
+            transition: border-color 0.3s;
+        }
+        
+        #search:focus {
+            border-color: var(--search-focus);
+        }
+        
+        .sites-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);  /* 修改为每行4个 */
+            gap: 20px;
+        }
+        
+        .site-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s;
+        }
+        
+        .site-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        /* 增加图标大小 */
+        .site-icon {
+            width: 70px;  /* 从50px增加到70px */
+            height: 70px;  /* 从50px增加到70px */
+            border-radius: 10px;
+            background-color: var(--icon-bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--card-shadow);
+            margin-bottom: 8px;
+            font-size: 2rem;  /* 从1.5rem增加到2rem */
+            transition: background-color 0.3s;
+        }
+        
+        .site-name {
+            font-size: 0.9rem;
+            text-align: center;
+            word-break: break-word;
+        }
+        
+        @media (max-width: 1000px) {  /* 调整断点以适应4列布局 */
+            .sites-grid {
+                grid-template-columns: repeat(3, 1fr);  /* 在较小屏幕上显示3列 */
+            }
+        }
+        
+        @media (max-width: 700px) {  /* 进一步调整断点 */
+            .sites-grid {
+                grid-template-columns: repeat(2, 1fr);  /* 在更小屏幕上显示2列 */
+            }
+        }
+        
+        @media (max-width: 300px) {  /* 最小屏幕尺寸 */
+            .sites-grid {
+                grid-template-columns: repeat(1, 1fr);  /* 在最小屏幕上显示1列 */
+            }
+            
+            .site-icon {
+                width: 55px;  /* 从40px增加到55px */
+                height: 55px;  /* 从40px增加到55px */
+                font-size: 1.6rem;  /* 从1.2rem增加到1.6rem */
+            }
+            
+            .site-name {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> </h1>
+        </header>
+        
+        <div class="search-container">
+            <!-- Brave 搜索引擎 -->
+            <form id="search-form" action="https://search.brave.com/search" method="get">
+                <input type="text" id="search" name="q" placeholder="搜索网页、图片、视频...">
+            </form>
+        </div>
+        
+        <div class="sites-grid">
+            <!-- 常用网站链接 -->
+            <a href="https://github.com/" target="_blank" class="site-item">
+                <div class="site-icon">Gi</div>
+                <div class="site-name">GitHub</div>
+            </a>
+            
+            <a href="https://app.follow.is/timeline/view-0/all/pending" target="_blank" class="site-item">
+                <div class="site-icon">Fo</div>
+                <div class="site-name">Folo</div>
+            </a>
+            
+            <a href="https://www.716dm.com/show/ribendongman-----------.html" target="_blank" class="site-item">
+                <div class="site-icon">Dm</div>
+                <div class="site-name">樱花动漫</div>
+            </a>
+            
+            <a href="https://mikanani.me/Home/MyBangumi" target="_blank" class="site-item">
+                <div class="site-icon">Mk</div>
+                <div class="site-name">蜜柑番组</div>
+            </a>
+            
+            <a href="https://www.bilibili.com" target="_blank" class="site-item">
+                <div class="site-icon">Bi</div>
+                <div class="site-name">Bilibili</div>
+            </a>
+            
+            <a href="https://workflowy.com/" target="_blank" class="site-item">
+                <div class="site-icon">Wk</div>
+                <div class="site-name">Workflowy</div>
+            </a>
+            
+            <a href="https://www.wenku8.net/modules/article/toplist.php?sort=lastupdate" target="_blank" class="site-item">
+                <div class="site-icon">We</div>
+                <div class="site-name">文库</div>
+            </a>
+            
+        </div>
+    </div>
+
+    <script>
+        // 搜索功能
+        document.getElementById('search-form').addEventListener('submit', function(e) {
+            const searchInput = document.getElementById('search');
+            if (searchInput.value.trim() !== '') {
+                // 如果用户输入的是完整URL，则直接跳转
+                if (/^https?:\/\//i.test(searchInput.value)) {
+                    window.location.href = searchInput.value;
+                    e.preventDefault();
+                }
+            }
+        });
+        
+    </script>
+</body>
+</html>
