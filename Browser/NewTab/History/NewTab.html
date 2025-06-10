@@ -58,6 +58,11 @@
             margin-bottom: 30px;
         }
         
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
         .datetime {
             font-size: 1.8rem;
             margin-bottom: 20px;
@@ -249,6 +254,7 @@
 <body>
     <div class="container">
         <header>
+            <h1></h1>
             <div class="datetime" id="datetime"></div>
         </header>
         
@@ -275,30 +281,15 @@
     </div>
 
     <script>
-        // 默认的7个站点配置
-        const defaultSitesConfig = [
+        // 配置站点数据
+        const sitesConfig = [
             { url: "https://github.com/", name: "GitHub", iconText: "Git" },
             { url: "https://app.follow.is/timeline/view-0/all/pending", name: "Folo", iconText: "Fo" },
             { url: "https://www.716dm.com/show/ribendongman-----------.html", name: "樱花动漫", iconText: "Ani" },
-            { url: "https://mikanime.tv/Home/MyBangumi", name: "蜜柑番组", iconText: "Mik" },
-            { url: "https://www.wenku8.net/modules/article/toplist.php?sort=lastupdate", name: "Wenku8", iconText: "Wen" },
+            { url: "https://mikanani.me/Home/MyBangumi", name: "蜜柑番组", iconText: "Mik" },
             { url: "https://t.bilibili.com/", name: "Bilibili", iconText: "Bi" },
-            { url: "https://app.follow.is/timeline/view-3/collections/pending", name: "FoVC", iconText: "Fv" }
+            { url: "https://www.wenku8.net/modules/article/toplist.php?sort=lastupdate", name: "Wenku8", iconText: "Wen" }
         ];
-
-        // 备用的7个站点配置
-        const alternateSitesConfig = [
-            { url: "https://www.colamanga.com/manga-oi570985/", name: "杖与剑", iconText: "C1" },
-            { url: "https://www.colamanga.com/manga-zx70127/", name: "风都侦探", iconText: "C2" },
-            { url: "https://www.colamanga.com/manga-th07488/", name: "新网王", iconText: "C3" },
-            { url: "https://account.bilibili.com/account/big/myPackage", name: "B站卡券", iconText: "Bq" },
-            { url: "https://space.bilibili.com/11762541", name: "B站充电", iconText: "Bc" },
-            { url: "https://github.com/JPLiu/TestFiles/blob/main/Android/BitTorrent/More-Rule/BT-Trackers.list", name: "BTTracker", iconText: "Bt" },
-            { url: "https://github.com/RSSNext/Folo/actions/workflows/build-android.yml", name: "FoloBuild", iconText: "Fd" }
-        ];
-
-        // 当前使用的站点配置
-        let currentSitesConfig = [...defaultSitesConfig];
 
         // 搜索引擎配置
         const searchEngines = {
@@ -352,6 +343,7 @@
                 updateEngineButton(engine);
                 updateActiveEngineButton(engine);
                 updateURLParameter(engine);
+                // 注意：此函数仅更新搜索引擎设置，不会触发表单提交
             }
         }
 
@@ -436,9 +428,7 @@
             const sitesGrid = document.getElementById('sites-grid');
             sitesGrid.innerHTML = '';
             
-            // 只生成前6个站点
-            for (let i = 0; i < 7; i++) {
-                const site = currentSitesConfig[i];
+            sitesConfig.forEach(site => {
                 const siteItem = document.createElement('a');
                 siteItem.href = site.url;
                 siteItem.target = "_blank";
@@ -455,40 +445,7 @@
                 siteItem.appendChild(siteIcon);
                 siteItem.appendChild(siteNameElement);
                 sitesGrid.appendChild(siteItem);
-            }
-            
-            // 添加第8个特殊站点作为切换按钮
-            const switchSiteItem = document.createElement('a');
-            switchSiteItem.href = "javascript:void(0)"; // 不跳转
-            switchSiteItem.target = "_self";
-            switchSiteItem.className = "site-item";
-            switchSiteItem.addEventListener('click', toggleSitesConfig);
-            
-            const switchSiteIcon = document.createElement('div');
-            switchSiteIcon.className = "site-icon";
-            switchSiteIcon.textContent = currentSitesConfig === defaultSitesConfig ? "↕" : "↔";
-            
-            const switchSiteNameElement = document.createElement('div');
-            switchSiteNameElement.className = "site-name";
-            switchSiteNameElement.textContent = currentSitesConfig === defaultSitesConfig ? "切换" : "切换";
-            
-            switchSiteItem.appendChild(switchSiteIcon);
-            switchSiteItem.appendChild(switchSiteNameElement);
-            sitesGrid.appendChild(switchSiteItem);
-        }
-        
-        // 切换站点配置
-        function toggleSitesConfig() {
-            if (JSON.stringify(currentSitesConfig) === JSON.stringify(defaultSitesConfig)) {
-                // 如果当前是默认配置，则切换到备用配置
-                currentSitesConfig = [...alternateSitesConfig];
-            } else {
-                // 否则切换回默认配置
-                currentSitesConfig = [...defaultSitesConfig];
-            }
-            
-            // 重新生成站点列表
-            generateSitesList();
+            });
         }
         
         // 初始更新时间
