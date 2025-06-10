@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Static List
-! Version: 20250608101351
+! Version: 20250610194331
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 基础过滤规则，通用。
@@ -86,9 +86,10 @@ landiannews.com##section[id^=block-]
 ! qq
 ! 企业微信 移除下载页介绍栏目 方便下载
 ! https://work.weixin.qq.com
-work.weixin.qq.com##[class^="index_section_"]
 work.weixin.qq.com##.index_head
 work.weixin.qq.com##.index_top
+work.weixin.qq.com##div[class="index_section index_section_Case"]
+work.weixin.qq.com##div[class="index_section index_section_server_deploy "]
 
 ! totalcmd
 ! https://totalcmd.net/
