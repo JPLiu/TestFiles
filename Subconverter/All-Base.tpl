@@ -19,6 +19,7 @@ log-level: {{ default(global.clash.log_level, "info") }}
 
 external-controller: 127.0.0.1:9090
 external-ui: Dashboard
+external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
 
 {% if default(request.clash.dns, "") == "1" %}
 dns:
