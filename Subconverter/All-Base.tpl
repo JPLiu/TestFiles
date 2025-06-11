@@ -1,7 +1,7 @@
 # 根据 https://raw.githubusercontent.com/tindy2013/subconverter/master/base/base/all_base.tpl 修改
 # 参考资料：
-; https://github.com/LM-Firefly/Rules/blob/master/Subconverter-base/all-base.tpl
-; https://github.com/yyhhyyyyyy/selfproxy/blob/main/Mihomo/mihomo_single.yaml
+# https://github.com/LM-Firefly/Rules/blob/master/Subconverter-base/all-base.tpl
+# https://github.com/yyhhyyyyyy/selfproxy/blob/main/Mihomo/mihomo_single.yaml
 
 {% if request.target == "clash" or request.target == "clashr" %}
 
