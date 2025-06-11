@@ -1,4 +1,7 @@
 # 根据 https://raw.githubusercontent.com/tindy2013/subconverter/master/base/base/all_base.tpl 修改
+# 参考资料：
+; https://github.com/LM-Firefly/Rules/blob/master/Subconverter-base/all-base.tpl
+; https://github.com/yyhhyyyyyy/selfproxy/blob/main/Mihomo/mihomo_single.yaml
 
 # 移除 port 和 socks-port，增加 mixed-port 和 redir-port，调整了 external-controller 和 external-ui。
 
