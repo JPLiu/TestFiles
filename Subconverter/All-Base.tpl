@@ -3,8 +3,6 @@
 ; https://github.com/LM-Firefly/Rules/blob/master/Subconverter-base/all-base.tpl
 ; https://github.com/yyhhyyyyyy/selfproxy/blob/main/Mihomo/mihomo_single.yaml
 
-# 移除 port 和 socks-port，增加 mixed-port 和 redir-port，调整了 external-controller 和 external-ui。
-
 {% if request.target == "clash" or request.target == "clashr" %}
 
 mixed-port: {{ default(global.clash.mixed_port, "7890") }}
@@ -20,6 +18,42 @@ log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: 127.0.0.1:9090
 external-ui: Dashboard
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+
+dns:
+  enable: true
+  prefer-h3: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  # fake-ip-filter start
+  fake-ip-filter:
+    - +.+m2m
+    - +.$injections.adguard.org
+    - +.$local.adguard.org
+    - +.+bogon
+    - +.+lan
+    - +.+local
+    - +.+internal
+    - +.+localdomain
+    - +.home.arpa
+    - dns.msftncsi.com
+    - "*.srv.nintendo.net"
+    - "*.stun.playstation.net"
+    - xbox.*.microsoft.com
+    - "*.xboxlive.com"
+    - "*.turn.twilio.com"
+    - "*.stun.twilio.com"
+    - stun.syncthing.net
+    - stun.*
+    - "*.sslip.io"
+    - "*.nip.io"
+  # fake-ip-filter end
+  nameserver:
+    - https://223.5.5.5/dns-query
+    - https://doh.pub/dns-query
+  proxy-server-nameserver:
+    - https://223.5.5.5/dns-query
+    - https://doh.pub/dns-query
 
 {% if default(request.clash.dns, "") == "1" %}
 dns:
