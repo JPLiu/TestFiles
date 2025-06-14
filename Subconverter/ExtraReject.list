@@ -13,6 +13,9 @@
 # DOMAIN-SUFFIX,szbdyd.com
 
 #-----CCC
+# crxMouse
+# Chromium crxMouse 扩展默认后台上传
+DOMAIN,api.mousegesturesapi.com
 
 #-----DDD
 
