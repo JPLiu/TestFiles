@@ -180,17 +180,17 @@ rule-providers:
     path: ./RuleSet/LocalAreaNetwork.list
 
   DefaultUnBanList:
-    <<: *RuleSet_domain
+    <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Default-UnBan.list
     path: ./RuleSet/Default-UnBan.list
 
   ExtraRejectFixDirectList:
-    <<: *RuleSet_domain
+    <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraRejectFixDirect.list
     path: ./RuleSet/ExtraRejectFixDirect.list
 
   ExtraRejectFixProxyList:
-    <<: *RuleSet_domain
+    <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraRejectFixProxy.list
     path: ./RuleSet/ExtraRejectFixProxy.list
 
@@ -200,12 +200,12 @@ rule-providers:
     path: ./RuleSet/Default-Reject.list
 
   ExtraRejectList:
-    <<: *RuleSet_domain
+    <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraReject.list
     path: ./RuleSet/ExtraReject.list
 
   PeterLowesHostsList:
-    <<: *RuleSet_domain
+    <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Peter-Lowes-Hosts.list
     path: ./RuleSet/Peter-Lowes-Hosts.list
 
@@ -215,12 +215,12 @@ rule-providers:
     path: ./RuleSet/Default-Direct-Media.list
 
   VideoCrackLiteList:
-    <<: *RuleSet_domain
+    <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Video-Crack-Lite.list
     path: ./RuleSet/Video-Crack-Lite.list
 
   ExtraDirectMediaList:
-    <<: *RuleSet_domain
+    <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraDirectMedia.list
     path: ./RuleSet/ExtraDirectMedia.list
 
@@ -235,22 +235,22 @@ rule-providers:
     path: ./RuleSet/ExtraDirect.list
 
   AreaProxyHKList:
-    <<: *RuleSet_domain
+    <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyHK.list
     path: ./RuleSet/AreaProxyHK.list
 
   AreaProxyTWList:
-    <<: *RuleSet_domain
+    <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyTW.list
     path: ./RuleSet/AreaProxyTW.list
 
   AreaProxyJPList:
-    <<: *RuleSet_domain
+    <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyJP.list
     path: ./RuleSet/AreaProxyJP.list
 
   AreaProxyUSList:
-    <<: *RuleSet_domain
+    <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyUS.list
     path: ./RuleSet/AreaProxyUS.list
 
@@ -260,17 +260,17 @@ rule-providers:
     path: ./RuleSet/Default-Proxy.list
 
   ExtraProxyMediaList:
-    <<: *RuleSet_domain
+    <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraProxyMedia.list
     path: ./RuleSet/ExtraProxyMedia.list
 
   ExtraProxyList:
-    <<: *RuleSet_domain
+    <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraProxy.list
     path: ./RuleSet/ExtraProxy.list
 
   ChinaDomainList:
-    <<: *RuleSet_domain
+    <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
     path: ./RuleSet/ChinaDomain.list
 
@@ -280,7 +280,7 @@ rule-providers:
     path: ./RuleSet/ChinaCompanyIp.list
 
   PrivateTrackerList:
-    <<: *RuleSet_domain
+    <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list
     path: ./RuleSet/PrivateTracker.list
 
