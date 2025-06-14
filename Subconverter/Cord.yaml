@@ -1,5 +1,9 @@
-# Date：2025-06-13
-# 参考资料：https://github.com/yyhhyyyyyy/selfproxy/tree/main/Mihomo
+### Date：2025-06-14
+# 参考资料：
+# https://github.com/yyhhyyyyyy/selfproxy/tree/main/Mihomo
+# https://clash-meta.gitbook.io/clash.meta-wiki-older/example/ex1
+# https://www.aloxaf.com/2025/04/how_to_use_geosite/
+# DNS 参考：https://www.ip.cn/dns.html
 
 ### 全局配置
 mixed-port: 7890
@@ -16,6 +20,7 @@ global-client-fingerprint: chrome
 external-controller: 127.0.0.1:9090
 external-ui: Dashboard
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+secret: ""
 
 geodata-mode: true
 geox-url:
@@ -24,7 +29,6 @@ geox-url:
 #  mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
 geo-auto-update: true
 geo-update-interval: 360
-
 
 profile:
   store-selected: true
@@ -35,6 +39,10 @@ dns:
   enable: true
   prefer-h3: true
   ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   # fake-ip-filter start
@@ -61,9 +69,21 @@ dns:
     - "*.nip.io"
   # fake-ip-filter end
   nameserver:
+    - system
+    - 223.5.5.5
+    - 119.29.29.29
+    - 180.184.1.1
     - https://223.5.5.5/dns-query
     - https://doh.pub/dns-query
+  direct-nameserver:
+    - system
+    - 223.5.5.5
+    - 119.29.29.29
+    - 180.184.1.1
   proxy-server-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 180.184.1.1
     - https://223.5.5.5/dns-query
     - https://doh.pub/dns-query
 
@@ -160,17 +180,17 @@ rule-providers:
     path: ./RuleSet/LocalAreaNetwork.list
 
   DefaultUnBanList:
-    <<: *RuleSet_classical
+    <<: *RuleSet_domain
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Default-UnBan.list
     path: ./RuleSet/Default-UnBan.list
 
   ExtraRejectFixDirectList:
-    <<: *RuleSet_classical
+    <<: *RuleSet_domain
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraRejectFixDirect.list
     path: ./RuleSet/ExtraRejectFixDirect.list
 
   ExtraRejectFixProxyList:
-    <<: *RuleSet_classical
+    <<: *RuleSet_domain
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraRejectFixProxy.list
     path: ./RuleSet/ExtraRejectFixProxy.list
 
@@ -180,12 +200,12 @@ rule-providers:
     path: ./RuleSet/Default-Reject.list
 
   ExtraRejectList:
-    <<: *RuleSet_classical
+    <<: *RuleSet_domain
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraReject.list
     path: ./RuleSet/ExtraReject.list
 
   PeterLowesHostsList:
-    <<: *RuleSet_classical
+    <<: *RuleSet_domain
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Peter-Lowes-Hosts.list
     path: ./RuleSet/Peter-Lowes-Hosts.list
 
@@ -195,12 +215,12 @@ rule-providers:
     path: ./RuleSet/Default-Direct-Media.list
 
   VideoCrackLiteList:
-    <<: *RuleSet_classical
+    <<: *RuleSet_domain
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Video-Crack-Lite.list
     path: ./RuleSet/Video-Crack-Lite.list
 
   ExtraDirectMediaList:
-    <<: *RuleSet_classical
+    <<: *RuleSet_domain
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraDirectMedia.list
     path: ./RuleSet/ExtraDirectMedia.list
 
@@ -215,22 +235,22 @@ rule-providers:
     path: ./RuleSet/ExtraDirect.list
 
   AreaProxyHKList:
-    <<: *RuleSet_classical
+    <<: *RuleSet_domain
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyHK.list
     path: ./RuleSet/AreaProxyHK.list
 
   AreaProxyTWList:
-    <<: *RuleSet_classical
+    <<: *RuleSet_domain
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyTW.list
     path: ./RuleSet/AreaProxyTW.list
 
   AreaProxyJPList:
-    <<: *RuleSet_classical
+    <<: *RuleSet_domain
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyJP.list
     path: ./RuleSet/AreaProxyJP.list
 
   AreaProxyUSList:
-    <<: *RuleSet_classical
+    <<: *RuleSet_domain
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyUS.list
     path: ./RuleSet/AreaProxyUS.list
 
@@ -240,17 +260,17 @@ rule-providers:
     path: ./RuleSet/Default-Proxy.list
 
   ExtraProxyMediaList:
-    <<: *RuleSet_classical
+    <<: *RuleSet_domain
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraProxyMedia.list
     path: ./RuleSet/ExtraProxyMedia.list
 
   ExtraProxyList:
-    <<: *RuleSet_classical
+    <<: *RuleSet_domain
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraProxy.list
     path: ./RuleSet/ExtraProxy.list
 
   ChinaDomainList:
-    <<: *RuleSet_classical
+    <<: *RuleSet_domain
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
     path: ./RuleSet/ChinaDomain.list
 
@@ -260,7 +280,7 @@ rule-providers:
     path: ./RuleSet/ChinaCompanyIp.list
 
   PrivateTrackerList:
-    <<: *RuleSet_classical
+    <<: *RuleSet_domain
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list
     path: ./RuleSet/PrivateTracker.list
 
@@ -283,8 +303,8 @@ rules:
   - RULE-SET,DefaultDirectMediaList,📺 国内媒体
   - RULE-SET,VideoCrackLiteList,📺 国内媒体
   - RULE-SET,ExtraDirectMediaList,📺 国内媒体
-#  - GEOSITE,bilibili,📺 国内媒体
-#  - GEOSITE,biliintl,📺 国内媒体
+  - GEOSITE,bilibili,📺 国内媒体
+  - GEOSITE,biliintl,📺 国内媒体
 
   - RULE-SET,DefaultDirectList,🎯 全球直连
   - RULE-SET,ExtraDirectList,🎯 全球直连
@@ -311,10 +331,10 @@ rules:
   - GEOSITE,youtube,🌍 全球代理
   - GEOSITE,cn,DIRECT
 
-  - GEOIP,facebook,🌍 全球代理
-  - GEOIP,google,🌍 全球代理
-  - GEOIP,telegram,🌍 全球代理
-  - GEOIP,twitter,🌍 全球代理
+  - GEOIP,facebook,🌍 全球代理,no-resolve
+  - GEOIP,google,🌍 全球代理,no-resolve
+  - GEOIP,telegram,🌍 全球代理,no-resolve
+  - GEOIP,twitter,🌍 全球代理,no-resolve
   - GEOIP,CN,DIRECT
 
   - MATCH,🐟 漏网之鱼
