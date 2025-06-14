@@ -28,6 +28,7 @@ geox-url:
   geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite-lite.dat"
 #  mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
 geo-auto-update: true
+# GEO 数据更新间隔，单位为小时
 geo-update-interval: 360
 
 profile:
@@ -39,13 +40,14 @@ dns:
   enable: true
   prefer-h3: true
   ipv6: false
+
+  # 用来解析「DNS 服务器域名」的 DNS，需要直接使用 IP
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
-  
+
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  # fake-ip-filter start
   fake-ip-filter:
     - +.+m2m
     - +.$injections.adguard.org
@@ -67,7 +69,8 @@ dns:
     - stun.*
     - "*.sslip.io"
     - "*.nip.io"
-  # fake-ip-filter end
+
+  # 用来解析没有匹配到任何「域名规则」的域名
   nameserver:
     - system
     - 223.5.5.5
@@ -75,11 +78,15 @@ dns:
     - 180.184.1.1
     - https://223.5.5.5/dns-query
     - https://doh.pub/dns-query
+
+  # 直连域名的解析用 DNS
   direct-nameserver:
     - system
     - 223.5.5.5
     - 119.29.29.29
     - 180.184.1.1
+
+  # 代理服务器域名解析用 DNS
   proxy-server-nameserver:
     - 223.5.5.5
     - 119.29.29.29
