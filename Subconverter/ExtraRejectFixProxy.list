@@ -19,7 +19,7 @@ DOMAIN,search.brave.com
 #-----EEE
 
 # Fix Guangdian
-DOMAIN-KEYWORD,epic
+DOMAIN-SUFFIX,epicgames.dev
 
 #-----FFF
 
