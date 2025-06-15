@@ -1,5 +1,12 @@
 # Extra Direct List
 
+# Download ACR4SSR
+# Tracker ACR4SSR
+DOMAIN-KEYWORD,announce
+DOMAIN-KEYWORD,torrent
+DOMAIN-KEYWORD,tracker
+DOMAIN-SUFFIX,smtp
+
 # Resource
 # http://www.animetox.com/
 DOMAIN-SUFFIX,geekzu.org
