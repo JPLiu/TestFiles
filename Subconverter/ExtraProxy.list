@@ -214,8 +214,9 @@ DOMAIN-SUFFIX,crystalidea.com
 # UserScripts - RSS+
 DOMAIN-SUFFIX,ravi.cool
 
-# Follow
+# Folo
 DOMAIN-SUFFIX,follow.is
+DOMAIN-SUFFIX,expo.dev
 
 # Foobar2000 https://www.foobar2000.org/
 DOMAIN-SUFFIX,foobar2000.org
