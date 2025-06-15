@@ -15,13 +15,10 @@ DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,beetalk
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,claude
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,dualstack.apiproxy-
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
-DOMAIN-KEYWORD,generativelanguage
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
@@ -85,7 +82,6 @@ DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,aolcdn.com
 DOMAIN-SUFFIX,apache.org
-DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,app-measurement.com
@@ -167,8 +163,6 @@ DOMAIN-SUFFIX,dazndn.com
 DOMAIN-SUFFIX,dcblivedazn.akamaized.net
 DOMAIN-SUFFIX,dditscdn.com
 DOMAIN-SUFFIX,ddo.jp
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,deskconnect.com
 DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
@@ -245,7 +239,6 @@ DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,garena.com
 DOMAIN-SUFFIX,gcr.io
 DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,gfx.ms
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,github.com
@@ -442,7 +435,6 @@ DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,pornhubpremium.com
 DOMAIN-SUFFIX,potato.im
 DOMAIN-SUFFIX,prfct.co
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,prod.hjholdings.tv
 DOMAIN-SUFFIX,profile.line-scdn.net
 DOMAIN-SUFFIX,pscdn.co
@@ -592,7 +584,6 @@ DOMAIN-SUFFIX,zoom.us
 DOMAIN-SUFFIX,zoomgov.com
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,aod-dash-uk-live.akamaized.net
 DOMAIN,aod-hls-uk-live.akamaized.net
 DOMAIN,api.githubcopilot.com
@@ -659,7 +650,6 @@ DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN,kktv-theater.kk.stream
 DOMAIN,ktpx.amazon.com
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
-DOMAIN,makersuite.google.com
 DOMAIN,music.youtube.com
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
 DOMAIN,mytvsuperlimited.sc.omtrdc.net

@@ -324,6 +324,7 @@ rules:
   - RULE-SET,PrivateTrackerList,DIRECT
   - RULE-SET,DownloadList,DIRECT
 
+  - GEOSITE,apple,🎯 全球直连
   - GEOSITE,google@cn,🎯 全球直连
   - GEOSITE,microsoft@cn,🎯 全球直连 
   - GEOSITE,github,🌍 全球代理
