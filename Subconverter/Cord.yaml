@@ -117,8 +117,8 @@ tun:
   # 如果有使用zerotier或者headscale等，需要自己配置排除自己的网段
   # route-exclude-address: ["192.168.110.0/24"]
 
-### 订阅基础配置 [每天更新一次订阅节点，每 300 秒一次健康检查]
-NodeParam: &NodeParam {type: http, interval: 86400, health-check: {enable: true, url: 'http://connectivitycheck.platform.hicloud.com/generate_204', interval: 300}}
+### 订阅基础配置 [每天更新一次订阅节点，每 180 秒一次健康检查]
+NodeParam: &NodeParam {type: http, interval: 86400, health-check: {enable: true, url: 'http://connectivitycheck.platform.hicloud.com/generate_204', interval: 180}}
 
 # 订阅合集
 proxy-providers:
@@ -327,6 +327,7 @@ rules:
   - GEOSITE,apple,🎯 全球直连
   - GEOSITE,google@cn,🎯 全球直连
   - GEOSITE,microsoft@cn,🎯 全球直连 
+  - GEOSITE,ehentai,🌍 全球代理
   - GEOSITE,github,🌍 全球代理
   - GEOSITE,google,🌍 全球代理
   - GEOSITE,microsoft,🌍 全球代理
