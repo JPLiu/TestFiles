@@ -197,57 +197,57 @@ RuleSet_ipcidr: &RuleSet_ipcidr {type: http, behavior: ipcidr, interval: 43200, 
 rule-providers:
   DefaultUnBanList:
     <<: *RuleSet_classical
-    url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Default-UnBan.list
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/More-Rule/Default-UnBan.list
     path: ./CordGeo/RuleSet/Default-UnBan.list
 
   ExtraRejectFixDirectList:
     <<: *RuleSet_classical
-    url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraRejectFixDirect.list
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraRejectFixDirect.list
     path: ./CordGeo/RuleSet/ExtraRejectFixDirect.list
 
   ExtraRejectFixProxyList:
     <<: *RuleSet_classical
-    url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraRejectFixProxy.list
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraRejectFixProxy.list
     path: ./CordGeo/RuleSet/ExtraRejectFixProxy.list
 
   DefaultRejectList:
     <<: *RuleSet_classical
-    url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Default-Reject.list
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/More-Rule/Default-Reject.list
     path: ./CordGeo/RuleSet/Default-Reject.list
 
   ExtraRejectList:
     <<: *RuleSet_classical
-    url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraReject.list
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraReject.list
     path: ./CordGeo/RuleSet/ExtraReject.list
 
   PeterLowesHostsList:
     <<: *RuleSet_domain
-    url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Peter-Lowes-Hosts.list
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/More-Rule/Peter-Lowes-Hosts.list
     path: ./CordGeo/RuleSet/Peter-Lowes-Hosts.list
 
   ExtraDirectList:
     <<: *RuleSet_classical
-    url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraDirect.list
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraDirect.list
     path: ./CordGeo/RuleSet/ExtraDirect.list
 
   AreaProxyHKList:
     <<: *RuleSet_classical
-    url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyHK.list
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyHK.list
     path: ./CordGeo/RuleSet/AreaProxyHK.list
 
   AreaProxyTWList:
     <<: *RuleSet_classical
-    url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyTW.list
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyTW.list
     path: ./CordGeo/RuleSet/AreaProxyTW.list
 
   AreaProxyJPList:
     <<: *RuleSet_classical
-    url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyJP.list
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyJP.list
     path: ./CordGeo/RuleSet/AreaProxyJP.list
 
   AreaProxyUSList:
     <<: *RuleSet_classical
-    url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyUS.list
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyUS.list
     path: ./CordGeo/RuleSet/AreaProxyUS.list
 
   GeoProxyList:
@@ -257,7 +257,7 @@ rule-providers:
 
   ExtraProxyList:
     <<: *RuleSet_classical
-    url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraProxy.list
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraProxy.list
     path: ./CordGeo/RuleSet/ExtraProxy.list
 
 # 分流规则
