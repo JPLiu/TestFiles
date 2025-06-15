@@ -69,21 +69,24 @@ dns:
     - "*.nip.io"
   # fake-ip-filter end
   nameserver:
-    - system
+    # - system
     - 223.5.5.5
     - 119.29.29.29
-    - 180.184.1.1
+    - 208.67.222.222
+    - 94.140.14.140
     - https://223.5.5.5/dns-query
     - https://doh.pub/dns-query
   direct-nameserver:
-    - system
+    # - system
     - 223.5.5.5
     - 119.29.29.29
     - 180.184.1.1
+    - 180.76.76.76
   proxy-server-nameserver:
     - 223.5.5.5
     - 119.29.29.29
-    - 180.184.1.1
+    - 208.67.222.222
+    - 94.140.14.140
     - https://223.5.5.5/dns-query
     - https://doh.pub/dns-query
 
@@ -125,7 +128,7 @@ proxy-providers:
   Node:
     url: ''
     <<: *NodeParam
-    path: './ProxyProvider/Providers.yaml'
+    path: './Cord/Providers.yaml'
 
 # 节点筛选
 # 按地区筛选
@@ -177,117 +180,117 @@ rule-providers:
   LocalAreaNetworkList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-    path: ./RuleSet/LocalAreaNetwork.list
+    path: ./Cord/RuleSet/LocalAreaNetwork.list
 
   DefaultUnBanList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Default-UnBan.list
-    path: ./RuleSet/Default-UnBan.list
+    path: ./Cord/RuleSet/Default-UnBan.list
 
   ExtraRejectFixDirectList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraRejectFixDirect.list
-    path: ./RuleSet/ExtraRejectFixDirect.list
+    path: ./Cord/RuleSet/ExtraRejectFixDirect.list
 
   ExtraRejectFixProxyList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraRejectFixProxy.list
-    path: ./RuleSet/ExtraRejectFixProxy.list
+    path: ./Cord/RuleSet/ExtraRejectFixProxy.list
 
   DefaultRejectList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Default-Reject.list
-    path: ./RuleSet/Default-Reject.list
+    path: ./Cord/RuleSet/Default-Reject.list
 
   ExtraRejectList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraReject.list
-    path: ./RuleSet/ExtraReject.list
+    path: ./Cord/RuleSet/ExtraReject.list
 
   PeterLowesHostsList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Peter-Lowes-Hosts.list
-    path: ./RuleSet/Peter-Lowes-Hosts.list
+    path: ./Cord/RuleSet/Peter-Lowes-Hosts.list
 
   DefaultDirectMediaList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Default-Direct-Media.list
-    path: ./RuleSet/Default-Direct-Media.list
+    path: ./Cord/RuleSet/Default-Direct-Media.list
 
   VideoCrackLiteList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Video-Crack-Lite.list
-    path: ./RuleSet/Video-Crack-Lite.list
+    path: ./Cord/RuleSet/Video-Crack-Lite.list
 
   ExtraDirectMediaList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraDirectMedia.list
-    path: ./RuleSet/ExtraDirectMedia.list
+    path: ./Cord/RuleSet/ExtraDirectMedia.list
 
   DefaultDirectList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Default-Direct.list
-    path: ./RuleSet/Default-Direct.list
+    path: ./Cord/RuleSet/Default-Direct.list
 
   ExtraDirectList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraDirect.list
-    path: ./RuleSet/ExtraDirect.list
+    path: ./Cord/RuleSet/ExtraDirect.list
 
   AreaProxyHKList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyHK.list
-    path: ./RuleSet/AreaProxyHK.list
+    path: ./Cord/RuleSet/AreaProxyHK.list
 
   AreaProxyTWList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyTW.list
-    path: ./RuleSet/AreaProxyTW.list
+    path: ./Cord/RuleSet/AreaProxyTW.list
 
   AreaProxyJPList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyJP.list
-    path: ./RuleSet/AreaProxyJP.list
+    path: ./Cord/RuleSet/AreaProxyJP.list
 
   AreaProxyUSList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/AreaProxyUS.list
-    path: ./RuleSet/AreaProxyUS.list
+    path: ./Cord/RuleSet/AreaProxyUS.list
 
   DefaultProxyList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/More-Rule/Default-Proxy.list
-    path: ./RuleSet/Default-Proxy.list
+    path: ./Cord/RuleSet/Default-Proxy.list
 
   ExtraProxyMediaList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraProxyMedia.list
-    path: ./RuleSet/ExtraProxyMedia.list
+    path: ./Cord/RuleSet/ExtraProxyMedia.list
 
   ExtraProxyList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/main/Subconverter/ExtraProxy.list
-    path: ./RuleSet/ExtraProxy.list
+    path: ./Cord/RuleSet/ExtraProxy.list
 
   ChinaDomainList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-    path: ./RuleSet/ChinaDomain.list
+    path: ./Cord/RuleSet/ChinaDomain.list
 
   ChinaCompanyIpList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-    path: ./RuleSet/ChinaCompanyIp.list
+    path: ./Cord/RuleSet/ChinaCompanyIp.list
 
   PrivateTrackerList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list
-    path: ./RuleSet/PrivateTracker.list
+    path: ./Cord/RuleSet/PrivateTracker.list
 
   DownloadList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Download.list
-    path: ./RuleSet/Download.list
+    path: ./Cord/RuleSet/Download.list
 
 # 分流规则
 rules:
