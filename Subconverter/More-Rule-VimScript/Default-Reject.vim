@@ -8,6 +8,7 @@ vim9script
 :%s/\/32$/\/32,no-resolve/ge
 :%s/\/128$/\/128,no-resolve/ge
 silent! g/^#/d
+silent! g/\*/d
 
 silent! v/^[DIP]/d
 :%s///ge
