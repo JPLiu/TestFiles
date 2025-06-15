@@ -68,6 +68,9 @@ DOMAIN-SUFFIX,trackerslist.com
 # Whois
 DOMAIN-SUFFIX,ipwho.is
 
+# Xiaomi
+DOMAIN-SUFFIX,api.browser.miui.srv
+
 # Personal Blog Relate
 DOMAIN-SUFFIX,polyfill.io
 
