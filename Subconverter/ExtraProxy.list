@@ -106,6 +106,7 @@ DOMAIN-SUFFIX,lencr.org
 
 # NinjaKiwi https://ninjakiwi.com/
 DOMAIN-KEYWORD,ninjakiwi
+DOMAIN-KEYWORD,nkstatic
 
 # PicACG
 DOMAIN-SUFFIX,picacomic.com
