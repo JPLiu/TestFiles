@@ -47,8 +47,8 @@ DOMAIN-KEYWORD,hatena
 
 #-----TTT
 # Tiktok https://www.tiktok.com/
-DOMAIN-KEYWORD,tiktok
-DOMAIN-KEYWORD,ttwstatic
+#DOMAIN-KEYWORD,tiktok
+#DOMAIN-KEYWORD,ttwstatic
 
 #-----UUU
 
