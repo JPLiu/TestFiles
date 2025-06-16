@@ -204,12 +204,6 @@ DOMAIN-KEYWORD,aqours
 
 #-----WWW
 
-# WeRss https://werss.app/
-DOMAIN-SUFFIX,cdn.weapp.design
-DOMAIN-SUFFIX,wereader.app
-DOMAIN-SUFFIX,werss.app
-DOMAIN-SUFFIX,vux.li
-
 # WhatIsMyBrowser https://www.whatismybrowser.com/
 DOMAIN-SUFFIX,whatismybrowser.com
 
