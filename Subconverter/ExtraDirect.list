@@ -36,14 +36,6 @@ DOMAIN-KEYWORD,sinaimg
 
 # 按首字母排序
 
-# Ali 阿里
-DOMAIN-KEYWORD,alibaba
-DOMAIN-KEYWORD,alibabacloud
-DOMAIN-KEYWORD,alicloud
-DOMAIN-KEYWORD,alikunlun
-DOMAIN-KEYWORD,aliyun
-DOMAIN-KEYWORD,taobao
-
 # Computer Manufacturers
 DOMAIN-KEYWORD,lenovo
 DOMAIN-SUFFIX,amd.com
@@ -52,9 +44,6 @@ DOMAIN-SUFFIX,hp.com
 # MeiTuan
 # Global
 DOMAIN-KEYWORD,mykeeta
-
-# Microsoft
-DOMAIN-SUFFIX,appcenter.ms
 
 # NTP Pool
 DOMAIN-SUFFIX,pool.ntp.org
