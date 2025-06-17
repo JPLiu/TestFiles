@@ -290,7 +290,12 @@ rules:
   - RULE-SET,ExtraProxyList,🌍 全球代理
   - RULE-SET,ExtraProxyMediaList,🌍 全球代理
   - RULE-SET,ExtraDirectList,🎯 全球直连
-  
+
+  - GEOSITE,apple@cn,🎯 全球直连
+  - GEOSITE,cloudflare@cn,🎯 全球直连
+  - GEOSITE,google@cn,🎯 全球直连
+  - GEOSITE,tiktok@cn,🎯 全球直连
+  - GEOSITE,microsoft@cn,🎯 全球直连
   - GEOSITE,cn,DIRECT
   - GEOSITE,!cn,🌍 全球代理
 
