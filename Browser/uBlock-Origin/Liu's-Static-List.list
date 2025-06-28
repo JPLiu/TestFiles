@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Static List
-! Version: 20250628111427
+! Version: 20250628132802
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 基础过滤规则，通用。
@@ -41,6 +41,8 @@ tieba.baidu.com##.app_download_box.aside_region
 ! 参考 https://thhbdd.github.io/Block-pcdn-domains/ban.txt
 ||mcdn.bilivideo.cn^
 ||szbdyd.com^
+! 移除 PC 端班头图
+www.bilibili.com##div[class="recommended-swipe"]
 
 ! csdn
 ! https://blog.csdn.net/

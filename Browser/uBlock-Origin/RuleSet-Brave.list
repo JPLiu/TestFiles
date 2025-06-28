@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Brave RuleSet
-! Version: 20250628111427
+! Version: 20250628132802
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -15,6 +15,7 @@ tieba.baidu.com##.celebrity.aside_region
 tieba.baidu.com##.app_download_box.aside_region
 ||mcdn.bilivideo.cn^
 ||szbdyd.com^
+www.bilibili.com##div[class="recommended-swipe"]
 ||g.csdnimg.cn/asdf/*/trackad.js|$script,important
 ||csdnimg.cn/release/passport_fe/$script
 blog.csdn.net##.passport-login-container
