@@ -8,10 +8,10 @@ DOMAIN-KEYWORD,tracker
 DOMAIN-SUFFIX,smtp
 
 # Resource
-# http://www.animetox.com/
-DOMAIN-SUFFIX,geekzu.org
+# 极客族 https://www.geekzu.cn/
+DOMAIN-KEYWORD,geekzu
 
-# https://kimi.moonshot.cn/
+# KIMI https://kimi.moonshot.cn/
 DOMAIN-SUFFIX,volccdn.com
 
 # Resource Public CDN
@@ -80,10 +80,6 @@ DOMAIN-KEYWORD,52poke
 
 #-----AAA
 
-# Animex动漫社 http://www.animetox.com/
-DOMAIN-SUFFIX,animetox.com
-DOMAIN-SUFFIX,addtoany.com
-
 # AnyFeeder https://plink.anyfeeder.com/
 DOMAIN-SUFFIX,anyfeeder.com
 
@@ -103,10 +99,6 @@ DOMAIN-SUFFIX,colamanga.com
 #-----DDD
 
 #-----EEE
-
-# 读漫屋 https://dumanwu.com/OjcWujo/
-DOMAIN-SUFFIX,dumanwu.com
-DOMAIN-SUFFIX,ecombdimg.com
 
 #-----FFF
 
