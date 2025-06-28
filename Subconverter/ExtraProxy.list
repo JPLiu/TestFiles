@@ -60,6 +60,9 @@ DOMAIN-SUFFIX,achost.top
 # Amazon
 DOMAIN-KEYWORD,amazonaws
 
+# Blogspot
+DOMAIN-KEYWORD,blogblog
+
 # Brave
 DOMAIN-KEYWORD,brave
 
@@ -71,9 +74,6 @@ DOMAIN-SUFFIX,ttwstatic.com
 
 # Cloudflare
 DOMAIN-KEYWORD,cloudflare
-
-# Blogspot
-DOMAIN-KEYWORD,blogblog
 
 # CloudFront
 DOMAIN-KEYWORD,cloudfront
@@ -88,6 +88,9 @@ DOMAIN-KEYWORD,cordcord
 # Relate
 DOMAIN-SUFFIX,crisp.chat
 
+# Epic
+DOMAIN-SUFFIX,epicgames.dev
+
 # Git
 DOMAIN-KEYWORD,gitbook
 DOMAIN-KEYWORD,gitcdn
@@ -101,6 +104,9 @@ DOMAIN-SUFFIX,rawgit.com
 # Google
 DOMAIN-SUFFIX,vercel.app
 
+# JSDelivr
+# https://www.jsdelivr.com/
+DOMAIN-KEYWORD,jsdelivr
 # Let's Encrypt https://www.lencr.org/
 DOMAIN-SUFFIX,lencr.org
 

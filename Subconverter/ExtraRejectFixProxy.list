@@ -1,25 +1,18 @@
 # Extra Reject Fix Proxy List
 
 # Resource Public CDN
-# https://www.jsdelivr.com/
-DOMAIN-KEYWORD,jsdelivr
 
 #-----0-9
 
 #-----AAA
 
 #-----BBB
-# Brave Search
-DOMAIN,search.brave.com
 
 #-----CCC
 
 #-----DDD
 
 #-----EEE
-
-# Fix Guangdian
-DOMAIN-SUFFIX,epicgames.dev
 
 #-----FFF
 
