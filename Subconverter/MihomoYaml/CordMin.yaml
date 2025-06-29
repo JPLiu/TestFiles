@@ -19,7 +19,8 @@ global-client-fingerprint: chrome
 
 external-controller: 127.0.0.1:9090
 external-ui: Dashboard
-external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+#external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+external-ui-url: "https://github.com/Zephyruso/zashboard/releases/latest/download/dist-cdn-fonts.zip"
 secret: ""
 
 geodata-mode: true
