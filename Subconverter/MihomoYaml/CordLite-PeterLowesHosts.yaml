@@ -1,4 +1,4 @@
-### Date：2025-07-05
+### Date：2025-06-29
 
 ### 全局配置
 mixed-port: 7890
@@ -214,6 +214,11 @@ rule-providers:
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraReject.list
     path: ./CordLite/RuleSet/ExtraReject.list
 
+  PeterLowesHostsList:
+    <<: *RuleSet_domain
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/More-Rule/Peter-Lowes-Hosts.list
+    path: ./CordLite/RuleSet/Peter-Lowes-Hosts.list
+
   ExtraDirectList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraDirect.list
@@ -263,6 +268,7 @@ rules:
   - RULE-SET,DefaultUnBanList,DIRECT
   - RULE-SET,DefaultRejectList,REJECT
   - RULE-SET,ExtraRejectList,REJECT
+  - RULE-SET,PeterLowesHostsList,REJECT
 
   - RULE-SET,AreaProxyHKList,🇭🇰 香港测速
   - RULE-SET,AreaProxyTWList,🇨🇳 台湾测速
