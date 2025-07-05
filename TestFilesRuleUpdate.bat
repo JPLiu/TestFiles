@@ -31,12 +31,12 @@ cd ..
 
 cd /d Browser
 
-cd /d Content-Farm-Terminator
-start "" cmd /k call More-Rule-Upadte.bat
-cd ..
-cd /d uBlacklist
-start "" cmd /k call More-Rule-Upadte.bat
-cd ..
+:: cd /d Content-Farm-Terminator
+:: start "" cmd /k call More-Rule-Upadte.bat
+:: cd ..
+:: cd /d uBlacklist
+:: start "" cmd /k call More-Rule-Upadte.bat
+:: cd ..
 cd /d uBlock-Origin
 start "" cmd /k call More-Rule-Upadte.bat
 start "" cmd /k call List-Time-Update.bat
