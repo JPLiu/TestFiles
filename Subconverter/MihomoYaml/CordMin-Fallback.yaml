@@ -1,9 +1,4 @@
 ### Date：2025-06-19
-# 参考资料：
-# https://github.com/yyhhyyyyyy/selfproxy/tree/main/Mihomo
-# https://clash-meta.gitbook.io/clash.meta-wiki-older/example/ex1
-# https://www.aloxaf.com/2025/04/how_to_use_geosite/
-# DNS 参考：https://www.ip.cn/dns.html
 
 ### 全局配置
 mixed-port: 7890
