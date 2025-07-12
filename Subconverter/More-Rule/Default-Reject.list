@@ -1835,7 +1835,6 @@ DOMAIN,api5-normal-quic-lf.ixigua.com
 DOMAIN,apiyd.my91app.com
 DOMAIN,app-measurement.com
 DOMAIN,appcfg.v.qq.com
-DOMAIN,appcloud2.in.zhihu.com
 DOMAIN,applog.lc.quark.cn
 DOMAIN,applog.uc.cn
 DOMAIN,applog.zijieapi.com
@@ -2155,7 +2154,6 @@ DOMAIN,monitor-uu.play.aiseet.atianqi.com
 DOMAIN,monitor.music.qq.com
 DOMAIN,monitor.uu.qq.com
 DOMAIN,monsetting.toutiao.com
-DOMAIN,mqtt.zhihu.com
 DOMAIN,ms.applovin.com
 DOMAIN,ms.applvn.com
 DOMAIN,ms4.applovin.com
@@ -2314,7 +2312,6 @@ DOMAIN,statsigapi.net
 DOMAIN,stg-data.ads.heytapmobi.com
 DOMAIN,stun.hitv.com
 DOMAIN,success.ctobsnssdk.com
-DOMAIN,sugar.zhihu.com
 DOMAIN,supply.inmobicdn.net
 DOMAIN,sv-video.play.aiseet.atianqi.com
 DOMAIN,syh-imp.cdnjtzy.com
@@ -2472,7 +2469,6 @@ IP-CIDR,101.227.200.28/32,no-resolve
 IP-CIDR,101.227.97.240/32,no-resolve
 IP-CIDR,117.177.248.17/32,no-resolve
 IP-CIDR,117.177.248.41/32,no-resolve
-IP-CIDR,118.89.204.198/32,no-resolve
 IP-CIDR,124.192.153.42/32,no-resolve
 IP-CIDR,223.87.176.139/32,no-resolve
 IP-CIDR,223.87.176.176/32,no-resolve
@@ -2486,4 +2482,3 @@ IP-CIDR,223.87.182.101/32,no-resolve
 IP-CIDR,223.87.182.102/32,no-resolve
 IP-CIDR,223.87.182.11/32,no-resolve
 IP-CIDR,223.87.182.52/32,no-resolve
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
