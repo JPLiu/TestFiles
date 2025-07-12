@@ -1926,6 +1926,7 @@ DOMAIN,data.chsmarttv.com
 DOMAIN,data.mistat.india.xiaomi.com
 DOMAIN,data.mistat.rus.xiaomi.com
 DOMAIN,data.mistat.xiaomi.com
+DOMAIN,datacollection.uve.weibo.com
 DOMAIN,datk.anythinktech.com
 DOMAIN,dc.sigmob.cn
 DOMAIN,de.tynt.com
@@ -2336,7 +2337,6 @@ DOMAIN,tdsdk.cpatrk.net
 DOMAIN,tdsdk.xdrig.com
 DOMAIN,telemetry.sdk.inmobi.com
 DOMAIN,tencent-dtv.m.cn.miaozhen.com
-DOMAIN,terms-drcn.platform.dbankcloud.cn
 DOMAIN,test.ad.xiaomi.com
 DOMAIN,test.e.ad.xiaomi.com
 DOMAIN,tj.b.qq.com
