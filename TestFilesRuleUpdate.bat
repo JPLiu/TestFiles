@@ -23,9 +23,9 @@ cd /d BitTorrent
 start "" cmd /k call More-Rule-Upadte.bat
 cd ..
 
-cd /d gkd-kit
-start "" cmd /k call More-Rule-Upadte.bat
-cd ..
+::cd /d gkd-kit
+::start "" cmd /k call More-Rule-Upadte.bat
+::cd ..
 
 cd ..
 
