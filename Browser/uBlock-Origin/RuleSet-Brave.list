@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Brave RuleSet
-! Version: 20250726104548
+! Version: 20250726105310
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -42,9 +42,11 @@ weibo.com##div[class*="ProfileFocusPic_box_"]
 www.wenku8.net##[id^="adv"]
 wnacg01.cc/ds3/
 wnacg02.cc/ds3/
+wnacg.com/ds3/
+wnacg.ru/ds3/
 wn03.ru/ds3/
-ru/data/t/*.gif$image,domain=wnacg01.cc|wnacg02.cc
-wnacg01.cc,wnacg02.cc##div[id="control_block"]
+ru/data/t/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
+wnacg01.cc,wnacg02.cc,wnacg.com,wnacg.ru##div[id="control_block"]
 workflowy.com##.message-container
 yuanbao.tencent.com##div[class^="index_downloadPCAds"]
 yuanbao.tencent.com##.agent-dialogue__tool

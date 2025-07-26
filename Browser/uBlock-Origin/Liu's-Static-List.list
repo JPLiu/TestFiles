@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Static List
-! Version: 20250726104548
+! Version: 20250726105310
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 基础过滤规则，通用。
@@ -115,11 +115,14 @@ www.wenku8.net##[id^="adv"]
 ! 移动端搜索结果页广告
 wnacg01.cc/ds3/
 wnacg02.cc/ds3/
+wnacg.com/ds3/
+wnacg.ru/ds3/
 wn03.ru/ds3/
 ! 插入广告 GIF
-ru/data/t/*.gif$image,domain=wnacg01.cc|wnacg02.cc
+ru/data/t/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
 ! 下拉模式，底部广告
-wnacg01.cc,wnacg02.cc##div[id="control_block"]
+wnacg01.cc,wnacg02.cc,wnacg.com,wnacg.ru##div[id="control_block"]
+
 
 ! workflowy
 ! https://workflowy.com/
