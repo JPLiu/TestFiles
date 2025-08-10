@@ -1565,7 +1565,6 @@ DOMAIN-SUFFIX,wpsweb-dc.wps.cn
 DOMAIN-SUFFIX,wqmobile.com
 DOMAIN-SUFFIX,wrating.com
 DOMAIN-SUFFIX,ws.progrss.yahoo.com
-DOMAIN-SUFFIX,wtradv.market.xiaomi.com
 DOMAIN-SUFFIX,wumii.cn
 DOMAIN-SUFFIX,wwads.cn
 DOMAIN-SUFFIX,wwis-dubc1-vip60.adobe.com
@@ -2158,6 +2157,7 @@ DOMAIN,mobads-pre-config.cdn.bcebos.com
 DOMAIN,mobads.baidu.com
 DOMAIN,mobaliyun.res.mgtv.com
 DOMAIN,mobile.da.mgtv.com
+DOMAIN,mobilead.kuwo.cn
 DOMAIN,mobilelog.upqzfile.com
 DOMAIN,monitor-ads-test.huan.tv
 DOMAIN,monitor-uu.play.aiseet.atianqi.com
