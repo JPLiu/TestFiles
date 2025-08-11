@@ -36,6 +36,9 @@ DOMAIN-KEYWORD,sinaimg
 
 # 按首字母排序
 
+# Bank
+DOMAIN-KEYWORD,drcbank
+
 # Computer Manufacturers
 DOMAIN-KEYWORD,lenovo
 DOMAIN-SUFFIX,amd.com
@@ -78,7 +81,7 @@ DOMAIN-SUFFIX,polyfill.io
 # 神奇宝贝百科 https://wiki.52poke.com
 DOMAIN-KEYWORD,52poke
 
-# 21tb https://www.21tb.com/
+# 21TB https://www.21tb.com/
 DOMAIN-KEYWORD,21tb
 
 #-----AAA
