@@ -78,6 +78,9 @@ DOMAIN-SUFFIX,polyfill.io
 # 神奇宝贝百科 https://wiki.52poke.com
 DOMAIN-KEYWORD,52poke
 
+# 21tb https://www.21tb.com/
+DOMAIN-KEYWORD,21tb
+
 #-----AAA
 
 # AnyFeeder https://plink.anyfeeder.com/
