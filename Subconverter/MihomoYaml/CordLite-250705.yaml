@@ -1,4 +1,4 @@
-### Date：2025-08-11
+### Date：2025-07-05
 
 ### 全局配置
 mixed-port: 7890
@@ -279,42 +279,11 @@ rules:
   - RULE-SET,ExtraProxyMediaList,🌍 全球代理
   - RULE-SET,ExtraDirectList,🎯 全球直连
 
-  - GEOSITE,applemusic@cn,🎯 全球直连
-  - GEOSITE,applemusic,🌍 全球代理
   - GEOSITE,apple@cn,🎯 全球直连
-  - GEOSITE,apple,🌍 全球代理
-
   - GEOSITE,cloudflare@cn,🎯 全球直连
-  - GEOSITE,cloudflare,🌍 全球代理
-
-  - GEOSITE,ehentai,🌍 全球代理
-
-  - GEOSITE,github@cn,🎯 全球直连
-  - GEOSITE,github,🌍 全球代理
-
   - GEOSITE,google@cn,🎯 全球直连
-  - GEOSITE,google,🌍 全球代理
-
-  - GEOSITE,microsoft@cn,🎯 全球直连
-  - GEOSITE,microsoft,🌍 全球代理
-  - GEOSITE,onedrive@cn,🎯 全球直连
-  - GEOSITE,onedrive,🌍 全球代理
-
-  - GEOSITE,netflix,🌍 全球代理
-  - GEOSITE,openai,🌍 全球代理
-  - GEOSITE,pixiv,🌍 全球代理
-
-  - GEOSITE,spotify@cn,🎯 全球直连
-  - GEOSITE,spotify,🌍 全球代理
-
-  - GEOSITE,telegram,🌍 全球代理
-
   - GEOSITE,tiktok@cn,🎯 全球直连
-  - GEOSITE,tiktok,🌍 全球代理
-
-  - GEOSITE,twitter,🌍 全球代理
-  - GEOSITE,youtube,🌍 全球代理
-
+  - GEOSITE,microsoft@cn,🎯 全球直连
   - GEOSITE,cn,DIRECT
   - GEOSITE,!cn,🌍 全球代理
 
@@ -322,7 +291,6 @@ rules:
   - GEOIP,cloudfront,🌍 全球代理,no-resolve
   - GEOIP,facebook,🌍 全球代理,no-resolve
   - GEOIP,google,🌍 全球代理,no-resolve
-  - GEOIP,netflix,🌍 全球代理,no-resolve
   - GEOIP,telegram,🌍 全球代理,no-resolve
   - GEOIP,twitter,🌍 全球代理,no-resolve
   - GEOIP,CN,DIRECT
