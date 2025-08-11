@@ -61,6 +61,9 @@ DOMAIN-KEYWORD,wakamoment
 DOMAIN-KEYWORD,wikawika
 IP-CIDR,104.20.180.50/32,no-resolve
 
+# Tencent
+DOMAIN-SUFFIX,rumt-zh.com
+
 # Trackerslists
 DOMAIN-SUFFIX,trackerslist.com
 
