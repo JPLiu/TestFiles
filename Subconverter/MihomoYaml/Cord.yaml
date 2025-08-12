@@ -1,4 +1,4 @@
-### Date：2025-08-11
+### Date：2025-08-12
 
 ### 全局配置
 mixed-port: 7890
@@ -142,7 +142,7 @@ proxy-providers:
   Node:
     url: ''
     <<: *NodeParam
-    path: './CordLite/Providers.yaml'
+    path: './Cord/Providers.yaml'
 
 # 节点筛选
 # 按地区筛选
@@ -189,79 +189,70 @@ RuleSet_ipcidr: &RuleSet_ipcidr {type: http, behavior: ipcidr, interval: 43200, 
 
 # 订阅规则
 rule-providers:
-  DefaultUnBanList:
-    <<: *RuleSet_classical
-    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/More-Rule/Default-UnBan.list
-    path: ./CordLite/RuleSet/Default-UnBan.list
-
   ExtraRejectFixDirectList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraRejectFixDirect.list
-    path: ./CordLite/RuleSet/ExtraRejectFixDirect.list
+    path: ./Cord/RuleSet/ExtraRejectFixDirect.list
 
   ExtraRejectFixProxyList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraRejectFixProxy.list
-    path: ./CordLite/RuleSet/ExtraRejectFixProxy.list
-
-  DefaultRejectList:
-    <<: *RuleSet_classical
-    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/More-Rule/Default-Reject.list
-    path: ./CordLite/RuleSet/Default-Reject.list
+    path: ./Cord/RuleSet/ExtraRejectFixProxy.list
 
   ExtraRejectList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraReject.list
-    path: ./CordLite/RuleSet/ExtraReject.list
+    path: ./Cord/RuleSet/ExtraReject.list
 
   ExtraDirectList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraDirect.list
-    path: ./CordLite/RuleSet/ExtraDirect.list
+    path: ./Cord/RuleSet/ExtraDirect.list
 
   ExtraDirectMediaList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraDirectMedia.list
-    path: ./CordLite/RuleSet/ExtraDirectMedia.list
+    path: ./Cord/RuleSet/ExtraDirectMedia.list
 
   AreaProxyHKList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyHK.list
-    path: ./CordLite/RuleSet/AreaProxyHK.list
+    path: ./Cord/RuleSet/AreaProxyHK.list
 
   AreaProxyTWList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyTW.list
-    path: ./CordLite/RuleSet/AreaProxyTW.list
+    path: ./Cord/RuleSet/AreaProxyTW.list
 
   AreaProxyJPList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyJP.list
-    path: ./CordLite/RuleSet/AreaProxyJP.list
+    path: ./Cord/RuleSet/AreaProxyJP.list
 
   AreaProxyUSList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyUS.list
-    path: ./CordLite/RuleSet/AreaProxyUS.list
+    path: ./Cord/RuleSet/AreaProxyUS.list
 
   ExtraProxyList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraProxy.list
-    path: ./CordLite/RuleSet/ExtraProxy.list
+    path: ./Cord/RuleSet/ExtraProxy.list
 
   ExtraProxyMediaList:
     <<: *RuleSet_classical
     url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraProxyMedia.list
-    path: ./CordLite/RuleSet/ExtraProxyMedia.list
+    path: ./Cord/RuleSet/ExtraProxyMedia.list
   
 # 分流规则
 rules:
   - GEOSITE,private,DIRECT
   - GEOIP,private,DIRECT
+
   - RULE-SET,ExtraRejectFixDirectList,🎯 全球直连
   - RULE-SET,ExtraRejectFixProxyList,🌍 全球代理
-  - RULE-SET,DefaultUnBanList,DIRECT
-  - RULE-SET,DefaultRejectList,REJECT
+
+  - GEOSITE,category-ads-all,REJECT
   - RULE-SET,ExtraRejectList,REJECT
 
   - RULE-SET,AreaProxyHKList,🇭🇰 香港测速
@@ -275,22 +266,21 @@ rules:
   - GEOSITE,biliintl,📺 国内媒体
 
   - RULE-SET,ExtraDirectMediaList,📺 国内媒体
-  - RULE-SET,ExtraProxyList,🌍 全球代理
   - RULE-SET,ExtraProxyMediaList,🌍 全球代理
+  - RULE-SET,ExtraProxyList,🌍 全球代理
   - RULE-SET,ExtraDirectList,🎯 全球直连
 
-  - GEOSITE,apple@cn,🎯 全球直连
-  - GEOSITE,cloudflare@cn,🎯 全球直连
-  - GEOSITE,google@cn,🎯 全球直连
-  - GEOSITE,tiktok@cn,🎯 全球直连
-  - GEOSITE,microsoft@cn,🎯 全球直连
-  - GEOSITE,cn,DIRECT
-  - GEOSITE,!cn,🌍 全球代理
+  - GEOSITE,category-companies@cn,🎯 全球直连
+  - GEOSITE,tracker,DIRECT
+  - GEOSITE,geolocation-cn,DIRECT
+  - GEOSITE,geolocation-!cn,🌍 全球代理
 
   - GEOIP,cloudflare,🌍 全球代理,no-resolve
   - GEOIP,cloudfront,🌍 全球代理,no-resolve
   - GEOIP,facebook,🌍 全球代理,no-resolve
+  - GEOIP,fastly,🌍 全球代理,no-resolve
   - GEOIP,google,🌍 全球代理,no-resolve
+#  - GEOIP,netflix,🌍 全球代理,no-resolve
   - GEOIP,telegram,🌍 全球代理,no-resolve
   - GEOIP,twitter,🌍 全球代理,no-resolve
   - GEOIP,CN,DIRECT
