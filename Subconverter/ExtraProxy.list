@@ -1,18 +1,7 @@
 # Extra Proxy List
 
 # Resource
-
 # Resource Public CDN
-# https://videojs.com/getting-started/
-DOMAIN-KEYWORD,videojs
-DOMAIN-KEYWORD,zencdn
-
-# https://unpkg.com/
-DOMAIN-KEYWORD,unpkg
-
-# Resource Public Font
-# https://fontawesome.com/
-DOMAIN-KEYWORD,fontawesome
 
 # Resource Public Picture
 # https://postimages.org
@@ -24,26 +13,6 @@ DOMAIN-KEYWORD,postimgs
 # http://www.rays-counter.com/
 DOMAIN-KEYWORD,rays-counter
 # https://immortalnova.hatenablog.com/entry/2022/03/06/140713
-
-# Area List
-DOMAIN-SUFFIX,au
-DOMAIN-SUFFIX,br
-DOMAIN-SUFFIX,ca
-DOMAIN-SUFFIX,de
-DOMAIN-SUFFIX,es
-DOMAIN-SUFFIX,fr
-DOMAIN-SUFFIX,id
-DOMAIN-SUFFIX,in
-DOMAIN-SUFFIX,it
-DOMAIN-SUFFIX,kp
-DOMAIN-SUFFIX,mo
-DOMAIN-SUFFIX,mx
-DOMAIN-SUFFIX,ru
-DOMAIN-SUFFIX,se
-DOMAIN-SUFFIX,sg
-DOMAIN-SUFFIX,st
-DOMAIN-SUFFIX,su
-DOMAIN-SUFFIX,tf
 
 # -------------------------------------------------
 # 按首字母排序
@@ -57,26 +26,8 @@ DOMAIN-SUFFIX,jm365.work
 DOMAIN-KEYWORD,2dfan
 DOMAIN-SUFFIX,achost.top
 
-# Amazon
-DOMAIN-KEYWORD,amazonaws
-
-# Blogspot
-DOMAIN-KEYWORD,blogblog
-
 # Brave
 DOMAIN-KEYWORD,brave
-
-# ByteDance Intl
-DOMAIN-KEYWORD,oceanapi
-DOMAIN-SUFFIX,byteintlapi.com
-DOMAIN-SUFFIX,coze.com
-DOMAIN-SUFFIX,ttwstatic.com
-
-# Cloudflare
-DOMAIN-KEYWORD,cloudflare
-
-# CloudFront
-DOMAIN-KEYWORD,cloudfront
 
 # CordCloud 漏网不处理
 DOMAIN-KEYWORD,c-cloud
@@ -88,9 +39,6 @@ DOMAIN-KEYWORD,cordcord
 # Relate
 DOMAIN-SUFFIX,crisp.chat
 
-# Epic
-DOMAIN-SUFFIX,epicgames.dev
-
 # Git
 DOMAIN-KEYWORD,gitbook
 DOMAIN-KEYWORD,gitcdn
@@ -99,29 +47,13 @@ DOMAIN-KEYWORD,gitube
 DOMAIN-KEYWORD,gitlab
 
 DOMAIN-SUFFIX,ghbtns.com
-DOMAIN-SUFFIX,rawgit.com
-
-# Google
-DOMAIN-SUFFIX,vercel.app
-
-# JSDelivr
-# https://www.jsdelivr.com/
-DOMAIN-KEYWORD,jsdelivr
-# Let's Encrypt https://www.lencr.org/
-DOMAIN-SUFFIX,lencr.org
 
 # NinjaKiwi https://ninjakiwi.com/
 DOMAIN-KEYWORD,ninjakiwi
 DOMAIN-KEYWORD,nkstatic
-# Relate
-DOMAIN-SUFFIX,cloud.unity3d.com
-
-# PicACG
-DOMAIN-SUFFIX,picacomic.com
 
 # SourceForge
 DOMAIN-KEYWORD,sourceforge
-DOMAIN-SUFFIX,fsdn.com
 
 # Subconverter
 DOMAIN-KEYWORD,acl4ssr.netlify
@@ -133,9 +65,7 @@ DOMAIN-SUFFIX,ruleset.dev
 DOMAIN-KEYWORD,vivaldi
 
 # WordPress
-DOMAIN-SUFFIX,wordpress.com
 DOMAIN-SUFFIX,s.w.org
-DOMAIN-SUFFIX,wp.com
 
 # -------------------------------------------------
 # 按网址排序
@@ -154,35 +84,14 @@ DOMAIN-SUFFIX,acgbox.link
 DOMAIN-SUFFIX,acgndog.com
 DOMAIN-SUFFIX,moetu.club
 
-# Alternative To https://alternativeto.net/
-DOMAIN-SUFFIX,alternativeto.net
-
-# APKPure https://apkpure.com/google-play-store/com.android.vending
-DOMAIN-KEYWORD,apkpure
-DOMAIN-KEYWORD,cdnpure
-# Relate
-DOMAIN-SUFFIX,winudf.com
-
 #-----BBB
 
-# 萌番组 https://bangumi.moe/ 偶发异常
-DOMAIN-SUFFIX,bangumi.moe
-
 #-----CCC
-
-# CodeBerg https://codeberg.org/StvG/ffms2/
-DOMAIN-KEYWORD,codeberg
 
 # 漫猫动漫 http://www.comicat.org/
 DOMAIN-SUFFIX,comicat.org
 
 #-----DDD
-
-# 动漫花园 https://www.dmhy.org/
-DOMAIN-SUFFIX,dmhy.org
-
-# 机场推荐 https://www.duyaoss.com/
-DOMAIN-SUFFIX,duyaoss.com
 
 #-----EEE
 
@@ -192,9 +101,6 @@ DOMAIN-KEYWORD,ecosia
 #-----FFF
 # FatSecret https://www.fatsecret.cn
 DOMAIN-KEYWORD,fatsecret
-
-# Feedx https://feedx.net/
-DOMAIN-SUFFIX,feedx.net
 
 # FetchRSS https://fetchrss.com/
 DOMAIN-SUFFIX,fetchrss.com
@@ -213,9 +119,6 @@ DOMAIN-SUFFIX,darkreader.org
 # Firefox Userstyles https://userstyles.org/
 DOMAIN-SUFFIX,userstyles.org
 # Firefox uBlock Origin
-DOMAIN-SUFFIX,adguard.com
-DOMAIN-SUFFIX,adtidy.org
-DOMAIN-SUFFIX,easylist.to
 DOMAIN-SUFFIX,fanboy.co.nz
 # Firefox SpeedyFox https://crystalidea.com/speedyfox
 DOMAIN-SUFFIX,crystalidea.com
@@ -240,18 +143,11 @@ DOMAIN-SUFFIX,getsharex.com
 
 #-----HHH
 
-# Have I Been Pwned https://haveibeenpwned.com/
-DOMAIN-SUFFIX,haveibeenpwned.com
-
 #-----III
 
 # Inoreader https://www.inoreader.com/all_articles
 DOMAIN-KEYWORD,inoreader
 DOMAIN-KEYWORD,innoreader
-
-# IP.SB https://ip.sb
-DOMAIN,api.ip.sb
-DOMAIN,ip.sb
 
 # IrfanView https://www.irfanview.com/
 DOMAIN-KEYWORD,irfanview
@@ -269,12 +165,6 @@ DOMAIN-KEYWORD,keepass
 DOMAIN-SUFFIX,rss.lilydjwg.me
 
 #-----MMM
-
-# MEGA https://mega.nz/folder/aShGXbrb#spNXGjoloY4r9UiH3xJFKA
-DOMAIN-SUFFIX,mega.co.nz
-
-# 真白萌 https://masiro.moe 偶发异常
-DOMAIN-KEYWORD,masiro
 
 # MioBT https://www.miobt.com/
 DOMAIN-SUFFIX,miobt.com
@@ -297,9 +187,6 @@ DOMAIN-SUFFIX,onehu.xyz
 # PhotoDemon https://photodemon.org/
 DOMAIN-SUFFIX,photodemon.org
 
-# 电脑玩物 https://www.playpcesor.com
-DOMAIN-SUFFIX,playpcesor.com
-
 # Portableapps https://portableapps.com/
 DOMAIN-SUFFIX,portableapps.com
 
@@ -307,9 +194,6 @@ DOMAIN-SUFFIX,portableapps.com
 DOMAIN-SUFFIX,portablefreeware.com
 
 # Python https://www.python.org
-DOMAIN-SUFFIX,python.org
-DOMAIN-SUFFIX,pypi.org
-DOMAIN-SUFFIX,pythonhosted.org
 DOMAIN-SUFFIX,statuspage.io
 
 #-----QQQ
@@ -319,23 +203,14 @@ DOMAIN-SUFFIX,statuspage.io
 # WinRAR https://www.rarlab.com/
 DOMAIN-SUFFIX,rarlab.com
 
-# RSSEverything https://rss.stephenslab.top/login
-DOMAIN,rss.stephenslab.top
-DOMAIN-SUFFIX,fonts.bunny.net
-
 # RSSHub https://docs.rsshub.app/
 DOMAIN-KEYWORD,diygay
 DOMAIN-KEYWORD,diygod
 DOMAIN-KEYWORD,rsshub
-DOMAIN-SUFFIX,res.cloudinary.com
 DOMAIN-SUFFIX,runforesight.com
-DOMAIN-SUFFIX,shields.io
 DOMAIN-SUFFIX,thundra.io
 
 #-----SSS
-
-# All in One Runtimes https://www.sereby.org/
-DOMAIN-SUFFIX,sereby.org
 
 # Sukidesuost https://sukidesuost.info
 DOMAIN-SUFFIX,sukidesuost.info
@@ -360,12 +235,6 @@ DOMAIN-SUFFIX,totalcmd.net
 # VideoHelp https://www.videohelp.com/
 DOMAIN-SUFFIX,videohelp.com
 
-# VLC https://www.videolan.org/index.zh.html
-DOMAIN-SUFFIX,videolan.org
-
-# Vim https://www.vim.org/
-DOMAIN-SUFFIX,vim.org
-
 # Everything https://www.voidtools.com/
 DOMAIN-SUFFIX,voidtools.com
 
@@ -379,7 +248,6 @@ DOMAIN-KEYWORD,workflowy
 # Relate
 DOMAIN-SUFFIX,cdnfonts.com
 DOMAIN-SUFFIX,d3js.org
-DOMAIN-KEYWORD,stripe
 
 #-----XXX
 

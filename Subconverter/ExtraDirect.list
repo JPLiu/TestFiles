@@ -1,26 +1,13 @@
 # Extra Direct List
 
-# Download ACR4SSR
-# Tracker ACR4SSR
-DOMAIN-KEYWORD,announce
-DOMAIN-KEYWORD,torrent
-DOMAIN-KEYWORD,tracker
-DOMAIN-SUFFIX,smtp
-
 # Resource
 # 极客族 https://www.geekzu.cn/
 DOMAIN-KEYWORD,geekzu
-
-# KIMI https://kimi.moonshot.cn/
-DOMAIN-SUFFIX,volccdn.com
 
 # Resource Public CDN
 # https://inn-studio.com/
 DOMAIN-KEYWORD,inn-studio
 # https://share.dmhy.org/
-
-# https://loli.net/
-DOMAIN-SUFFIX,loli.net
 
 # Resource Public Picture
 # https://img.2222.moe/
@@ -28,9 +15,6 @@ DOMAIN-SUFFIX,2222.moe
 
 # https://images.weserv.nl/
 DOMAIN-KEYWORD,weserv
-
-# http://sinaimg.cn/
-DOMAIN-KEYWORD,sinaimg
 
 # -------------------------------------------------
 
@@ -41,15 +25,10 @@ DOMAIN-KEYWORD,drcbank
 
 # Computer Manufacturers
 DOMAIN-KEYWORD,lenovo
-DOMAIN-SUFFIX,amd.com
-DOMAIN-SUFFIX,hp.com
 
 # MeiTuan
 # Global
 DOMAIN-KEYWORD,mykeeta
-
-# NTP Pool
-DOMAIN-SUFFIX,pool.ntp.org
 
 # Paypal
 DOMAIN-KEYWORD,paypal
@@ -127,9 +106,6 @@ DOMAIN,go2think.com
 # HiBitUninstaller https://www.hibitsoft.ir/index.html
 DOMAIN-KEYWORD,hibitsoft
 
-# 音乐磁场 https://www.hifini.com/
-DOMAIN-SUFFIX,hifini.com
-
 #-----III
 
 # 异次元软件世界 https://www.iplaysoft.com/
@@ -196,7 +172,6 @@ DOMAIN-SUFFIX,ts-dm.net
 DOMAIN-SUFFIX,tsdm39.com
 DOMAIN-SUFFIX,kudm.net
 DOMAIN-SUFFIX,mengniang.org
-DOMAIN-SUFFIX,mikudm.net
 DOMAIN-KEYWORD,aqours
 
 #-----UUU
