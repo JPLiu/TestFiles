@@ -7,7 +7,6 @@ DOMAIN-KEYWORD,hembed
 # Resource Public Picture
 # https://imgbox.com/
 DOMAIN-KEYWORD,imgbox
-# https://hanime1.me/
 
 # -------------------------------------------------
 # 按网址排序
@@ -34,10 +33,6 @@ DOMAIN-KEYWORD,96dm
 
 #-----BBB
 
-# 番组计划 https://bangumi.tv/ 或 https://bgm.tv/ 部分网站会引用资源
-DOMAIN-SUFFIX,bangumi.tv
-DOMAIN-SUFFIX,bgm.tv
-
 #-----CCC
 
 #-----DDD
@@ -50,16 +45,9 @@ DOMAIN-SUFFIX,bgm.tv
 
 #-----HHH
 
-# Hanime1 https://hanime1.me/
-DOMAIN-SUFFIX,hanime1.me
-
 #-----III
 
 #-----JJJ
-
-# Jable https://jable.tv
-DOMAIN-SUFFIX,jable.tv
-DOMAIN-KEYWORD,mushroomtrack
 
 #-----KKK
 
