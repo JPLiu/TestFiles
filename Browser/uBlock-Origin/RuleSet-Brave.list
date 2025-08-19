@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Brave RuleSet
-! Version: 20250819204757
+! Version: 20250819205457
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -29,6 +29,7 @@ hanime1.me##div[id="more-related-ad"]
 hanime1.me##div[id="close-mobile-ad-btn"]
 between.hpibzey.xyz##.ad-banners
 between.hpibzey.xyz##.fl-banner
+between.hpibzey.xyz##.link-wrapper
 between.hpibzey.xyz##.tags-group
 between.hpibzey.xyz##.tags-group2
 between.hpibzey.xyz##.xqbj-component-advertises
