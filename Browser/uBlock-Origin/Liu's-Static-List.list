@@ -72,6 +72,13 @@ hanime1.me##div[id="myHeader"]
 hanime1.me##div[id="more-related-ad"]
 hanime1.me##div[id="close-mobile-ad-btn"]
 
+! hpibzey https://between.hpibzey.xyz
+between.hpibzey.xyz##.xqbj-component-advertises
+between.hpibzey.xyz##.tags-group
+between.hpibzey.xyz##.tags-group2
+between.hpibzey.xyz##.main-container > .ad-banners
+between.hpibzey.xyz##blockquote
+
 ! kafan
 ! https://bbs.kafan.cn/
 ! 版面优化 去除签名 界面清理
@@ -141,4 +148,5 @@ yuanbao.tencent.com##.agent-dialogue__tool
 ! *$document,font,image,match-case,media,domain=example.com
 ! *$object,other,ping,popup,script,stylesheet,subdocument,webrtc,websocket,xmlhttprequest,domain=example.com
 ! *$elemhide,generichide,genericblock,domain=example.com
+
 
