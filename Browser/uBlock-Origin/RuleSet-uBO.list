@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's uBO RuleSet
-! Version: 20250810190638
+! Version: 20250819204757
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -27,6 +27,12 @@ www.ecosia.org##[data-test-id="ad-block-notice"]
 hanime1.me##div[id="myHeader"]
 hanime1.me##div[id="more-related-ad"]
 hanime1.me##div[id="close-mobile-ad-btn"]
+between.hpibzey.xyz##.ad-banners
+between.hpibzey.xyz##.fl-banner
+between.hpibzey.xyz##.tags-group
+between.hpibzey.xyz##.tags-group2
+between.hpibzey.xyz##.xqbj-component-advertises
+between.hpibzey.xyz##blockquote
 bbs.kafan.cn##.pbn.cl.bm_c
 bbs.kafan.cn##.plm.plc
 landiannews.com##.content-gg

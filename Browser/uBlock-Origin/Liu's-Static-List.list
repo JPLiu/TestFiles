@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Static List
-! Version: 20250810190638
+! Version: 20250819204757
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 基础过滤规则，通用。
@@ -72,11 +72,14 @@ hanime1.me##div[id="myHeader"]
 hanime1.me##div[id="more-related-ad"]
 hanime1.me##div[id="close-mobile-ad-btn"]
 
-! hpibzey https://between.hpibzey.xyz
-between.hpibzey.xyz##.xqbj-component-advertises
+! hpibzey
+! https://between.hpibzey.xyz
+! 多余栏目-广告位
+between.hpibzey.xyz##.ad-banners
+between.hpibzey.xyz##.fl-banner
 between.hpibzey.xyz##.tags-group
 between.hpibzey.xyz##.tags-group2
-between.hpibzey.xyz##.main-container > .ad-banners
+between.hpibzey.xyz##.xqbj-component-advertises
 between.hpibzey.xyz##blockquote
 
 ! kafan

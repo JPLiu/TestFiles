@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Brave RuleSet
-! Version: 20250810190638
+! Version: 20250819204757
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -24,14 +24,15 @@ www.ecosia.org##.card--border.card--as-a.card.chat-card.footer-card
 www.ecosia.org##.main-header__install-cta
 www.ecosia.org##.banner
 www.ecosia.org##[data-test-id="ad-block-notice"]
-between.hpibzey.xyz##.xqbj-component-advertises
-between.hpibzey.xyz##.tags-group
-between.hpibzey.xyz##.tags-group2
-between.hpibzey.xyz##.main-container > .ad-banners
-between.hpibzey.xyz##blockquote
 hanime1.me##div[id="myHeader"]
 hanime1.me##div[id="more-related-ad"]
 hanime1.me##div[id="close-mobile-ad-btn"]
+between.hpibzey.xyz##.ad-banners
+between.hpibzey.xyz##.fl-banner
+between.hpibzey.xyz##.tags-group
+between.hpibzey.xyz##.tags-group2
+between.hpibzey.xyz##.xqbj-component-advertises
+between.hpibzey.xyz##blockquote
 bbs.kafan.cn##.pbn.cl.bm_c
 bbs.kafan.cn##.plm.plc
 landiannews.com##.content-gg
@@ -100,4 +101,3 @@ s.weibo.com##div[class="main-full"]:style(width: 975px !important)
 s.weibo.com##div[class="list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
 s.weibo.com##textarea:style(width: 875px !important)
 wnacg01.cc,wnacg02.cc,wnacg.com,wnacg.ru##div[class$="download_btn"]:style(display:inline !important)
-
