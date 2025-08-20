@@ -1875,8 +1875,10 @@ DOMAIN,bes-mtj.baidu.com
 DOMAIN,bgg.baidu.com
 DOMAIN,bianxian.com
 DOMAIN,bingads.microsoft.com
+DOMAIN,biz.weibo.com
 DOMAIN,bj.ad.track.66mobi.com
 DOMAIN,books-analytics-events.apple.com
+DOMAIN,bootpreload.uve.weibo.com
 DOMAIN,browsercfg-drcn.cloud.dbankcloud.cn
 DOMAIN,bsrv.qq.com
 DOMAIN,bugly.qq.com
@@ -2014,6 +2016,7 @@ DOMAIN,hc-ssp.sm.cn
 DOMAIN,heads-ak.spotify.com.edgesuite.net
 DOMAIN,heads-fa.spotify.com
 DOMAIN,hexagon-analytics.com
+DOMAIN,hlog.bigda.com
 DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
 DOMAIN,hotupgrade.hpplay.cn
@@ -2149,6 +2152,7 @@ DOMAIN,micro-xdb.com
 DOMAIN,mini-prog-drm.vodplayvideo.net
 DOMAIN,mission-pub.smart-tv.cn
 DOMAIN,miui-fxcse.avlyun.com
+DOMAIN,mlog.bigda.com
 DOMAIN,mmgame.qpic.cn
 DOMAIN,mnqlog.ldmnq.com
 DOMAIN,moatads.com
@@ -2409,6 +2413,7 @@ DOMAIN,ulogs.umengcloud.com
 DOMAIN,umengacs.m.taobao.com
 DOMAIN,umengjmacs.m.taobao.com
 DOMAIN,umini.shujupie.com
+DOMAIN,union-mlog.bigda.com
 DOMAIN,union.baidu.cn
 DOMAIN,union.baidu.com
 DOMAIN,update.avlyun.sec.miui.com
