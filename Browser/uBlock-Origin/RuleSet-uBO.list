@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's uBO RuleSet
-! Version: 20250819205457
+! Version: 20250820194748
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -33,6 +33,7 @@ between.hpibzey.xyz##.link-wrapper
 between.hpibzey.xyz##.tags-group
 between.hpibzey.xyz##.tags-group2
 between.hpibzey.xyz##.xqbj-component-advertises
+between.hpibzey.xyz##.xqbj-list-rows-placard
 between.hpibzey.xyz##blockquote
 bbs.kafan.cn##.pbn.cl.bm_c
 bbs.kafan.cn##.plm.plc

@@ -247,13 +247,12 @@ rule-providers:
 # 分流规则
 rules:
   - GEOSITE,private,DIRECT
-  - GEOIP,private,DIRECT
 
   - RULE-SET,ExtraRejectFixDirectList,🎯 全球直连
   - RULE-SET,ExtraRejectFixProxyList,🌍 全球代理
+  - RULE-SET,ExtraRejectList,REJECT
 
   - GEOSITE,category-ads-all,REJECT
-  - RULE-SET,ExtraRejectList,REJECT
 
   - RULE-SET,AreaProxyHKList,🇭🇰 香港测速
   - RULE-SET,AreaProxyTWList,🇨🇳 台湾测速
@@ -275,6 +274,7 @@ rules:
   - GEOSITE,geolocation-cn,DIRECT
   - GEOSITE,geolocation-!cn,🌍 全球代理
 
+  - GEOIP,private,DIRECT
   - GEOIP,cloudflare,🌍 全球代理,no-resolve
   - GEOIP,cloudfront,🌍 全球代理,no-resolve
   - GEOIP,facebook,🌍 全球代理,no-resolve
@@ -282,6 +282,7 @@ rules:
   - GEOIP,google,🌍 全球代理,no-resolve
 #  - GEOIP,netflix,🌍 全球代理,no-resolve
   - GEOIP,telegram,🌍 全球代理,no-resolve
+#  - GEOIP,tor,🌍 全球代理,no-resolve
   - GEOIP,twitter,🌍 全球代理,no-resolve
   - GEOIP,CN,DIRECT
 
