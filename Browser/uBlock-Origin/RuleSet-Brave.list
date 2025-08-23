@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Brave RuleSet
-! Version: 20250823103624
+! Version: 20250823105242
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -42,6 +42,7 @@ bbs.kafan.cn##.plm.plc
 landiannews.com##.content-gg
 landiannews.com##section[id^=block-]
 ||img.lancdn.com/*.gif$image,domain=landiannews.com
+pkhex-web.github.io##.cc-isolation-container
 work.weixin.qq.com##.index_head
 work.weixin.qq.com##.index_top
 work.weixin.qq.com##div[class="index_section index_section_Case"]

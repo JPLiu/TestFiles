@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Static List
-! Version: 20250823103624
+! Version: 20250823105242
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 基础过滤规则，通用。
@@ -102,6 +102,11 @@ bbs.kafan.cn##.plm.plc
 landiannews.com##.content-gg
 landiannews.com##section[id^=block-]
 ||img.lancdn.com/*.gif$image,domain=landiannews.com
+
+! pkhex for web
+! https://pkhex-web.github.io
+! Cookies 提示
+pkhex-web.github.io##.cc-isolation-container
 
 ! qq
 ! 企业微信 移除下载页介绍栏目 方便下载
