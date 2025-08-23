@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Static List
-! Version: 20250820200357
+! Version: 20250823103624
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 基础过滤规则，通用。
@@ -43,6 +43,12 @@ tieba.baidu.com##.app_download_box.aside_region
 ||szbdyd.com^
 ! 移除 PC 端班头图
 www.bilibili.com##div[class="recommended-swipe"]
+
+! brave
+! https://search.brave.com
+! 应用推广（用于 Firefox）
+search.brave.com##.mobile-promo-content
+search.brave.com##.download-cta
 
 ! csdn
 ! https://blog.csdn.net/
