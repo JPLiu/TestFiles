@@ -190,8 +190,8 @@ RuleSet_ipcidr: &RuleSet_ipcidr {type: http, behavior: ipcidr, interval: 43200, 
 # 订阅规则
 rule-providers:
   AWAvenueAdsRule:
-    <<: *RuleSet_domain
-    url: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.yaml
+    <<: *RuleSet_classical
+    url: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/refs/heads/main/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list
     path: ./Cord/RuleSet/AWAvenueAdsRule.list
 
   ExtraRejectFixDirectList:
@@ -255,8 +255,8 @@ rules:
 
   - RULE-SET,ExtraRejectFixDirectList,🎯 全球直连
   - RULE-SET,ExtraRejectFixProxyList,🌍 全球代理
-
   - RULE-SET,ExtraRejectList,REJECT
+
   - RULE-SET,AWAvenueAdsRule,REJECT
   - GEOSITE,category-ads-all,REJECT
 
