@@ -1,3 +1,9 @@
+# 个人自用域名规则
+
+## 变更记录
+
+- 2025.08.30 统一改用 Mihomo 官方的 Geo 数据规则。
+
 # 参考资料
 
 - Clash Mata 官方范例：https://clash-meta.gitbook.io/clash.meta-wiki-older/example/ex1
@@ -9,4 +15,5 @@
 - Mihomo 参考配置：https://github.com/yyhhyyyyyy/selfproxy/tree/main/Mihomo
 
 - Mihomo 官方 GEO 数据：https://github.com/MetaCubeX/meta-rules-dat/tree/meta
+
 
