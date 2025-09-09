@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's ABP RuleSet
-! Version: 20250909175841
+! Version: 20250909182432
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -52,6 +52,7 @@ work.weixin.qq.com##.index_top
 work.weixin.qq.com##div[class="index_section index_section_Case"]
 work.weixin.qq.com##div[class="index_section index_section_server_deploy "]
 wx.mail.qq.com##div[class="xmail-cmp-vip-banner"]
+wx.mail.qq.com##div[class="header-right-notice"]
 wx.mail.qq.com##div[class="cmp-vip-state-icon common-state-icon"]
 ||totalcmd.net/images/*-700.jpg$image
 weibo.com##div[node-type="recommend"]
