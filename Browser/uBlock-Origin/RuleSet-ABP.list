@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's ABP RuleSet
-! Version: 20250831163459
+! Version: 20250909175841
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -62,6 +62,8 @@ wnacg02.cc/ds3/
 wnacg.com/ds3/
 wnacg.ru/ds3/
 wn03.ru/ds3/
+game/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
+ru/data/t/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
 ru/data/t/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
 wnacg01.cc,wnacg02.cc,wnacg.com,wnacg.ru##div[id="control_block"]
 wnacg01.cc,wnacg02.cc,wnacg.com,wnacg.ru##li[class="cate-0"]
