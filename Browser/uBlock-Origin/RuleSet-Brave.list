@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Brave RuleSet
-! Version: 20250909182432
+! Version: 20250911211108
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -19,6 +19,10 @@ pan.baidu.com##button[status="svipline"]
 pan.baidu.com##div[id="chatView"]
 ||mcdn.bilivideo.cn^
 ||szbdyd.com^
+||hdslb.com/bfs/seed/jinkela/short/b-mirror/biliMirror.$script
+||hdslb.com/bfs/seed/jinkela/kv-sdk/$script
+||hdslb.com/bfs/seed/jinkela/short/reporter-pb/$script
+||data.bilibili.com/log/$xhr,empty
 www.bilibili.com##div[class="recommended-swipe"]
 search.brave.com##.mobile-promo-content
 search.brave.com##.download-cta

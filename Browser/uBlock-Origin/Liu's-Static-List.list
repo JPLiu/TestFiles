@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Static List
-! Version: 20250909182432
+! Version: 20250911211108
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 基础过滤规则，通用。
@@ -49,6 +49,13 @@ pan.baidu.com##div[id="chatView"]
 ! 参考 https://thhbdd.github.io/Block-pcdn-domains/ban.txt
 ||mcdn.bilivideo.cn^
 ||szbdyd.com^
+! 乘风优化
+! 参考 https://bbs.kafan.cn/thread-2284745-1-1.html
+||hdslb.com/bfs/seed/jinkela/short/b-mirror/biliMirror.$script
+||hdslb.com/bfs/seed/jinkela/kv-sdk/$script
+||hdslb.com/bfs/seed/jinkela/short/reporter-pb/$script
+!bilibili.com##+js(nowebrtc)
+||data.bilibili.com/log/$xhr,empty
 ! 移除 PC 端班头图
 www.bilibili.com##div[class="recommended-swipe"]
 
