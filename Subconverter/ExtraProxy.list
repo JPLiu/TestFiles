@@ -88,6 +88,9 @@ DOMAIN-SUFFIX,moetu.club
 
 #-----CCC
 
+# CMail https://www.inveigle.net/cmail/download
+DOMAIN-SUFFIX,inveigle.net
+
 # 漫猫动漫 http://www.comicat.org/
 DOMAIN-SUFFIX,comicat.org
 
@@ -99,6 +102,10 @@ DOMAIN-SUFFIX,comicat.org
 DOMAIN-KEYWORD,ecosia
 
 #-----FFF
+
+# FastCopy https://fastcopy.jp/
+DOMAIN-SUFFIX,fastcopy.jp
+
 # FatSecret https://www.fatsecret.cn
 DOMAIN-KEYWORD,fatsecret
 
@@ -227,6 +234,7 @@ DOMAIN-SUFFIX,unavatar.io
 DOMAIN-SUFFIX,ghisler.com
 # Relate https://totalcmd.net/
 DOMAIN-SUFFIX,totalcmd.net
+DOMAIN-SUFFIX,wincmd.ru
 
 #-----UUU
 
