@@ -3,6 +3,7 @@
 ## 变更记录
 
 - 2025.06.28 停用 Content-Farms-Lite
+- 2025.09.13 移除 RuleGroup-uBO
 
 ## 列表清单
 
@@ -23,10 +24,6 @@
 - 自用的静态规则。
 
 ## 组合规则
-
-### RuleGroup-uBO
-
-- uBlock Origin 订阅规则，引用列表清单中的规则。
 
 ### RuleSet-ABP
 
