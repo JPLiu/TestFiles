@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's uBO RuleSet
-! Version: 20250915204034
+! Version: 20250919204839
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -56,6 +56,7 @@ work.weixin.qq.com##.index_top
 work.weixin.qq.com##div[class="index_section index_section_Case"]
 work.weixin.qq.com##div[class="index_section index_section_server_deploy "]
 wx.mail.qq.com##div[class="xmail-cmp-vip-banner"]
+wx.mail.qq.com##div[class="xmail-cmp-notice-bubble-wrap"]
 wx.mail.qq.com##div[class="header-right-notice"]
 wx.mail.qq.com##div[class="cmp-vip-state-icon common-state-icon"]
 ||totalcmd.net/images/*-700.jpg$image
