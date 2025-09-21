@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Brave RuleSet
-! Version: 20250919204839
+! Version: 20250921141807
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -29,11 +29,12 @@ search.brave.com##.download-cta
 ||g.csdnimg.cn/asdf/*/trackad.js|$script,important
 ||csdnimg.cn/release/passport_fe/$script
 blog.csdn.net##.passport-login-container
-www.ecosia.org##.main-footer-visual
-www.ecosia.org##.card--border.card--as-a.card.chat-card.footer-card
-www.ecosia.org##.main-header__install-cta
-www.ecosia.org##.banner
-www.ecosia.org##[data-test-id="ad-block-notice"]
+ecosia.org##.main-footer-visual
+ecosia.org##.card--border.card--as-a.card.chat-card.footer-card
+ecosia.org##.main-header__install-cta
+ecosia.org##.banner
+ecosia.org##div[data-test-id="ad-block-notice"]
+ecosia.org##div[data-test-id="ad-block-notice-modal"]
 hanime1.me##div[id="myHeader"]
 hanime1.me##div[id="more-related-ad"]
 hanime1.me##div[id="close-mobile-ad-btn"]
