@@ -85,6 +85,7 @@ ecosia.org##.main-header__install-cta
 ecosia.org##.banner
 ! 搜索结果页关闭广告扩展的提示
 ecosia.org##div[data-test-id^="ad-block-notice"]
+ecosia.org##div[data-test-id="binary-feedback"]
 
 ! hanime1
 ! https://hanime1.me/
