@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Static List
-! Version: 20250921141807
+! Version: 20250922210106
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 基础过滤规则，通用。
@@ -84,8 +84,7 @@ ecosia.org##.main-header__install-cta
 ! 搜索结果页顶部版头广告
 ecosia.org##.banner
 ! 搜索结果页关闭广告扩展的提示
-ecosia.org##div[data-test-id="ad-block-notice"]
-ecosia.org##div[data-test-id="ad-block-notice-modal"]
+ecosia.org##div[data-test-id^="ad-block-notice"]
 
 ! hanime1
 ! https://hanime1.me/

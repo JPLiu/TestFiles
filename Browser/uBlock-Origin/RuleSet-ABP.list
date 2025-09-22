@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's ABP RuleSet
-! Version: 20250921141807
+! Version: 20250922210106
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -33,8 +33,7 @@ ecosia.org##.main-footer-visual
 ecosia.org##.card--border.card--as-a.card.chat-card.footer-card
 ecosia.org##.main-header__install-cta
 ecosia.org##.banner
-ecosia.org##div[data-test-id="ad-block-notice"]
-ecosia.org##div[data-test-id="ad-block-notice-modal"]
+ecosia.org##div[data-test-id^="ad-block-notice"]
 hanime1.me##div[id="myHeader"]
 hanime1.me##div[id="more-related-ad"]
 hanime1.me##div[id="close-mobile-ad-btn"]
