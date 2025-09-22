@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Brave RuleSet
-! Version: 20250922210428
+! Version: 20250922211928
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -38,14 +38,6 @@ ecosia.org##div[data-test-id="binary-feedback"]
 hanime1.me##div[id="myHeader"]
 hanime1.me##div[id="more-related-ad"]
 hanime1.me##div[id="close-mobile-ad-btn"]
-between.hpibzey.xyz##.ad-banners
-between.hpibzey.xyz##.fl-banner
-between.hpibzey.xyz##.link-wrapper
-between.hpibzey.xyz##.tags-group
-between.hpibzey.xyz##.tags-group2
-between.hpibzey.xyz##.xqbj-component-advertises
-between.hpibzey.xyz##.xqbj-list-rows-placard
-between.hpibzey.xyz##blockquote
 bbs.kafan.cn##.pbn.cl.bm_c
 bbs.kafan.cn##.plm.plc
 landiannews.com##.content-gg
@@ -56,10 +48,9 @@ work.weixin.qq.com##.index_head
 work.weixin.qq.com##.index_top
 work.weixin.qq.com##div[class="index_section index_section_Case"]
 work.weixin.qq.com##div[class="index_section index_section_server_deploy "]
-wx.mail.qq.com##div[class="xmail-cmp-vip-banner"]
-wx.mail.qq.com##div[class="xmail-cmp-notice-bubble-wrap"]
+wx.mail.qq.com##div[class^="xmail-cmp-vip"]
 wx.mail.qq.com##div[class="header-right-notice"]
-wx.mail.qq.com##div[class="cmp-vip-state-icon common-state-icon"]
+wx.mail.qq.com##div[class^="cmp-vip"]
 ||totalcmd.net/images/*-700.jpg$image
 weibo.com##div[node-type="recommend"]
 weibo.com##div[class*="ProfileFocusPic_box_"]

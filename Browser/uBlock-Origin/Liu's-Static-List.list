@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Static List
-! Version: 20250922210428
+! Version: 20250922211928
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 基础过滤规则，通用。
@@ -94,18 +94,6 @@ hanime1.me##div[id="myHeader"]
 hanime1.me##div[id="more-related-ad"]
 hanime1.me##div[id="close-mobile-ad-btn"]
 
-! hpibzey
-! https://between.hpibzey.xyz
-! 多余栏目-广告位
-between.hpibzey.xyz##.ad-banners
-between.hpibzey.xyz##.fl-banner
-between.hpibzey.xyz##.link-wrapper
-between.hpibzey.xyz##.tags-group
-between.hpibzey.xyz##.tags-group2
-between.hpibzey.xyz##.xqbj-component-advertises
-between.hpibzey.xyz##.xqbj-list-rows-placard
-between.hpibzey.xyz##blockquote
-
 ! kafan
 ! https://bbs.kafan.cn/
 ! 版面优化 去除签名 界面清理
@@ -133,10 +121,9 @@ work.weixin.qq.com##div[class="index_section index_section_Case"]
 work.weixin.qq.com##div[class="index_section index_section_server_deploy "]
 
 ! qq 邮箱 顶部栏目，设置页 会员提示
-wx.mail.qq.com##div[class="xmail-cmp-vip-banner"]
-wx.mail.qq.com##div[class="xmail-cmp-notice-bubble-wrap"]
+wx.mail.qq.com##div[class^="xmail-cmp-vip"]
 wx.mail.qq.com##div[class="header-right-notice"]
-wx.mail.qq.com##div[class="cmp-vip-state-icon common-state-icon"]
+wx.mail.qq.com##div[class^="cmp-vip"]
 
 ! totalcmd
 ! https://totalcmd.net/
