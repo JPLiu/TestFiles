@@ -13,9 +13,9 @@ cd ..
 :: start "" cmd /k call More-Rule-Upadte.bat
 :: cd ..
 
-cd /d Subconverter
-start "" cmd /k call More-Rule-Upadte.bat
-cd ..
+:: cd /d Subconverter
+:: start "" cmd /k call More-Rule-Upadte.bat
+:: cd ..
 
 cd /d Android
 
@@ -38,7 +38,7 @@ cd /d Browser
 :: start "" cmd /k call More-Rule-Upadte.bat
 :: cd ..
 cd /d uBlock-Origin
-start "" cmd /k call More-Rule-Upadte.bat
+:: start "" cmd /k call More-Rule-Upadte.bat
 start "" cmd /k call List-Time-Update.bat
 cd ..
 
