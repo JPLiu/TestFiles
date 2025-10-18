@@ -1,0 +1,92 @@
+# Extra Direct Media List
+
+# Resource
+# 706dm Related
+DOMAIN-SUFFIX,vip.dytt-img.com
+# http://www.706dm.com/video/9020.html
+DOMAIN-KEYWORD,yhdmjx
+DOMAIN-KEYWORD,yinghuazy
+# https://www.706dm.com/play/9161-1-8.html
+DOMAIN-SUFFIX,server.mch3.com
+
+
+# http://www.yatu.tv:2082/m04568/play0-1.html
+DOMAIN-SUFFIX,2s0.cn
+DOMAIN-SUFFIX,77flv.cc
+DOMAIN-SUFFIX,m3u8.pw
+DOMAIN-SUFFIX,ppflv.com
+DOMAIN-SUFFIX,xmflv.com
+DOMAIN-SUFFIX,jn1.cc
+# http://www.yatu.tv:2082/m036786/play0-1.html
+DOMAIN-SUFFIX,playback.com
+
+# Resource Public CDN
+# https://www.jiasule.com/
+DOMAIN-KEYWORD,jiashule
+# http://www.yatu.tv:2082/m04568/
+
+# https://www.akamai.com/
+DOMAIN-KEYWORD,default.akamaize
+# -------------------------------------------------
+# 按网址排序
+
+#-----0-9
+
+#-----AAA
+
+#-----BBB
+
+#-----CCC
+
+#-----DDD
+
+#-----EEE
+
+#-----FFF
+
+#-----GGG
+
+#-----HHH
+
+#-----III
+
+#-----JJJ
+
+#-----KKK
+
+#-----LLL
+
+#-----MMM
+
+# 耐卡影音 https://mcar.vip/
+DOMAIN-KEYWORD,mcar
+
+#-----NNN
+
+#-----OOO
+
+#-----PPP
+
+#-----QQQ
+
+#-----RRR
+
+#-----SSS
+
+#-----TTT
+
+#-----UUU
+
+#-----VVV
+
+#-----WWW
+
+#-----XXX
+
+#-----YYY
+
+# 雅图 http://www.yatu.tv
+DOMAIN-SUFFIX,yatu.tv
+
+#-----ZZZ
+

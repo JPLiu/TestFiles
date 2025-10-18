@@ -1,0 +1,290 @@
+### Date：2025-08-23
+
+### 全局配置
+mixed-port: 7890
+redir-port: 7892
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: false
+find-process-mode: strict
+unified-delay: true
+tcp-concurrent: true
+global-client-fingerprint: chrome
+
+external-controller: 127.0.0.1:9090
+external-ui: Dashboard
+#external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+external-ui-url: "https://github.com/Zephyruso/zashboard/releases/latest/download/dist-cdn-fonts.zip"
+secret: ""
+
+geodata-mode: true
+geox-url:
+  geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
+  geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+#  mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb"
+geo-auto-update: true
+geo-update-interval: 360
+
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+### DNS配置
+dns:
+  enable: true
+  prefer-h3: true
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 1.1.1.1
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  # fake-ip-filter start
+  fake-ip-filter:
+    - +.+m2m
+    - +.$injections.adguard.org
+    - +.$local.adguard.org
+    - +.+bogon
+    - +.+lan
+    - +.+local
+    - +.+internal
+    - +.+localdomain
+    - +.home.arpa
+    - dns.msftncsi.com
+    - "*.srv.nintendo.net"
+    - "*.stun.playstation.net"
+    - xbox.*.microsoft.com
+    - "*.xboxlive.com"
+    - "*.turn.twilio.com"
+    - "*.stun.twilio.com"
+    - stun.syncthing.net
+    - stun.*
+    - "*.sslip.io"
+    - "*.nip.io"
+  # fake-ip-filter end
+  nameserver:
+    # - system
+    - 223.5.5.5
+    - 119.29.29.29
+    # - https://dns.alidns.com/dns-query
+    - https://223.5.5.5/dns-query
+    - https://doh.pub/dns-query
+    # AdGuard DNS
+    #- 94.140.14.140
+    - https://unfiltered.adguard-dns.com/dns-query
+    # OpenDns
+    #- 208.67.222.222
+    - https://doh.opendns.com/dns-query
+    # Cloudflare DNS
+    #- 1.1.1.1
+    - https://cloudflare-dns.com/dns-query
+  direct-nameserver:
+    # - system
+    - 223.5.5.5
+    - 119.29.29.29
+    # Baidu DNS
+    - 180.184.1.1
+    # ByteDance DNS
+    - 180.76.76.76
+  proxy-server-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    # - https://dns.alidns.com/dns-query
+    - https://223.5.5.5/dns-query
+    - https://doh.pub/dns-query
+    # AdGuard DNS
+    #- 94.140.14.140
+    - https://unfiltered.adguard-dns.com/dns-query
+    # OpenDns
+    #- 208.67.222.222
+    - https://doh.opendns.com/dns-query
+    # Cloudflare DNS
+    #- 1.1.1.1
+    - https://cloudflare-dns.com/dns-query
+
+### 域名嗅探
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com"
+
+### Tunnel配置
+tun:
+  enable: true
+  stack: system
+  device: Ethernet99
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - any:53
+    - tcp://any:53
+  strict-route: true
+  mtu: 1500
+  # 如果有使用zerotier或者headscale等，需要自己配置排除自己的网段
+  # route-exclude-address: ["192.168.110.0/24"]
+
+### 订阅基础配置 [每天更新一次订阅节点，每 180 秒一次健康检查]
+NodeParam: &NodeParam {type: http, interval: 86400, health-check: {enable: true, url: 'http://connectivitycheck.platform.hicloud.com/generate_204', interval: 180}}
+
+# 订阅合集
+proxy-providers:
+  Node:
+    url: ''
+    <<: *NodeParam
+    path: './Cord/Providers.yaml'
+
+# 节点筛选
+# 按地区筛选
+FilterHKMax: &FilterHKMax '(香港|深港).*倍率:2'
+FilterHKMid: &FilterHKMid '(香港|深港).*倍率:1'
+FilterHKMin: &FilterHKMin '(香港|深港).*倍率:0'
+FilterHK: &FilterHK '(香港|深港).*倍率'
+FilterTW: &FilterTW '台湾.*倍率'
+FilterJP: &FilterJP '日本.*倍率'
+FilterUS: &FilterUS '美国.*倍率'
+FilterOthers: &FilterOthers '^(?!.*(香港|深港|台湾|日本|美国)).*$'
+FilterAll: &FilterAll '.*'
+
+### 策略组基础配置
+# 手动选择
+Select: &Select {type: select, url: 'http://connectivitycheck.platform.hicloud.com/generate_204', disable-udp: false, hidden: false, include-all: true}
+# 自动选择 [每 300 秒一次惰性健康检查，容差 50ms，时延超过 2 秒判定为失败，失败 3 次自动触发健康检查]
+UrlTest: &UrlTest {type: url-test, url: 'http://connectivitycheck.platform.hicloud.com/generate_204', interval: 300, lazy: true, tolerance: 50, timeout: 2000, disable-udp: false, max-failed-times: 3, hidden: true, include-all: true}
+# 自动回退 [每 300 秒一次惰性健康检查，时延超过 2 秒判定为失败，失败 3 次自动触发健康检查]
+FallBack: &FallBack {type: fallback, url: 'http://connectivitycheck.platform.hicloud.com/generate_204', interval: 300, lazy: true, timeout: 2000, disable-udp: false, max-failed-times: 3, hidden: true, include-all: true}
+
+# 策略组
+proxy-groups:
+  - {name: 🔰 节点选择, type: select, proxies: [🇭🇰 香港中倍, 🇭🇰 香港高倍, 🇭🇰 香港低倍, 🇯🇵 日本测速, 🇺🇸 美国测速, 🇨🇳 台湾测速, 🇺🇳 其他测速, 🚀 手选节点, DIRECT], url: http://connectivitycheck.platform.hicloud.com/generate_204}
+  - {name: 📺 国内媒体, type: select, proxies: [DIRECT, 🔰 节点选择, 🇭🇰 香港中倍, 🇭🇰 香港高倍, 🇭🇰 香港低倍, 🇨🇳 台湾测速], url: http://connectivitycheck.platform.hicloud.com/generate_204}
+  - {name: 🐟 漏网之鱼, type: select, proxies: [🔰 节点选择, DIRECT], url: http://connectivitycheck.platform.hicloud.com/generate_204}
+  - {name: 🎯 全球直连, type: select, proxies: [DIRECT, 🔰 节点选择], url: http://connectivitycheck.platform.hicloud.com/generate_204}
+  - {name: 🌍 全球代理, type: select, proxies: [🔰 节点选择, DIRECT], url: http://connectivitycheck.platform.hicloud.com/generate_204}
+  - {name: 🚀 手选节点, <<: *Select, filter: *FilterAll}
+
+  - {name: 🇭🇰 香港低倍, <<: *UrlTest, filter: *FilterHKMin}
+  - {name: 🇭🇰 香港中倍, <<: *UrlTest, filter: *FilterHKMid}
+  - {name: 🇭🇰 香港高倍, <<: *UrlTest, filter: *FilterHKMax}
+  - {name: 🇭🇰 香港测速, <<: *UrlTest, filter: *FilterHK}
+  - {name: 🇨🇳 台湾测速, <<: *UrlTest, filter: *FilterTW}
+  - {name: 🇯🇵 日本测速, <<: *UrlTest, filter: *FilterJP}
+  - {name: 🇺🇸 美国测速, <<: *UrlTest, filter: *FilterUS}
+  - {name: 🇺🇳 其他测速, <<: *UrlTest, filter: *FilterOthers}
+
+### 规则配置
+RuleSet_classical: &RuleSet_classical {type: http, behavior: classical, interval: 43200, format: text, proxy: 🔰 节点选择}
+RuleSet_domain: &RuleSet_domain {type: http, behavior: domain, interval: 43200, format: text, proxy: 🔰 节点选择}
+RuleSet_ipcidr: &RuleSet_ipcidr {type: http, behavior: ipcidr, interval: 43200, format: text, proxy: 🔰 节点选择}
+
+# 订阅规则
+rule-providers:
+
+  ExtraRejectFixDirectList:
+    <<: *RuleSet_classical
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraRejectFixDirect.list
+    path: ./Cord/RuleSet/ExtraRejectFixDirect.list
+
+  ExtraRejectFixProxyList:
+    <<: *RuleSet_classical
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraRejectFixProxy.list
+    path: ./Cord/RuleSet/ExtraRejectFixProxy.list
+
+  ExtraRejectList:
+    <<: *RuleSet_classical
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraReject.list
+    path: ./Cord/RuleSet/ExtraReject.list
+
+  ExtraDirectList:
+    <<: *RuleSet_classical
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraDirect.list
+    path: ./Cord/RuleSet/ExtraDirect.list
+
+  ExtraDirectMediaList:
+    <<: *RuleSet_classical
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraDirectMedia.list
+    path: ./Cord/RuleSet/ExtraDirectMedia.list
+
+  AreaProxyHKList:
+    <<: *RuleSet_classical
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyHK.list
+    path: ./Cord/RuleSet/AreaProxyHK.list
+
+  AreaProxyTWList:
+    <<: *RuleSet_classical
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyTW.list
+    path: ./Cord/RuleSet/AreaProxyTW.list
+
+  AreaProxyJPList:
+    <<: *RuleSet_classical
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyJP.list
+    path: ./Cord/RuleSet/AreaProxyJP.list
+
+  AreaProxyUSList:
+    <<: *RuleSet_classical
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyUS.list
+    path: ./Cord/RuleSet/AreaProxyUS.list
+
+  ExtraProxyList:
+    <<: *RuleSet_classical
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraProxy.list
+    path: ./Cord/RuleSet/ExtraProxy.list
+
+  ExtraProxyMediaList:
+    <<: *RuleSet_classical
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraProxyMedia.list
+    path: ./Cord/RuleSet/ExtraProxyMedia.list
+  
+# 分流规则
+rules:
+  - GEOSITE,private,DIRECT
+
+  - RULE-SET,ExtraRejectFixDirectList,🎯 全球直连
+  - RULE-SET,ExtraRejectFixProxyList,🌍 全球代理
+
+  - RULE-SET,ExtraRejectList,REJECT
+  - GEOSITE,category-ads-all,REJECT
+
+  - RULE-SET,AreaProxyHKList,🇭🇰 香港测速
+  - RULE-SET,AreaProxyTWList,🇨🇳 台湾测速
+  - RULE-SET,AreaProxyJPList,🇯🇵 日本测速
+  - RULE-SET,AreaProxyUSList,🇺🇸 美国测速
+
+  - GEOSITE,abema,🇯🇵 日本测速
+  - GEOSITE,bahamut,🇨🇳 台湾测速
+  - GEOSITE,bilibili,📺 国内媒体
+  - GEOSITE,biliintl,📺 国内媒体
+
+  - RULE-SET,ExtraDirectMediaList,📺 国内媒体
+  - RULE-SET,ExtraProxyMediaList,🌍 全球代理
+  - RULE-SET,ExtraProxyList,🌍 全球代理
+  - RULE-SET,ExtraDirectList,🎯 全球直连
+
+  - GEOSITE,category-companies@cn,🎯 全球直连
+  - GEOSITE,tracker,DIRECT
+  - GEOSITE,geolocation-cn,DIRECT
+  - GEOSITE,geolocation-!cn,🌍 全球代理
+
+  - GEOIP,private,DIRECT
+  - GEOIP,cloudflare,🌍 全球代理,no-resolve
+  - GEOIP,cloudfront,🌍 全球代理,no-resolve
+  - GEOIP,facebook,🌍 全球代理,no-resolve
+  - GEOIP,fastly,🌍 全球代理,no-resolve
+  - GEOIP,google,🌍 全球代理,no-resolve
+#  - GEOIP,netflix,🌍 全球代理,no-resolve
+  - GEOIP,telegram,🌍 全球代理,no-resolve
+#  - GEOIP,tor,🌍 全球代理,no-resolve
+  - GEOIP,twitter,🌍 全球代理,no-resolve
+  - GEOIP,CN,DIRECT
+
+  - MATCH,🐟 漏网之鱼
