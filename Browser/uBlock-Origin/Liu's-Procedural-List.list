@@ -1,18 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Procedural List
-! Version: 20251026173319
+! Version: 20251105204213
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 过程式规则，需要 uBlock Origin 或者 AdGuard。
-
-! 423down
-! https://www.423down.com/
-! 推广栏目 参考：https://bbs.kafan.cn/thread-2264706-1-1.html
-423down.com##div.entry p[style],div.entry~p[style],div.entry>p[align] span[style]
-423down.com##ul>li a:has-text(产品推广):upward(li)
-423down.com##ul>li a>span:has-text(置顶):upward(li)
-423down.com##div.entry p:first-child,li.item>div[style]
-423down.com##ul.excerpt>li:nth-child(3)
 
 ! baidu
 ! 百度贴吧 版头图片尺寸调整

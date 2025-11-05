@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's uBO RuleSet
-! Version: 20251026173319
+! Version: 20251105204213
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -307,11 +307,6 @@ $removeparam=from,domain=d.weibo.com|s.weibo.com
 ||zhihu.com^$removeparam=/^source_/
 ||zhihu.com^$removeparam=/^utm_/
 ||zhihu.com^$removeparam=origin_label
-423down.com##div.entry p[style],div.entry~p[style],div.entry>p[align] span[style]
-423down.com##ul>li a:has-text(产品推广):upward(li)
-423down.com##ul>li a>span:has-text(置顶):upward(li)
-423down.com##div.entry p:first-child,li.item>div[style]
-423down.com##ul.excerpt>li:nth-child(3)
 tieba.baidu.com##.card_head:style(width: 48px !important; height: 48px !important)
 tieba.baidu.com##.card_head_img:style(width: 48px !important; height: 48px !important)
 tieba.baidu.com##td:style(font-family: Calibri !important; font-size: 13px !important)
