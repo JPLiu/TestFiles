@@ -39,7 +39,7 @@ DOMAIN-KEYWORD,gitlab
 DOMAIN-SUFFIX,ghbtns.com
 
 # Google
-# GEOData 默认直连，导致 Inoreader 打开严重超时。
+# GEOData 个人配置中被分流直连，导致 Inoreader 打开严重超时。
 DOMAIN-SUFFIX,fonts.googleapis.com
 
 # NinjaKiwi https://ninjakiwi.com/
