@@ -42,6 +42,7 @@ DOMAIN-SUFFIX,ghbtns.com
 # GEOData 个人配置中被分流直连，导致 Inoreader 打开严重超时。
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,c.pki.goog
 
 # NinjaKiwi https://ninjakiwi.com/
 DOMAIN-KEYWORD,ninjakiwi
