@@ -169,6 +169,9 @@ DOMAIN-SUFFIX,rss.lilydjwg.me
 
 #-----MMM
 
+# Miniflux
+DOMAIN-SUFFIX,miniflux.app
+
 # MioBT https://www.miobt.com/
 DOMAIN-SUFFIX,miobt.com
 
