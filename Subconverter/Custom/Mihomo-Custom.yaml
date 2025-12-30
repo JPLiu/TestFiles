@@ -130,6 +130,7 @@ proxy-groups:
   - { name: "🇺🇸 美国测速", type: url-test, url: "http://www.gstatic.com/generate_204", interval: 300, lazy: true, tolerance: 50, timeout: 2000, disable-udp: false, max-failed-times: 3, hidden: true, include-all: false, proxies: [ "{{proxies:美国}}" ] }
   - { name: "🇺🇳 其他测速", type: url-test, url: "http://www.gstatic.com/generate_204", interval: 300, lazy: true, tolerance: 50, timeout: 2000, disable-udp: false, max-failed-times: 3, hidden: true, include-all: false, proxies: [ "{{proxies:德国}}", "{{proxies:法国}}", "{{proxies:英国}}", "{{proxies:新加坡}}" ] }
   - { name: "🌍 全球测速", type: url-test, url: "http://www.gstatic.com/generate_204", interval: 300, lazy: true, tolerance: 50, timeout: 2000, disable-udp: false, max-failed-times: 3, hidden: true, include-all: true, proxies: [ "{{proxies}}" ] }
+  
   - { name: "🔰 节点选择", type: select, url: "http://www.gstatic.com/generate_204", disable-udp: false, hidden: false, include-all: false, proxies: [ "🇭🇰 香港中转", "🇭🇰 深港专线", "🇭🇰 广港专线", "🇯🇵 日本测速", "🇺🇸 美国测速", "🇨🇳 台湾测速", "🇺🇳 其他测速", "🌍 全球测速", "🚀 手选节点", "DIRECT" ] }
   - { name: "📺 国内媒体", type: select, url: "http://www.gstatic.com/generate_204", disable-udp: false, hidden: false, include-all: false, proxies: [ "DIRECT", "🔰 节点选择", "🇭🇰 香港中转", "🇭🇰 深港专线", "🇭🇰 广港专线", "🇨🇳 台湾测速" ] }
   - { name: "🐟 漏网之鱼", type: select, url: "http://www.gstatic.com/generate_204", disable-udp: false, hidden: false, include-all: false, proxies: [ "🔰 节点选择", "DIRECT" ] }
@@ -139,7 +140,6 @@ proxy-groups:
 
 # 订阅规则
 rule-providers:
-
   ExtraRejectFixDirectList: { behavior: "classical", type: http, format: "text", interval: 43200, url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraRejectFixDirect.list, path: ./Cord/RuleSet/ExtraRejectFixDirect.list }
   ExtraRejectFixProxyList: { behavior: "classical", type: http, format: "text", interval: 43200, url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraRejectFixProxy.list, path: ./Cord/RuleSet/ExtraRejectFixProxy.list }
   ExtraRejectList: { behavior: "classical", type: http, format: "text", interval: 43200, url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraReject.list, path: ./Cord/RuleSet/ExtraReject.list }

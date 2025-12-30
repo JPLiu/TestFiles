@@ -335,7 +335,6 @@ proxy-groups:
 
 # 订阅规则
 rule-providers:
-
   ExtraRejectFixDirectList:
     behavior: "classical"
     type: http
