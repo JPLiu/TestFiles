@@ -1,7 +1,7 @@
 {
 	"id": 2010,
 	"name": "JPLiu 订阅-NoFast",
-	"version": 30,
+	"version": 31,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
@@ -25,7 +25,7 @@
 			"name": "VPN 提示",
 			"desc": "VPN 提示-NoFast",
 			"key": 1,
-			"rules": "[id=\"com.hundsun.mobile.hsbrowsertest:id/cancel_tv\"]"
+			"rules": "[id=\"com.hundsun.mobile.hsbrowsertest:\"][text=\"知晓风险，继续使用\"]"
 		}]
 	},{
 		"id": "com.futurefleet.dongguantongbus.ui.dg",
