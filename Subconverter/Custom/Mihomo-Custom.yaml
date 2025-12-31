@@ -1,4 +1,4 @@
-### Date：2025-12-31
+### Date：2025-12-30
 
 ### 全局配置
 mixed-port: 7890
@@ -121,36 +121,308 @@ tun:
 
 # 策略组
 proxy-groups:
-  - { name: "🇭🇰 香港中转", type: url-test, url: "http://www.gstatic.com/generate_204", interval: 300, lazy: true, tolerance: 50, timeout: 2000, disable-udp: false, max-failed-times: 3, hidden: true, include-all: false, proxies: [ "{{proxies:移动转香港}}", "{{proxies:联通转深港}}", "{{proxies:电信转香港}}" ] }
-  - { name: "🇭🇰 深港专线", type: url-test, url: "http://www.gstatic.com/generate_204", interval: 300, lazy: true, tolerance: 50, timeout: 2000, disable-udp: false, max-failed-times: 3, hidden: true, include-all: false, proxies: [ "{{proxies:深港专线}}" ] }
-  - { name: "🇭🇰 广港专线", type: url-test, url: "http://www.gstatic.com/generate_204", interval: 300, lazy: true, tolerance: 50, timeout: 2000, disable-udp: false, max-failed-times: 3, hidden: true, include-all: false, proxies: [ "{{proxies:广港专线}}" ] }
-  - { name: "🇭🇰 香港测速", type: url-test, url: "http://www.gstatic.com/generate_204", interval: 300, lazy: true, tolerance: 50, timeout: 2000, disable-udp: false, max-failed-times: 3, hidden: true, include-all: false, proxies: [ "{{proxies:香港}}", "{{proxies:深港}}", "{{proxies:广港}}" ] }
-  - { name: "🇨🇳 台湾测速", type: url-test, url: "http://www.gstatic.com/generate_204", interval: 300, lazy: true, tolerance: 50, timeout: 2000, disable-udp: false, max-failed-times: 3, hidden: true, include-all: false, proxies: [ "{{proxies:台湾}}" ] }
-  - { name: "🇯🇵 日本测速", type: url-test, url: "http://www.gstatic.com/generate_204", interval: 300, lazy: true, tolerance: 50, timeout: 2000, disable-udp: false, max-failed-times: 3, hidden: true, include-all: false, proxies: [ "{{proxies:日本}}" ] }
-  - { name: "🇺🇸 美国测速", type: url-test, url: "http://www.gstatic.com/generate_204", interval: 300, lazy: true, tolerance: 50, timeout: 2000, disable-udp: false, max-failed-times: 3, hidden: true, include-all: false, proxies: [ "{{proxies:美国}}" ] }
-  - { name: "🇺🇳 其他测速", type: url-test, url: "http://www.gstatic.com/generate_204", interval: 300, lazy: true, tolerance: 50, timeout: 2000, disable-udp: false, max-failed-times: 3, hidden: true, include-all: false, proxies: [ "{{proxies:德国}}", "{{proxies:法国}}", "{{proxies:英国}}", "{{proxies:新加坡}}", "{{proxies:韩国}}" ] }
-  - { name: "🌍 全球测速", type: url-test, url: "http://www.gstatic.com/generate_204", interval: 300, lazy: true, tolerance: 50, timeout: 2000, disable-udp: false, max-failed-times: 3, hidden: true, include-all: true, proxies: [ "{{proxies}}" ] }
-  
-  - { name: "🔰 节点选择", type: select, url: "http://www.gstatic.com/generate_204", disable-udp: false, hidden: false, include-all: false, proxies: [ "🇭🇰 香港中转", "🇭🇰 深港专线", "🇭🇰 广港专线", "🇯🇵 日本测速", "🇺🇸 美国测速", "🇨🇳 台湾测速", "🇺🇳 其他测速", "🌍 全球测速", "🚀 手选节点", "DIRECT" ] }
-  - { name: "📺 国内媒体", type: select, url: "http://www.gstatic.com/generate_204", disable-udp: false, hidden: false, include-all: false, proxies: [ "DIRECT", "🔰 节点选择", "🇭🇰 香港中转", "🇭🇰 深港专线", "🇭🇰 广港专线", "🇨🇳 台湾测速" ] }
-  - { name: "🐟 漏网之鱼", type: select, url: "http://www.gstatic.com/generate_204", disable-udp: false, hidden: false, include-all: false, proxies: [ "🔰 节点选择", "DIRECT" ] }
-  - { name: "🎯 全球直连", type: select, url: "http://www.gstatic.com/generate_204", disable-udp: false, hidden: false, include-all: false, proxies: [ "DIRECT", "🔰 节点选择" ] }
-  - { name: "🌍 全球代理", type: select, url: "http://www.gstatic.com/generate_204", disable-udp: false, hidden: false, include-all: false, proxies: [ "🔰 节点选择", "DIRECT" ] }
-  - { name: "🚀 手选节点", type: select, url: "http://www.gstatic.com/generate_204", disable-udp: false, hidden: false, include-all: true, proxies: [ "{{proxies}}" ] }
+  - name: 🇭🇰 香港中转
+    type: url-test
+    proxies:
+      - {{proxies:移动转香港}}
+      - {{proxies:联通转深港}}
+      - {{proxies:电信转香港}}
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    filter: "香港"
+
+  - name: 🇭🇰 深港专线
+    type: url-test
+    proxies:
+      - {{proxies:深港专线}}
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    filter: "专线"
+    
+  - name: 🇭🇰 广港专线
+    type: url-test
+    proxies:
+      - {{proxies:广港专线}}
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    filter: "专线"
+
+  - name: 🇭🇰 香港测速
+    type: url-test
+    proxies:
+      - {{proxies:香港}}
+      - {{proxies:深港}}
+      - {{proxies:广港}}
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    filter: "(香港|深港|广港)"
+
+  - name: 🇨🇳 台湾测速
+    type: url-test
+    proxies:
+      - {{proxies:台湾}}
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    filter: "台湾"
+
+  - name: 🇯🇵 日本测速
+    type: url-test
+    proxies:
+      - {{proxies:日本}}
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    filter: "日本"
+
+  - name: 🇺🇸 美国测速
+    type: url-test
+    proxies:
+      - {{proxies:美国}}
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    filter: "美国"
+
+  - name: 🇺🇳 其他测速
+    type: url-test
+    proxies:
+      - {{proxies:德国}}
+      - {{proxies:法国}}
+      - {{proxies:英国}}
+      - {{proxies:新加坡}}
+      - {{proxies:韩国}}
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    filter: "倍率"
+
+  - name: 🌍 全球测速
+    type: url-test
+    proxies:
+      - {{proxies}}
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: true
+
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - 🇭🇰 香港中转
+      - 🇭🇰 深港专线
+      - 🇭🇰 广港专线
+      - 🇯🇵 日本测速
+      - 🇺🇸 美国测速
+      - 🇨🇳 台湾测速
+      - 🇺🇳 其他测速
+      - 🌍 全球测速
+      - 🚀 手选节点
+      - DIRECT
+    url: http://www.gstatic.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: false
+
+  - name: 📺 国内媒体
+    type: select
+    proxies:
+      - DIRECT
+      - 🔰 节点选择
+      - 🇭🇰 香港中转
+      - 🇭🇰 深港专线
+      - 🇭🇰 广港专线
+      - 🇨🇳 台湾测速
+    url: http://www.gstatic.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: false
+
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - DIRECT
+    url: http://www.gstatic.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: false
+
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🔰 节点选择
+    url: http://www.gstatic.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: false
+
+  - name: 🌍 全球代理
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - DIRECT
+    url: http://www.gstatic.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: false
+
+  - name: 🚀 手选节点
+    type: select
+    proxies:
+      - {{proxies}}
+    url: http://www.gstatic.com/generate_204
+    disable-udp: false
+    hidden: false
+    include-all: true
 
 # 订阅规则
 rule-providers:
-  ExtraRejectFixDirectList: { behavior: "classical", type: http, format: "text", interval: 43200, url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraRejectFixDirect.list, path: ./Cord/RuleSet/ExtraRejectFixDirect.list }
-  ExtraRejectFixProxyList: { behavior: "classical", type: http, format: "text", interval: 43200, url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraRejectFixProxy.list, path: ./Cord/RuleSet/ExtraRejectFixProxy.list }
-  ExtraRejectList: { behavior: "classical", type: http, format: "text", interval: 43200, url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraReject.list, path: ./Cord/RuleSet/ExtraReject.list }
-  ExtraDirectList: { behavior: "classical", type: http, format: "text", interval: 43200, url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraDirect.list, path: ./Cord/RuleSet/ExtraDirect.list }
-  ExtraDirectMediaList: { behavior: "classical", type: http, format: "text", interval: 43200, url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraDirectMedia.list, path: ./Cord/RuleSet/ExtraDirectMedia.list }
-  AreaProxyHKList: { behavior: "classical", type: http, format: "text", interval: 43200, url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyHK.list, path: ./Cord/RuleSet/AreaProxyHK.list }
-  AreaProxyTWList: { behavior: "classical", type: http, format: "text", interval: 43200, url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyTW.list, path: ./Cord/RuleSet/AreaProxyTW.list }
-  AreaProxyJPList: { behavior: "classical", type: http, format: "text", interval: 43200, url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyJP.list, path: ./Cord/RuleSet/AreaProxyJP.list }
-  AreaProxyUSList: { behavior: "classical", type: http, format: "text", interval: 43200, url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyUS.list, path: ./Cord/RuleSet/AreaProxyUS.list }
-  ExtraProxyList: { behavior: "classical", type: http, format: "text", interval: 43200, url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraProxy.list, path: ./Cord/RuleSet/ExtraProxy.list }
-  ExtraProxyMediaList: { behavior: "classical", type: http, format: "text", interval: 43200, url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraProxyMedia.list, path: ./Cord/RuleSet/ExtraProxyMedia.list }
+  ExtraRejectFixDirectList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraRejectFixDirect.list
+    path: ./Cord/RuleSet/ExtraRejectFixDirect.list
+
+  ExtraRejectFixProxyList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraRejectFixProxy.list
+    path: ./Cord/RuleSet/ExtraRejectFixProxy.list
+
+  ExtraRejectList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraReject.list
+    path: ./Cord/RuleSet/ExtraReject.list
+
+  ExtraDirectList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraDirect.list
+    path: ./Cord/RuleSet/ExtraDirect.list
+
+  ExtraDirectMediaList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraDirectMedia.list
+    path: ./Cord/RuleSet/ExtraDirectMedia.list
+
+  AreaProxyHKList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyHK.list
+    path: ./Cord/RuleSet/AreaProxyHK.list
+
+  AreaProxyTWList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyTW.list
+    path: ./Cord/RuleSet/AreaProxyTW.list
+
+  AreaProxyJPList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyJP.list
+    path: ./Cord/RuleSet/AreaProxyJP.list
+
+  AreaProxyUSList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyUS.list
+    path: ./Cord/RuleSet/AreaProxyUS.list
+
+  ExtraProxyList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraProxy.list
+    path: ./Cord/RuleSet/ExtraProxy.list
+
+  ExtraProxyMediaList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraProxyMedia.list
+    path: ./Cord/RuleSet/ExtraProxyMedia.list
   
 # 分流规则
 rules:

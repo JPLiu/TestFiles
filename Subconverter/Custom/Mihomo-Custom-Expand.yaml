@@ -237,6 +237,7 @@ proxy-groups:
       - {{proxies:法国}}
       - {{proxies:英国}}
       - {{proxies:新加坡}}
+      - {{proxies:韩国}}
     url: http://www.gstatic.com/generate_204
     interval: 300
     lazy: true
