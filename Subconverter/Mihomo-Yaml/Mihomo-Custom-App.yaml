@@ -1,4 +1,4 @@
-### Date：2025-12-31
+### Date：2026-01-03
 
 ### 全局配置
 mixed-port: 7890
@@ -327,6 +327,14 @@ proxy-groups:
 
 # 订阅规则
 rule-providers:
+  AWAvenueAdsRule:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/refs/heads/main/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list
+    path: ./Cord/RuleSet/AWAvenueAdsRule.list
+
   ExtraRejectFixDirectList:
     behavior: "classical"
     type: http
@@ -422,6 +430,7 @@ rules:
   - RULE-SET,ExtraRejectFixDirectList,🎯 全球直连
   - RULE-SET,ExtraRejectFixProxyList,🌍 全球代理
 
+  - RULE-SET,AWAvenueAdsRule,REJECT
   - RULE-SET,ExtraRejectList,REJECT
   - GEOSITE,category-ads-all,REJECT
 
