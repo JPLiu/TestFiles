@@ -84,16 +84,6 @@ DOMAIN-SUFFIX,canva.com
 # ColaManga https://www.colamanga.com/
 DOMAIN-SUFFIX,colamanga.com
 
-# CordCloud 漏网不处理
-DOMAIN-KEYWORD,c-cloud
-DOMAIN-KEYWORD,ccpay
-DOMAIN-KEYWORD,ccsub
-DOMAIN-KEYWORD,cordc
-DOMAIN-KEYWORD,cordcloud
-DOMAIN-KEYWORD,cordcord
-# Relate
-DOMAIN-SUFFIX,crisp.chat
-
 #-----DDD
 
 #-----EEE
