@@ -93,6 +93,7 @@ ecosia.org##div[data-test-id="binary-feedback"]
 hanime1.me##div[id="myHeader"]
 hanime1.me##div[id="more-related-ad"]
 hanime1.me##div[id="close-mobile-ad-btn"]
+hanime1.me##[href*="erodalabs.com"]
 
 ! kafan
 ! https://bbs.kafan.cn/
@@ -175,6 +176,7 @@ yuanbao.tencent.com##.agent-dialogue__tool
 ! *$document,font,image,match-case,media,domain=example.com
 ! *$object,other,ping,popup,script,stylesheet,subdocument,webrtc,websocket,xmlhttprequest,domain=example.com
 ! *$elemhide,generichide,genericblock,domain=example.com
+
 
 
 
