@@ -152,6 +152,7 @@ wnacg.com/ds3/
 wnacg.ru/ds3/
 wn03.ru/ds3/
 ! 插入广告 GIF
+ds/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
 game/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
 ru/data/t/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
 ru/data/t/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
@@ -176,6 +177,7 @@ yuanbao.tencent.com##.agent-dialogue__tool
 ! *$document,font,image,match-case,media,domain=example.com
 ! *$object,other,ping,popup,script,stylesheet,subdocument,webrtc,websocket,xmlhttprequest,domain=example.com
 ! *$elemhide,generichide,genericblock,domain=example.com
+
 
 
 
