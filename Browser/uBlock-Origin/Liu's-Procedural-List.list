@@ -71,3 +71,6 @@ s.weibo.com##textarea:style(width: 875px !important)
 ! https://wnlink.ru/
 ! 移动端显示下载按钮
 wnacg01.cc,wnacg02.cc,wnacg.com,wnacg.ru##div[class$="download_btn"]:style(display:inline !important)
+wnacg01.cc,wnacg02.cc,wnacg.com,wnacg.ru##a[class*="Btn-Fixed ad-site"]:style(display:inline-block !important)
+
+
