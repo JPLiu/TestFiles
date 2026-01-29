@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's uBO RuleSet
-! Version: 20260117084759
+! Version: 20260129192823
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -10,6 +10,7 @@
 18comic.vip##div[data-group="sticky2"]
 18comic.vip##div[class="hidden-lg"]
 18comic.vip##iframe[scrolling="no"]
+anime1.me##div[id^="ad-"]
 tieba.baidu.com##.card_banner_link.card_banner
 tieba.baidu.com##.celebrity.aside_region
 tieba.baidu.com##.app_download_box.aside_region
@@ -38,6 +39,7 @@ ecosia.org##div[data-test-id="binary-feedback"]
 hanime1.me##div[id="myHeader"]
 hanime1.me##div[id="more-related-ad"]
 hanime1.me##div[id="close-mobile-ad-btn"]
+hanime1.me##[href*="erodalabs.com"]
 bbs.kafan.cn##.pbn.cl.bm_c
 bbs.kafan.cn##.plm.plc
 landiannews.com##.content-gg
@@ -60,8 +62,8 @@ wnacg02.cc/ds3/
 wnacg.com/ds3/
 wnacg.ru/ds3/
 wn03.ru/ds3/
+ds/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
 game/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
-ru/data/t/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
 ru/data/t/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
 wnacg01.cc,wnacg02.cc,wnacg.com,wnacg.ru##div[id="control_block"]
 wnacg01.cc,wnacg02.cc,wnacg.com,wnacg.ru##li[class="cate-0"]
@@ -341,3 +343,4 @@ s.weibo.com##div[class="main-full"]:style(width: 975px !important)
 s.weibo.com##div[class="list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
 s.weibo.com##textarea:style(width: 875px !important)
 wnacg01.cc,wnacg02.cc,wnacg.com,wnacg.ru##div[class$="download_btn"]:style(display:inline !important)
+wnacg01.cc,wnacg02.cc,wnacg.com,wnacg.ru##a[class*="Btn-Fixed ad-site"]:style(display:inline-block !important)
