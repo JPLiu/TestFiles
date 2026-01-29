@@ -27,7 +27,7 @@
 ! 移除移动端浮窗广告
 18comic.vip##iframe[scrolling="no"]
 
-! anime1.me
+! anime1
 ! https://anime1.me
 ! 移除界面广告
 anime1.me##div[id^="ad-"]
@@ -182,6 +182,7 @@ yuanbao.tencent.com##.agent-dialogue__tool
 ! *$document,font,image,match-case,media,domain=example.com
 ! *$object,other,ping,popup,script,stylesheet,subdocument,webrtc,websocket,xmlhttprequest,domain=example.com
 ! *$elemhide,generichide,genericblock,domain=example.com
+
 
 
 
