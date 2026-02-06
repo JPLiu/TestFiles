@@ -151,20 +151,16 @@ www.wenku8.net##[id^="adv"]
 ! wnacg
 ! https://wnlink.ru/
 ! 移动端搜索结果页广告
-wnacg01.cc/ds3/
-wnacg02.cc/ds3/
-wnacg.com/ds3/
-wnacg.ru/ds3/
-wn03.ru/ds3/
+wnacg*.*/ds3/
+wn*.ru/ds3/
 ! 插入广告 GIF
-ds/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
-game/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
-ru/data/t/*.gif$image,domain=wnacg01.cc|wnacg02.cc|wnacg.com|wnacg.ru
+ds/*.gif$image,domain=wnacg.com|wnacg.ru|wnacg01.cc|wnacg02.cc|wn07.ru
+game/*.gif$image,domain=wnacg.com|wnacg.ru|wnacg01.cc|wnacg02.cc|wn07.ru
+ru/data/t/*.gif$image,domain=wnacg.com|wnacg.ru|wnacg01.cc|wnacg02.cc|wn07.ru
 ! 下拉模式，底部广告
-wnacg01.cc,wnacg02.cc,wnacg.com,wnacg.ru##div[id="control_block"]
+wnacg*.*,wn*.ru##div[id="control_block"]
 ! 列表插入游戏广告
-wnacg01.cc,wnacg02.cc,wnacg.com,wnacg.ru##li[class="cate-0"]
-
+wnacg*.*,wn*.ru##li[class="cate-0"]
 
 ! workflowy
 ! https://workflowy.com/
@@ -181,3 +177,4 @@ yuanbao.tencent.com##.agent-dialogue__tool
 ! *$document,font,image,match-case,media,domain=example.com
 ! *$object,other,ping,popup,script,stylesheet,subdocument,webrtc,websocket,xmlhttprequest,domain=example.com
 ! *$elemhide,generichide,genericblock,domain=example.com
+
