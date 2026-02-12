@@ -1,0 +1,264 @@
+# Extra Proxy List
+
+# Resource
+# Resource Public CDN
+
+# Resource Public Picture
+# https://postimages.org
+DOMAIN-KEYWORD,postimages
+DOMAIN-KEYWORD,postimgs
+# https://share.dmhy.org/
+
+# Resource Public Others
+# http://www.rays-counter.com/
+DOMAIN-KEYWORD,rays-counter
+# https://immortalnova.hatenablog.com/entry/2022/03/06/140713
+
+# -------------------------------------------------
+# 按首字母排序
+
+# 18Comic
+DOMAIN-KEYWORD,18comic
+DOMAIN-KEYWORD,18-comic
+DOMAIN-SUFFIX,jm365.work
+
+# 2dfan https://2dfan.org
+DOMAIN-KEYWORD,2dfan
+DOMAIN-SUFFIX,achost.top
+
+# Brave
+DOMAIN-KEYWORD,brave
+
+# Git
+DOMAIN-KEYWORD,gitbook
+DOMAIN-KEYWORD,gitcdn
+DOMAIN-KEYWORD,gitube
+
+DOMAIN-KEYWORD,gitlab
+
+DOMAIN-SUFFIX,ghbtns.com
+
+# Google
+# GEOData 个人配置中被分流直连，导致 Inoreader 打开严重超时。
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,c.pki.goog
+
+# NinjaKiwi https://ninjakiwi.com/
+DOMAIN-KEYWORD,ninjakiwi
+DOMAIN-KEYWORD,nkstatic
+
+# SourceForge
+DOMAIN-KEYWORD,sourceforge
+
+# Subconverter
+DOMAIN-KEYWORD,acl4ssr.netlify
+DOMAIN-SUFFIX,gfwsb.114514.best
+DOMAIN-SUFFIX,wcc.best
+DOMAIN-SUFFIX,ruleset.dev
+
+# Vavildi
+DOMAIN-KEYWORD,vivaldi
+
+# WordPress
+DOMAIN-SUFFIX,s.w.org
+
+# -------------------------------------------------
+# 按网址排序
+
+#-----0-9
+
+# 7-Zip https://www.7-zip.org/
+DOMAIN-SUFFIX,7-zip.org
+
+#-----AAA
+
+# ACG盒子 https://www.acgbox.link
+DOMAIN-SUFFIX,acgbox.link
+
+# 次元狗 https://www.acgndog.com/ 偶发异常
+DOMAIN-SUFFIX,acgndog.com
+DOMAIN-SUFFIX,moetu.club
+
+#-----BBB
+
+#-----CCC
+
+# CMail https://www.inveigle.net/cmail/download
+DOMAIN-SUFFIX,inveigle.net
+
+# 漫猫动漫 http://www.comicat.org/
+DOMAIN-SUFFIX,comicat.org
+
+#-----DDD
+
+#-----EEE
+
+# Ecosia https://www.ecosia.org
+DOMAIN-KEYWORD,ecosia
+
+#-----FFF
+
+# FastCopy https://fastcopy.jp/
+DOMAIN-SUFFIX,fastcopy.jp
+
+# FatSecret https://www.fatsecret.cn
+DOMAIN-KEYWORD,fatsecret
+
+# FetchRSS https://fetchrss.com/
+DOMAIN-SUFFIX,fetchrss.com
+
+# Firefox
+DOMAIN-KEYWORD,firefox
+DOMAIN-KEYWORD,mozilla
+# Firefox Addon
+# Firefox 暴力猴
+# https://greasyfork.org/zh-CN
+# https://sleazyfork.org/zh-CN
+DOMAIN-KEYWORD,greasyfork
+DOMAIN-KEYWORD,sleazyfork
+# Firefox DarkReader
+DOMAIN-SUFFIX,darkreader.org
+# Firefox Userstyles https://userstyles.org/
+DOMAIN-SUFFIX,userstyles.org
+# Firefox uBlock Origin
+DOMAIN-SUFFIX,fanboy.co.nz
+# Firefox SpeedyFox https://crystalidea.com/speedyfox
+DOMAIN-SUFFIX,crystalidea.com
+
+# UserScripts - RSS+
+DOMAIN-SUFFIX,ravi.cool
+
+# Folo
+DOMAIN-SUFFIX,folo.is
+DOMAIN-SUFFIX,follow.is
+DOMAIN-SUFFIX,expo.dev
+DOMAIN-SUFFIX,posthog.com
+
+# Foobar2000 https://www.foobar2000.org/
+DOMAIN-SUFFIX,foobar2000.org
+DOMAIN-SUFFIX,dbpoweramp.com
+
+#-----GGG
+
+# ShareX https://getsharex.com/
+DOMAIN-SUFFIX,getsharex.com
+
+#-----HHH
+
+#-----III
+
+# Inoreader https://www.inoreader.com/all_articles
+DOMAIN-KEYWORD,inoreader
+DOMAIN-KEYWORD,innoreader
+
+# IrfanView https://www.irfanview.com/
+DOMAIN-KEYWORD,irfanview
+
+#-----JJJ
+
+#-----KKK
+
+# KeePass https://keepass.info/
+DOMAIN-KEYWORD,keepass
+
+#-----LLL
+
+# lilydjwg.me https://rss.lilydjwg.me/
+DOMAIN-SUFFIX,rss.lilydjwg.me
+
+#-----MMM
+
+# Miniflux
+DOMAIN-SUFFIX,miniflux.app
+
+# MioBT https://www.miobt.com/
+DOMAIN-SUFFIX,miobt.com
+
+# Mixplorer
+DOMAIN-KEYWORD,mixplorer
+
+#-----NNN
+
+# Nirsoft https://www.nirsoft.net/
+DOMAIN-SUFFIX,nirsoft.net
+
+#-----OOO
+
+# 我不是盐神 https://onehu.xyz/
+DOMAIN-SUFFIX,onehu.xyz
+
+#-----PPP
+
+# PhotoDemon https://photodemon.org/
+DOMAIN-SUFFIX,photodemon.org
+
+# Portableapps https://portableapps.com/
+DOMAIN-SUFFIX,portableapps.com
+
+# The Portable Freeware Collection https://www.portablefreeware.com
+DOMAIN-SUFFIX,portablefreeware.com
+
+# Python https://www.python.org
+DOMAIN-SUFFIX,statuspage.io
+
+#-----QQQ
+
+#-----RRR
+
+# WinRAR https://www.rarlab.com/
+DOMAIN-SUFFIX,rarlab.com
+
+# RSSHub https://docs.rsshub.app/
+DOMAIN-KEYWORD,diygay
+DOMAIN-KEYWORD,diygod
+DOMAIN-KEYWORD,rsshub
+DOMAIN-SUFFIX,runforesight.com
+DOMAIN-SUFFIX,thundra.io
+
+#-----SSS
+
+# Sukidesuost https://sukidesuost.info
+DOMAIN-SUFFIX,sukidesuost.info
+DOMAIN-SUFFIX,exe.io
+
+# Sumatra PDF https://www.sumatrapdfreader.org/
+DOMAIN-SUFFIX,sumatrapdfreader.org
+DOMAIN-SUFFIX,unavatar.io
+
+#-----TTT
+
+# Total Commander
+# 官网 https://www.ghisler.com/
+DOMAIN-SUFFIX,ghisler.com
+# Relate https://totalcmd.net/
+DOMAIN-SUFFIX,totalcmd.net
+DOMAIN-SUFFIX,wincmd.ru
+
+#-----UUU
+
+#-----VVV
+
+# VideoHelp https://www.videohelp.com/
+DOMAIN-SUFFIX,videohelp.com
+
+# Everything https://www.voidtools.com/
+DOMAIN-SUFFIX,voidtools.com
+
+#-----WWW
+
+# 轻小说文库 https://www.wenku8.net 偶发异常
+DOMAIN-KEYWORD,wenku8
+
+# Workflowy https://workflowy.com/ 不定期无法访问
+DOMAIN-KEYWORD,workflowy
+# Relate
+DOMAIN-SUFFIX,cdnfonts.com
+DOMAIN-SUFFIX,d3js.org
+
+#-----XXX
+
+#-----YYY
+
+#-----ZZZ
+

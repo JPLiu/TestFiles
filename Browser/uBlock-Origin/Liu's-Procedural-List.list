@@ -1,0 +1,77 @@
+[Adblock Plus 2.0]
+! Title: Liu's Procedural List
+! Version: 20260206220025
+! Expires: 1 days
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
+! 过程式规则，需要 uBlock Origin 或者 AdGuard。
+
+! baidu
+! 百度贴吧 版头图片尺寸调整
+! https://tieba.baidu.com/
+tieba.baidu.com##.card_head:style(width: 48px !important; height: 48px !important)
+tieba.baidu.com##.card_head_img:style(width: 48px !important; height: 48px !important)
+! 百度贴吧 个人贴吧清单字体调整
+tieba.baidu.com##td:style(font-family: Calibri !important; font-size: 13px !important)
+
+! bilibili
+! 主页 Bilibili Evolved 自定义顶栏 配合
+*://message.bilibili.com/pages/nav/index_new_pc_sync
+*://message.bilibili.com/pages/nav/index_new_sync
+! 主页 移除首页轮播图（Bilibili Evolved 已有此功能）
+!www.bilibili.com##.grid-anchor.recommended-swipe
+! 动态页面 精简左侧直播栏目 右侧栏目 调整中间栏目大小
+! https://t.bilibili.com
+t.bilibili.com##.bili-dyn-live-users
+t.bilibili.com##.right
+t.bilibili.com##.bili-dyn-home--member > main:nth-child(2):style(width: 65% !important)
+! 直播页面 播放器界面优化
+! https://live.bilibili.com
+live.bilibili.com###rank-list-vm:style(height: 14px !important; border-radius: 12px 12px 0 0 !important; background-color: #f8f8f8 !important)
+
+! weibo
+! https://weibo.com/
+! 微博 V7 界面优化
+! 移除 微博主页面 和 搜索页 的右侧栏
+! 如果不添加第一条，主页面栏目会被压缩；如果添加，用户主页的按时间搜索等右侧按钮也会被移除
+weibo.com##div[class^="Main_side"]
+s.weibo.com##div[class="main-side"]
+! 移除 视频→推荐 栏目版头
+weibo.com##div[class*="Banner_card_"]
+! 修改左侧栏宽度，可根据自身显示屏修改。
+weibo.com##div[class^="Frame_side_"]:style(width: 182px !important)
+weibo.com##div[class^="Nav_main"]:style(width: 182px !important)
+! 修改左侧栏位置。
+weibo.com##div[class*="Frame_content"]:style(margin-left: 2% !important)
+! 修改内容区宽度，包括主页和用户主页，可根据自身显示屏修改。
+weibo.com##div[class^="Frame_main_"]:style(width: 975px !important)
+weibo.com##div[class^="Home_home"]:style(width: 975px !important)
+weibo.com##div[class^="Main_wrap"]:style(width: 975px !important)
+weibo.com##div[class^="Main_full"]:style(width: 975px !important)
+! 修改用户主页版头图的高度，可根据自身显示屏修改。
+weibo.com##div[class^="woo-picture-main ProfileHeader_pic"]:style(height: 100px !important)
+! 修改信息流中视频和图片的显示大小。
+weibo.com##div[class^="card-video_videoBox"]:style(width: 75% !important; height: 75% !important)
+weibo.com##div[class*="card-article_pic"]:style(width: 60% !important; height: 60% !important)
+! 修改信息流中图片的比例。
+weibo.com##div[class^="woo-picture-main woo-picture-square"]:style(width: 70% !important; height: 70% !important)
+weibo.com##div[class="woo-picture-main woo-picture-square woo-picture-hover"]:style(width: 90px !important; height: 90px !important)
+! 修改信息流卡片、信息流、转发评论列表、图片大图右侧栏目评论、特殊栏目处理的文字大小。
+weibo.com##div[class^="card-link_text_"]:style(font-size: 13.5px !important; line-height: 25px !important)
+weibo.com##div[class^="detail_wbtext_"]:style(line-height: 26px !important; font-size: 15.5px !important)
+weibo.com##div[class="wbpro-list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
+weibo.com##div[class="info woo-box-flex woo-box-alignCenter woo-box-justifyBetween"]:style(font-size: 13px !important)
+weibo.com##div[class^="content_row_"]:style(width: 70% !important; height: 70% !important)
+! 修改搜索页的宽度，调整位置和宽度，搜索结果的评论转发文字大小，评论框长度。
+s.weibo.com##div[class="m-main"]:style(margin-left: 2% !important)
+s.weibo.com##div[class="main-full"]:style(width: 975px !important)
+s.weibo.com##div[class="list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
+s.weibo.com##textarea:style(width: 875px !important)
+
+! wnacg
+! https://wnlink.ru/
+! 移动端显示下载按钮
+wnacg.com,wnacg.ru,wnacg01.cc,wnacg02.cc,wn07.ru##div[class$="download_btn"]:style(display:inline !important)
+wnacg.com,wnacg.ru,wnacg01.cc,wnacg02.cc,wn07.ru##a[class*="Btn-Fixed ad-site"]:style(display:inline-block !important)
+
+
+

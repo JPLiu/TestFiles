@@ -1,0 +1,79 @@
+[Adblock Plus 2.0]
+! Title: Liu's ABP RuleSet
+! Version: 20260206220025
+! Expires: 1 days
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
+
+|http*://$script,domain=baywatch.cn|cnrencai.com|diyifanwen.com|docsou.com|gxscse.com|haoword.com|huabuqi.com|kujiang.com|qunzou.com|ruiwen.com|wenxm.cn|wenmi.com|xiegw.cn|xiexiebang.com|xueshu.com|yuwenmi.com|zhaozongjie.com
+18comic.vip##.div-bf-pv
+18comic.vip##div[data-show="ok"]
+18comic.vip##div[data-group="sticky2"]
+18comic.vip##div[class="hidden-lg"]
+18comic.vip##iframe[scrolling="no"]
+anime1.me##div[id^="ad-"]
+tieba.baidu.com##.card_banner_link.card_banner
+tieba.baidu.com##.celebrity.aside_region
+tieba.baidu.com##.app_download_box.aside_region
+pan.baidu.com##[class$="nd-game-entry"]
+pan.baidu.com##[class$="sug-ad-item"]
+pan.baidu.com##button[status="svipline"]
+pan.baidu.com##div[id="chatView"]
+||mcdn.bilivideo.cn^
+||szbdyd.com^
+||hdslb.com/bfs/seed/jinkela/short/b-mirror/biliMirror.$script
+||hdslb.com/bfs/seed/jinkela/kv-sdk/$script
+||hdslb.com/bfs/seed/jinkela/short/reporter-pb/$script
+||data.bilibili.com/log/$xhr,empty
+www.bilibili.com##div[class="recommended-swipe"]
+search.brave.com##.mobile-promo-content
+search.brave.com##.download-cta
+||g.csdnimg.cn/asdf/*/trackad.js|$script,important
+||csdnimg.cn/release/passport_fe/$script
+blog.csdn.net##.passport-login-container
+ecosia.org##.main-footer-visual
+ecosia.org##.card--border.card--as-a.card.chat-card.footer-card
+ecosia.org##.main-header__install-cta
+ecosia.org##.banner
+ecosia.org##div[data-test-id^="ad-block-notice"]
+ecosia.org##div[data-test-id="binary-feedback"]
+hanime1.me##div[id="myHeader"]
+hanime1.me##div[id="more-related-ad"]
+hanime1.me##div[id="close-mobile-ad-btn"]
+hanime1.me##[href*="erodalabs.com"]
+bbs.kafan.cn##.pbn.cl.bm_c
+bbs.kafan.cn##.plm.plc
+landiannews.com##.content-gg
+landiannews.com##section[id^=block-]
+||img.lancdn.com/*.gif$image,domain=landiannews.com
+pkhex-web.github.io##.cc-isolation-container
+work.weixin.qq.com##.index_head
+work.weixin.qq.com##.index_top
+work.weixin.qq.com##div[class="index_section index_section_Case"]
+work.weixin.qq.com##div[class="index_section index_section_server_deploy "]
+wx.mail.qq.com##div[class^="xmail-cmp-vip"]
+wx.mail.qq.com##div[class="header-right-notice"]
+wx.mail.qq.com##div[class^="cmp-vip"]
+||totalcmd.net/images/*-700.jpg$image
+weibo.com##div[node-type="recommend"]
+weibo.com##div[class*="ProfileFocusPic_box_"]
+www.wenku8.net##[id^="adv"]
+wnacg.com/ds3/
+wnacg.ru/ds3/
+wnacg01.cc/ds3/
+wnacg02.cc/ds3/
+wn03.ru/ds3/
+wn07.ru/ds3/
+ds/*.gif$image,domain=wnacg.com|wnacg.ru|wnacg01.cc|wnacg02.cc|wn07.ru
+game/*.gif$image,domain=wnacg.com|wnacg.ru|wnacg01.cc|wnacg02.cc|wn07.ru
+ru/data/t/*.gif$image,domain=wnacg.com|wnacg.ru|wnacg01.cc|wnacg02.cc|wn07.ru
+wnacg.com,wnacg.ru,wnacg01.cc,wnacg02.cc,wn07.ru##div[id="control_block"]
+wnacg.com,wnacg.ru,wnacg01.cc,wnacg02.cc,wn07.ru##li[class="cate-0"]
+workflowy.com##.message-container
+yuanbao.tencent.com##div[class^="index_downloadPCAds"]
+yuanbao.tencent.com##.agent-dialogue__tool
+||hdymly.com^
+||baijiahao.baidu.com^
+||jmcixiang.com^
+||kmw.com^
+||play.undcine.com^
+||yunqishi.net^

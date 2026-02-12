@@ -1,0 +1,347 @@
+[Adblock Plus 2.0]
+! Title: Liu's uBO RuleSet
+! Version: 20260206220025
+! Expires: 1 days
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
+
+|http*://$script,domain=baywatch.cn|cnrencai.com|diyifanwen.com|docsou.com|gxscse.com|haoword.com|huabuqi.com|kujiang.com|qunzou.com|ruiwen.com|wenxm.cn|wenmi.com|xiegw.cn|xiexiebang.com|xueshu.com|yuwenmi.com|zhaozongjie.com
+18comic.vip##.div-bf-pv
+18comic.vip##div[data-show="ok"]
+18comic.vip##div[data-group="sticky2"]
+18comic.vip##div[class="hidden-lg"]
+18comic.vip##iframe[scrolling="no"]
+anime1.me##div[id^="ad-"]
+tieba.baidu.com##.card_banner_link.card_banner
+tieba.baidu.com##.celebrity.aside_region
+tieba.baidu.com##.app_download_box.aside_region
+pan.baidu.com##[class$="nd-game-entry"]
+pan.baidu.com##[class$="sug-ad-item"]
+pan.baidu.com##button[status="svipline"]
+pan.baidu.com##div[id="chatView"]
+||mcdn.bilivideo.cn^
+||szbdyd.com^
+||hdslb.com/bfs/seed/jinkela/short/b-mirror/biliMirror.$script
+||hdslb.com/bfs/seed/jinkela/kv-sdk/$script
+||hdslb.com/bfs/seed/jinkela/short/reporter-pb/$script
+||data.bilibili.com/log/$xhr,empty
+www.bilibili.com##div[class="recommended-swipe"]
+search.brave.com##.mobile-promo-content
+search.brave.com##.download-cta
+||g.csdnimg.cn/asdf/*/trackad.js|$script,important
+||csdnimg.cn/release/passport_fe/$script
+blog.csdn.net##.passport-login-container
+ecosia.org##.main-footer-visual
+ecosia.org##.card--border.card--as-a.card.chat-card.footer-card
+ecosia.org##.main-header__install-cta
+ecosia.org##.banner
+ecosia.org##div[data-test-id^="ad-block-notice"]
+ecosia.org##div[data-test-id="binary-feedback"]
+hanime1.me##div[id="myHeader"]
+hanime1.me##div[id="more-related-ad"]
+hanime1.me##div[id="close-mobile-ad-btn"]
+hanime1.me##[href*="erodalabs.com"]
+bbs.kafan.cn##.pbn.cl.bm_c
+bbs.kafan.cn##.plm.plc
+landiannews.com##.content-gg
+landiannews.com##section[id^=block-]
+||img.lancdn.com/*.gif$image,domain=landiannews.com
+pkhex-web.github.io##.cc-isolation-container
+work.weixin.qq.com##.index_head
+work.weixin.qq.com##.index_top
+work.weixin.qq.com##div[class="index_section index_section_Case"]
+work.weixin.qq.com##div[class="index_section index_section_server_deploy "]
+wx.mail.qq.com##div[class^="xmail-cmp-vip"]
+wx.mail.qq.com##div[class="header-right-notice"]
+wx.mail.qq.com##div[class^="cmp-vip"]
+||totalcmd.net/images/*-700.jpg$image
+weibo.com##div[node-type="recommend"]
+weibo.com##div[class*="ProfileFocusPic_box_"]
+www.wenku8.net##[id^="adv"]
+wnacg.com/ds3/
+wnacg.ru/ds3/
+wnacg01.cc/ds3/
+wnacg02.cc/ds3/
+wn03.ru/ds3/
+wn07.ru/ds3/
+ds/*.gif$image,domain=wnacg.com|wnacg.ru|wnacg01.cc|wnacg02.cc|wn07.ru
+game/*.gif$image,domain=wnacg.com|wnacg.ru|wnacg01.cc|wnacg02.cc|wn07.ru
+ru/data/t/*.gif$image,domain=wnacg.com|wnacg.ru|wnacg01.cc|wnacg02.cc|wn07.ru
+wnacg.com,wnacg.ru,wnacg01.cc,wnacg02.cc,wn07.ru##div[id="control_block"]
+wnacg.com,wnacg.ru,wnacg01.cc,wnacg02.cc,wn07.ru##li[class="cate-0"]
+workflowy.com##.message-container
+yuanbao.tencent.com##div[class^="index_downloadPCAds"]
+yuanbao.tencent.com##.agent-dialogue__tool
+||hdymly.com^
+||baijiahao.baidu.com^
+||jmcixiang.com^
+||kmw.com^
+||play.undcine.com^
+||yunqishi.net^
+$removeparam=from_source
+$removeparam=share_app_name
+$removeparam=share_medium
+$removeparam=share_source
+$removeparam=utm_oi
+||m.163.com^$removeparam=from
+||m.163.com^$removeparam=spss
+@@||login.1688.com^$removeparam
+||1688.com^$removeparam=_t
+||1688.com^$removeparam=extStr
+||1688.com^$removeparam=object_id
+||1688.com^$removeparam=object_type
+||1688.com^$removeparam=pvid
+||1688.com^$removeparam=resourceId
+||1688.com^$removeparam=scm
+||1688.com^$removeparam=spm
+||1688.com^$removeparam=topOfferIds
+||1688.com^$removeparam=tpp_trace
+||1688.com^$removeparam=udsPoolId
+||aliyundrive.com^$removeparam=spm
+||apple.com^$removeparam=app
+||baidu.com^$removeparam=/^rsv_/
+||baidu.com^$removeparam=f
+||baidu.com^$removeparam=inputT
+||baidu.com^$removeparam=issp
+||baidu.com^$removeparam=prefixsug
+||baidu.com^$removeparam=rsp
+||baidu.com^$removeparam=ie
+@@||tieba.baidu.com/f/search$removeparam
+||baike.baidu.com^$removeparam=/^fromModule/
+||baike.baidu.com^$removeparam=bk_fr
+||baike.baidu.com^$removeparam=timestamp
+||m.baidu.com^$removeparam=fm_kl
+||m.baidu.com^$removeparam=fqid
+||m.baidu.com^$removeparam=from
+||m.baidu.com^$removeparam=gb
+||m.baidu.com^$removeparam=main_srcid
+||m.baidu.com^$removeparam=ms
+||m.baidu.com^$removeparam=params_ssrt
+||m.baidu.com^$removeparam=rchannel
+||m.baidu.com^$removeparam=rfrom
+||m.baidu.com^$removeparam=rqid
+||m.baidu.com^$removeparam=rtime
+||m.baidu.com^$removeparam=sa
+||m.baidu.com^$removeparam=ss
+||m.baidu.com^$removeparam=sugid
+||m.baidu.com^$removeparam=t_kt
+||m.baidu.com^$removeparam=tj
+||m.baidu.com^$removeparam=ts
+||m.baidu.com^$removeparam=usm
+||m.baidu.com^$removeparam=vfeed
+||tieba.baidu.com^$removeparam=fr
+||tieba.baidu.com^$removeparam=frwh
+||tieba.baidu.com^$removeparam=red_tag
+||tieba.baidu.com^$removeparam=t
+||tieba.baidu.com^$removeparam=u
+||wenku.baidu.com^$removeparam=/^rec_/
+||wenku.baidu.com^$removeparam=fr
+||wenku.baidu.com^$removeparam=sxts
+||zhidao.baidu.com^$removeparam=fr
+||zhidao.baidu.com^$removeparam=mzl
+||zhidao.baidu.com^$removeparam=refer_title
+||zhidao.baidu.com^$removeparam=seed
+@@||api.bilibili.com^$removeparam
+||bilibili.com^$removeparam=bbid
+||bilibili.com^$removeparam=callback
+||bilibili.com^$removeparam=csource
+||bilibili.com^$removeparam=msource
+||bilibili.com^$removeparam=ts
+||bilibili.com^$removeparam=vd_source
+||live.bilibili.com^$removeparam=broadcast_type
+||live.bilibili.com^$removeparam=is_room_feed
+||live.bilibili.com^$removeparam=session_id
+||live.bilibili.com^$removeparam=visit_id
+||bing.com^$removeparam=FORM
+||bing.com^$removeparam=cvid
+||bing.com^$removeparam=form
+||bing.com^$removeparam=ghacc
+||bing.com^$removeparam=ghpl
+||bing.com^$removeparam=ghsh
+||bing.com^$removeparam=lq
+||bing.com^$removeparam=pc
+||bing.com^$removeparam=pq
+||bing.com^$removeparam=qp
+||bing.com^$removeparam=qs
+||bing.com^$removeparam=sc
+||bing.com^$removeparam=sk
+||bing.com^$removeparam=sp
+||cctv.com^$removeparam=spm
+||csdn.net^$removeparam=/^depth_/
+||csdn.net^$removeparam=/^utm_/
+||csdn.net^$removeparam=spm
+||disq.us^$removeparam=cuid
+||duckduckgo.com/?q$removeparam=t
+@@||accounts.firefox.com^$removeparam
+||firefox.com^$removeparam=context
+||firefox.com^$removeparam=entrypoint
+||firefox.com^$removeparam=form_type
+||gitee.com^$removeparam=_from
+||gitee.com^$removeparam=hmsr
+||github.com^$removeparam=/^spm_/
+||github.com^$removeparam=email_source
+||github.com^$removeparam=email_token
+||google.com*/search?$removeparam=/^gs/
+||google.com*/search?$removeparam=client
+||google.com*/search?$removeparam=dpr
+||google.com*/search?$removeparam=gbv
+||google.com*/search?$removeparam=ie
+||google.com*/search?$removeparam=newwindow
+||google.com*/search?$removeparam=sei
+||google.com*/search?$removeparam=ved
+||google.com*/search?$removeparam=uact
+||play.google.com^$removeparam=hl
+||play.google.com^$removeparam=gl
+||itellyou.cn^$removeparam=ReturnUrl
+||jd.com^$removeparam=cu
+||jd.com^$removeparam=linkIds
+||jingfen.jd.com^$removeparam=d
+||jingfen.jd.com^$removeparam=needRecommendFlag
+||jingfen.jd.com^$removeparam=uabt
+@@||account.xiaomi.com^$removeparam
+$removeparam=ref,domain=vip.miui.com
+||mi.com/*?product_id$removeparam=cfrom
+||vip.miui.com^$removeparam=app_version
+||vip.miui.com^$removeparam=/^from/
+@@||mozilla.org/api/$removeparam
+||mozilla.org^$removeparam=/^utm_/
+||mozilla.org^$removeparam=platform
+||mozilla.org^$removeparam=redirect_source
+||mozilla.org^$removeparam=src
+||mozillazine.org^$removeparam=sid
+||support.mozilla.org^$removeparam=as
+||paypal.com^$removeparam=returnUri
+||paypal.com^$removeparam=state
+||portablefreeware.com^$removeparam=ts
+||docs.qq.com^$removeparam=u
+||mp.weixin.qq.com^$removeparam=/^abtest_/
+||mp.weixin.qq.com^$removeparam=/^fasttmpl_/
+||mp.weixin.qq.com^$removeparam=/^sharer_/
+||mp.weixin.qq.com^$removeparam=ascene
+||mp.weixin.qq.com^$removeparam=clicktime
+||mp.weixin.qq.com^$removeparam=cur_album_id
+||mp.weixin.qq.com^$removeparam=enterid
+||mp.weixin.qq.com^$removeparam=lang
+||mp.weixin.qq.com^$removeparam=pass_ticket
+||mp.weixin.qq.com^$removeparam=realreporttime
+||mp.weixin.qq.com^$removeparam=sessionid
+||mp.weixin.qq.com^$removeparam=subscene
+||mp.weixin.qq.com^$removeparam=version
+||mp.weixin.qq.com^$removeparam=wx_header
+||sina.cn^$removeparam=cid
+||sina.cn^$removeparam=from
+||sina.cn^$removeparam=node_id
+||sina.cn^$removeparam=vt
+||sohu.com^$removeparam=pvid
+@@||login.m.taobao.com^$removeparam
+@@||login.taobao.com^$removeparam
+@@||pass.tmall.com^$removeparam
+$removeparam=abbucket,domain=taobao.com|tmall.com
+$removeparam=abtest,domain=taobao.com|tmall.com
+$removeparam=acm,domain=taobao.com|tmall.com
+$removeparam=activity_id,domain=taobao.com|tmall.com
+$removeparam=algo_expid,domain=taobao.com|tmall.com
+$removeparam=algo_pvid,domain=taobao.com|tmall.com
+$removeparam=ali_refid,domain=taobao.com|tmall.com
+$removeparam=ali_trackid,domain=taobao.com|tmall.com
+$removeparam=app,domain=taobao.com|tmall.com
+$removeparam=bftRwd,domain=taobao.com|tmall.com
+$removeparam=bftTag,domain=taobao.com|tmall.com
+$removeparam=cpp,domain=taobao.com|tmall.com
+$removeparam=impid,domain=taobao.com|tmall.com
+$removeparam=locate,domain=taobao.com|tmall.com
+$removeparam=lygClk,domain=taobao.com|tmall.com
+$removeparam=mytmenu,domain=taobao.com|tmall.com
+$removeparam=ns,domain=taobao.com|tmall.com
+$removeparam=pos,domain=taobao.com|tmall.com
+$removeparam=price,domain=taobao.com|tmall.com
+$removeparam=pvid,domain=taobao.com|tmall.com
+$removeparam=rmdChannelCode,domain=taobao.com|tmall.com
+$removeparam=rn,domain=taobao.com|tmall.com
+$removeparam=scene,domain=taobao.com|tmall.com
+$removeparam=share_crt_v,domain=taobao.com|tmall.com
+$removeparam=shareurl,domain=taobao.com|tmall.com
+$removeparam=short_name,domain=taobao.com|tmall.com
+$removeparam=skuId,domain=taobao.com|tmall.com
+$removeparam=sku_properties,domain=taobao.com|tmall.com
+$removeparam=sourceType,domain=taobao.com|tmall.com
+$removeparam=sp_tk,domain=taobao.com|tmall.com
+$removeparam=spm,domain=taobao.com|tmall.com
+$removeparam=suid,domain=taobao.com|tmall.com
+$removeparam=trackInfo,domain=taobao.com|tmall.com
+$removeparam=turing_bucket,domain=taobao.com|tmall.com
+$removeparam=un,domain=taobao.com|tmall.com
+$removeparam=user_number_id,domain=taobao.com|tmall.com
+$removeparam=ut_sk,domain=taobao.com|tmall.com
+$removeparam=utkn,domain=taobao.com|tmall.com
+$removeparam=utparam,domain=taobao.com|tmall.com
+||tb.cn^$removeparam=sm
+$removeparam=cn,domain=twitter.com|x.com
+$removeparam=from,domain=d.weibo.com|s.weibo.com
+||m.weibo.*^$removeparam=from
+||m.weibo.*^$removeparam=jumpfrom
+||s.weibo.*^$removeparam=Refer
+||weibo.*/p/$removeparam=from
+||weibo.*/tv/$removeparam=from
+||weibo.*/tv/show^$removeparam=mid
+||weibo.*/u/$removeparam=from
+||weibo.*^$removeparam=cfs
+||weibo.*^$removeparam=leftnav
+||weibo.*^$removeparam=loc
+||weibo.*^$removeparam=mod
+||weibo.*^$removeparam=nick
+||weibo.*^$removeparam=refer_flag
+||weibo.*^$removeparam=wvr
+||weidian.com^$removeparam=/^vc_external_/
+||weidian.com^$removeparam=/^vc_order_/
+||weidian.com^$removeparam=adsk
+||weidian.com^$removeparam=spider_token
+||wps.com^$removeparam=from
+||xiaomiyoupin.com^$removeparam=/^last_scmv/
+||xiaomiyoupin.com^$removeparam=/^scmv/
+||xiaomiyoupin.com^$removeparam=spmref
+||yandex.com^$removeparam=from
+||yandex.com^$removeparam=redircnt
+||translate.yandex.com^$removeparam=from
+||youku.com^$removeparam=s
+||youku.com^$removeparam=tpa
+||youtube.com^$removeparam=feature
+||youtube.com^$removeparam=kw
+||www.youtube.com^$removeparam=app
+||zhihu.com^$removeparam=/^source_/
+||zhihu.com^$removeparam=/^utm_/
+||zhihu.com^$removeparam=origin_label
+tieba.baidu.com##.card_head:style(width: 48px !important; height: 48px !important)
+tieba.baidu.com##.card_head_img:style(width: 48px !important; height: 48px !important)
+tieba.baidu.com##td:style(font-family: Calibri !important; font-size: 13px !important)
+*://message.bilibili.com/pages/nav/index_new_pc_sync
+*://message.bilibili.com/pages/nav/index_new_sync
+t.bilibili.com##.bili-dyn-live-users
+t.bilibili.com##.right
+t.bilibili.com##.bili-dyn-home--member > main:nth-child(2):style(width: 65% !important)
+live.bilibili.com###rank-list-vm:style(height: 14px !important; border-radius: 12px 12px 0 0 !important; background-color: #f8f8f8 !important)
+weibo.com##div[class^="Main_side"]
+s.weibo.com##div[class="main-side"]
+weibo.com##div[class*="Banner_card_"]
+weibo.com##div[class^="Frame_side_"]:style(width: 182px !important)
+weibo.com##div[class^="Nav_main"]:style(width: 182px !important)
+weibo.com##div[class*="Frame_content"]:style(margin-left: 2% !important)
+weibo.com##div[class^="Frame_main_"]:style(width: 975px !important)
+weibo.com##div[class^="Home_home"]:style(width: 975px !important)
+weibo.com##div[class^="Main_wrap"]:style(width: 975px !important)
+weibo.com##div[class^="Main_full"]:style(width: 975px !important)
+weibo.com##div[class^="woo-picture-main ProfileHeader_pic"]:style(height: 100px !important)
+weibo.com##div[class^="card-video_videoBox"]:style(width: 75% !important; height: 75% !important)
+weibo.com##div[class*="card-article_pic"]:style(width: 60% !important; height: 60% !important)
+weibo.com##div[class^="woo-picture-main woo-picture-square"]:style(width: 70% !important; height: 70% !important)
+weibo.com##div[class="woo-picture-main woo-picture-square woo-picture-hover"]:style(width: 90px !important; height: 90px !important)
+weibo.com##div[class^="card-link_text_"]:style(font-size: 13.5px !important; line-height: 25px !important)
+weibo.com##div[class^="detail_wbtext_"]:style(line-height: 26px !important; font-size: 15.5px !important)
+weibo.com##div[class="wbpro-list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
+weibo.com##div[class="info woo-box-flex woo-box-alignCenter woo-box-justifyBetween"]:style(font-size: 13px !important)
+weibo.com##div[class^="content_row_"]:style(width: 70% !important; height: 70% !important)
+s.weibo.com##div[class="m-main"]:style(margin-left: 2% !important)
+s.weibo.com##div[class="main-full"]:style(width: 975px !important)
+s.weibo.com##div[class="list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
+s.weibo.com##textarea:style(width: 875px !important)
+wnacg.com,wnacg.ru,wnacg01.cc,wnacg02.cc,wn07.ru##div[class$="download_btn"]:style(display:inline !important)
+wnacg.com,wnacg.ru,wnacg01.cc,wnacg02.cc,wn07.ru##a[class*="Btn-Fixed ad-site"]:style(display:inline-block !important)

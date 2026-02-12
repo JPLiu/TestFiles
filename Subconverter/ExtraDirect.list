@@ -1,0 +1,207 @@
+# Extra Direct List
+
+# Resource
+# 极客族 https://www.geekzu.cn/
+DOMAIN-KEYWORD,geekzu
+
+# Resource Public CDN
+# https://inn-studio.com/
+DOMAIN-KEYWORD,inn-studio
+# https://share.dmhy.org/
+
+# Resource Public Picture
+# https://img.2222.moe/
+DOMAIN-SUFFIX,2222.moe
+
+# https://images.weserv.nl/
+DOMAIN-KEYWORD,weserv
+
+# -------------------------------------------------
+
+# 按首字母排序
+
+# Bank
+DOMAIN-KEYWORD,drcbank
+
+# Computer Manufacturers
+DOMAIN-KEYWORD,lenovo
+
+# MeiTuan
+# Global
+DOMAIN-KEYWORD,mykeeta
+
+# Paypal
+DOMAIN-KEYWORD,paypal
+# Paypal Related Company
+DOMAIN-KEYWORD,braintree
+
+# PicACG
+DOMAIN-KEYWORD,wakamoment
+DOMAIN-KEYWORD,wikawika
+IP-CIDR,104.20.180.50/32,no-resolve
+
+# Tencent
+DOMAIN-SUFFIX,rumt-zh.com
+
+# Trackerslists
+DOMAIN-SUFFIX,trackerslist.com
+
+# Whois
+DOMAIN-SUFFIX,ipwho.is
+
+# Xiaomi
+DOMAIN-SUFFIX,browser.miui.srv
+
+# Personal Blog Relate
+DOMAIN-SUFFIX,polyfill.io
+
+# -------------------------------------------------
+# 按网址排序
+
+#-----0-9
+
+# 神奇宝贝百科 https://wiki.52poke.com
+DOMAIN-KEYWORD,52poke
+
+# 21TB https://www.21tb.com/
+DOMAIN-KEYWORD,21tb
+
+#-----AAA
+
+# AnyFeeder https://plink.anyfeeder.com/
+DOMAIN-SUFFIX,anyfeeder.com
+
+# AutoHotkey https://www.autohotkey.com/
+DOMAIN-SUFFIX,autohotkey.com
+
+#-----BBB
+
+#-----CCC
+
+# Canva https://www.canva.com/
+DOMAIN-SUFFIX,canva.com
+
+# ColaManga https://www.colamanga.com/
+DOMAIN-SUFFIX,colamanga.com
+
+#-----DDD
+
+#-----EEE
+
+#-----FFF
+
+# Flowchart.fun https://flowchart.fun
+DOMAIN-SUFFIX,flowchart.fun
+
+#-----GGG
+
+# GKD https://i.gkd.li/device
+DOMAIN,i.gkd.li
+
+# Go2Think https://go2think.com/
+DOMAIN,go2think.com
+
+#-----HHH
+
+# HiBitUninstaller https://www.hibitsoft.ir/index.html
+DOMAIN-KEYWORD,hibitsoft
+
+#-----III
+
+# InfiniCLOUD
+DOMAIN-KEYWORD,infini-cloud
+
+# 异次元软件世界 https://www.iplaysoft.com/
+DOMAIN-KEYWORD,iplaysoft
+
+#-----JJJ
+
+# 鸠摩搜索 https://www.jiumodiary.com/
+DOMAIN-SUFFIX,jiumodiary.com
+
+#-----KKK
+
+#-----LLL
+
+# 轻之国度 https://www.lightnovel.us（Direct 访问慢）
+DOMAIN-KEYWORD,lightnovel
+
+#-----MMM
+
+# 蜜柑计划 https://mikanime.tv/ 国内站
+DOMAIN-KEYWORD,mikanime
+DOMAIN-SUFFIX,raws.dev
+
+# 魔笔小说 https://www.mobinovels.com/
+DOMAIN-SUFFIX,mobinovels.com
+
+#-----NNN
+
+#-----OOO
+
+# OldmanEmu https://www.oldmantvg.net
+DOMAIN-SUFFIX,oldmantvg.net
+
+#-----PPP
+
+#-----QQQ
+
+#-----RRR
+
+# 阮一峰的网络日志 http://www.ruanyifeng.com
+DOMAIN-SUFFIX,ruanyifeng.com
+DOMAIN-SUFFIX,wangbase.com
+
+# 深夜读书会 http://ritdon.com/
+DOMAIN-SUFFIX,ritdon.com
+DOMAIN-SUFFIX,jquerycdns.com
+
+# RssEverything https://rsseverything.com/dashboard
+DOMAIN-SUFFIX,rsseverything.com
+
+#-----SSS
+
+# 六音 https://www.sixyin.com
+DOMAIN-SUFFIX,sixyin.com
+DOMAIN-SUFFIX,6yit.com
+
+# 字幕库 https://srtku.com
+DOMAIN-KEYWORD,srtku
+
+#-----TTT
+
+# 天使动漫 https://www.tsdm39.com/ 正常访问
+DOMAIN-SUFFIX,ts-dm.net
+DOMAIN-SUFFIX,tsdm39.com
+DOMAIN-SUFFIX,kudm.net
+DOMAIN-SUFFIX,mengniang.org
+DOMAIN-KEYWORD,aqours
+
+#-----UUU
+
+#-----VVV
+
+#-----WWW
+
+# WhatIsMyBrowser https://www.whatismybrowser.com/
+DOMAIN-SUFFIX,whatismybrowser.com
+
+#-----XXX
+
+# 星空不寂寞 https://www.xkbjm.com/
+DOMAIN-KEYWORD,xkbjm
+DOMAIN-KEYWORD,xingkbjm
+
+# 善用佳软 https://xbeta.info
+DOMAIN-SUFFIX,xbeta.info
+
+#-----YYY
+
+# YuC's AnimeList https://yuc.wiki/
+DOMAIN-SUFFIX,yuc.wiki
+
+#-----ZZZ
+
+# 贼吧网 https://www.zei8.vip/
+DOMAIN-KEYWORD,zei8
+

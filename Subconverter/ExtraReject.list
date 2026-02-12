@@ -1,0 +1,120 @@
+# Extra Reject List
+
+#-----0-9
+
+# 12306
+DOMAIN-SUFFIX,ad.12306.cn
+DOMAIN-SUFFIX,m.12306media.com
+
+#-----AAA
+
+#-----BBB
+
+# Bilibili PCDN
+# 参考 https://thhbdd.github.io/Block-pcdn-domains/ban.txt
+# 影响客户端缓存，暂时停用
+# DOMAIN-SUFFIX,mcdn.bilivideo.cn
+# DOMAIN-SUFFIX,szbdyd.com
+
+#-----CCC
+# crxMouse
+# Chromium crxMouse 扩展默认后台上传
+DOMAIN,api.mousegesturesapi.com
+
+#-----DDD
+
+#-----EEE
+
+#-----FFF
+
+# Flash
+DOMAIN-SUFFIX,www.flash.cn
+DOMAIN-SUFFIX,2144.com
+# 重橙网络 https://www.izhongcheng.cn
+DOMAIN-SUFFIX,izhongcheng.cn
+
+#-----GGG
+
+# 运营商推送（联通）
+DOMAIN-SUFFIX,gd165.com
+
+#-----HHH
+
+#-----III
+
+#-----JJJ
+
+# JMComic
+DOMAIN-KEYWORD,adserver
+DOMAIN-KEYWORD,jads
+
+#-----KKK
+
+#-----LLL
+
+#-----MMM
+
+# MIUI 参考自：https://github.com/LoopDns/Fuck-you-MIUI 20230820
+# MIhosts
+# 屏蔽小米云扫描组件
+DOMAIN,a0.app.xiaomi.com
+DOMAIN,api.installer.xiaomi.com
+DOMAIN,ixav-cse.avlyun.com
+DOMAIN,log.avlyun.sec.intl.miui.com
+DOMAIN,logupdate.avlyun.sec.miui.com
+DOMAIN,miav-cse.avlyun.com
+DOMAIN,miui-fxcse.avlyun.com
+DOMAIN,sdkconf.avlyun.com
+DOMAIN,tmfsdk.m.qq.com
+DOMAIN,update.avlyun.sec.miui.com
+
+# 禁用云扫描病毒
+DOMAIN,cn.app.chat.xiaomi.net
+DOMAIN,etl-xlmc-ssl.sandai.net
+
+# MIUI 安装检查
+DOMAIN,api.installer.xiaomi.com
+
+# OneTrack & Analytics & Ad
+DOMAIN,data.mistat.xiaomi.com
+DOMAIN,diagnosis.ad.xiaomi.com
+DOMAIN,log.ad.xiaomi.com
+DOMAIN,m.track.ad.xiaomi.com
+DOMAIN,sdkconfig.ad.xiaomi.com
+DOMAIN,tracking.miui.com
+
+# 反诈
+DOMAIN,flash.sec.miui.com
+
+#-----NNN
+
+#-----OOO
+
+#-----PPP
+
+#-----QQQ
+
+#-----RRR
+
+#-----SSS
+# Sigmob 东莞通 APP 二维码页面广告
+DOMAIN-KEYWORD,sigmob
+DOMAIN,taxi.dongguantong.com.cn
+
+#-----TTT
+
+#-----UUU
+
+#-----VVV
+
+#-----WWW
+
+# WinRAR
+DOMAIN-SUFFIX,ad.winrar.com.cn
+
+#-----XXX
+
+#-----YYY
+
+#-----ZZZ
+

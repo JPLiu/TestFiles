@@ -1,0 +1,469 @@
+### Date：2026-01-03
+
+### 全局配置
+mixed-port: 7890
+redir-port: 7892
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: false
+find-process-mode: strict
+unified-delay: true
+tcp-concurrent: true
+global-client-fingerprint: chrome
+geodata-mode: true
+
+### DNS配置
+dns:
+  enable: true
+  prefer-h3: true
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 1.1.1.1
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  # fake-ip-filter start
+  fake-ip-filter:
+    - +.+m2m
+    - +.$injections.adguard.org
+    - +.$local.adguard.org
+    - +.+bogon
+    - +.+lan
+    - +.+local
+    - +.+internal
+    - +.+localdomain
+    - +.home.arpa
+    - dns.msftncsi.com
+    - "*.srv.nintendo.net"
+    - "*.stun.playstation.net"
+    - xbox.*.microsoft.com
+    - "*.xboxlive.com"
+    - "*.turn.twilio.com"
+    - "*.stun.twilio.com"
+    - stun.syncthing.net
+    - stun.*
+    - "*.sslip.io"
+    - "*.nip.io"
+  # fake-ip-filter end
+  nameserver:
+    # - system
+    - 223.5.5.5
+    - 119.29.29.29
+    # - https://dns.alidns.com/dns-query
+    - https://223.5.5.5/dns-query
+    - https://doh.pub/dns-query
+    # AdGuard DNS
+    #- 94.140.14.140
+    - https://unfiltered.adguard-dns.com/dns-query
+    # OpenDns
+    #- 208.67.222.222
+    - https://doh.opendns.com/dns-query
+    # Cloudflare DNS
+    #- 1.1.1.1
+    - https://cloudflare-dns.com/dns-query
+  direct-nameserver:
+    # - system
+    - 223.5.5.5
+    - 119.29.29.29
+    # Baidu DNS
+    - 180.184.1.1
+    # ByteDance DNS
+    - 180.76.76.76
+  proxy-server-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    # - https://dns.alidns.com/dns-query
+    - https://223.5.5.5/dns-query
+    - https://doh.pub/dns-query
+    # AdGuard DNS
+    #- 94.140.14.140
+    - https://unfiltered.adguard-dns.com/dns-query
+    # OpenDns
+    #- 208.67.222.222
+    - https://doh.opendns.com/dns-query
+    # Cloudflare DNS
+    #- 1.1.1.1
+    - https://cloudflare-dns.com/dns-query
+
+### 域名嗅探
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com"
+
+### Tunnel配置
+tun:
+  enable: true
+  stack: system
+  device: Ethernet99
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - any:53
+    - tcp://any:53
+  strict-route: true
+  mtu: 1500
+  # 如果有使用zerotier或者headscale等，需要自己配置排除自己的网段
+  # route-exclude-address: ["192.168.110.0/24"]
+
+### 策略组基础配置
+# 策略组
+proxy-groups:
+  - name: "🇭🇰 香港中转"
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    proxies:
+      - "{{proxies:移动转香港}}"
+      - "{{proxies:联通转深港}}"
+      - "{{proxies:电信转香港}}"
+
+  - name: "🇭🇰 深港专线"
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    proxies:
+      - "{{proxies:深港专线}}"
+
+  - name: "🇭🇰 广港专线"
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    proxies:
+      - "{{proxies:广港专线}}"
+
+  - name: "🇭🇰 香港测速"
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    proxies:
+      - "{{proxies:香港}}"
+      - "{{proxies:深港}}"
+      - "{{proxies:广港}}"
+
+  - name: "🇨🇳 台湾测速"
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    proxies:
+      - "{{proxies:台湾}}"
+
+  - name: "🇯🇵 日本测速"
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    proxies:
+      - "{{proxies:日本}}"
+
+  - name: "🇺🇸 美国测速"
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    proxies:
+      - "{{proxies:美国}}"
+
+  - name: "🇺🇳 其他测速"
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: false
+    proxies:
+      - "{{proxies:德国}}"
+      - "{{proxies:法国}}"
+      - "{{proxies:英国}}"
+      - "{{proxies:新加坡}}"
+      - "{{proxies:韩国}}"
+
+  - name: "🌍 全球测速"
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    lazy: true
+    tolerance: 50
+    timeout: 2000
+    disable-udp: false
+    max-failed-times: 3
+    hidden: true
+    include-all: true
+    proxies:
+      - "{{proxies}}"
+
+  - name: "🔰 节点选择"
+    type: select
+    url: "http://www.gstatic.com/generate_204"
+    disable-udp: false
+    hidden: false
+    include-all: false
+    proxies:
+      - "🇭🇰 香港中转"
+      - "🇭🇰 深港专线"
+      - "🇭🇰 广港专线"
+      - "🇯🇵 日本测速"
+      - "🇺🇸 美国测速"
+      - "🇨🇳 台湾测速"
+      - "🇺🇳 其他测速"
+      - "🌍 全球测速"
+      - "🚀 手选节点"
+      - "DIRECT"
+
+  - name: "📺 国内媒体"
+    type: select
+    url: "http://www.gstatic.com/generate_204"
+    disable-udp: false
+    hidden: false
+    include-all: false
+    proxies:
+      - "DIRECT"
+      - "🔰 节点选择"
+      - "🇭🇰 香港中转"
+      - "🇭🇰 深港专线"
+      - "🇭🇰 广港专线"
+      - "🇨🇳 台湾测速"
+
+  - name: "🐟 漏网之鱼"
+    type: select
+    url: "http://www.gstatic.com/generate_204"
+    disable-udp: false
+    hidden: false
+    include-all: false
+    proxies:
+      - "🔰 节点选择"
+      - "DIRECT"
+
+  - name: "🎯 全球直连"
+    type: select
+    url: "http://www.gstatic.com/generate_204"
+    disable-udp: false
+    hidden: false
+    include-all: false
+    proxies:
+      - "DIRECT"
+      - "🔰 节点选择"
+
+  - name: "🌍 全球代理"
+    type: select
+    url: "http://www.gstatic.com/generate_204"
+    disable-udp: false
+    hidden: false
+    include-all: false
+    proxies:
+      - "🔰 节点选择"
+      - "DIRECT"
+
+  - name: "🚀 手选节点"
+    type: select
+    url: "http://www.gstatic.com/generate_204"
+    disable-udp: false
+    hidden: false
+    include-all: true
+    proxies:
+      - "{{proxies}}"
+
+# 订阅规则
+rule-providers:
+  AWAvenueAdsRule:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/refs/heads/main/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list
+    path: ./Cord/RuleSet/AWAvenueAdsRule.list
+
+  ExtraRejectFixDirectList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraRejectFixDirect.list
+    path: ./Cord/RuleSet/ExtraRejectFixDirect.list
+
+  ExtraRejectFixProxyList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraRejectFixProxy.list
+    path: ./Cord/RuleSet/ExtraRejectFixProxy.list
+
+  ExtraRejectList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraReject.list
+    path: ./Cord/RuleSet/ExtraReject.list
+
+  ExtraDirectList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraDirect.list
+    path: ./Cord/RuleSet/ExtraDirect.list
+
+  ExtraDirectMediaList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraDirectMedia.list
+    path: ./Cord/RuleSet/ExtraDirectMedia.list
+
+  AreaProxyHKList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyHK.list
+    path: ./Cord/RuleSet/AreaProxyHK.list
+
+  AreaProxyTWList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyTW.list
+    path: ./Cord/RuleSet/AreaProxyTW.list
+
+  AreaProxyJPList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyJP.list
+    path: ./Cord/RuleSet/AreaProxyJP.list
+
+  AreaProxyUSList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/AreaProxyUS.list
+    path: ./Cord/RuleSet/AreaProxyUS.list
+
+  ExtraProxyList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraProxy.list
+    path: ./Cord/RuleSet/ExtraProxy.list
+
+  ExtraProxyMediaList:
+    behavior: "classical"
+    type: http
+    format: 'text'
+    interval: 43200
+    url: https://raw.githubusercontent.com/JPLiu/TestFiles/refs/heads/main/Subconverter/ExtraProxyMedia.list
+    path: ./Cord/RuleSet/ExtraProxyMedia.list
+
+# 分流规则
+rules:
+  - GEOSITE,private,DIRECT
+
+  - RULE-SET,ExtraRejectFixDirectList,🎯 全球直连
+  - RULE-SET,ExtraRejectFixProxyList,🌍 全球代理
+
+  - RULE-SET,AWAvenueAdsRule,REJECT
+  - RULE-SET,ExtraRejectList,REJECT
+  - GEOSITE,category-ads-all,REJECT
+
+  - RULE-SET,AreaProxyHKList,🇭🇰 香港测速
+  - RULE-SET,AreaProxyTWList,🇨🇳 台湾测速
+  - RULE-SET,AreaProxyJPList,🇯🇵 日本测速
+  - RULE-SET,AreaProxyUSList,🇺🇸 美国测速
+
+  - GEOSITE,abema,🇯🇵 日本测速
+  - GEOSITE,bahamut,🇨🇳 台湾测速
+  - GEOSITE,bilibili,📺 国内媒体
+  - GEOSITE,biliintl,📺 国内媒体
+
+  - RULE-SET,ExtraDirectMediaList,📺 国内媒体
+  - RULE-SET,ExtraProxyMediaList,🌍 全球代理
+  - RULE-SET,ExtraProxyList,🌍 全球代理
+  - RULE-SET,ExtraDirectList,🎯 全球直连
+
+  - GEOSITE,category-companies@cn,🎯 全球直连
+  - GEOSITE,tracker,DIRECT
+  - GEOSITE,geolocation-cn,DIRECT
+  - GEOSITE,geolocation-!cn,🌍 全球代理
+
+  - GEOIP,private,DIRECT
+  - GEOIP,cloudflare,🌍 全球代理,no-resolve
+  - GEOIP,cloudfront,🌍 全球代理,no-resolve
+  - GEOIP,facebook,🌍 全球代理,no-resolve
+  - GEOIP,fastly,🌍 全球代理,no-resolve
+  - GEOIP,google,🌍 全球代理,no-resolve
+#  - GEOIP,netflix,🌍 全球代理,no-resolve
+  - GEOIP,telegram,🌍 全球代理,no-resolve
+#  - GEOIP,tor,🌍 全球代理,no-resolve
+  - GEOIP,twitter,🌍 全球代理,no-resolve
+  - GEOIP,CN,DIRECT
+
+  - MATCH,🐟 漏网之鱼

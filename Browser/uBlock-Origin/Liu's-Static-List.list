@@ -1,0 +1,185 @@
+[Adblock Plus 2.0]
+! Title: Liu's Static List
+! Version: 20260206220025
+! Expires: 1 days
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
+! 基础过滤规则，通用。
+
+! 通用规则
+
+! 拦截规则
+
+! 禁用脚本规则
+|http*://$script,domain=baywatch.cn|cnrencai.com|diyifanwen.com|docsou.com|gxscse.com|haoword.com|huabuqi.com|kujiang.com|qunzou.com|ruiwen.com|wenxm.cn|wenmi.com|xiegw.cn|xiexiebang.com|xueshu.com|yuwenmi.com|zhaozongjie.com
+
+! 修正规则（暂无）
+
+! 专用规则（排序按主域名顺序，通用规则分类以全大写，专用规则全小写）
+
+! 18comic
+! https://18comic.vip
+! 首页广告、图片插入广告
+18comic.vip##.div-bf-pv
+18comic.vip##div[data-show="ok"]
+! 移除移动端广告提示
+18comic.vip##div[data-group="sticky2"]
+18comic.vip##div[class="hidden-lg"]
+! 移除移动端浮窗广告
+18comic.vip##iframe[scrolling="no"]
+
+! anime1
+! https://anime1.me
+! 移除界面广告
+anime1.me##div[id^="ad-"]
+
+! baidu
+! https://tieba.baidu.com
+! 版头图
+tieba.baidu.com##.card_banner_link.card_banner
+! 右栏 签到
+tieba.baidu.com##.celebrity.aside_region
+! 右栏 移动端下载提示
+tieba.baidu.com##.app_download_box.aside_region
+
+! https://pan.baidu.com
+! 个人云盘 顶部广告
+pan.baidu.com##[class$="nd-game-entry"]
+pan.baidu.com##[class$="sug-ad-item"]
+pan.baidu.com##button[status="svipline"]
+! 个人云盘 AI 入口
+pan.baidu.com##div[id="chatView"]
+
+! bilibili
+! 拦截 bilibili pcdn
+! 参考 https://thhbdd.github.io/Block-pcdn-domains/ban.txt
+||mcdn.bilivideo.cn^
+||szbdyd.com^
+! 乘风优化
+! 参考 https://bbs.kafan.cn/thread-2284745-1-1.html
+||hdslb.com/bfs/seed/jinkela/short/b-mirror/biliMirror.$script
+||hdslb.com/bfs/seed/jinkela/kv-sdk/$script
+||hdslb.com/bfs/seed/jinkela/short/reporter-pb/$script
+!bilibili.com##+js(nowebrtc)
+||data.bilibili.com/log/$xhr,empty
+! 移除 PC 端班头图
+www.bilibili.com##div[class="recommended-swipe"]
+
+! brave
+! https://search.brave.com
+! 应用推广（用于 Firefox）
+search.brave.com##.mobile-promo-content
+search.brave.com##.download-cta
+
+! csdn
+! https://blog.csdn.net/
+! CSDN去登录提示
+! 参考 https://bbs.kafan.cn/thread-2247032-1-1.html
+||g.csdnimg.cn/asdf/*/trackad.js|$script,important
+||csdnimg.cn/release/passport_fe/$script
+! CSDN去登录提示 补充规则
+blog.csdn.net##.passport-login-container
+
+! ecosia
+! https://www.ecosia.org
+! 搜索结果页底部无用栏目
+ecosia.org##.main-footer-visual
+ecosia.org##.card--border.card--as-a.card.chat-card.footer-card
+! 搜索结果页顶部扩展广告
+ecosia.org##.main-header__install-cta
+! 搜索结果页顶部版头广告
+ecosia.org##.banner
+! 搜索结果页关闭广告扩展的提示
+ecosia.org##div[data-test-id^="ad-block-notice"]
+ecosia.org##div[data-test-id="binary-feedback"]
+
+! hanime1
+! https://hanime1.me/
+! 遗留空白-广告位
+hanime1.me##div[id="myHeader"]
+hanime1.me##div[id="more-related-ad"]
+hanime1.me##div[id="close-mobile-ad-btn"]
+hanime1.me##[href*="erodalabs.com"]
+
+! kafan
+! https://bbs.kafan.cn/
+! 版面优化 去除签名 界面清理
+bbs.kafan.cn##.pbn.cl.bm_c
+bbs.kafan.cn##.plm.plc
+
+! landian
+! https://www.landiannews.com/
+! 版面优化
+landiannews.com##.content-gg
+landiannews.com##section[id^=block-]
+||img.lancdn.com/*.gif$image,domain=landiannews.com
+
+! pkhex for web
+! https://pkhex-web.github.io
+! Cookies 提示
+pkhex-web.github.io##.cc-isolation-container
+
+! qq
+! 企业微信 移除下载页介绍栏目 方便下载
+! https://work.weixin.qq.com
+work.weixin.qq.com##.index_head
+work.weixin.qq.com##.index_top
+work.weixin.qq.com##div[class="index_section index_section_Case"]
+work.weixin.qq.com##div[class="index_section index_section_server_deploy "]
+
+! qq 邮箱 顶部栏目，设置页 会员提示
+wx.mail.qq.com##div[class^="xmail-cmp-vip"]
+wx.mail.qq.com##div[class="header-right-notice"]
+wx.mail.qq.com##div[class^="cmp-vip"]
+
+! totalcmd
+! https://totalcmd.net/
+! 图片广告
+||totalcmd.net/images/*-700.jpg$image
+
+! weibo
+! https://weibo.com/
+! 专栏页面底部推广
+weibo.com##div[node-type="recommend"]
+! 用户主页轮播图
+weibo.com##div[class*="ProfileFocusPic_box_"]
+
+! wenku8
+! https://www.wenku8.net/
+! 图片广告
+www.wenku8.net##[id^="adv"]
+
+! wnacg
+! https://wnlink.ru/
+! 移动端搜索结果页广告
+wnacg.com/ds3/
+wnacg.ru/ds3/
+wnacg01.cc/ds3/
+wnacg02.cc/ds3/
+wn03.ru/ds3/
+wn07.ru/ds3/
+! 插入广告 GIF
+ds/*.gif$image,domain=wnacg.com|wnacg.ru|wnacg01.cc|wnacg02.cc|wn07.ru
+game/*.gif$image,domain=wnacg.com|wnacg.ru|wnacg01.cc|wnacg02.cc|wn07.ru
+ru/data/t/*.gif$image,domain=wnacg.com|wnacg.ru|wnacg01.cc|wnacg02.cc|wn07.ru
+! 下拉模式，底部广告
+wnacg.com,wnacg.ru,wnacg01.cc,wnacg02.cc,wn07.ru##div[id="control_block"]
+! 列表插入游戏广告
+wnacg.com,wnacg.ru,wnacg01.cc,wnacg02.cc,wn07.ru##li[class="cate-0"]
+
+! workflowy
+! https://workflowy.com/
+! 移动端使用 Chrome 提示
+workflowy.com##.message-container
+
+! yuanbao
+! https://yuanbao.tencent.com
+! PC 版下载推广
+yuanbao.tencent.com##div[class^="index_downloadPCAds"]
+yuanbao.tencent.com##.agent-dialogue__tool
+
+! 资源屏蔽规则参考 https://help.adblockplus.org/hc/en-us/articles/360062733293
+! *$document,font,image,match-case,media,domain=example.com
+! *$object,other,ping,popup,script,stylesheet,subdocument,webrtc,websocket,xmlhttprequest,domain=example.com
+! *$elemhide,generichide,genericblock,domain=example.com
+
+

@@ -1,0 +1,73 @@
+{
+	"id": 2010,
+	"name": "JPLiu 订阅-NoFast",
+	"version": 31,
+	"author": "JPLiu",
+	"supportUri": "https://github.com/JPLiu/TestFiles",
+	"apps": [{
+		"id": "cn.wps.moffice_eng",
+		"name": "WPS Office",
+		"groups": [{
+			"name": "底部插入广告",
+			"desc": "底部插入广告-NoFast",
+			"key": 0,
+			"rules": "[id=\"cn.wps.moffice_eng:id/remind_close_button\"]"
+		}]
+	},{
+		"id": "com.hundsun.mobile.hsbrowsertest",
+		"name": "东莞农商银行",
+		"groups": [{
+			"name": "产品推广",
+			"desc": "产品推广-NoFast",
+			"key": 0,
+			"rules": "[id=\"com.hundsun.mobile.hsbrowsertest:id/ll_questionnaire_close\"]"
+		},{
+			"name": "VPN 提示",
+			"desc": "VPN 提示-NoFast",
+			"key": 1,
+			"rules": "[id=\"com.hundsun.mobile.hsbrowsertest:id/cancel_tv\"][text=\"知晓风险，继续使用\"]"
+		}]
+	},{
+		"id": "com.futurefleet.dongguantongbus.ui.dg",
+		"name": "东莞通",
+		"groups": [{
+			"name": "结果页面返回",
+			"desc": "结果页面返回-NoFast",
+			"key": 0,
+			"rules": "[id=\"com.futurefleet.dongguantongbus.ui.dg:id/nar_title_right\"]"
+		}]
+	},{
+		"id": "com.cs_credit_bank",
+		"name": "发现精彩",
+		"groups": [{
+			"name": "产品推广",
+			"desc": "产品推广-NoFast",
+			"key": 1,
+			"rules": "[id=\"com.cs_credit_bank:id/iv_close\"]"
+        },{
+			"name": "国寿联盟推广",
+			"desc": "国寿联盟推广-NoFast",
+			"key": 2,
+			"rules": "[id=\"com.cs_credit_bank:id/closeIvLogo\"]"
+        }]
+	},{
+		"id": "com.pa.health",
+		"name": "平安健康保险",
+		"groups": [{
+			"name": "弹窗广告",
+			"desc": "弹窗广告-NoFast",
+			"key": 0,
+			"rules": "[id=\"com.pa.health:id/ivClose\"]"
+		}]
+	},{
+		"id": "com.eg.android.AlipayGphone",
+		"name": "支付宝",
+		"groups": [{
+			"name": "生日开屏",
+			"desc": "生日开屏-NoFast",
+			"key": 0,
+			"rules": "[id=\"com.eg.android.AlipayGphone:id/splash_skip_tip_container\"]"
+		}]
+	}]
+}
+

@@ -1,0 +1,43 @@
+{
+	"request": [
+		{
+			"enable": true,
+			"name": "贴吧 域名重定向 wapp",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/wapp.baidu.com/mo/q/m?(.*)",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://tieba.baidu.com/f$1",
+			"group": "Tieba"
+		},
+		{
+			"enable": true,
+			"name": "贴吧 域名重定向 ?.tieba",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/(.+)tieba.baidu.com/(.*)",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://tieba.baidu.com/$2",
+			"group": "Tieba"
+		},
+		{
+			"enable": true,
+			"name": "贴吧 域名重定向 jump",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/jump2?.bdimg.com/(.*)",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://tieba.baidu.com/$1",
+			"group": "Tieba"
+		}
+	],
+	"sendHeader": [],
+	"receiveHeader": [],
+	"receiveBody": []
+}

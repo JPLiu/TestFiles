@@ -1,0 +1,29 @@
+[Adblock Plus 2.0]
+! Title: Liu's Block List
+! Version: 20260206220025
+! Expires: 1 days
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
+! 网址拦截规则，通用。
+
+! 资源限制列表 {{{1
+
+! http://hdymly.com/
+||hdymly.com^
+
+! 内容农场列表 {{{1
+
+! https://baijiahao.baidu.com/
+||baijiahao.baidu.com^
+
+! http://www.jmcixiang.com/
+||jmcixiang.com^
+
+! https://www.kmw.com/
+||kmw.com^
+
+! https://play.undcine.com
+||play.undcine.com^
+
+! https://m.yunqishi.net
+||yunqishi.net^
+
