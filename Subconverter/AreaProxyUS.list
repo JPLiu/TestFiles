@@ -3,6 +3,7 @@
 #-----0-9
 
 #-----AAA
+# Aurora Store
 DOMAIN-SUFFIX,auroraoss.com
 
 #-----BBB
@@ -57,5 +58,6 @@ DOMAIN-SUFFIX,auroraoss.com
 DOMAIN-SUFFIX,yoyo.org
 
 #-----ZZZ
+
 
 
