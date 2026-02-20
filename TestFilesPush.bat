@@ -9,7 +9,9 @@ set /p CommitTitle=请输入 Commit 内容：
 git add *
 git commit -m "%UpdateTime% %CommitTitle%"
 git push origin main
+
 git repack -a -d --depth=250 --window=250
+git gc --aggressive --prune=now
 exit
 
 :: vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
