@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Brave RuleSet
-! Version: 20260301113342
+! Version: 20260304211037
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -101,5 +101,3 @@ s.weibo.com##div[class="main-full"]:style(width: 975px !important)
 s.weibo.com##div[class="list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
 s.weibo.com##textarea:style(width: 875px !important)
 wnacg.*,wnacg01.*,wnacg02.*,wn02.*,wn07.*##a.Btn-Fixed.ad-site:style(display: inline-block !important;)
-
-
