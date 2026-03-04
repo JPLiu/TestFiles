@@ -1,45 +1,29 @@
 chcp 65001 >nul
 @echo off
 
-cd /d Aria2
+pushd Aria2
 
-cd /d Aria2Conf
+pushd Aria2Conf
 start "" cmd /k call More-Rule-Upadte.bat
-cd ..
+popd
 
-cd ..
+popd
 
-:: cd /d MiWifi
-:: start "" cmd /k call More-Rule-Upadte.bat
-:: cd ..
+pushd Android
 
-:: cd /d Subconverter
-:: start "" cmd /k call More-Rule-Upadte.bat
-:: cd ..
-
-cd /d Android
-
-cd /d BitTorrent
+pushd BitTorrent
 start "" cmd /k call More-Rule-Upadte.bat
-cd ..
+popd
 
-::cd /d gkd-kit
-::start "" cmd /k call More-Rule-Upadte.bat
-::cd ..
+popd
 
-cd ..
+pushd Browser
 
-cd /d Browser
-
-:: cd /d Content-Farm-Terminator
-:: start "" cmd /k call More-Rule-Upadte.bat
-:: cd ..
-:: cd /d uBlacklist
-:: start "" cmd /k call More-Rule-Upadte.bat
-:: cd ..
-cd /d uBlock-Origin
+pushd uBlock-Origin
 :: start "" cmd /k call More-Rule-Upadte.bat
 start "" cmd /k call List-Time-Update.bat
-cd ..
+popd
+
+popd
 
 :: vim: set expandtab foldmethod=marker softtabstop=4 shiftwidth=4:
