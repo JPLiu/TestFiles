@@ -111,6 +111,5 @@ s.weibo.com##div[class="m-main"]:style(margin-left: 2% !important)
 s.weibo.com##div[class="main-full"]:style(width: 975px !important)
 s.weibo.com##div[class="list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
 s.weibo.com##textarea:style(width: 875px !important)
-wnacg.com,wnacg.ru,wnacg01.cc,wnacg02.cc,wn02.cfd,wn07.ru##div[class$="download_btn"]:style(display:inline !important)
-wnacg.com,wnacg.ru,wnacg01.cc,wnacg02.cc,wn02.cfd,wn07.ru##a[class*="Btn-Fixed ad-site"]:style(display:inline-block !important)
+wnacg.*,wnacg01.*,wnacg02.*,wn02.*,wn07.*##a.Btn-Fixed.ad-site:style(display: inline-block !important;)
 
