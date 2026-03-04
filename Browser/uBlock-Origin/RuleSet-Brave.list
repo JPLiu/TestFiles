@@ -57,18 +57,7 @@ wx.mail.qq.com##div[class^="cmp-vip"]
 weibo.com##div[node-type="recommend"]
 weibo.com##div[class*="ProfileFocusPic_box_"]
 www.wenku8.net##[id^="adv"]
-wnacg.com/ds3/
-wnacg.ru/ds3/
-wnacg01.cc/ds3/
-wnacg02.cc/ds3/
-wn02.cfd/ds3/
-wn03.ru/ds3/
-wn07.ru/ds3/
-ds/*.gif$image,domain=wnacg.com|wnacg.ru|wnacg01.cc|wnacg02.cc|wn02.cfd|wn07.ru
-game/*.gif$image,domain=wnacg.com|wnacg.ru|wnacg01.cc|wnacg02.cc|wn02.cfd|wn07.ru
-ru/data/t/*.gif$image,domain=wnacg.com|wnacg.ru|wnacg01.cc|wnacg02.cc|wn02.cfd|wn07.ru
-wnacg.com,wnacg.ru,wnacg01.cc,wnacg02.cc,wn07.ru##div[id="control_block"]
-wnacg.com,wnacg.ru,wnacg01.cc,wnacg02.cc,wn07.ru##li[class="cate-0"]
+||wnimg*.*/data/t/*.gif$image
 workflowy.com##.message-container
 yuanbao.tencent.com##div[class^="index_downloadPCAds"]
 yuanbao.tencent.com##.agent-dialogue__tool
@@ -112,4 +101,5 @@ s.weibo.com##div[class="main-full"]:style(width: 975px !important)
 s.weibo.com##div[class="list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
 s.weibo.com##textarea:style(width: 875px !important)
 wnacg.*,wnacg01.*,wnacg02.*,wn02.*,wn07.*##a.Btn-Fixed.ad-site:style(display: inline-block !important;)
+
 
