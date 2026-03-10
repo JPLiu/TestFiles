@@ -152,6 +152,7 @@ www.wenku8.net##[id^="adv"]
 ! https://wnlink.ru/
 ! 插入广告 GIF
 ||wnimg*.*/data/t/*.gif$image
+wnacg.*,wnacg01.*,wnacg02.*,wn02.*,wn07.*##li[class="cate-0"]
 
 ! workflowy
 ! https://workflowy.com/
@@ -168,6 +169,7 @@ yuanbao.tencent.com##.agent-dialogue__tool
 ! *$document,font,image,match-case,media,domain=example.com
 ! *$object,other,ping,popup,script,stylesheet,subdocument,webrtc,websocket,xmlhttprequest,domain=example.com
 ! *$elemhide,generichide,genericblock,domain=example.com
+
 
 
 
