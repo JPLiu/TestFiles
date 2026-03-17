@@ -70,7 +70,4 @@ s.weibo.com##textarea:style(width: 875px !important)
 ! wnacg
 ! https://wnlink.ru/
 ! 移动端显示下载按钮
-wnacg.*,wnacg01.*,wnacg02.*,wn02.*,wn07.*##a.Btn-Fixed.ad-site:style(display: inline-block !important;)
-
-
-
+wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a.Btn-Fixed.ad-site:style(display: inline-block !important;)
