@@ -29,6 +29,10 @@ DOMAIN-SUFFIX,achost.top
 # Brave
 DOMAIN-KEYWORD,brave
 
+# CordCloud
+# Related
+DOMAIN-SUFFIX,crisp.chat
+
 # Git
 DOMAIN-KEYWORD,gitbook
 DOMAIN-KEYWORD,gitcdn
@@ -84,6 +88,9 @@ DOMAIN-SUFFIX,moetu.club
 
 #-----CCC
 
+# Rom Tools https://chdman.com/
+DOMAIN-SUFFIX,chdman.com
+
 # CMail https://www.inveigle.net/cmail/download
 DOMAIN-SUFFIX,inveigle.net
 
@@ -125,6 +132,8 @@ DOMAIN-SUFFIX,userstyles.org
 DOMAIN-SUFFIX,fanboy.co.nz
 # Firefox SpeedyFox https://crystalidea.com/speedyfox
 DOMAIN-SUFFIX,crystalidea.com
+# Firefox Tempermonkey
+DOMAIN-KEYWORD,tempermonkey
 
 # UserScripts - RSS+
 DOMAIN-SUFFIX,ravi.cool
@@ -168,6 +177,9 @@ DOMAIN-KEYWORD,keepass
 DOMAIN-SUFFIX,rss.lilydjwg.me
 
 #-----MMM
+
+# MAZANOKE https://mazanoke.com/
+DOMAIN-SUFFIX,mazanoke.com
 
 # Miniflux
 DOMAIN-SUFFIX,miniflux.app

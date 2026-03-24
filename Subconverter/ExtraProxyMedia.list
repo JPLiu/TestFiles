@@ -31,6 +31,10 @@ DOMAIN-KEYWORD,96dm
 
 #-----AAA
 
+# Anime1 https://anime1.me/
+DOMAIN-SUFFIX,anime1.me
+DOMAIN-SUFFIX,anicdn.com
+
 #-----BBB
 
 #-----CCC
