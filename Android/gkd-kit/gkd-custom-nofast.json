@@ -1,7 +1,7 @@
 {
 	"id": 2010,
 	"name": "JPLiu 订阅-NoFast",
-	"version": 32,
+	"version": 33,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
@@ -66,7 +66,7 @@
 			"name": "云闪付",
 			"desc": "更新提示-NoFast",
 			"key": 0,
-			"rules": "[id=\"com.unionpay:id/btn_cancel\"][text=\"稍后再说\"]"
+			"rules": "[id=\"com.unionpay:id/btn_cancel\"][text=\"稍候再说\"]"
 		}]
 	},{
 		"id": "com.eg.android.AlipayGphone",
