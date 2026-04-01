@@ -171,6 +171,9 @@ DOMAIN-KEYWORD,irfanview
 # KeePass https://keepass.info/
 DOMAIN-KEYWORD,keepass
 
+# Koofr https://app.koofr.net/login
+DOMAIN-KEYWORD,koofr
+
 #-----LLL
 
 # lilydjwg.me https://rss.lilydjwg.me/
