@@ -157,6 +157,9 @@ DOMAIN-SUFFIX,getsharex.com
 
 #-----III
 
+# InfiniCLOUD
+DOMAIN-KEYWORD,infini-cloud
+
 # Inoreader https://www.inoreader.com/all_articles
 DOMAIN-KEYWORD,inoreader
 DOMAIN-KEYWORD,innoreader
