@@ -1,8 +1,6 @@
 # Extra Proxy List
 
-# Resource Public Picture
-# https://imgbox.com/
-DOMAIN-SUFFIX,imgbox.com
+# Resource Public
 
 # -------------------------------------------------
 # 按网址排序
@@ -13,6 +11,7 @@ DOMAIN-SUFFIX,imgbox.com
 
 # Anime1 https://anime1.me/
 DOMAIN-SUFFIX,anime1.me
+DOMAIN-SUFFIX,anime1.tv
 DOMAIN-SUFFIX,anicdn.com
 
 #-----BBB
