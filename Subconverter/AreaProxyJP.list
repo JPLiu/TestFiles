@@ -19,7 +19,10 @@
 #-----HHH
 
 # HatenaBlog https://hatenablog.com/
-DOMAIN-KEYWORD,hatena
+DOMAIN-SUFFIX,hatenablog.com
+DOMAIN-SUFFIX,hatenablog.jp
+DOMAIN-SUFFIX,hatena.ne.jp
+DOMAIN-SUFFIX,hatena.com
 
 
 #-----III
