@@ -1,0 +1,62 @@
+payload:
+
+# Area Proxy US List
+
+#-----0-9
+
+#-----AAA
+# Aurora Store
+  - '+.auroraoss.com'
+
+#-----BBB
+
+#-----CCC
+
+#-----DDD
+
+#-----EEE
+
+#-----FFF
+
+#-----GGG
+
+#-----HHH
+
+#-----III
+
+#-----JJJ
+
+#-----KKK
+
+#-----LLL
+
+#-----MMM
+
+#-----NNN
+
+#-----OOO
+
+#-----PPP
+
+#-----QQQ
+
+#-----RRR
+
+#-----SSS
+
+#-----TTT
+
+#-----UUU
+
+#-----VVV
+
+#-----WWW
+
+#-----XXX
+
+#-----YYY
+
+# Peter Lowe’s Ad and tracking server list https://pgl.yoyo.org/adservers/serverlist.php
+  - '+.yoyo.org'
+
+#-----ZZZ

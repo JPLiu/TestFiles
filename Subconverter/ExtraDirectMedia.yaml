@@ -1,0 +1,31 @@
+payload:
+
+# Extra Direct Media List
+
+# Resource
+# 706dm Related
+  - '+.vip.dytt-img.com'
+  - '*yhdmjx*'
+  - '*yinghuazy*'
+  - '+.server.mch3.com'
+
+  - '+.2s0.cn'
+  - '+.77flv.cc'
+  - '+.m3u8.pw'
+  - '+.ppflv.com'
+  - '+.xmflv.com'
+  - '+.jn1.cc'
+  - '+.playback.com'
+
+# Resource Public CDN
+# https://www.jiasule.com/
+  - '*jiashule*'
+
+# https://www.akamai.com/
+  - '*default.akamaize*'
+
+# 耐卡影音 https://mcar.vip/
+  - '*mcar*'
+
+# 雅图 http://www.yatu.tv
+  - '+.yatu.tv'

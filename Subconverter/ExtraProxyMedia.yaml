@@ -1,0 +1,33 @@
+payload:
+
+# Extra Proxy Media List
+
+# https://hanime1.me/
+  - '*hembed*'
+
+# https://imgbox.com/
+  - '*imgbox*'
+
+# 樱花动漫 https://www.916dm.fans/
+  - '+.916dm.fans'
+  - '+.295k.cc'
+  - '*06dm*'
+  - '*16dm*'
+  - '*26dm*'
+  - '*36dm*'
+  - '*46dm*'
+  - '*56dm*'
+  - '*66dm*'
+  - '*76dm*'
+  - '*86dm*'
+  - '*96dm*'
+
+# Anime1 https://anime1.me/
+  - '+.anime1.me'
+  - '+.anicdn.com'
+
+# 蜜柑计划 https://mikanani.me
+  - '*mikanani*'
+
+# MissAV https://missav.ws
+  - '*missav*'
