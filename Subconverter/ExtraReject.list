@@ -45,8 +45,10 @@ DOMAIN-SUFFIX,gd165.com
 #-----JJJ
 
 # JMComic
-DOMAIN-KEYWORD,adserver
-DOMAIN-KEYWORD,jads
+DOMAIN-SUFFIX,adserver.com
+DOMAIN-SUFFIX,ads.jmc.com
+DOMAIN-SUFFIX,jads.jp
+DOMAIN-SUFFIX,jads.co.jp
 
 #-----KKK
 
