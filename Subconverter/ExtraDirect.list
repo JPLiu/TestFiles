@@ -2,11 +2,11 @@
 
 # Resource
 # 极客族 https://www.geekzu.cn/
-DOMAIN-KEYWORD,geekzu
+DOMAIN-SUFFIX,geekzu.cn
 
 # Resource Public CDN
 # https://inn-studio.com/
-DOMAIN-KEYWORD,inn-studio
+DOMAIN-SUFFIX,inn-studio.com
 # https://share.dmhy.org/
 
 # Resource Public Picture
@@ -14,31 +14,28 @@ DOMAIN-KEYWORD,inn-studio
 DOMAIN-SUFFIX,2222.moe
 
 # https://images.weserv.nl/
-DOMAIN-KEYWORD,weserv
+DOMAIN-SUFFIX,images.weserv.nl
 
 # -------------------------------------------------
 
 # 按首字母排序
 
 # Bank
-DOMAIN-KEYWORD,drcbank
-
-# Computer Manufacturers
-DOMAIN-KEYWORD,lenovo
+DOMAIN-SUFFIX,drcbank.com
 
 # MeiTuan
 # Global
-DOMAIN-KEYWORD,mykeeta
+DOMAIN-SUFFIX,mykeeta.com
 
 # Paypal
-DOMAIN-KEYWORD,paypal
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypal-objects.com
+DOMAIN-SUFFIX,paypal-community.com
+DOMAIN-SUFFIX,paypalobjects.com
 # Paypal Related Company
-DOMAIN-KEYWORD,braintree
-
-# PicACG
-DOMAIN-KEYWORD,wakamoment
-DOMAIN-KEYWORD,wikawika
-IP-CIDR,104.20.180.50/32,no-resolve
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,braintree-api.com
 
 # Tencent
 DOMAIN-SUFFIX,rumt-zh.com
@@ -61,10 +58,10 @@ DOMAIN-SUFFIX,polyfill.io
 #-----0-9
 
 # 神奇宝贝百科 https://wiki.52poke.com
-DOMAIN-KEYWORD,52poke
+DOMAIN-SUFFIX,52poke.com
 
 # 21TB https://www.21tb.com/
-DOMAIN-KEYWORD,21tb
+DOMAIN-SUFFIX,21tb.com
 
 #-----AAA
 
