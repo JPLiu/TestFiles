@@ -3,66 +3,25 @@
 # Resource
 # Resource Public CDN
 
-# Resource Public Picture
-# https://postimages.org
-DOMAIN-KEYWORD,postimages
-DOMAIN-KEYWORD,postimgs
-# https://share.dmhy.org/
-
-# Resource Public Others
-# http://www.rays-counter.com/
-DOMAIN-KEYWORD,rays-counter
-# https://immortalnova.hatenablog.com/entry/2022/03/06/140713
-
 # -------------------------------------------------
 # 按首字母排序
 
-# 18Comic
-DOMAIN-KEYWORD,18comic
-DOMAIN-KEYWORD,18-comic
-DOMAIN-SUFFIX,jm365.work
-
 # 2dfan https://2dfan.org
-DOMAIN-KEYWORD,2dfan
+DOMAIN-SUFFIX,2dfan.org
 DOMAIN-SUFFIX,achost.top
 
-# Brave
-DOMAIN-KEYWORD,brave
+# Brave @GEOSITE
+DOMAIN-SUFFIX,brave.com
 
 # CordCloud
-# Related
+# Related @GEOSITE
 DOMAIN-SUFFIX,crisp.chat
 
-# Git
-DOMAIN-KEYWORD,gitbook
-DOMAIN-KEYWORD,gitcdn
-DOMAIN-KEYWORD,gitube
-
-DOMAIN-KEYWORD,gitlab
-
-DOMAIN-SUFFIX,ghbtns.com
-
-# Google
-# GEOData 个人配置中被分流直连，导致 Inoreader 打开严重超时。
+# Google @GEOSIT
+# GEODATA 个人配置中被分流直连，导致 Inoreader 打开严重超时。
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,c.pki.goog
-
-# NinjaKiwi https://ninjakiwi.com/
-DOMAIN-KEYWORD,ninjakiwi
-DOMAIN-KEYWORD,nkstatic
-
-# SourceForge
-DOMAIN-KEYWORD,sourceforge
-
-# Subconverter
-DOMAIN-KEYWORD,acl4ssr.netlify
-DOMAIN-SUFFIX,gfwsb.114514.best
-DOMAIN-SUFFIX,wcc.best
-DOMAIN-SUFFIX,ruleset.dev
-
-# Vavildi
-DOMAIN-KEYWORD,vivaldi
 
 # WordPress
 DOMAIN-SUFFIX,s.w.org
@@ -80,7 +39,7 @@ DOMAIN-SUFFIX,7-zip.org
 # ACG盒子 https://www.acgbox.link
 DOMAIN-SUFFIX,acgbox.link
 
-# 次元狗 https://www.acgndog.com/ 偶发异常
+# 次元狗 https://www.acgndog.com/ 偶发异常 @GEOSITE
 DOMAIN-SUFFIX,acgndog.com
 DOMAIN-SUFFIX,moetu.club
 
@@ -102,7 +61,7 @@ DOMAIN-SUFFIX,comicat.org
 #-----EEE
 
 # Ecosia https://www.ecosia.org
-DOMAIN-KEYWORD,ecosia
+DOMAIN-SUFFIX,ecosia.org
 
 #-----FFF
 
@@ -110,20 +69,20 @@ DOMAIN-KEYWORD,ecosia
 DOMAIN-SUFFIX,fastcopy.jp
 
 # FatSecret https://www.fatsecret.cn
-DOMAIN-KEYWORD,fatsecret
+DOMAIN-SUFFIX,fatsecret.com
+DOMAIN-SUFFIX,fatsecret.cn
 
 # FetchRSS https://fetchrss.com/
 DOMAIN-SUFFIX,fetchrss.com
 
 # Firefox
-DOMAIN-KEYWORD,firefox
-DOMAIN-KEYWORD,mozilla
 # Firefox Addon
-# Firefox 暴力猴
+# Firefox UserScript
+DOMAIN-SUFFIX,tampermonkey.net
 # https://greasyfork.org/zh-CN
 # https://sleazyfork.org/zh-CN
-DOMAIN-KEYWORD,greasyfork
-DOMAIN-KEYWORD,sleazyfork
+DOMAIN-SUFFIX,greasyfork.org
+DOMAIN-SUFFIX,sleazyfork.org
 # Firefox DarkReader
 DOMAIN-SUFFIX,darkreader.org
 # Firefox Userstyles https://userstyles.org/
@@ -132,17 +91,9 @@ DOMAIN-SUFFIX,userstyles.org
 DOMAIN-SUFFIX,fanboy.co.nz
 # Firefox SpeedyFox https://crystalidea.com/speedyfox
 DOMAIN-SUFFIX,crystalidea.com
-# Firefox Tempermonkey
-DOMAIN-KEYWORD,tempermonkey
 
 # UserScripts - RSS+
 DOMAIN-SUFFIX,ravi.cool
-
-# Folo
-DOMAIN-SUFFIX,folo.is
-DOMAIN-SUFFIX,follow.is
-DOMAIN-SUFFIX,expo.dev
-DOMAIN-SUFFIX,posthog.com
 
 # Foobar2000 https://www.foobar2000.org/
 DOMAIN-SUFFIX,foobar2000.org
@@ -158,25 +109,24 @@ DOMAIN-SUFFIX,getsharex.com
 #-----III
 
 # InfiniCLOUD
-DOMAIN-KEYWORD,infini-cloud
-DOMAIN-KEYWORD,cloud-infini
+DOMAIN-SUFFIX,infini-cloud.net
 
-# Inoreader https://www.inoreader.com/all_articles
-DOMAIN-KEYWORD,inoreader
-DOMAIN-KEYWORD,innoreader
+# Inoreader https://www.inoreader.com/all_articles @GEOSITE
+DOMAIN-SUFFIX,inoreader.com
+DOMAIN-SUFFIX,innoreader.com
 
 # IrfanView https://www.irfanview.com/
-DOMAIN-KEYWORD,irfanview
+DOMAIN-SUFFIX,irfanview.com
 
 #-----JJJ
 
 #-----KKK
 
-# KeePass https://keepass.info/
-DOMAIN-KEYWORD,keepass
+# KeePass https://keepass.info/ @GEOSITE
+# DOMAIN-SUFFIX,keepass.info
 
 # Koofr https://app.koofr.net/login
-DOMAIN-KEYWORD,koofr
+DOMAIN-SUFFIX,koofr.net
 
 #-----LLL
 
@@ -195,12 +145,9 @@ DOMAIN-SUFFIX,miniflux.app
 DOMAIN-SUFFIX,miobt.com
 
 # Mixplorer
-DOMAIN-KEYWORD,mixplorer
+DOMAIN-SUFFIX,mixplorer.com
 
 #-----NNN
-
-# Nirsoft https://www.nirsoft.net/
-DOMAIN-SUFFIX,nirsoft.net
 
 #-----OOO
 
@@ -218,9 +165,6 @@ DOMAIN-SUFFIX,portableapps.com
 # The Portable Freeware Collection https://www.portablefreeware.com
 DOMAIN-SUFFIX,portablefreeware.com
 
-# Python https://www.python.org
-DOMAIN-SUFFIX,statuspage.io
-
 #-----QQQ
 
 #-----RRR
@@ -228,18 +172,7 @@ DOMAIN-SUFFIX,statuspage.io
 # WinRAR https://www.rarlab.com/
 DOMAIN-SUFFIX,rarlab.com
 
-# RSSHub https://docs.rsshub.app/
-DOMAIN-KEYWORD,diygay
-DOMAIN-KEYWORD,diygod
-DOMAIN-KEYWORD,rsshub
-DOMAIN-SUFFIX,runforesight.com
-DOMAIN-SUFFIX,thundra.io
-
 #-----SSS
-
-# Sukidesuost https://sukidesuost.info
-DOMAIN-SUFFIX,sukidesuost.info
-DOMAIN-SUFFIX,exe.io
 
 # Sumatra PDF https://www.sumatrapdfreader.org/
 DOMAIN-SUFFIX,sumatrapdfreader.org
@@ -266,11 +199,12 @@ DOMAIN-SUFFIX,voidtools.com
 
 #-----WWW
 
-# 轻小说文库 https://www.wenku8.net 偶发异常
-DOMAIN-KEYWORD,wenku8
+# 轻小说文库 https://www.wenku8.net 偶发异常 @GEOSITE
+DOMAIN-SUFFIX,wenku8.com
+DOMAIN-SUFFIX,wenku8.net
 
 # Workflowy https://workflowy.com/ 不定期无法访问
-DOMAIN-KEYWORD,workflowy
+DOMAIN-SUFFIX,workflowy.com
 # Relate
 DOMAIN-SUFFIX,cdnfonts.com
 DOMAIN-SUFFIX,d3js.org
