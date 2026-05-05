@@ -1,8 +1,0 @@
-payload:
-
-# Extra Reject Fix Proxy List
-
-# Google Play Download Fix
-  - 'services.googleapis.cn'
-  - 'services.googleapis.com'
-  - '+.xn--ngstr-lra8j.com'
