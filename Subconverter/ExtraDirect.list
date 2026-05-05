@@ -188,10 +188,6 @@ DOMAIN-SUFFIX,whatismybrowser.com
 
 #-----XXX
 
-# 星空不寂寞 https://www.xkbjm.com/
-DOMAIN-KEYWORD,xkbjm
-DOMAIN-KEYWORD,xingkbjm
-
 # 善用佳软 https://xbeta.info
 DOMAIN-SUFFIX,xbeta.info
 
@@ -201,7 +197,4 @@ DOMAIN-SUFFIX,xbeta.info
 DOMAIN-SUFFIX,yuc.wiki
 
 #-----ZZZ
-
-# 贼吧网 https://www.zei8.vip/
-DOMAIN-KEYWORD,zei8
 
