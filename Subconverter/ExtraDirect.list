@@ -104,12 +104,12 @@ DOMAIN,go2think.com
 #-----HHH
 
 # HiBitUninstaller https://www.hibitsoft.ir/index.html
-DOMAIN-KEYWORD,hibitsoft
+DOMAIN-SUFFIX,hibitsoft.ir
 
 #-----III
 
 # 异次元软件世界 https://www.iplaysoft.com/
-DOMAIN-KEYWORD,iplaysoft
+DOMAIN-SUFFIX,iplaysoft.com
 
 #-----JJJ
 
@@ -126,7 +126,7 @@ DOMAIN-KEYWORD,lightnovel
 #-----MMM
 
 # 蜜柑计划 https://mikanime.tv/ 国内站
-DOMAIN-KEYWORD,mikanime
+DOMAIN-SUFFIX,mikanime.tv
 DOMAIN-SUFFIX,raws.dev
 
 # 魔笔小说 https://www.mobinovels.com/
@@ -166,7 +166,7 @@ DOMAIN-SUFFIX,sixyin.com
 DOMAIN-SUFFIX,6yit.com
 
 # 字幕库 https://srtku.com
-DOMAIN-KEYWORD,srtku
+DOMAIN-SUFFIX,srtku.com
 
 #-----TTT
 
@@ -175,7 +175,8 @@ DOMAIN-SUFFIX,ts-dm.net
 DOMAIN-SUFFIX,tsdm39.com
 DOMAIN-SUFFIX,kudm.net
 DOMAIN-SUFFIX,mengniang.org
-DOMAIN-KEYWORD,aqours
+DOMAIN-SUFFIX,aqours.info
+DOMAIN-SUFFIX,aqours.net
 
 #-----UUU
 
