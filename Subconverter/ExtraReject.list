@@ -2,9 +2,8 @@
 
 #-----0-9
 
-# 12306
-DOMAIN-SUFFIX,ad.12306.cn
-DOMAIN-SUFFIX,m.12306media.com
+# 12306 @GEOSITE
+# DOMAIN-SUFFIX,ad.12306.cn
 
 #-----AAA
 
@@ -101,7 +100,6 @@ DOMAIN,flash.sec.miui.com
 #-----SSS
 # Sigmob 东莞通 APP 二维码页面广告
 DOMAIN-SUFFIX,sigmob.cn
-DOMAIN-SUFFIX,sigmob.com
 DOMAIN,taxi.dongguantong.com.cn
 
 #-----TTT
