@@ -23,28 +23,14 @@ DOMAIN-SUFFIX,images.weserv.nl
 # Bank
 DOMAIN-SUFFIX,drcbank.com
 
-# MeiTuan
-# Global
+# MeiTuan @GEOSITE
 DOMAIN-SUFFIX,mykeeta.com
 
-# Paypal
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,paypal-objects.com
-DOMAIN-SUFFIX,paypal-community.com
-DOMAIN-SUFFIX,paypalobjects.com
-# Paypal Related Company
-DOMAIN-SUFFIX,braintreegateway.com
-DOMAIN-SUFFIX,braintree-api.com
-
-# Tencent
+# Tencent @GEOSITE
 DOMAIN-SUFFIX,rumt-zh.com
 
 # Trackerslists
 DOMAIN-SUFFIX,trackerslist.com
-
-# Whois
-DOMAIN-SUFFIX,ipwho.is
 
 # Xiaomi
 DOMAIN-SUFFIX,browser.miui.srv
@@ -75,9 +61,6 @@ DOMAIN-SUFFIX,autohotkey.com
 
 #-----CCC
 
-# Canva https://www.canva.com/
-DOMAIN-SUFFIX,canva.com
-
 # ColaManga https://www.colamanga.com/
 DOMAIN-SUFFIX,colamanga.com
 
@@ -105,9 +88,6 @@ DOMAIN-SUFFIX,hibitsoft.ir
 
 #-----III
 
-# 异次元软件世界 https://www.iplaysoft.com/
-DOMAIN-SUFFIX,iplaysoft.com
-
 #-----JJJ
 
 # 鸠摩搜索 https://www.jiumodiary.com/
@@ -116,9 +96,6 @@ DOMAIN-SUFFIX,jiumodiary.com
 #-----KKK
 
 #-----LLL
-
-# 轻之国度 https://www.lightnovel.us（Direct 访问慢）
-DOMAIN-KEYWORD,lightnovel
 
 #-----MMM
 
@@ -145,16 +122,9 @@ DOMAIN-SUFFIX,paratranz.cn
 
 #-----RRR
 
-# 阮一峰的网络日志 http://www.ruanyifeng.com
-DOMAIN-SUFFIX,ruanyifeng.com
-DOMAIN-SUFFIX,wangbase.com
-
 # 深夜读书会 http://ritdon.com/
 DOMAIN-SUFFIX,ritdon.com
 DOMAIN-SUFFIX,jquerycdns.com
-
-# RssEverything https://rsseverything.com/dashboard
-DOMAIN-SUFFIX,rsseverything.com
 
 #-----SSS
 
@@ -166,14 +136,6 @@ DOMAIN-SUFFIX,6yit.com
 DOMAIN-SUFFIX,srtku.com
 
 #-----TTT
-
-# 天使动漫 https://www.tsdm39.com/ 正常访问
-DOMAIN-SUFFIX,ts-dm.net
-DOMAIN-SUFFIX,tsdm39.com
-DOMAIN-SUFFIX,kudm.net
-DOMAIN-SUFFIX,mengniang.org
-DOMAIN-SUFFIX,aqours.info
-DOMAIN-SUFFIX,aqours.net
 
 #-----UUU
 

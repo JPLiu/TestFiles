@@ -5,10 +5,6 @@ DOMAIN-SUFFIX,yhdmjx.com
 DOMAIN-SUFFIX,yinghuazy.com
 DOMAIN-SUFFIX,server.mch3.com
 
-# Resource Public CDN
-# https://www.jiasule.com/
-DOMAIN-SUFFIX,jiasule.com
-
 # -------------------------------------------------
 # 按网址排序
 
