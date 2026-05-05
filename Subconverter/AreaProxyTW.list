@@ -14,8 +14,9 @@
 
 # 伊莉讨论区 http://www.eyny.com/
 DOMAIN-SUFFIX,eyny.com
-# Relate
-DOMAIN-SUFFIX,static-file.com
+DOMAIN-SUFFIX,eyny.tv
+DOMAIN-SUFFIX,encdn.com
+DOMAIN-SUFFIX,inshub.com
 
 #-----FFF
 
