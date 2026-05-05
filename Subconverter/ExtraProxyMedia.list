@@ -1,33 +1,13 @@
 # Extra Proxy List
 
-# Resource
-# https://hanime1.me/
-DOMAIN-KEYWORD,hembed
-
 # Resource Public Picture
 # https://imgbox.com/
-DOMAIN-KEYWORD,imgbox
+DOMAIN-SUFFIX,imgbox.com
 
 # -------------------------------------------------
 # 按网址排序
 
 #-----0-9
-
-# 樱花动漫 https://www.916dm.fans/
-# 发布页
-DOMAIN-SUFFIX,916dm.fans
-DOMAIN-SUFFIX,295k.cc
-# 网站主页
-DOMAIN-KEYWORD,06dm
-DOMAIN-KEYWORD,16dm
-DOMAIN-KEYWORD,26dm
-DOMAIN-KEYWORD,36dm
-DOMAIN-KEYWORD,46dm
-DOMAIN-KEYWORD,56dm
-DOMAIN-KEYWORD,66dm
-DOMAIN-KEYWORD,76dm
-DOMAIN-KEYWORD,86dm
-DOMAIN-KEYWORD,96dm
 
 #-----AAA
 
@@ -49,6 +29,12 @@ DOMAIN-SUFFIX,anicdn.com
 
 #-----HHH
 
+# Hanime1 https://hanime1.me/
+DOMAIN-SUFFIX,hanime1.me
+DOMAIN-SUFFIX,hembed.com
+DOMAIN-SUFFIX,hath.network
+DOMAIN-SUFFIX,h-img.com
+
 #-----III
 
 #-----JJJ
@@ -63,7 +49,14 @@ DOMAIN-SUFFIX,anicdn.com
 DOMAIN-KEYWORD,mikanani
 
 # MissAV https://missav.ws
-DOMAIN-KEYWORD,missav
+DOMAIN-SUFFIX,missav.ws
+DOMAIN-SUFFIX,missav.com
+DOMAIN-SUFFIX,missav.ai
+DOMAIN-SUFFIX,missav.net
+
+# 相关资源 CDN
+DOMAIN-SUFFIX,sixav.com
+DOMAIN-SUFFIX,ev001.com
 
 #-----NNN
 
