@@ -130,6 +130,9 @@ DOMAIN-SUFFIX,portableapps.com
 # The Portable Freeware Collection https://www.portablefreeware.com
 DOMAIN-SUFFIX,portablefreeware.com
 
+# PPSSPP https://www.ppsspp.org/
+DOMAIN-SUFFIX,ppsspp.org
+
 # WinRAR https://www.rarlab.com/
 DOMAIN-SUFFIX,rarlab.com
 
