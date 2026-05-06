@@ -1,48 +1,16 @@
 # Extra Proxy List
 
-# Resource Public
-
 # ------------------------------------------------------
-
-# 按网址排序
-
-#-----0-9
-
-#-----AAA
 
 # Anime1 https://anime1.me/
 DOMAIN-SUFFIX,anime1.me
 DOMAIN-SUFFIX,anime1.tv
 DOMAIN-SUFFIX,anicdn.com
 
-#-----BBB
-
-#-----CCC
-
-#-----DDD
-
-#-----EEE
-
-#-----FFF
-
-#-----GGG
-
-#-----HHH
-
 # Hanime1 https://hanime1.me/ @GEOSITE
 # DOMAIN-SUFFIX,hanime1.me
 # DOMAIN-SUFFIX,hembed.com
 # DOMAIN-SUFFIX,hath.network
-
-#-----III
-
-#-----JJJ
-
-#-----KKK
-
-#-----LLL
-
-#-----MMM
 
 # 蜜柑计划 https://mikanani.me @GEOSITE
 # DOMAIN-SUFFIX,mikanani.me
@@ -50,30 +18,4 @@ DOMAIN-SUFFIX,anicdn.com
 # MissAV https://missav.ws @GEOSITE
 # DOMAIN-SUFFIX,missav.ws
 # DOMAIN-SUFFIX,missav.ai
-
-#-----NNN
-
-#-----OOO
-
-#-----PPP
-
-#-----QQQ
-
-#-----RRR
-
-#-----SSS
-
-#-----TTT
-
-#-----UUU
-
-#-----VVV
-
-#-----WWW
-
-#-----XXX
-
-#-----YYY
-
-#-----ZZZ
 

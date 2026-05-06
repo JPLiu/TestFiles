@@ -1,6 +1,8 @@
 # Area Proxy JP List
 
-#H HatenaBlog https://hatenablog.com/
+# ------------------------------------------------------
+
+# HatenaBlog https://hatenablog.com/
 DOMAIN-SUFFIX,hatenablog.com
 DOMAIN-SUFFIX,hatenablog.jp
 DOMAIN-SUFFIX,hatena.ne.jp

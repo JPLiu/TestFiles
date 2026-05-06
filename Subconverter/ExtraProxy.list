@@ -1,12 +1,22 @@
 # Extra Proxy List
 
-# Resource
+# ------------------------------------------------------
 
 # ------------------------------------------------------
 
-# 2dfan https://2dfan.org
-DOMAIN-SUFFIX,2dfan.org
-DOMAIN-SUFFIX,achost.top
+# Broswer
+# UserScript
+DOMAIN-SUFFIX,tampermonkey.net
+DOMAIN-SUFFIX,greasyfork.org
+DOMAIN-SUFFIX,sleazyfork.org
+# DarkReader
+DOMAIN-SUFFIX,darkreader.org
+# Userstyles https://userstyles.org/
+DOMAIN-SUFFIX,userstyles.org
+# uBlock Origin
+DOMAIN-SUFFIX,fanboy.co.nz
+# UserScripts - RSS+
+DOMAIN-SUFFIX,ravi.cool
 
 # Brave @GEOSITE
 DOMAIN-SUFFIX,brave.com
@@ -21,18 +31,22 @@ DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,c.pki.goog
 
+# Total Commander
+DOMAIN-SUFFIX,ghisler.com
+DOMAIN-SUFFIX,totalcmd.net
+DOMAIN-SUFFIX,wincmd.ru
+
 # WordPress
 DOMAIN-SUFFIX,s.w.org
 
-# -------------------------------------------------
-# 按网址排序
+# ------------------------------------------------------
 
-#-----0-9
+# 2dfan https://2dfan.org
+DOMAIN-SUFFIX,2dfan.org
+DOMAIN-SUFFIX,achost.top
 
 # 7-Zip https://www.7-zip.org/
 DOMAIN-SUFFIX,7-zip.org
-
-#-----AAA
 
 # ACG盒子 https://www.acgbox.link
 DOMAIN-SUFFIX,acgbox.link
@@ -40,10 +54,6 @@ DOMAIN-SUFFIX,acgbox.link
 # 次元狗 https://www.acgndog.com/ 偶发异常 @GEOSITE
 DOMAIN-SUFFIX,acgndog.com
 DOMAIN-SUFFIX,moetu.club
-
-#-----BBB
-
-#-----CCC
 
 # Rom Tools https://chdman.com/
 DOMAIN-SUFFIX,chdman.com
@@ -54,14 +64,8 @@ DOMAIN-SUFFIX,inveigle.net
 # 漫猫动漫 http://www.comicat.org/
 DOMAIN-SUFFIX,comicat.org
 
-#-----DDD
-
-#-----EEE
-
 # Ecosia https://www.ecosia.org
 DOMAIN-SUFFIX,ecosia.org
-
-#-----FFF
 
 # FastCopy https://fastcopy.jp/
 DOMAIN-SUFFIX,fastcopy.jp
@@ -73,38 +77,12 @@ DOMAIN-SUFFIX,fatsecret.cn
 # FetchRSS https://fetchrss.com/
 DOMAIN-SUFFIX,fetchrss.com
 
-# Firefox
-# Firefox Addon
-# Firefox UserScript
-DOMAIN-SUFFIX,tampermonkey.net
-# https://greasyfork.org/zh-CN
-# https://sleazyfork.org/zh-CN
-DOMAIN-SUFFIX,greasyfork.org
-DOMAIN-SUFFIX,sleazyfork.org
-# Firefox DarkReader
-DOMAIN-SUFFIX,darkreader.org
-# Firefox Userstyles https://userstyles.org/
-DOMAIN-SUFFIX,userstyles.org
-# Firefox uBlock Origin
-DOMAIN-SUFFIX,fanboy.co.nz
-# Firefox SpeedyFox https://crystalidea.com/speedyfox
-DOMAIN-SUFFIX,crystalidea.com
-
-# UserScripts - RSS+
-DOMAIN-SUFFIX,ravi.cool
-
 # Foobar2000 https://www.foobar2000.org/
 DOMAIN-SUFFIX,foobar2000.org
 DOMAIN-SUFFIX,dbpoweramp.com
 
-#-----GGG
-
 # ShareX https://getsharex.com/
 DOMAIN-SUFFIX,getsharex.com
-
-#-----HHH
-
-#-----III
 
 # InfiniCLOUD
 DOMAIN-SUFFIX,infini-cloud.net
@@ -116,22 +94,14 @@ DOMAIN-SUFFIX,innoreader.com
 # IrfanView https://www.irfanview.com/
 DOMAIN-SUFFIX,irfanview.com
 
-#-----JJJ
-
-#-----KKK
-
 # KeePass https://keepass.info/ @GEOSITE
 # DOMAIN-SUFFIX,keepass.info
 
 # Koofr https://app.koofr.net/login
 DOMAIN-SUFFIX,koofr.net
 
-#-----LLL
-
 # lilydjwg.me https://rss.lilydjwg.me/
 DOMAIN-SUFFIX,rss.lilydjwg.me
-
-#-----MMM
 
 # MAZANOKE https://mazanoke.com/
 DOMAIN-SUFFIX,mazanoke.com
@@ -145,14 +115,8 @@ DOMAIN-SUFFIX,miobt.com
 # Mixplorer
 DOMAIN-SUFFIX,mixplorer.com
 
-#-----NNN
-
-#-----OOO
-
 # 我不是盐神 https://onehu.xyz/
 DOMAIN-SUFFIX,onehu.xyz
-
-#-----PPP
 
 # PhotoDemon https://photodemon.org/
 DOMAIN-SUFFIX,photodemon.org
@@ -163,31 +127,15 @@ DOMAIN-SUFFIX,portableapps.com
 # The Portable Freeware Collection https://www.portablefreeware.com
 DOMAIN-SUFFIX,portablefreeware.com
 
-#-----QQQ
-
-#-----RRR
-
 # WinRAR https://www.rarlab.com/
 DOMAIN-SUFFIX,rarlab.com
 
-#-----SSS
+# SpeedyFox https://crystalidea.com/speedyfox
+DOMAIN-SUFFIX,crystalidea.com
 
 # Sumatra PDF https://www.sumatrapdfreader.org/
 DOMAIN-SUFFIX,sumatrapdfreader.org
 DOMAIN-SUFFIX,unavatar.io
-
-#-----TTT
-
-# Total Commander
-# 官网 https://www.ghisler.com/
-DOMAIN-SUFFIX,ghisler.com
-# Relate https://totalcmd.net/
-DOMAIN-SUFFIX,totalcmd.net
-DOMAIN-SUFFIX,wincmd.ru
-
-#-----UUU
-
-#-----VVV
 
 # VideoHelp https://www.videohelp.com/
 DOMAIN-SUFFIX,videohelp.com
@@ -195,21 +143,12 @@ DOMAIN-SUFFIX,videohelp.com
 # Everything https://www.voidtools.com/
 DOMAIN-SUFFIX,voidtools.com
 
-#-----WWW
-
-# 轻小说文库 https://www.wenku8.net 偶发异常 @GEOSITE
+# 轻小说文库 https://www.wenku8.net @GEOSITE
 DOMAIN-SUFFIX,wenku8.com
 DOMAIN-SUFFIX,wenku8.net
 
-# Workflowy https://workflowy.com/ 不定期无法访问
+# Workflowy https://workflowy.com/
 DOMAIN-SUFFIX,workflowy.com
-# Relate
 DOMAIN-SUFFIX,cdnfonts.com
 DOMAIN-SUFFIX,d3js.org
-
-#-----XXX
-
-#-----YYY
-
-#-----ZZZ
 

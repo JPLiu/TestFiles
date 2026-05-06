@@ -1,6 +1,8 @@
 # Extra Reject Fix Direct List
 
-# FixAWAvenueAdsRule
+# ------------------------------------------------------
+
+# Fix AWAvenueAdsRule
 # https://awavenue.top/Knowledge.html
 DOMAIN-SUFFIX,a0.app.xiaomi.com
 DOMAIN-SUFFIX,shouji.sougou.com
