@@ -1,0 +1,13 @@
+payload:
+
+# Area Proxy US List
+
+#A Aurora Store @GEOSITE
+  - '+.auroraoss.com'
+
+#Y Peter Lowe’s Ad and tracking server list https://pgl.yoyo.org/adservers/serverlist.php
+  - '+.yoyo.org'
+
+
+
+

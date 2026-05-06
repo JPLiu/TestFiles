@@ -1,0 +1,25 @@
+payload:
+
+# Extra Proxy Media List
+
+# Resource Public
+
+# -------------------------------------------------
+# 按网址排序
+
+#A Anime1 https://anime1.me/
+  - '+.anime1.me'
+  - '+.anime1.tv'
+  - '+.anicdn.com'
+
+#H Hanime1 https://hanime1.me/ @GEOSITE
+# - '+.hanime1.me'
+# - '+.hembed.com'
+# - '+.hath.network'
+
+#M 蜜柑计划 https://mikanani.me @GEOSITE
+# - '+.mikanani.me'
+
+#M MissAV https://missav.ws @GEOSITE
+# - '+.missav.ws'
+# - '+.missav.ai'

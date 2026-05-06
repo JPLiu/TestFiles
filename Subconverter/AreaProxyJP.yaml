@@ -1,0 +1,10 @@
+payload:
+
+# Area Proxy JP List
+
+#H HatenaBlog https://hatenablog.com/
+  - '+.hatenablog.com'
+  - '+.hatenablog.jp'
+  - '+.hatena.ne.jp'
+  - '+.hatena.com'
+

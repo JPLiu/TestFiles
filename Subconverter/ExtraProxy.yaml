@@ -1,0 +1,146 @@
+payload:
+
+# Extra Proxy List
+
+# Resource
+# Resource Public CDN
+
+# -------------------------------------------------
+# 按首字母排序
+
+# Browser
+  - '+.brave.com'
+  - '+.tampermonkey.net'
+  - '+.greasyfork.org'
+  - '+.sleazyfork.org'
+  - '+.darkreader.org'
+  - '+.userstyles.org'
+  - '+.fanboy.co.nz'
+  - '+.crystalidea.com'
+# UserScripts - RSS+
+  - '+.ravi.cool'
+
+# CordCloud
+  - '+.crisp.chat'
+
+# Google
+  - '+.googleapis.com'
+  - '+.gstatic.com'
+  - '+.c.pki.goog'
+
+# WordPress
+  - '+.s.w.org'
+
+# -------------------------------------------------
+# 按网址排序
+
+#0 7-Zip https://www.7-zip.org/
+  - '+.7-zip.org'
+
+#0 2dfan https://2dfan.org
+  - '+.2dfan.org'
+  - '+.achost.top'
+
+#A ACG盒子 https://www.acgbox.link
+  - '+.acgbox.link'
+
+#A 次元狗 https://www.acgndog.com/
+  - '+.acgndog.com'
+  - '+.moetu.club'
+
+#C Rom Tools https://chdman.com/
+  - '+.chdman.com'
+
+#C 漫猫动漫 http://www.comicat.org/
+  - '+.comicat.org'
+
+#E Ecosia https://www.ecosia.org
+  - '+.ecosia.org'
+
+#F FastCopy https://fastcopy.jp/
+  - '+.fastcopy.jp'
+
+#F FatSecret https://www.fatsecret.cn
+  - '+.fatsecret.com'
+  - '+.fatsecret.cn'
+
+#F FetchRSS https://fetchrss.com/
+  - '+.fetchrss.com'
+
+#F Foobar2000 https://www.foobar2000.org/
+  - '+.foobar2000.org'
+  - '+.dbpoweramp.com'
+
+#G ShareX https://getsharex.com/
+  - '+.getsharex.com'
+
+#I CMail https://www.inveigle.net/cmail/download
+  - '+.inveigle.net'
+
+#I InfiniCLOUD
+  - '+.infini-cloud.net'
+
+#I Inoreader https://www.inoreader.com/all_articles
+  - '+.inoreader.com'
+  - '+.innoreader.com'
+
+#I IrfanView https://www.irfanview.com/
+  - '+.irfanview.com'
+
+#K Koofr https://app.koofr.net/login
+  - '+.koofr.net'
+
+#L lilydjwg.me https://rss.lilydjwg.me/
+  - '+.rss.lilydjwg.me'
+
+#M MAZANOKE https://mazanoke.com/
+  - '+.mazanoke.com'
+
+#M Miniflux
+  - '+.miniflux.app'
+
+#M MioBT https://www.miobt.com/
+  - '+.miobt.com'
+
+#M Mixplorer
+  - '+.mixplorer.com'
+
+#O 我不是盐神 https://onehu.xyz/
+  - '+.onehu.xyz'
+
+#P PhotoDemon https://photodemon.org/
+  - '+.photodemon.org'
+
+#P Portableapps https://portableapps.com/
+  - '+.portableapps.com'
+
+#P The Portable Freeware Collection https://www.portablefreeware.com
+  - '+.portablefreeware.com'
+
+#W WinRAR https://www.rarlab.com/
+  - '+.rarlab.com'
+
+#S Sumatra PDF https://www.sumatrapdfreader.org/
+  - '+.sumatrapdfreader.org'
+  - '+.unavatar.io'
+
+#T Total Commander
+  - '+.totalcmd.net'
+  - '+.ghisler.com'
+  - '+.wincmd.ru'
+
+#V VideoHelp https://www.videohelp.com/
+  - '+.videohelp.com'
+
+#V Everything https://www.voidtools.com/
+  - '+.voidtools.com'
+
+#W 轻小说文库 https://www.wenku8.net
+  - '+.wenku8.com'
+  - '+.wenku8.net'
+
+#W Workflowy https://workflowy.com/
+  - '+.workflowy.com'
+  - '+.cdnfonts.com'
+  - '+.d3js.org'
+

@@ -1,0 +1,14 @@
+payload:
+
+# Extra Direct Media List
+
+# Resource
+  - '+.yhdmjx.com'
+  - '+.yinghuazy.com'
+  - '+.server.mch3.com'
+
+# -------------------------------------------------
+# 按网址排序
+
+#Y 雅图 http://www.yatu.tv
+  - '+.yatu.tv'

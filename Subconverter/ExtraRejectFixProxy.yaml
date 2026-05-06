@@ -1,0 +1,8 @@
+payload:
+
+# Extra Reject Fix Proxy List
+
+# Google Play Download Fix https://github.com/2dust/v2rayNG/issues/1234
+  - 'services.googleapis.cn'
+  - 'services.googleapis.com'
+  - '+.xn--ngstr-lra8j.com'

@@ -1,0 +1,12 @@
+payload:
+
+# Extra Reject Fix Direct List
+
+# FixAWAvenueAdsRule https://awavenue.top/Knowledge.html
+  - '+.a0.app.xiaomi.com'
+  - '+.shouji.sougou.com'
+
+# Personal Blog
+  - '+.jpliu.github.io'
+
+
