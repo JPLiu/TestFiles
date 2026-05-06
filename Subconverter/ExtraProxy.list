@@ -81,6 +81,9 @@ DOMAIN-SUFFIX,fetchrss.com
 DOMAIN-SUFFIX,foobar2000.org
 DOMAIN-SUFFIX,dbpoweramp.com
 
+# GeekUnistaller https://geekuninstaller.com/
+DOMAIN-SUFFIX,geekuninstaller.com
+
 # ShareX https://getsharex.com/
 DOMAIN-SUFFIX,getsharex.com
 
