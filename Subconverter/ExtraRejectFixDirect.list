@@ -1,64 +1,10 @@
 # Extra Reject Fix Direct List
 
-#-----0-9
-
-#-----AAA
-
 # FixAWAvenueAdsRule
 # https://awavenue.top/Knowledge.html
 DOMAIN-SUFFIX,a0.app.xiaomi.com
 DOMAIN-SUFFIX,shouji.sougou.com
 
-#-----BBB
-
-#-----CCC
-
-#-----DDD
-
-#-----EEE
-
-#-----FFF
-
-#-----GGG
-
-#-----HHH
-
-#-----III
-
-#-----JJJ
-
-# Blog
+# Personal Blog
 DOMAIN,jpliu.github.io
-
-#-----KKK
-
-#-----LLL
-
-#-----MMM
-
-#-----NNN
-
-#-----OOO
-
-#-----PPP
-
-#-----QQQ
-
-#-----RRR
-
-#-----SSS
-
-#-----TTT
-
-#-----UUU
-
-#-----VVV
-
-#-----WWW
-
-#-----XXX
-
-#-----YYY
-
-#-----ZZZ
 

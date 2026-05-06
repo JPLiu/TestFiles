@@ -1,59 +1,7 @@
 # Extra Reject List
 
-#-----0-9
-
-# 12306 @GEOSITE
-# DOMAIN-SUFFIX,ad.12306.cn
-
-#-----AAA
-
-#-----BBB
-
-# Bilibili PCDN
-# 参考 https://thhbdd.github.io/Block-pcdn-domains/ban.txt
-# 影响客户端缓存，暂时停用
-# DOMAIN-SUFFIX,mcdn.bilivideo.cn
-# DOMAIN-SUFFIX,szbdyd.com
-
-#-----CCC
-# crxMouse
-# Chromium crxMouse 扩展默认后台上传
-DOMAIN,api.mousegesturesapi.com
-
-#-----DDD
-
-#-----EEE
-
-#-----FFF
-
-# Flash
-DOMAIN-SUFFIX,www.flash.cn
-DOMAIN-SUFFIX,2144.com
-# 重橙网络 https://www.izhongcheng.cn
-DOMAIN-SUFFIX,izhongcheng.cn
-
-#-----GGG
-
 # 运营商推送（联通）
 DOMAIN-SUFFIX,gd165.com
-
-#-----HHH
-
-#-----III
-
-#-----JJJ
-
-# JMComic
-DOMAIN-SUFFIX,adserver.com
-DOMAIN-SUFFIX,ads.jmc.com
-DOMAIN-SUFFIX,jads.jp
-DOMAIN-SUFFIX,jads.co.jp
-
-#-----KKK
-
-#-----LLL
-
-#-----MMM
 
 # MIUI 参考自：https://github.com/LoopDns/Fuck-you-MIUI 20230820
 # MIhosts
@@ -87,35 +35,37 @@ DOMAIN,tracking.miui.com
 # 反诈
 DOMAIN,flash.sec.miui.com
 
-#-----NNN
+# ------------------------------------------------------
 
-#-----OOO
+# 12306 @GEOSITE
+# DOMAIN-SUFFIX,ad.12306.cn
 
-#-----PPP
+# Bilibili PCDN
+# 参考 https://thhbdd.github.io/Block-pcdn-domains/ban.txt
+# 影响客户端缓存，暂时停用
+# DOMAIN-SUFFIX,mcdn.bilivideo.cn
+# DOMAIN-SUFFIX,szbdyd.com
 
-#-----QQQ
+# crxMouse
+# Chromium crxMouse 扩展默认后台上传
+DOMAIN,api.mousegesturesapi.com
 
-#-----RRR
+# Flash
+DOMAIN-SUFFIX,www.flash.cn
+DOMAIN-SUFFIX,2144.com
+# 重橙网络 https://www.izhongcheng.cn
+DOMAIN-SUFFIX,izhongcheng.cn
 
-#-----SSS
+# JMComic
+DOMAIN-SUFFIX,adserver.com
+DOMAIN-SUFFIX,ads.jmc.com
+DOMAIN-SUFFIX,jads.jp
+DOMAIN-SUFFIX,jads.co.jp
+
 # Sigmob 东莞通 APP 二维码页面广告
 DOMAIN-SUFFIX,sigmob.cn
 DOMAIN,taxi.dongguantong.com.cn
 
-#-----TTT
-
-#-----UUU
-
-#-----VVV
-
-#-----WWW
-
 # WinRAR
 DOMAIN-SUFFIX,ad.winrar.com.cn
-
-#-----XXX
-
-#-----YYY
-
-#-----ZZZ
 
