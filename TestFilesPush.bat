@@ -1,12 +1,11 @@
 chcp 65001 >nul
 @echo off
 
+set HTTP_PROXY=http://127.0.0.1:7890
+set HTTPS_PROXY=http://127.0.0.1:7890
 set UpdateTime=%date% %time%
 
 set /p CommitTitle=请输入 Commit 内容：
-
-set HTTP_PROXY=http://127.0.0.1:7890
-set HTTPS_PROXY=http://127.0.0.1:7890
 
 :Push
 git add *
