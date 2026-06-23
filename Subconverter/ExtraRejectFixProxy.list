@@ -6,5 +6,5 @@
 # https://github.com/2dust/v2rayNG/issues/1234
 DOMAIN,services.googleapis.cn
 DOMAIN,services.googleapis.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-
+# @GEOSITE google-play
+# DOMAIN-SUFFIX,xn--ngstr-lra8j.com
