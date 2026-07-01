@@ -2,6 +2,11 @@
 
 # ------------------------------------------------------
 
+# CordC
+DOMAIN-SUFFIX,cordc.cc
+DOMAIN-SUFFIX,cordc.net
+DOMAIN-SUFFIX,cordc.xyz
+
 # Fix AWAvenueAdsRule
 # https://awavenue.top/Knowledge.html
 DOMAIN-SUFFIX,a0.app.xiaomi.com
