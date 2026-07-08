@@ -1,7 +1,7 @@
 {
 	"id": 2010,
 	"name": "JPLiu 订阅-NoFast",
-	"version": 33,
+	"version": 34,
 	"author": "JPLiu",
 	"supportUri": "https://github.com/JPLiu/TestFiles",
 	"apps": [{
@@ -76,6 +76,16 @@
 			"desc": "生日开屏-NoFast",
 			"key": 0,
 			"rules": "[id=\"com.eg.android.AlipayGphone:id/splash_skip_tip_container\"]"
+		}]
+	},{
+		"id": "tv.danmaku.bili",
+		"name": "哔哩哔哩",
+		"groups": [{
+			"name": "底部插入广告",
+			"desc": "底部插入广告-NoFast",
+			"key": 0,
+			"activityIds": "com.bilibili.ship.theseus.playlist.UnitedPlaylistActivity",
+            "rules": "View[clickable=true] > [desc='close']"
 		}]
 	}]
 }
