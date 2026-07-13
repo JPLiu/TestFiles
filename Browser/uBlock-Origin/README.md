@@ -3,7 +3,6 @@
 ## 变更记录
 
 - 2025.06.28 停用 Content-Farms-Lite
-- 2025.09.13 移除 RuleGroup-uBO
 
 ## 列表清单
 
