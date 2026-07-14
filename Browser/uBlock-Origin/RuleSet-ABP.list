@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's ABP RuleSet
-! Version: 20260712153824
+! Version: 20260714213305
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -42,10 +42,6 @@ hanime1.me##div[id="close-mobile-ad-btn"]
 hanime1.me##[href*="erodalabs.com"]
 bbs.kafan.cn##.pbn.cl.bm_c
 bbs.kafan.cn##.plm.plc
-landiannews.com##.content-gg
-landiannews.com##section[id^=block-]
-||img.lancdn.com/*.gif$image,domain=landiannews.com
-pkhex-web.github.io##.cc-isolation-container
 work.weixin.qq.com##.index_head
 work.weixin.qq.com##.index_top
 work.weixin.qq.com##div[class="index_section index_section_Case"]
@@ -56,7 +52,7 @@ wx.mail.qq.com##div[class^="cmp-vip"]
 ||totalcmd.net/images/*-700.jpg$image
 weibo.com##div[node-type="recommend"]
 weibo.com##div[class*="ProfileFocusPic_box_"]
-www.wenku8.net##[id^="adv"]
+wenku8.*##[id^="adv"]
 wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*="erodatalabs.com"]
 wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*=".shop"]
 wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##li[class="cate-0"]
