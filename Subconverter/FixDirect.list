@@ -2,10 +2,10 @@
 
 # ------------------------------------------------------
 
-# CordC
-DOMAIN-SUFFIX,cordc.cc
-DOMAIN-SUFFIX,cordc.net
-DOMAIN-SUFFIX,cordc.xyz
+# CordC 整合到配置文件
+#DOMAIN-SUFFIX,cordc.cc
+#DOMAIN-SUFFIX,cordc.net
+#DOMAIN-SUFFIX,cordc.xyz
 
 # Fix AWAvenueAdsRule
 # https://awavenue.top/Knowledge.html
