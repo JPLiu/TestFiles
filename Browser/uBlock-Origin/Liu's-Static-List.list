@@ -38,13 +38,6 @@ anime1.me##div[id^="ad-"]
 pan.baidu.com##button[status="svipline"]
 
 ! bilibili
-! 乘风优化
-! 参考 https://bbs.kafan.cn/thread-2284745-1-1.html
-||hdslb.com/bfs/seed/jinkela/short/b-mirror/biliMirror.$script
-||hdslb.com/bfs/seed/jinkela/kv-sdk/$script
-||hdslb.com/bfs/seed/jinkela/short/reporter-pb/$script
-!bilibili.com##+js(nowebrtc)
-||data.bilibili.com/log/$xhr,empty
 ! 移除 PC 端班头图
 www.bilibili.com##div[class="recommended-swipe"]
 
