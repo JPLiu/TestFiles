@@ -9,8 +9,6 @@
 DOMAIN-SUFFIX,tampermonkey.net
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,sleazyfork.org
-# DarkReader
-DOMAIN-SUFFIX,darkreader.org
 # Userstyles https://userstyles.org/
 DOMAIN-SUFFIX,userstyles.org
 # uBlock Origin
@@ -36,9 +34,6 @@ DOMAIN-SUFFIX,ghisler.com
 DOMAIN-SUFFIX,totalcmd.net
 DOMAIN-SUFFIX,wincmd.ru
 
-# WordPress
-DOMAIN-SUFFIX,s.w.org
-
 # ------------------------------------------------------
 
 # 2dfan https://2dfan.org
@@ -48,34 +43,15 @@ DOMAIN-SUFFIX,achost.top
 # 7-Zip https://www.7-zip.org/
 DOMAIN-SUFFIX,7-zip.org
 
-# ACG盒子 https://www.acgbox.link
-DOMAIN-SUFFIX,acgbox.link
-
-# 次元狗 https://www.acgndog.com/ 偶发异常 @GEOSITE
-DOMAIN-SUFFIX,acgndog.com
-DOMAIN-SUFFIX,moetu.club
-
 # Rom Tools https://chdman.com/
 DOMAIN-SUFFIX,chdman.com
-
-# CMail https://www.inveigle.net/cmail/download
-DOMAIN-SUFFIX,inveigle.net
-
-# 漫猫动漫 http://www.comicat.org/
-DOMAIN-SUFFIX,comicat.org
 
 # Ecosia https://www.ecosia.org
 DOMAIN-SUFFIX,ecosia.org
 
-# FastCopy https://fastcopy.jp/
-DOMAIN-SUFFIX,fastcopy.jp
-
 # FatSecret https://www.fatsecret.cn
 DOMAIN-SUFFIX,fatsecret.com
 DOMAIN-SUFFIX,fatsecret.cn
-
-# FetchRSS https://fetchrss.com/
-DOMAIN-SUFFIX,fetchrss.com
 
 # Foobar2000 https://www.foobar2000.org/
 DOMAIN-SUFFIX,foobar2000.org
@@ -142,9 +118,6 @@ DOMAIN-SUFFIX,crystalidea.com
 # Sumatra PDF https://www.sumatrapdfreader.org/
 DOMAIN-SUFFIX,sumatrapdfreader.org
 DOMAIN-SUFFIX,unavatar.io
-
-# VideoHelp https://www.videohelp.com/
-DOMAIN-SUFFIX,videohelp.com
 
 # Everything https://www.voidtools.com/
 DOMAIN-SUFFIX,voidtools.com
