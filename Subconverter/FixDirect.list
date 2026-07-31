@@ -4,10 +4,10 @@
 
 # CordC
 DOMAIN-KEYWORD,cordc
-#DOMAIN-SUFFIX,cordc.cc
-#DOMAIN-SUFFIX,cordc.net
-#DOMAIN-SUFFIX,cordc.xyz
-#DOMAIN-SUFFIX,cordcloud.biz
+# DOMAIN-SUFFIX,cordc.cc
+# DOMAIN-SUFFIX,cordc.net
+# DOMAIN-SUFFIX,cordc.xyz
+# DOMAIN-SUFFIX,cordcloud.biz
 
 # Fix AWAvenueAdsRule
 # https://awavenue.top/Knowledge.html
