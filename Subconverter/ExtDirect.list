@@ -23,12 +23,6 @@ DOMAIN-SUFFIX,weserv.nl
 # Bank
 DOMAIN-SUFFIX,drcbank.com
 
-# MeiTuan @GEOSITE
-DOMAIN-SUFFIX,mykeeta.com
-
-# Tencent @GEOSITE
-DOMAIN-SUFFIX,rumt-zh.com
-
 # Trackerslists
 DOMAIN-SUFFIX,trackerslist.com
 
@@ -49,12 +43,6 @@ DOMAIN-SUFFIX,anyfeeder.com
 # AutoHotkey https://www.autohotkey.com/
 DOMAIN-SUFFIX,autohotkey.com
 
-# ColaManga https://www.colamanga.com/
-DOMAIN-SUFFIX,colamanga.com
-
-# Flowchart.fun https://flowchart.fun
-DOMAIN-SUFFIX,flowchart.fun
-
 # GKD https://i.gkd.li/device
 DOMAIN,i.gkd.li
 
@@ -63,9 +51,6 @@ DOMAIN,go2think.com
 
 # HiBitUninstaller https://www.hibitsoft.ir/index.html
 DOMAIN-SUFFIX,hibitsoft.ir
-
-# 鸠摩搜索 https://www.jiumodiary.com/
-DOMAIN-SUFFIX,jiumodiary.com
 
 # 蜜柑计划 https://mikanime.tv/ 国内站
 DOMAIN-SUFFIX,mikanime.tv
