@@ -50,7 +50,7 @@ DOMAIN,flash.sec.miui.com
 
 # crxMouse
 # Chromium crxMouse 扩展默认后台上传
-DOMAIN,api.mousegesturesapi.com
+# DOMAIN,api.mousegesturesapi.com
 
 # Flash
 DOMAIN-SUFFIX,www.flash.cn
