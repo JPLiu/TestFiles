@@ -35,9 +35,6 @@ DOMAIN-SUFFIX,trackerslist.com
 # Xiaomi
 DOMAIN-SUFFIX,browser.miui.srv
 
-# Personal Blog Relate
-DOMAIN-SUFFIX,polyfill.io
-
 # ------------------------------------------------------
 
 # 神奇宝贝百科 https://wiki.52poke.com
@@ -73,12 +70,6 @@ DOMAIN-SUFFIX,jiumodiary.com
 # 蜜柑计划 https://mikanime.tv/ 国内站
 DOMAIN-SUFFIX,mikanime.tv
 DOMAIN-SUFFIX,raws.dev
-
-# 魔笔小说 https://www.mobinovels.com/
-DOMAIN-SUFFIX,mobinovels.com
-
-# OldmanEmu https://www.oldmantvg.net
-DOMAIN-SUFFIX,oldmantvg.net
 
 # Paratranz https://paratranz.cn
 DOMAIN-SUFFIX,paratranz.cn
