@@ -52,6 +52,11 @@ DOMAIN,go2think.com
 # HiBitUninstaller https://www.hibitsoft.ir/index.html
 DOMAIN-SUFFIX,hibitsoft.ir
 
+# 漫画柜 https://m.manhuagui.com/
+DOMAIN-SUFFIX,manhuagui.com
+DOMAIN-SUFFIX,mhgui.com
+DOMAIN-SUFFIX,hamreus.com
+
 # 蜜柑计划 https://mikanime.tv/ 国内站
 DOMAIN-SUFFIX,mikanime.tv
 DOMAIN-SUFFIX,raws.dev
