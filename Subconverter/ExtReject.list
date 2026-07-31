@@ -2,9 +2,6 @@
 
 # ------------------------------------------------------
 
-# 运营商推送（联通）
-DOMAIN-SUFFIX,gd165.com
-
 # MIUI 参考自：https://github.com/LoopDns/Fuck-you-MIUI 20230820
 # MIhosts
 # 屏蔽小米云扫描组件
