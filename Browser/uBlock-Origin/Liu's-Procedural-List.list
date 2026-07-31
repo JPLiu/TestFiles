@@ -5,14 +5,6 @@
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 过程式规则，需要 uBlock Origin 或者 AdGuard。
 
-! baidu
-! 百度贴吧 版头图片尺寸调整
-! https://tieba.baidu.com/
-tieba.baidu.com##.card_head:style(width: 48px !important; height: 48px !important)
-tieba.baidu.com##.card_head_img:style(width: 48px !important; height: 48px !important)
-! 百度贴吧 个人贴吧清单字体调整
-tieba.baidu.com##td:style(font-family: Calibri !important; font-size: 13px !important)
-
 ! bilibili
 ! 主页 Bilibili Evolved 自定义顶栏 配合
 *://message.bilibili.com/pages/nav/index_new_pc_sync
