@@ -1,29 +1,17 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Brave RuleSet
-! Version: 20260730213211
+! Version: 20260801121122
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
-|http*://$script,domain=baywatch.cn|cnrencai.com|diyifanwen.com|docsou.com|gxscse.com|haoword.com|huabuqi.com|kujiang.com|qunzou.com|ruiwen.com|wenxm.cn|wenmi.com|xiegw.cn|xiexiebang.com|xueshu.com|yuwenmi.com|zhaozongjie.com
+|http*://$script,domain=baywatch.cn|cnrencai.com
 18comic.vip##.div-bf-pv
 18comic.vip##div[data-show="ok"]
 18comic.vip##div[data-group="sticky2"]
 18comic.vip##div[class="hidden-lg"]
 18comic.vip##iframe[scrolling="no"]
 anime1.me##div[id^="ad-"]
-tieba.baidu.com##.card_banner_link.card_banner
-tieba.baidu.com##.celebrity.aside_region
-tieba.baidu.com##.app_download_box.aside_region
-pan.baidu.com##[class$="nd-game-entry"]
-pan.baidu.com##[class$="sug-ad-item"]
 pan.baidu.com##button[status="svipline"]
-pan.baidu.com##div[id="chatView"]
-||mcdn.bilivideo.cn^
-||szbdyd.com^
-||hdslb.com/bfs/seed/jinkela/short/b-mirror/biliMirror.$script
-||hdslb.com/bfs/seed/jinkela/kv-sdk/$script
-||hdslb.com/bfs/seed/jinkela/short/reporter-pb/$script
-||data.bilibili.com/log/$xhr,empty
 www.bilibili.com##div[class="recommended-swipe"]
 search.brave.com##.mobile-promo-content
 search.brave.com##.download-cta
@@ -57,14 +45,11 @@ wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wn
 wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*=".shop"]
 wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##li[class="cate-0"]
 wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*="link-index-aid"]
+wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*="attributionId="]
 wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##div.dv-section-hd
 wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##div.dv-rec-grid
-workflowy.com##.message-container
 yuanbao.tencent.com##div[class^="index_downloadPCAds"]
 yuanbao.tencent.com##.agent-dialogue__tool
-tieba.baidu.com##.card_head:style(width: 48px !important; height: 48px !important)
-tieba.baidu.com##.card_head_img:style(width: 48px !important; height: 48px !important)
-tieba.baidu.com##td:style(font-family: Calibri !important; font-size: 13px !important)
 *://message.bilibili.com/pages/nav/index_new_pc_sync
 *://message.bilibili.com/pages/nav/index_new_sync
 t.bilibili.com##.bili-dyn-live-users
@@ -96,4 +81,3 @@ s.weibo.com##div[class="main-full"]:style(width: 975px !important)
 s.weibo.com##div[class="list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
 s.weibo.com##textarea:style(width: 875px !important)
 wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a.dv-btn-icon.ad-site:style(display: inline-flex !important;)
-wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*="attributionId="]
