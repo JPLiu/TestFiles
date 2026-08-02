@@ -43,6 +43,11 @@ DOMAIN-SUFFIX,achost.top
 # 7-Zip https://www.7-zip.org/
 DOMAIN-SUFFIX,7-zip.org
 
+# 漫画柜 偶发封禁 https://m.manhuagui.com/
+DOMAIN-SUFFIX,manhuagui.com
+DOMAIN-SUFFIX,mhgui.com
+DOMAIN-SUFFIX,hamreus.com
+
 # Rom Tools https://chdman.com/
 DOMAIN-SUFFIX,chdman.com
 
