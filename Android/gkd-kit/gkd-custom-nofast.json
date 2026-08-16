@@ -32,7 +32,7 @@
 		"name": "东莞通",
 		"groups": [{
 			"name": "结果页面返回",
-			"desc": "结果页面返回-NoFast",
+			"desc": "结果页面返回-NoFast，会影响 NFC 充值界面，暂时自行禁用",
 			"key": 0,
 			"rules": "[id=\"com.futurefleet.dongguantongbus.ui.dg:id/nar_title_right\"]"
 		}]
