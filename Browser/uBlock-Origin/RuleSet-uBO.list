@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's uBO RuleSet
-! Version: 20261001224555
+! Version: 20261003220104
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 
@@ -41,13 +41,38 @@ wx.mail.qq.com##div[class^="cmp-vip"]
 weibo.com##div[node-type="recommend"]
 weibo.com##div[class*="ProfileFocusPic_box_"]
 wenku8.*##[id^="adv"]
-wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*="erodatalabs.com"]
-wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*=".shop"]
-wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##li[class="cate-0"]
-wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*="link-index-aid"]
-wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*="attributionId="]
-wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##div.dv-section-hd
-wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##div.dv-rec-grid
+wnacg.*##a[href*="erodatalabs.com"]
+wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*##a[href*="erodatalabs.com"]
+wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*="erodatalabs.com"]
+wn001.*,wn002.*,wn003.*,wn004.*,wn005.*,wn006.*,wn007.*,wn008.*,wn009.*##a[href*="erodatalabs.com"]
+wnacg.*##a[href*=".shop"]
+wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*##a[href*=".shop"]
+wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*=".shop"]
+wn001.*,wn002.*,wn003.*,wn004.*,wn005.*,wn006.*,wn007.*,wn008.*,wn009.*##a[href*=".shop"]
+wnacg.*##a[href*=".site"]
+wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*##a[href*=".site"]
+wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*=".site"]
+wn001.*,wn002.*,wn003.*,wn004.*,wn005.*,wn006.*,wn007.*,wn008.*,wn009.*##a[href*=".site"]
+wnacg.*##li[class="cate-0"]
+wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*##li[class="cate-0"]
+wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##li[class="cate-0"]
+wn001.*,wn002.*,wn003.*,wn004.*,wn005.*,wn006.*,wn007.*,wn008.*,wn009.*##li[class="cate-0"]
+wnacg.*##a[href*="link-index-aid"]
+wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*##a[href*="link-index-aid"]
+wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*="link-index-aid"]
+wn001.*,wn002.*,wn003.*,wn004.*,wn005.*,wn006.*,wn007.*,wn008.*,wn009.*##a[href*="link-index-aid"]
+wnacg.*##a[href*="attributionId="]
+wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*##a[href*="attributionId="]
+wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*="attributionId="]
+wn001.*,wn002.*,wn003.*,wn004.*,wn005.*,wn006.*,wn007.*,wn008.*,wn009.*##a[href*="attributionId="]
+wnacg.*##div.dv-section-hd
+wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*##div.dv-section-hd
+wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##div.dv-section-hd
+wn001.*,wn002.*,wn003.*,wn004.*,wn005.*,wn006.*,wn007.*,wn008.*,wn009.*##div.dv-section-hd
+wnacg.*##div.dv-rec-grid
+wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*##div.dv-rec-grid
+wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##div.dv-rec-grid
+wn001.*,wn002.*,wn003.*,wn004.*,wn005.*,wn006.*,wn007.*,wn008.*,wn009.*##div.dv-rec-grid
 yuanbao.tencent.com##div[class^="index_downloadPCAds"]
 yuanbao.tencent.com##.agent-dialogue__tool
 ||baijiahao.baidu.com^
@@ -317,4 +342,7 @@ s.weibo.com##div[class="m-main"]:style(margin-left: 2% !important)
 s.weibo.com##div[class="main-full"]:style(width: 975px !important)
 s.weibo.com##div[class="list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
 s.weibo.com##textarea:style(width: 875px !important)
-wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a.dv-btn-icon.ad-site:style(display: inline-flex !important;)
+wnacg.*##a.dv-btn-icon.ad-site:style(display: inline-flex !important;)
+wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*##a.dv-btn-icon.ad-site:style(display: inline-flex !important;)
+wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a.dv-btn-icon.ad-site:style(display: inline-flex !important;)
+wn001.*,wn002.*,wn003.*,wn004.*,wn005.*,wn006.*,wn007.*,wn008.*,wn009.*##a.dv-btn-icon.ad-site:style(display: inline-flex !important;)

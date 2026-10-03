@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Liu's Procedural List
-! Version: 20261001224555
+! Version: 20261003220104
 ! Expires: 1 days
 ! Homepage: https://github.com/JPLiu/TestFiles/tree/main/Browser/uBlock-Origin
 ! 过程式规则，需要 uBlock Origin 或者 AdGuard。
@@ -62,4 +62,8 @@ s.weibo.com##textarea:style(width: 875px !important)
 ! wnacg
 ! https://wnlink.ru/
 ! 移动端显示下载按钮
-wnacg.*,wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*,wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a.dv-btn-icon.ad-site:style(display: inline-flex !important;)
+wnacg.*##a.dv-btn-icon.ad-site:style(display: inline-flex !important;)
+wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*##a.dv-btn-icon.ad-site:style(display: inline-flex !important;)
+wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a.dv-btn-icon.ad-site:style(display: inline-flex !important;)
+wn001.*,wn002.*,wn003.*,wn004.*,wn005.*,wn006.*,wn007.*,wn008.*,wn009.*##a.dv-btn-icon.ad-site:style(display: inline-flex !important;)
+
