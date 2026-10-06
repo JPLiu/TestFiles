@@ -29,6 +29,10 @@ DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,c.pki.goog
 
+# Wnacg
+DOMAIN-KEYWORD,wnacg
+DOMAIN-SUFFIX,cfd
+
 # Total Commander
 DOMAIN-SUFFIX,ghisler.com
 DOMAIN-SUFFIX,totalcmd.net
