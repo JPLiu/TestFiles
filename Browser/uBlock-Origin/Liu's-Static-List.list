@@ -131,6 +131,11 @@ wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,
 wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*=".site"]
 wn001.*,wn002.*,wn003.*,wn004.*,wn005.*,wn006.*,wn007.*,wn008.*,wn009.*##a[href*=".site"]
 
+wnacg.*##a[href*=".online"]
+wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*##a[href*=".online"]
+wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##a[href*=".online"]
+wn001.*,wn002.*,wn003.*,wn004.*,wn005.*,wn006.*,wn007.*,wn008.*,wn009.*##a[href*=".online"]
+
 wnacg.*##li[class="cate-0"]
 wnacg01.*,wnacg02.*,wnacg03.*,wnacg04.*,wnacg05.*,wnacg06.*,wnacg07.*,wnacg08.*,wnacg09.*##li[class="cate-0"]
 wn01.*,wn02.*,wn03.*,wn04.*,wn05.*,wn06.*,wn07.*,wn08.*,wn09.*##li[class="cate-0"]
